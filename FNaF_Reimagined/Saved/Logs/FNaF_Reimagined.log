@@ -4237,3 +4237,1276 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.03-00.12.57:928][170]LogContentValidation: Display: Validating AnimSequence /Game/Core/Assets/Characters/Bonnie/Animations/bonnie_pose.bonnie_pose
 [2022.04.03-00.12.57:928][170]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Chica/Cupcake/Brown.Brown
 [2022.04.03-00.12.57:928][170]LogContentValidation: Display: Validating AnimSequence /Game/Core/Assets/Characters/Chica/Animations/chica_pose.chica_pose
+[2022.04.03-00.21.20:302][654]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.03-00.21.20:312][654]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.03-00.21.21:371][802]LogContentBrowser: Attempting asset rename: NewFolder -> Foxy
+[2022.04.03-00.21.21:372][802]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.03-00.21.35:439][404]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.03-00.21.35:448][404]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.03-00.21.37:538][695]LogContentBrowser: Attempting asset rename: NewFolder -> Meshes
+[2022.04.03-00.21.37:539][695]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.03-00.21.39:058][859]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.03-00.21.39:068][859]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.03-00.21.40:765][ 96]LogContentBrowser: Attempting asset rename: NewFolder -> Textures
+[2022.04.03-00.21.40:766][ 96]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.03-00.21.42:240][255]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.03-00.21.42:249][255]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.03-00.21.43:741][465]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2022.04.03-00.21.43:753][465]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.03-00.21.52:760][726]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\James\Documents\HelpWantedModels\FNaF 1 Models\Foxy\source\foxy.fbx)
+[2022.04.03-00.21.52:770][726]LogFbx: Loading FBX Scene from C:\Users\James\Documents\HelpWantedModels\FNaF 1 Models\Foxy\source\foxy.fbx
+[2022.04.03-00.21.52:802][726]LogFbx: FBX Scene Loaded Succesfully
+[2022.04.03-00.21.56:168][726]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.04.03-00.21.56:193][726]LogFbx: Warning: Not valid bind pose for Pose (RIG_Foxy_Clean.md) - Node RIG_Foxy_Clean.mo : The relative matrices do not match
+[2022.04.03-00.21.56:193][726]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2022.04.03-00.21.56:195][726]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - RIG_Foxy_Clean.mo
+[2022.04.03-00.21.56:195][726]LogFbx: Warning: Recreating bind pose succeeded.
+[2022.04.03-00.21.56:201][726]LogFbx: Triangulating skeletal mesh RIG_Foxy_Clean.mo
+[2022.04.03-00.21.56:673][726]LogFbx: Warning: Bones digested - 94  Depth of hierarchy - 11
+[2022.04.03-00.21.57:390][726]LogSkeletalMesh: Section 0: Material=0, 9452 triangles
+[2022.04.03-00.21.57:390][726]LogSkeletalMesh: Section 1: Material=1, 1680 triangles
+[2022.04.03-00.21.57:390][726]LogSkeletalMesh: Section 2: Material=2, 18000 triangles
+[2022.04.03-00.21.57:394][726]LogSkeletalMesh: Building Skeletal Mesh foxy...
+[2022.04.03-00.21.58:052][726]LogSkeletalMesh: Section 0: Material=0, 9452 triangles
+[2022.04.03-00.21.58:052][726]LogSkeletalMesh: Section 1: Material=1, 1680 triangles
+[2022.04.03-00.21.58:052][726]LogSkeletalMesh: Section 2: Material=2, 18000 triangles
+[2022.04.03-00.21.58:124][726]LogSkeletalMesh: Built Skeletal Mesh [0.73s] /Game/Core/Assets/Characters/Foxy/Meshes/foxy.foxy
+[2022.04.03-00.21.58:143][726]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_17:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2022.04.03-00.21.58:143][726]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.21.58:143][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.21.58:151][726]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.21.58:151][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.21.58:188][726]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.04.03-00.21.58:188][726]FBXImport: Warning: The following bones are missing from the bind pose:
+Jaw_jnt_end  
+ExoJaw_jnt_end  
+L_Eye_jnt_end  
+L_UpperLid_jnt_end  
+L_LowerLid_jnt_end  
+R_Eye_jnt_end  
+R_UpperLid_jnt_end  
+R_LowerLid_jnt_end  
+EyePatch_jnt_end  
+Hair_jnt_end  
+L_Brow_jnt_end  
+R_Brow_jnt_end  
+L_Ear_jnt_end  
+R_Ear_jnt_end  
+L_Prop_jnt_end  
+L_ThumbC_jnt_end  
+L_IndexC_jnt_end  
+L_MiddleC_jnt_end  
+L_PinkyC_jnt_end  
+Jiggle_L_Elbow_jnt_end  
+Jiggle_L_Shoulder_jnt_end  
+L_ShoulderPad_jnt_end  
+Jiggle_Spine_jnt_end  
+R_Prop_jnt_end  
+R_ShoulderPad_jnt_end  
+Jiggle_Hips_jnt_end  
+L_ToesA_jnt_end  
+L_ToesB_jnt_end  
+Jiggle_L_UpperLeg_jnt_end  
+R_ToesA_jnt_end  
+R_ToesB_jnt_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.04.03-00.22.03:908][784]LogSlate: Window 'Message Log' being destroyed
+[2022.04.03-00.22.03:924][784]LogSlate: Window 'Message Log' being destroyed
+[2022.04.03-00.22.23:018][232]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James\Documents\HelpWantedModels\FNaF 1 Models\textures\Char_Tex_Foxy_OcclusionRoughnessMetallic.png)
+[2022.04.03-00.22.23:415][232]LogTexture: Display: Building textures: Char_Tex_Foxy_OcclusionRoughnessMetallic (OODLE_AutoDXT, 4096X4096)
+[2022.04.03-00.22.24:229][232]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.24:230][232]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.24:230][232]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.24:419][232]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James\Documents\HelpWantedModels\FNaF 1 Models\textures\Char_Tex_Foxy_BaseColor.png)
+[2022.04.03-00.22.24:838][232]LogTexture: Display: Building textures: Char_Tex_Foxy_BaseColor (OODLE_AutoDXT, 4096X4096)
+[2022.04.03-00.22.25:631][232]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.25:632][232]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.25:632][232]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.25:851][232]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James\Documents\HelpWantedModels\FNaF 1 Models\textures\Char_Tex_Foxy_Normal.png)
+[2022.04.03-00.22.26:452][232]LogTexture: Display: Building textures: Char_Tex_Foxy_Normal (OODLE_BC5, 4096X4096)
+[2022.04.03-00.22.26:836][232]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.04.03-00.22.26:836][232]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.04.03-00.22.26:836][232]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.04.03-00.22.29:770][278]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James\Documents\HelpWantedModels\FNaF 1 Models\textures\Char_Tex_EYE_Foxy_BaseColor.png)
+[2022.04.03-00.22.29:786][278]LogTexture: Display: Building textures: Char_Tex_EYE_Foxy_BaseColor (OODLE_AutoDXT, 1024X1024)
+[2022.04.03-00.22.29:813][278]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.34:563][422]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_OcclusionRoughnessMetallic.Char_Tex_Foxy_OcclusionRoughnessMetallic
+[2022.04.03-00.22.35:549][477]LogSlate: Window 'Char_Tex_Foxy_OcclusionRoughnessMetallic' being destroyed
+[2022.04.03-00.22.37:789][785]LogTexture: Display: Building textures: Char_Tex_Foxy_OcclusionRoughnessMetallic (OODLE_AutoDXT, 4096X4096)
+[2022.04.03-00.22.38:532][785]LogTextureFormatOodle: Display: non-RDO encode 2048 x 2048 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.38:532][785]LogTextureFormatOodle: Display: non-RDO encode 4096 x 4096 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.38:532][785]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.04.03-00.22.42:498][ 93]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Core/Assets/Characters/Foxy/Meshes/foxy.foxy
+[2022.04.03-00.22.42:502][ 93]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.04.03-00.22.43:756][145]LogSlate: Window 'foxy' being destroyed
+[2022.04.03-00.22.50:608][826]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.04.03-00.22.50:628][826]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.04.03-00.22.51:196][899]LogContentBrowser: Attempting asset rename: NewMaterial -> Char_Mat_Foxy_Body
+[2022.04.03-00.22.51:357][899]LogContentBrowser: End creating deferred item NewMaterial
+[2022.04.03-00.22.51:387][900]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Characters/Foxy/Materials/Char_Mat_Foxy_Body.Char_Mat_Foxy_Body
+[2022.04.03-00.22.51:388][900]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 984A78AA7BFEFAACF1C3DC1FB48B957C0012A5C0), compiling. 
+[2022.04.03-00.22.51:396][900]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.04.03-00.22.51:465][900]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 19091BE71EEE497C868F273C04B20533A19A524F), compiling. 
+[2022.04.03-00.22.51:467][900]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: F538C3563B79AB11A1BFAC460DA77ACE1ADB38C2), compiling. 
+[2022.04.03-00.22.51:478][900]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.22.51:524][901]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.51:525][901]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.03-00.22.51:525][901]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.04.03-00.22.51:525][901]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.51:525][901]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.04.03-00.22.51:550][902]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.22.52:706][983]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.03-00.22.52:706][983]LogShaderCompilers: Display: Total job queries 1195, among them cache hits 153 (12.80%)
+[2022.04.03-00.22.52:706][983]LogShaderCompilers: Display: Tracking 900 distinct input hashes that result in 421 distinct outputs (46.78%)
+[2022.04.03-00.22.52:707][983]LogShaderCompilers: Display: RAM used: 2.39 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.29%
+[2022.04.03-00.22.52:707][983]LogShaderCompilers: Display: ================================================
+[2022.04.03-00.22.53:020][994]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.03-00.22.53:249][  7]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.03-00.22.53:249][  7]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.03-00.22.53:249][  7]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2022.04.03-00.22.53:249][  7]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.03-00.22.56:156][225]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 930BE758D393C499C3D9E0BA6FD0C53A555C3949), compiling. 
+[2022.04.03-00.22.56:158][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7BA529F0F5AD4C1C6F529C9C4C3AE24CF417B462), compiling. 
+[2022.04.03-00.22.56:160][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0D8D1CABCF0F6D3ED6EA350BABF027F6499D2E4B), compiling. 
+[2022.04.03-00.22.56:169][225]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5E26DB44BC2EDF7F259E07DE9D56898D0B255570), compiling. 
+[2022.04.03-00.22.56:170][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: F60B2FF2C0F15C7C481558468F51499BA76F4DD6), compiling. 
+[2022.04.03-00.22.56:172][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1CBD1B9CA2147BECC54B39F3932EF78F363DC3CA), compiling. 
+[2022.04.03-00.22.56:173][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 9672297908A2CE825EA131FEB38DA4CDA1802E6B), compiling. 
+[2022.04.03-00.22.56:181][225]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 6E374740D0F8E232CD3DB621D42CE5E7F5E93E88), compiling. 
+[2022.04.03-00.22.56:183][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 1230D336F4E4136EF587585F7EE4A515CE047C30), compiling. 
+[2022.04.03-00.22.56:185][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 56E31E21E0CA0827A807B9B6D5ADD3508053B04D), compiling. 
+[2022.04.03-00.22.56:186][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: FE30B834E3F5BBD00BB7FAA69C097331BBE2236C), compiling. 
+[2022.04.03-00.22.56:187][225]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: CFEA8188D4D95A0C7E949A1A7689D78BC0AFACD2), compiling. 
+[2022.04.03-00.22.56:192][225]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.22.56:222][226]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.56:222][226]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.04.03-00.22.56:223][226]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.04.03-00.22.56:223][226]MaterialEditorStats: Base pass vertex shader: 45 instructions
+[2022.04.03-00.22.56:223][226]MaterialEditorStats: Texture samplers: 2/16
+[2022.04.03-00.22.56:240][227]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.56:240][227]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 4
+[2022.04.03-00.22.56:240][227]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 3
+[2022.04.03-00.22.56:240][227]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 2
+[2022.04.03-00.22.56:240][227]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 1
+[2022.04.03-00.22.56:240][227]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.57:932][401]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: B2E734F761D482B8C54996C00EE0479CE0A5BA29), compiling. 
+[2022.04.03-00.22.57:934][401]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A8CBCFA61A07E1F6696899CC191A8FD8A32A8590), compiling. 
+[2022.04.03-00.22.57:937][401]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.22.57:937][401]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.03-00.22.57:937][401]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.22.57:942][402]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.22.57:948][403]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.58:826][449]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.03-00.22.58:826][449]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.03-00.22.58:826][449]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.22.59:007][462]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.04.03-00.22.59:007][462]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.04.03-00.22.59:007][462]MaterialEditorStats: Base pass vertex shader: 49 instructions
+[2022.04.03-00.22.59:007][462]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.03-00.22.59:007][462]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.04.03-00.22.59:007][462]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.22.59:960][565]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: B5ED719B912940F8EB0B1DF3D4A811D04F6253DA), compiling. 
+[2022.04.03-00.22.59:962][565]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 77248EB135E4696A5F6697641072D736769CC787), compiling. 
+[2022.04.03-00.22.59:965][565]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.22.59:965][565]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.04.03-00.22.59:965][565]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.22.59:971][566]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.59:977][567]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.03-00.22.59:977][567]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.04.03-00.22.59:977][567]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.22.59:977][567]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.04.03-00.22.59:982][567]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.00:874][617]MaterialEditorStats: Texture samplers: 4/16
+[2022.04.03-00.23.00:874][617]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.04.03-00.23.00:874][617]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.01:034][631]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.04.03-00.23.01:034][631]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.04.03-00.23.01:034][631]MaterialEditorStats: Base pass vertex shader: 49 instructions
+[2022.04.03-00.23.01:034][631]MaterialEditorStats: Texture samplers: 4/16
+[2022.04.03-00.23.01:034][631]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.04.03-00.23.01:034][631]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.02:652][812]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: A9E486D23A275A1F7BBC2D1A32BFA060827C7DAA), compiling. 
+[2022.04.03-00.23.02:654][812]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 09E66B15EE273F0006585295BA1A9D7A99E776CC), compiling. 
+[2022.04.03-00.23.02:659][812]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.23.02:659][812]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.02:659][812]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.04.03-00.23.02:676][812]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.03:577][862]MaterialEditorStats: Texture samplers: 4/16
+[2022.04.03-00.23.03:577][862]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.03:577][862]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.03:614][865]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.23.03:614][865]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.03:614][865]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.03:693][872]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.04.03-00.23.03:693][872]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2022.04.03-00.23.03:693][872]MaterialEditorStats: Base pass vertex shader: 49 instructions
+[2022.04.03-00.23.03:693][872]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.23.03:693][872]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.03:693][872]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.04:256][934]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 44EB0B09F4E2BE03558A934FE6C81037DB0DFC7E), compiling. 
+[2022.04.03-00.23.04:258][934]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 84610B38C69F14A785A84A55E8D0CC4FC2311F13), compiling. 
+[2022.04.03-00.23.04:261][934]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.23.04:261][934]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.04:261][934]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.04:266][935]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.23.04:271][936]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.04:275][936]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.23.05:166][981]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.23.05:167][981]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.05:167][981]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.05:282][989]MaterialEditorStats: Base pass shader: 128 instructions
+[2022.04.03-00.23.05:282][989]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2022.04.03-00.23.05:282][989]MaterialEditorStats: Base pass vertex shader: 49 instructions
+[2022.04.03-00.23.05:282][989]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.23.05:282][989]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.05:282][989]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.06:187][ 90]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: D27810963A254621223B3F6163FDD2AFF8DC125D), compiling. 
+[2022.04.03-00.23.06:188][ 90]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: F32F35B5BD435DE4A6780BB3BDFEBA8ADDEA6AAA), compiling. 
+[2022.04.03-00.23.06:192][ 90]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.23.06:192][ 90]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.06:192][ 90]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.06:198][ 91]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.23.06:198][ 91]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.03-00.23.06:198][ 91]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.04.03-00.23.06:198][ 91]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.23.06:204][ 92]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 7
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 6
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 5
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 2
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 1
+[2022.04.03-00.23.06:225][ 93]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.07:242][147]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.23.07:243][147]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.07:243][147]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.07:681][156]MaterialEditorStats: Base pass shader: 128 instructions
+[2022.04.03-00.23.07:681][156]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 206 instructions
+[2022.04.03-00.23.07:681][156]MaterialEditorStats: Base pass vertex shader: 49 instructions
+[2022.04.03-00.23.07:681][156]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.23.07:681][156]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.07:681][156]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.08:931][318]LogMaterialEditor: Applying material Char_Mat_Foxy_Body
+[2022.04.03-00.23.09:211][318]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 566E4A034C82FFAA81BE3E7FA64B0AF1EA27BA62), compiling. 
+[2022.04.03-00.23.09:246][318]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 463792B3F4F9D1BAD84D1D7590518A205203025B), compiling. 
+[2022.04.03-00.23.09:293][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.04.03-00.23.09:304][318]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.23.09:513][318]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2022.04.03-00.23.09:513][318]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.23.09:520][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.04.03-00.23.09:530][318]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.03-00.23.09:530][318]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.23.09:530][318]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.23.11:345][543]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.23.11:345][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.23.14:236][788]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.14:246][788]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 5
+[2022.04.03-00.23.14:246][788]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 4
+[2022.04.03-00.23.14:246][788]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 3
+[2022.04.03-00.23.14:246][788]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 2
+[2022.04.03-00.23.14:246][788]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 1
+[2022.04.03-00.23.14:246][788]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.23.17:382][ 98]LogMaterial: Display: Material /Game/Core/Assets/Characters/Foxy/Materials/Char_Mat_Foxy_Body.Char_Mat_Foxy_Body needed to have new flag set bUsedWithSkeletalMesh !
+[2022.04.03-00.23.17:390][ 98]LogMaterial: Display: Missing cached shadermap for Char_Mat_Foxy_Body in PCD3D_SM5, Default, SM5 (DDC key hash: D14878D64068F7642ADDFF7456B6CB9A2DBAE4B4), compiling. 
+[2022.04.03-00.23.17:418][ 98]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 16
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 14
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 12
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 10
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 8
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 4
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 2
+[2022.04.03-00.23.17:496][ 99]LogShaderCompilers: Display: Started 16 'Local' shader compile jobs with 'Low' priority
+[2022.04.03-00.23.31:238][524]Cmd: TRANSACTION UNDO
+[2022.04.03-00.23.31:238][524]LogEditorTransaction: Undo Persona editor: material changed
+[2022.04.03-00.23.31:370][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.04.03-00.23.43:521][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.04.03-00.23.44:096][958]LogSlate: Window 'Save Content' being destroyed
+[2022.04.03-00.23.44:549][958]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Mat_Foxy_BodyCA52AF074C28AEDC418EEBA5CAA1E0EF.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/Char_Mat_Foxy_Body.uasset'
+[2022.04.03-00.23.44:867][958]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Tex_EYE_Foxy_BaseColorF8F00E5A4AD6485EFA47F3B0E42E6A1E.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_EYE_Foxy_BaseColor.uasset'
+[2022.04.03-00.23.45:965][958]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Tex_Foxy_BaseColor33A5FB134ACAD3FFD03E00A9E01E4502.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_BaseColor.uasset'
+[2022.04.03-00.23.48:178][958]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Tex_Foxy_NormalD3488D384D693271726974891ABD5AD9.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_Normal.uasset'
+[2022.04.03-00.23.50:420][958]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Tex_Foxy_OcclusionRoughnessC8338D3F4976D55B60D7C689D5184DB4.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_OcclusionRoughnessMetallic.uasset'
+[2022.04.03-00.23.51:357][958]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxy150083B1419056CF9059248D672D7DF5.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/foxy.uasset'
+[2022.04.03-00.23.51:800][958]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxy_PhysicsAsset6F90DCED4F7D152F34C4F49613B3C3D6.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/foxy_PhysicsAsset.uasset'
+[2022.04.03-00.23.52:141][958]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxy_Skeleton9D127CCF42750D9E25AE00974E5BB390.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/foxy_Skeleton.uasset'
+[2022.04.03-00.23.52:451][958]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.23.52:451][958]LogContentValidation: Display: Validating Material /Game/Core/Assets/Characters/Foxy/Materials/Char_Mat_Foxy_Body.Char_Mat_Foxy_Body
+[2022.04.03-00.23.52:451][958]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_EYE_Foxy_BaseColor.Char_Tex_EYE_Foxy_BaseColor
+[2022.04.03-00.23.52:451][958]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_Normal.Char_Tex_Foxy_Normal
+[2022.04.03-00.23.52:451][958]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_BaseColor.Char_Tex_Foxy_BaseColor
+[2022.04.03-00.23.52:451][958]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_OcclusionRoughnessMetallic.Char_Tex_Foxy_OcclusionRoughnessMetallic
+[2022.04.03-00.23.52:451][958]LogContentValidation: Display: Validating PhysicsAsset /Game/Core/Assets/Characters/Foxy/Meshes/foxy_PhysicsAsset.foxy_PhysicsAsset
+[2022.04.03-00.23.52:451][958]LogContentValidation: Display: Validating Skeleton /Game/Core/Assets/Characters/Foxy/Meshes/foxy_Skeleton.foxy_Skeleton
+[2022.04.03-00.23.52:451][958]LogContentValidation: Display: Validating SkeletalMesh /Game/Core/Assets/Characters/Foxy/Meshes/foxy.foxy
+[2022.04.03-00.24.00:417][227]LogContentBrowser: Deferred new asset file creation: M_Eye1
+[2022.04.03-00.24.00:428][227]LogContentBrowser: Creating deferred item: M_Eye1
+[2022.04.03-00.24.00:613][243]LogContentBrowser: Attempting asset rename: M_Eye1 -> M_Eye1
+[2022.04.03-00.24.00:777][243]LogMaterial: Display: Missing cached shadermap for M_Eye1 in PCD3D_SM5, Default, SM5 (DDC key hash: F97C9665B766DA8011F7F5A2CE8198B18DCFE553), compiling. 
+[2022.04.03-00.24.00:796][243]LogShaderCompilers: Display: Submitted 32 shader compile jobs with 'Low' priority
+[2022.04.03-00.24.00:806][243]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 32
+[2022.04.03-00.24.00:806][243]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 29
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 26
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 23
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 20
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 17
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 14
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 11
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 8
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 5
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2022.04.03-00.24.00:807][243]LogShaderCompilers: Display: Started 32 'Local' shader compile jobs with 'Low' priority
+[2022.04.03-00.24.03:313][243]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_Eye1F1F1BCEA4953C9B3C9107D8CCF4D35F8.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Chica/Materials/M_Eye1.uasset'
+[2022.04.03-00.24.03:919][243]LogContentBrowser: End creating deferred item M_Eye1
+[2022.04.03-00.24.03:927][243]AssetCheck: New page: Asset Save: M_Eye1
+[2022.04.03-00.24.03:928][243]LogContentValidation: Display: Validating Material /Game/Core/Assets/Characters/Chica/Materials/M_Eye1.M_Eye1
+[2022.04.03-00.24.09:493][500]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_Eye150A142BC4A5D19D7A1A242BAB00B3130.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/M_Eye1.uasset'
+[2022.04.03-00.24.10:133][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.04.03-00.24.10:149][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.04.03-00.24.10:153][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.04.03-00.24.10:413][500]SourceControl: rm 'FNaF_Reimagined/Content/Core/Assets/Characters/Chica/Materials/M_Eye1.uasset'
+[2022.04.03-00.24.10:477][500]AssetCheck: New page: Asset Save: M_Eye1
+[2022.04.03-00.24.10:477][500]LogContentValidation: Display: Validating Material /Game/Core/Assets/Characters/Foxy/Materials/M_Eye1.M_Eye1
+[2022.04.03-00.24.14:351][755]LogContentBrowser: Attempting asset rename: M_Eye1 -> M_Eye1
+[2022.04.03-00.24.19:974][276]LogContentBrowser: Attempting asset rename: M_Eye1 -> Char_Mat_Eye_Foxy
+[2022.04.03-00.24.21:116][276]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Mat_Eye_FoxyCBA8ED924E4B68B8D9B6FEBBE0B23F2E.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/Char_Mat_Eye_Foxy.uasset'
+[2022.04.03-00.24.21:745][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.04.03-00.24.21:758][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.04.03-00.24.21:762][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.04.03-00.24.22:039][276]SourceControl: rm 'FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/M_Eye1.uasset'
+[2022.04.03-00.24.22:071][276]AssetCheck: New page: Asset Save: Char_Mat_Eye_Foxy
+[2022.04.03-00.24.22:071][276]LogContentValidation: Display: Validating Material /Game/Core/Assets/Characters/Foxy/Materials/Char_Mat_Eye_Foxy.Char_Mat_Eye_Foxy
+[2022.04.03-00.24.22:679][310]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Characters/Foxy/Materials/Char_Mat_Eye_Foxy.Char_Mat_Eye_Foxy
+[2022.04.03-00.24.22:680][310]LogMaterial: Display: Missing cached shadermap for Char_Mat_Eye_Foxy in PCD3D_SM5, Default, SM5 (DDC key hash: B43762DDE99556C55199487467FA9E7E8B4DEB7A), compiling. 
+[2022.04.03-00.24.22:694][310]LogShaderCompilers: Display: Submitted 20 shader compile jobs with 'Normal' priority
+[2022.04.03-00.24.22:770][310]LogMaterial: Display: Missing cached shadermap for Char_Mat_Eye_Foxy in PCD3D_SM5, Default, SM5 (DDC key hash: 5C9E8F7C50F2F6CA5D6535F686520069C0825F5D), compiling. 
+[2022.04.03-00.24.22:772][310]LogMaterial: Display: Missing cached shadermap for Char_Mat_Eye_Foxy in PCD3D_SM5, Default, SM5 (DDC key hash: 70E5561FAC46E69F9620691BD0806FEB3073A0EF), compiling. 
+[2022.04.03-00.24.22:774][310]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2B41558817242C2049D7FC3F5DFA1691DAD24169), compiling. 
+[2022.04.03-00.24.22:775][310]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 0CD86686070B314BE7BF6F9C17DE2BAE719AC15C), compiling. 
+[2022.04.03-00.24.22:777][310]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: FFCC311D5DB04BFDD290C1B08C2E4D6F2710F509), compiling. 
+[2022.04.03-00.24.22:787][310]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.24.22:787][310]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.24.22:787][310]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.24.22:835][311]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.24.22:835][311]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 2
+[2022.04.03-00.24.22:835][311]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 1
+[2022.04.03-00.24.22:835][311]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.24.22:835][311]LogShaderCompilers: Display: Submitted 18 shader compile jobs with 'Normal' priority
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 18
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 16
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 14
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 12
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 10
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 8
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 6
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 4
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 2
+[2022.04.03-00.24.22:872][312]LogShaderCompilers: Display: Started 18 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.24.24:188][370]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.24.24:188][370]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.24.24:188][370]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.24.24:601][387]MaterialEditorStats: Base pass shader: 129 instructions
+[2022.04.03-00.24.24:601][387]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2022.04.03-00.24.24:601][387]MaterialEditorStats: Base pass vertex shader: 49 instructions
+[2022.04.03-00.24.24:601][387]MaterialEditorStats: Base pass vertex shader: 101 instructions
+[2022.04.03-00.24.24:601][387]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.24.24:601][387]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.24.24:601][387]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.24.26:986][609]LogMaterial: Display: Missing cached shadermap for Char_Mat_Eye_Foxy in PCD3D_SM5, Default, SM5 (DDC key hash: 6B7FBAA41EDC6BDFAE4B44EC95DB5F039471D671), compiling. 
+[2022.04.03-00.24.26:988][609]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7F032E945915E8C3CA839A4401320C02AAB5261B), compiling. 
+[2022.04.03-00.24.26:990][609]LogMaterial: Display: Missing cached shadermap for Char_Mat_Eye_Foxy in PCD3D_SM5, Default, SM5 (DDC key hash: CDB26B87E3402147E4E7B67219956E000A1AA4F2), compiling. 
+[2022.04.03-00.24.26:992][609]MaterialEditorStats: Texture samplers: 0/16
+[2022.04.03-00.24.26:992][609]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.24.26:992][609]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.24.27:001][610]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.24.27:001][610]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.24.27:001][610]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.24.27:031][611]MaterialEditorStats: Base pass shader: 129 instructions
+[2022.04.03-00.24.27:031][611]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 207 instructions
+[2022.04.03-00.24.27:031][611]MaterialEditorStats: Base pass vertex shader: 49 instructions
+[2022.04.03-00.24.27:031][611]MaterialEditorStats: Base pass vertex shader: 101 instructions
+[2022.04.03-00.24.27:031][611]MaterialEditorStats: Texture samplers: 5/16
+[2022.04.03-00.24.27:031][611]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.24.27:031][611]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.24.31:847][162]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Core/Assets/Characters/Bonnie/Textures/Eye/T_Suit_Normal.T_Suit_Normal
+[2022.04.03-00.24.36:115][620]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Core/Assets/Characters/Bonnie/Textures/Eye/T_Suit_MIXED.T_Suit_MIXED
+[2022.04.03-00.24.39:562][ 41]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Core/Assets/Characters/Bonnie/Textures/Eye/T_Suit_MIXED.T_Suit_MIXED
+[2022.04.03-00.24.48:283][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.04.03-00.24.50:742][441]LogMaterialEditor: Applying material Char_Mat_Eye_Foxy
+[2022.04.03-00.24.50:990][441]LogMaterial: Display: Missing cached shadermap for Char_Mat_Eye_Foxy in PCD3D_SM5, Default, SM5 (DDC key hash: 6548D2D2DB39CD7203BF15D30013A874C94FD4F8), compiling. 
+[2022.04.03-00.24.51:014][441]LogMaterial: Display: Missing cached shadermap for Char_Mat_Eye_Foxy in PCD3D_SM5, Default, SM5 (DDC key hash: EB9F0E8636987339CCA95BAE2144AC621E32A4B1), compiling. 
+[2022.04.03-00.24.51:021][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.04.03-00.24.51:027][441]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.24.51:443][441]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 1
+[2022.04.03-00.24.51:443][441]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.04.03-00.24.51:450][441]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.04.03-00.24.51:458][441]MaterialEditorStats: Texture samplers: 3/16
+[2022.04.03-00.24.51:459][441]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.04.03-00.24.51:459][441]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.04.03-00.24.53:436][660]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.24.53:436][660]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.24.54:384][777]LogShaderCompilers: Display: Submitted 11 shader compile jobs with 'Normal' priority
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 11
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 10
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 9
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 8
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 7
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 6
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 5
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 4
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 3
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 1
+[2022.04.03-00.24.54:406][778]LogShaderCompilers: Display: Started 11 'Local' shader compile jobs with 'Normal' priority
+[2022.04.03-00.25.07:425][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.04.03-00.25.07:998][302]LogSlate: Window 'Save Content' being destroyed
+[2022.04.03-00.25.08:324][302]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Mat_Eye_Foxy1B1857A54538E9F0F32A5D9D16FF83BC.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/Char_Mat_Eye_Foxy.uasset'
+[2022.04.03-00.25.08:402][302]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxy7017E2ED442AC2CFA301A39FFCEC9D3C.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/foxy.uasset'
+[2022.04.03-00.25.08:415][302]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.25.08:416][302]LogContentValidation: Display: Validating Material /Game/Core/Assets/Characters/Foxy/Materials/Char_Mat_Eye_Foxy.Char_Mat_Eye_Foxy
+[2022.04.03-00.25.08:416][302]LogContentValidation: Display: Validating SkeletalMesh /Game/Core/Assets/Characters/Foxy/Meshes/foxy.foxy
+[2022.04.03-00.25.27:231][248]LogContentBrowser: Attempting asset rename: foxy -> SM_Foxy
+[2022.04.03-00.25.28:448][248]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/SM_Foxy6703417748B1A73490370ABBFFB1B78B.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.uasset'
+[2022.04.03-00.25.29:204][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.04.03-00.25.29:218][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.04.03-00.25.29:222][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.04.03-00.25.29:475][248]SourceControl: rm 'FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/foxy.uasset'
+[2022.04.03-00.25.29:656][248]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxy_PhysicsAssetC6F07DA24F9819629BF6C2BF6B75CFAE.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/foxy_PhysicsAsset.uasset'
+[2022.04.03-00.25.29:691][248]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.25.29:691][248]LogContentValidation: Display: Validating PhysicsAsset /Game/Core/Assets/Characters/Foxy/Meshes/foxy_PhysicsAsset.foxy_PhysicsAsset
+[2022.04.03-00.25.29:691][248]LogContentValidation: Display: Validating SkeletalMesh /Game/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.SM_Foxy
+[2022.04.03-00.25.35:208][696]LogContentBrowser: Attempting asset rename: foxy_Skeleton -> S_Foxy
+[2022.04.03-00.25.36:342][696]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/S_Foxy8B8173CE4426FBA1A12EF393AE07D2F3.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/S_Foxy.uasset'
+[2022.04.03-00.25.36:946][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.04.03-00.25.36:958][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.04.03-00.25.36:961][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.04.03-00.25.37:241][696]SourceControl: rm 'FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/foxy_Skeleton.uasset'
+[2022.04.03-00.25.37:481][696]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/SM_Foxy485E1637475A7BC436CAE4A0A9C7996F.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.uasset'
+[2022.04.03-00.25.37:520][696]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.25.37:520][696]LogContentValidation: Display: Validating Skeleton /Game/Core/Assets/Characters/Foxy/Meshes/S_Foxy.S_Foxy
+[2022.04.03-00.25.37:520][696]LogContentValidation: Display: Validating SkeletalMesh /Game/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.SM_Foxy
+[2022.04.03-00.25.40:901][963]LogContentBrowser: Attempting asset rename: foxy_PhysicsAsset -> PA_Foxy
+[2022.04.03-00.25.42:027][963]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/PA_Foxy117A41844E3E96147FF779B377803CFB.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/PA_Foxy.uasset'
+[2022.04.03-00.25.42:653][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2022.04.03-00.25.42:663][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.04.03-00.25.42:668][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.04.03-00.25.42:920][963]SourceControl: rm 'FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/foxy_PhysicsAsset.uasset'
+[2022.04.03-00.25.43:157][963]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/SM_Foxy8405BD0747580A11DDFCF4A59B94623A.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.uasset'
+[2022.04.03-00.25.43:198][963]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.25.43:198][963]LogContentValidation: Display: Validating PhysicsAsset /Game/Core/Assets/Characters/Foxy/Meshes/PA_Foxy.PA_Foxy
+[2022.04.03-00.25.43:198][963]LogContentValidation: Display: Validating SkeletalMesh /Game/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.SM_Foxy
+[2022.04.03-00.25.44:362][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.04.03-00.25.49:735][452]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.03-00.25.49:759][452]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.03-00.25.51:946][744]LogContentBrowser: Attempting asset rename: NewFolder -> Animations
+[2022.04.03-00.25.51:946][744]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.03-00.26.03:875][ 84]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\James\Documents\HelpWantedModels\FNaF 1 Models\Foxy\animations\foxyrunning.fbx)
+[2022.04.03-00.26.03:887][ 84]LogFbx: Loading FBX Scene from C:\Users\James\Documents\HelpWantedModels\FNaF 1 Models\Foxy\animations\foxyrunning.fbx
+[2022.04.03-00.26.03:939][ 84]LogFbx: FBX Scene Loaded Succesfully
+[2022.04.03-00.26.07:528][ 84]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(0) RIG_Foxy_Clean_ao
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(1) C_World_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(2) Hips_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(3) Spine_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(4) Neck_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(5) Head_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(6) Jaw_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(7) Jaw_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(8) ExoJaw_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(9) ExoJaw_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(10) EyeStuffALL_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(11) L_EyeStuffALL_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(12) L_Eye_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(13) L_Eye_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(14) L_UpperLid_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(15) L_UpperLid_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(16) L_LowerLid_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(17) L_LowerLid_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(18) R_EyeStuffALL_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(19) R_Eye_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(20) R_Eye_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(21) R_UpperLid_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(22) R_UpperLid_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(23) R_LowerLid_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(24) R_LowerLid_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(25) Jiggle_Head_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(26) EyePatch_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(27) EyePatch_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(28) Hair_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(29) Hair_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(30) L_Brow_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(31) L_Brow_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(32) R_Brow_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(33) R_Brow_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(34) L_Ear_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(35) L_Ear_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(36) R_Ear_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(37) R_Ear_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(38) L_Shoulder_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(39) L_Elbow_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(40) L_Wrist_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(41) L_Prop_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(42) L_Prop_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(43) L_ThumbA_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(44) L_ThumbB_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(45) L_ThumbC_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(46) L_ThumbC_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(47) L_IndexA_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(48) L_IndexB_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(49) L_IndexC_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(50) L_IndexC_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(51) L_MiddleA_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(52) L_MiddleB_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(53) L_MiddleC_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(54) L_MiddleC_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(55) L_PinkyA_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(56) L_PinkyB_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(57) L_PinkyC_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(58) L_PinkyC_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(59) Jiggle_L_Elbow_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(60) Jiggle_L_Elbow_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(61) Jiggle_L_Shoulder_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(62) Jiggle_L_Shoulder_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(63) L_ShoulderPad_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(64) L_ShoulderPad_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(65) Jiggle_Spine_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(66) Jiggle_Spine_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(67) R_Shoulder_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(68) R_Elbow_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(69) R_Wrist_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(70) R_Prop_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(71) R_Prop_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(72) R_ShoulderPad_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(73) R_ShoulderPad_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(74) Jiggle_Hips_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(75) Jiggle_Hips_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(76) L_UpperLeg_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(77) L_Knee_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(78) L_Ankle_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(79) L_Toes_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(80) L_ToesA_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(81) L_ToesA_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(82) L_ToesB_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(83) L_ToesB_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(84) Jiggle_L_UpperLeg_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(85) Jiggle_L_UpperLeg_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(86) R_UpperLeg_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(87) R_Knee_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(88) R_Ankle_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(89) R_Toes_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(90) R_ToesA_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(91) R_ToesA_jnt_end
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(92) R_ToesB_jnt
+[2022.04.03-00.26.07:550][ 84]LogFbx: SortedLinks :(93) R_ToesB_jnt_end
+[2022.04.03-00.26.07:552][ 84]LogFbx: Parsing AnimStack RIG_Foxy_Clean.ao|RIG_Foxy_Clean.aoAction
+[2022.04.03-00.26.07:683][ 84]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.26.07:683][ 84]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.26.08:472][137]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.26.08:476][137]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.04.03-00.26.08:740][137]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.04.03-00.26.26:343][404]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.26.26:343][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.26.26:355][404]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.26.26:356][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.26.26:397][404]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.26.26:397][404]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.26.30:912][820]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.04.03-00.26.30:921][820]LogContentBrowser: Creating deferred item: NewFolder
+[2022.04.03-00.26.32:083][975]LogContentBrowser: Attempting asset rename: NewFolder -> Sounds
+[2022.04.03-00.26.32:084][975]LogContentBrowser: End creating deferred item NewFolder
+[2022.04.03-00.26.48:509][260]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\James\Documents\GameFiles\Sounds\FNaF 1 Footstep sound.wav)
+[2022.04.03-00.26.49:393][345]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave FNaF_1_Footstep_sound...
+[2022.04.03-00.26.49:393][345]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Core/Assets/Sounds/FNaF_1_Footstep_sound.FNaF_1_Footstep_sound will be modified from 40 to 40.
+[2022.04.03-00.26.49:415][345]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 68670 while cooking SoundWave /Game/Core/Assets/Sounds/FNaF_1_Footstep_sound.FNaF_1_Footstep_sound.
+[2022.04.03-00.26.50:771][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.04.03-00.26.51:308][453]LogSlate: Window 'Save Content' being destroyed
+[2022.04.03-00.26.51:623][453]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/FNaF_1_Footstep_soundAC30E00A431848C1FE17558762BA2E93.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/FNaF_1_Footstep_sound.uasset'
+[2022.04.03-00.26.51:915][453]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxyrunningBE5539C14479CDD716116A897A75242A.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Animations/foxyrunning.uasset'
+[2022.04.03-00.26.52:194][453]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.26.52:194][453]LogContentValidation: Display: Validating SoundWave /Game/Core/Assets/Sounds/FNaF_1_Footstep_sound.FNaF_1_Footstep_sound
+[2022.04.03-00.26.52:194][453]LogContentValidation: Display: Validating AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.26.53:959][582]LogContentBrowser: Deferred new asset file creation: FNaF_1_Footstep_sound_Cue
+[2022.04.03-00.26.53:983][582]LogContentBrowser: Creating deferred item: FNaF_1_Footstep_sound_Cue
+[2022.04.03-00.26.54:396][637]LogContentBrowser: Attempting asset rename: FNaF_1_Footstep_sound_Cue -> FNaF_1_Footstep_sound_Cue
+[2022.04.03-00.26.54:543][637]LogContentBrowser: End creating deferred item FNaF_1_Footstep_sound_Cue
+[2022.04.03-00.26.55:017][676]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Core/Assets/Sounds/FNaF_1_Footstep_sound_Cue.FNaF_1_Footstep_sound_Cue
+[2022.04.03-00.27.22:626][411]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.27.22:626][411]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.27.25:019][630]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.27.25:022][630]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.04.03-00.27.25:331][630]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.04.03-00.27.26:355][692]LogSlate: Window 'foxyrunning' being destroyed
+[2022.04.03-00.27.31:105][315]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.04.03-00.27.31:139][315]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.04.03-00.28.26:566][164]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.28.26:566][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.28.26:605][164]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.28.26:605][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.28.26:652][164]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.28.26:652][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.28.27:346][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2022.04.03-00.28.27:961][216]LogSlate: Window 'Save Content' being destroyed
+[2022.04.03-00.28.28:269][216]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/FNaF_1_Footstep_sound_Cue0A2DE3CB4B9D76CD56914FBCD63DCDED.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/FNaF_1_Footstep_sound_Cue.uasset'
+[2022.04.03-00.28.28:563][216]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxyrunning4FAB703E4E4CA8731F66CEA1247D5BCB.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Animations/foxyrunning.uasset'
+[2022.04.03-00.28.28:570][216]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.28.28:570][216]LogContentValidation: Display: Validating SoundCue /Game/Core/Assets/Sounds/FNaF_1_Footstep_sound_Cue.FNaF_1_Footstep_sound_Cue
+[2022.04.03-00.28.28:570][216]LogContentValidation: Display: Validating AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.29.32:257][749]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\James\Downloads\run.wav)
+[2022.04.03-00.29.33:226][850]LogContentBrowser: Deferred new asset file creation: FNaF_1_Footstep_sound_Cue1
+[2022.04.03-00.29.33:236][850]LogContentBrowser: Creating deferred item: FNaF_1_Footstep_sound_Cue1
+[2022.04.03-00.29.36:480][201]LogContentBrowser: Attempting asset rename: FNaF_1_Footstep_sound_Cue1 -> run_Cue
+[2022.04.03-00.29.36:793][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Assets/Sounds/run_Cue" FILE="../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset" SILENT=true
+[2022.04.03-00.29.36:795][201]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/run_Cue0C3250F241C79426580F8A8821707C40.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset'
+[2022.04.03-00.29.37:356][201]LogContentBrowser: End creating deferred item FNaF_1_Footstep_sound_Cue1
+[2022.04.03-00.29.37:359][201]AssetCheck: New page: Asset Save: run_Cue
+[2022.04.03-00.29.37:359][201]LogContentValidation: Display: Validating SoundCue /Game/Core/Assets/Sounds/run_Cue.run_Cue
+[2022.04.03-00.29.37:969][253]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Core/Assets/Sounds/run_Cue.run_Cue
+[2022.04.03-00.29.38:698][296]LogSlate: Window 'run_Cue' being destroyed
+[2022.04.03-00.29.40:320][473]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave run...
+[2022.04.03-00.29.40:320][473]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Core/Assets/Sounds/run.run will be modified from 40 to 40.
+[2022.04.03-00.29.40:326][473]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 13494 while cooking SoundWave /Game/Core/Assets/Sounds/run.run.
+[2022.04.03-00.29.46:656][204]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.29.46:660][204]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.04.03-00.29.46:942][204]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.04.03-00.30.05:364][127]LogSlate: Window 'Create New Animation Object' being destroyed
+[2022.04.03-00.30.21:886][968]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Core/Assets/Sounds/run_Cue.run_Cue
+[2022.04.03-00.30.35:540][718]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Core/Assets/Sounds/run_Cue.run_Cue
+[2022.04.03-00.30.53:774][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.04.03-00.30.54:408][683]LogSlate: Window 'Save Content' being destroyed
+[2022.04.03-00.30.54:729][683]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxyrunning16328C3D43517C2580A59DB6727A1931.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Animations/foxyrunning.uasset'
+[2022.04.03-00.30.54:733][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Assets/Sounds/run" FILE="../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run.uasset" SILENT=true
+[2022.04.03-00.30.54:736][683]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/run114644314AB372F7DF79579E0E6EB959.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run.uasset'
+[2022.04.03-00.30.55:013][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Assets/Sounds/run_Cue" FILE="../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset" SILENT=true
+[2022.04.03-00.30.55:015][683]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/run_Cue9EE61CD0487240D1D41FB9A73EEB6C44.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset'
+[2022.04.03-00.30.55:022][683]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.30.55:022][683]LogContentValidation: Display: Validating AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.30.55:023][683]LogContentValidation: Display: Validating SoundCue /Game/Core/Assets/Sounds/run_Cue.run_Cue
+[2022.04.03-00.30.55:023][683]LogContentValidation: Display: Validating SoundWave /Game/Core/Assets/Sounds/run.run
+[2022.04.03-00.30.56:061][792]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Core/Assets/Sounds/run_Cue.run_Cue
+[2022.04.03-00.31.26:405][755]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.26:405][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.31.26:446][755]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.26:446][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.31.26:491][755]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.26:491][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.03-00.31.29:032][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.04.03-00.31.29:743][ 38]LogSlate: Window 'Save Content' being destroyed
+[2022.04.03-00.31.30:067][ 38]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxyrunning220CAC70443236C5B5F72EAA29094A11.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Animations/foxyrunning.uasset'
+[2022.04.03-00.31.30:069][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Assets/Sounds/run_Cue" FILE="../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset" SILENT=true
+[2022.04.03-00.31.30:070][ 38]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/run_CueD3F409A34FEF7F6184CED78E39FAF8A4.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset'
+[2022.04.03-00.31.30:083][ 38]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.31.30:083][ 38]LogContentValidation: Display: Validating AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.31.30:083][ 38]LogContentValidation: Display: Validating SoundCue /Game/Core/Assets/Sounds/run_Cue.run_Cue
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:094][445]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/James/Documents/GitHub/fnaf-reimagined'
+[2022.04.03-00.31.37:274][445]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset'. Attempt result was '../../Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice', but the path contains illegal characters '.'
+[2022.04.03-00.31.37:934][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/foxyrunningFEB511D14BA3CEA50F98EEA849C6366D.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Animations/foxyrunning.uasset'
+[2022.04.03-00.31.37:938][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Mat_Eye_Foxy7C513CF94DBA5477FB29249683329892.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/Char_Mat_Eye_Foxy.uasset'
+[2022.04.03-00.31.37:941][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Mat_Foxy_Body425DAC864EA3153ECAC23CBD53E5A5F1.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/Char_Mat_Foxy_Body.uasset'
+[2022.04.03-00.31.37:946][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/PA_Foxy01A305F94E79672B9C44BD8BF055CD05.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/PA_Foxy.uasset'
+[2022.04.03-00.31.38:008][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/SM_FoxyA93D535B4618D25FB655F79608C9619D.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.uasset'
+[2022.04.03-00.31.38:012][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/S_Foxy704ED258404F5EA8B8AEC488F06A21E3.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/S_Foxy.uasset'
+[2022.04.03-00.31.38:018][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Tex_EYE_Foxy_BaseColorA614A15540CA06449FEDB78A9D5E9F5D.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_EYE_Foxy_BaseColor.uasset'
+[2022.04.03-00.31.38:089][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Tex_Foxy_BaseColorEB3E7E50431FBFD44A8276A3521603D7.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_BaseColor.uasset'
+[2022.04.03-00.31.38:224][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Tex_Foxy_Normal6E77820C4585B32FD5B86893A13468E4.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_Normal.uasset'
+[2022.04.03-00.31.38:303][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Char_Tex_Foxy_OcclusionRoughness01F664C64456E00A4DA2FEB3EE353E70.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_OcclusionRoughnessMetallic.uasset'
+[2022.04.03-00.31.38:307][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/FNaF_1_Footstep_sound1F537B7644F29092F1A3F4ADBB756B9C.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/FNaF_1_Footstep_sound.uasset'
+[2022.04.03-00.31.38:310][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/FNaF_1_Footstep_sound_Cue66EABD424F19E588FF40F589479F6B7A.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/FNaF_1_Footstep_sound_Cue.uasset'
+[2022.04.03-00.31.38:312][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Assets/Sounds/run" FILE="../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run.uasset" SILENT=true
+[2022.04.03-00.31.38:313][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/runE47BD4674EC8E0D482DC319A8DAC3753.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run.uasset'
+[2022.04.03-00.31.38:315][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Assets/Sounds/run_Cue" FILE="../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset" SILENT=true
+[2022.04.03-00.31.38:317][445]LogSavePackage: Moving '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/run_Cue4A313A7149BD48078890CE96177B3398.tmp' to '../../../../../../Users/James/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset'
+[2022.04.03-00.31.42:463][445]LogSlate: Window 'Submit Files' being destroyed
+[2022.04.03-00.31.46:662][445]LogSourceControl: commit successful: [main cb3767f] Added Foxy.
+[2022.04.03-00.31.47:289][445]SourceControl: [main cb3767f] Added Foxy.
+[2022.04.03-00.31.47:289][445]SourceControl:  14 files changed, 0 insertions(+), 0 deletions(-)
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Animations/foxyrunning.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/Char_Mat_Eye_Foxy.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Materials/Char_Mat_Foxy_Body.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/PA_Foxy.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Meshes/S_Foxy.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_EYE_Foxy_BaseColor.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_BaseColor.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_Normal.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_OcclusionRoughnessMetallic.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Sounds/FNaF_1_Footstep_sound.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Sounds/FNaF_1_Footstep_sound_Cue.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Sounds/run.uasset
+[2022.04.03-00.31.47:289][445]SourceControl:  create mode 100644 FNaF_Reimagined/Content/Core/Assets/Sounds/run_Cue.uasset
+[2022.04.03-00.31.47:298][445]SourceControl: Commited [main cb3767f] Added Foxy..
+[2022.04.03-00.31.47:322][446]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.03-00.31.47:322][446]LogContentValidation: Display: Validating SoundWave /Game/Core/Assets/Sounds/FNaF_1_Footstep_sound.FNaF_1_Footstep_sound
+[2022.04.03-00.31.47:322][446]LogContentValidation: Display: Validating Material /Game/Core/Assets/Characters/Foxy/Materials/Char_Mat_Eye_Foxy.Char_Mat_Eye_Foxy
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating Material /Game/Core/Assets/Characters/Foxy/Materials/Char_Mat_Foxy_Body.Char_Mat_Foxy_Body
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_EYE_Foxy_BaseColor.Char_Tex_EYE_Foxy_BaseColor
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_Normal.Char_Tex_Foxy_Normal
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_BaseColor.Char_Tex_Foxy_BaseColor
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Characters/Foxy/Textures/Char_Tex_Foxy_OcclusionRoughnessMetallic.Char_Tex_Foxy_OcclusionRoughnessMetallic
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating PhysicsAsset /Game/Core/Assets/Characters/Foxy/Meshes/PA_Foxy.PA_Foxy
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating Skeleton /Game/Core/Assets/Characters/Foxy/Meshes/S_Foxy.S_Foxy
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating SkeletalMesh /Game/Core/Assets/Characters/Foxy/Meshes/SM_Foxy.SM_Foxy
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating SoundCue /Game/Core/Assets/Sounds/FNaF_1_Footstep_sound_Cue.FNaF_1_Footstep_sound_Cue
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating AnimSequence /Game/Core/Assets/Characters/Foxy/Animations/foxyrunning.foxyrunning
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating SoundCue /Game/Core/Assets/Sounds/run_Cue.run_Cue
+[2022.04.03-00.31.47:323][446]LogContentValidation: Display: Validating SoundWave /Game/Core/Assets/Sounds/run.run
+[2022.04.03-00.31.48:596][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.04.03-00.31.48:620][529]LogSlate: Window 'FNaF_Reimagined - Unreal Editor' being destroyed
+[2022.04.03-00.31.48:684][529]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2022.04.03-00.31.48:732][530]Cmd: QUIT_EDITOR
+[2022.04.03-00.31.48:732][530]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.04.03-00.31.48:742][530]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.04.03-00.31.48:902][530]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.04.03-00.31.48:902][530]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.04.03-00.31.48:902][530]LogAudio: Display: Audio Device unregistered from world 'LVL_NightTemplate'.
+[2022.04.03-00.31.48:902][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.03-00.31.48:904][530]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.03-00.31.48:918][530]LogAudio: Display: Audio Device Manager Shutdown
+[2022.04.03-00.31.48:919][530]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.03-00.31.48:927][530]LogExit: Preparing to exit.
+[2022.04.03-00.31.49:437][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.04.03-00.31.49:748][530]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.49:748][530]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.49:748][530]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.49:748][530]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.49:748][530]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.49:797][530]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.04.03-00.31.49:808][530]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.03-00.31.49:809][530]LogExit: Editor shut down
+[2022.04.03-00.31.49:811][530]LogExit: Transaction tracking system shut down
+[2022.04.03-00.31.50:133][530]LogExit: Object subsystem successfully closed.
+[2022.04.03-00.31.50:182][530]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.04.03-00.31.50:182][530]LogShaderCompilers: Display: Total job queries 1532, among them cache hits 330 (21.54%)
+[2022.04.03-00.31.50:182][530]LogShaderCompilers: Display: Tracking 1049 distinct input hashes that result in 465 distinct outputs (44.33%)
+[2022.04.03-00.31.50:182][530]LogShaderCompilers: Display: RAM used: 2.69 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.33%
+[2022.04.03-00.31.50:182][530]LogShaderCompilers: Display: ================================================
+[2022.04.03-00.31.50:191][530]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.04.03-00.31.50:257][530]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (878)
+[2022.04.03-00.31.50:257][530]LogModuleManager: Shutting down and abandoning module TextureEditor (876)
+[2022.04.03-00.31.50:257][530]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (874)
+[2022.04.03-00.31.50:257][530]LogModuleManager: Shutting down and abandoning module Voice (872)
+[2022.04.03-00.31.50:258][530]LogModuleManager: Shutting down and abandoning module SequencerWidgets (870)
+[2022.04.03-00.31.50:258][530]LogModuleManager: Shutting down and abandoning module PinnedCommandList (868)
+[2022.04.03-00.31.50:258][530]LogModuleManager: Shutting down and abandoning module SkeletonEditor (866)
+[2022.04.03-00.31.50:258][530]LogModuleManager: Shutting down and abandoning module AnimationEditor (864)
+[2022.04.03-00.31.50:258][530]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (862)
+[2022.04.03-00.31.50:258][530]LogModuleManager: Shutting down and abandoning module SceneOutliner (860)
+[2022.04.03-00.31.50:258][530]LogModuleManager: Shutting down and abandoning module AddContentDialog (858)
+[2022.04.03-00.31.50:260][530]LogModuleManager: Shutting down and abandoning module WidgetCarousel (857)
+[2022.04.03-00.31.50:260][530]LogModuleManager: Shutting down and abandoning module EditorWidgets (854)
+[2022.04.03-00.31.50:260][530]LogModuleManager: Shutting down and abandoning module StatsViewer (852)
+[2022.04.03-00.31.50:260][530]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (850)
+[2022.04.03-00.31.50:260][530]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (848)
+[2022.04.03-00.31.50:260][530]LogModuleManager: Shutting down and abandoning module AutomationWorker (846)
+[2022.04.03-00.31.50:260][530]LogModuleManager: Shutting down and abandoning module OculusMR (844)
+[2022.04.03-00.31.50:260][530]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (842)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module TakeRecorder (841)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (838)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module TakesCore (836)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module OpenXRInput (834)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module GooglePADEditor (832)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (830)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (828)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (826)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (824)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (822)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (820)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (818)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (816)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (814)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module WebMMedia (812)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (810)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (808)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module SequenceRecorder (807)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (804)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (802)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (800)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (798)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (796)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module PlanarCut (794)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (792)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (790)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (788)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (786)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (784)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module CharacterAI (782)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module TextureAlignMode (780)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module BspMode (778)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module GeometryMode (776)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (774)
+[2022.04.03-00.31.50:261][530]LogModuleManager: Shutting down and abandoning module SmartSnapping (772)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module SessionServices (770)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module MeshPaint (768)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (766)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module FoliageEdit (764)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module LandscapeEditor (762)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module MeshPaintMode (760)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (758)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module ActorPickerMode (756)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module PlacementMode (754)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module ViewportSnapping (752)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module ViewportInteraction (750)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module ClothPainter (748)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (747)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module LogVisualizer (744)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module IntroTutorials (742)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (741)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (738)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (736)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (734)
+[2022.04.03-00.31.50:262][530]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (733)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (730)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (728)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (726)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (724)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module TraceInsights (722)
+[2022.04.03-00.31.50:512][530]MemoryProfiler: Shutdown
+[2022.04.03-00.31.50:512][530]NetworkingProfiler: Shutdown
+[2022.04.03-00.31.50:512][530]LoadingProfiler: Shutdown
+[2022.04.03-00.31.50:512][530]TimingProfiler: Shutdown
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module TraceServices (721)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (718)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (716)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module InputBindingEditor (714)
+[2022.04.03-00.31.50:512][530]LogModuleManager: Shutting down and abandoning module MergeActors (712)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (710)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module LocalizationService (709)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module HardwareTargeting (706)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (704)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module UndoHistory (702)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module XmlParser (700)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module Blutility (698)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (696)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (695)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (692)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (691)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module SettingsEditor (688)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module ProjectLauncher (686)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module SessionFrontend (684)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module ProfilerClient (682)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module DeviceManager (680)
+[2022.04.03-00.31.50:513][530]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (679)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module AutomationController (676)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module AutomationWindow (674)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module Layers (672)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (670)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module DetailCustomizations (668)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module PackagesDialog (666)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (664)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module Persona (662)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (661)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module AnimGraph (659)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module Kismet (656)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module KismetWidgets (655)
+[2022.04.03-00.31.50:547][530]LogModuleManager: Shutting down and abandoning module GraphEditor (652)
+[2022.04.03-00.31.50:548][530]LogModuleManager: Shutting down and abandoning module StructViewer (650)
+[2022.04.03-00.31.50:548][530]LogModuleManager: Shutting down and abandoning module ClassViewer (648)
+[2022.04.03-00.31.50:550][530]LogModuleManager: Shutting down and abandoning module Toolbox (646)
+[2022.04.03-00.31.50:550][530]LogModuleManager: Shutting down and abandoning module ModuleUI (644)
+[2022.04.03-00.31.50:550][530]LogModuleManager: Shutting down and abandoning module OutputLog (642)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module GammaUI (640)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module Documentation (638)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module LiveCoding (636)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module LevelSequence (634)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (632)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module MovieScene (630)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (628)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module LauncherPlatform (626)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module AnalyticsET (624)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module PortalServices (622)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module PortalRpc (620)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module MessagingRpc (618)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (616)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module AudioMixerCore (615)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module AIModule (612)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module GameplayDebugger (611)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module AITestSuite (609)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module NavigationSystem (607)
+[2022.04.03-00.31.50:553][530]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (604)
+[2022.04.03-00.31.50:564][530]LogModuleManager: Shutting down and abandoning module ProfilerService (602)
+[2022.04.03-00.31.50:808][530]LogModuleManager: Shutting down and abandoning module TaskGraph (600)
+[2022.04.03-00.31.50:808][530]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (598)
+[2022.04.03-00.31.50:808][530]LogModuleManager: Shutting down and abandoning module OculusEditor (596)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module OculusInput (594)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (592)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (590)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (588)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module CollectionManager (587)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module SynthesisEditor (584)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module Synthesis (582)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module TakeSequencer (580)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module TakeMovieScene (578)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (576)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (574)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module OpenXREditor (572)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (570)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module EditableMesh (568)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module ScreenshotTools (566)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module GooglePAD (564)
+[2022.04.03-00.31.50:809][530]LogModuleManager: Shutting down and abandoning module CableComponent (562)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (560)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AudioCapture (558)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (557)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AssetTags (554)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (552)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (550)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AppleImageUtils (548)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (546)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (544)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AndroidPermission (542)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module TemplateSequence (540)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MediaCompositing (538)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module ImgMedia (536)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (534)
+[2022.04.03-00.31.50:810][530]LogOpenImageDenoise: OIDN shutting down
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (532)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MotoSynth (530)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MeshConversion (528)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module DynamicMesh (526)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (524)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometricObjects (522)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (520)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (518)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (516)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (514)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (513)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (510)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (508)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (506)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (504)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (502)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (500)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (498)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (496)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (494)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module ChaosNiagara (492)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module BackChannel (490)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module FractureEditor (488)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (487)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (484)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (482)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AutomationUtils (480)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AlembicImporter (478)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module AlembicLibrary (477)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryCache (476)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (475)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (470)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (468)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module UObjectPlugin (466)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (464)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (462)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (460)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (458)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module PluginUtils (456)
+[2022.04.03-00.31.50:810][530]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (454)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module GitSourceControl (452)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module SourceControl (451)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (448)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (446)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (444)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module PluginBrowser (442)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module CurveEditorTools (440)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (438)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (436)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (434)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (432)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module CryptoKeys (430)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (428)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module LiveLinkSequencer (426)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module LiveLinkMovieScene (424)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module LiveLinkGraphNode (422)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (420)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module LiveLinkComponents (418)
+[2022.04.03-00.31.50:811][530]LogModuleManager: Shutting down and abandoning module LiveLink (416)
+[2022.04.03-00.31.51:581][530]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (414)
+[2022.04.03-00.31.51:581][530]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (412)
+[2022.04.03-00.31.51:581][530]LogModuleManager: Shutting down and abandoning module Paper2DEditor (410)
+[2022.04.03-00.31.51:582][530]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (408)
+[2022.04.03-00.31.51:582][530]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (406)
+[2022.04.03-00.31.51:582][530]LogModuleManager: Shutting down and abandoning module SoundFields (404)
+[2022.04.03-00.31.51:582][530]LogModuleManager: Shutting down and abandoning module SignificanceManager (402)
+[2022.04.03-00.31.51:582][530]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (400)
+[2022.04.03-00.31.51:582][530]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (398)
+[2022.04.03-00.31.51:582][530]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (396)
+[2022.04.03-00.31.51:582][530]LogModuleManager: Shutting down and abandoning module TcpMessaging (392)
+[2022.04.03-00.31.51:683][530]LogModuleManager: Shutting down and abandoning module UdpMessaging (390)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (388)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (386)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (384)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module ActorSequence (382)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (380)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (378)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (376)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (374)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (372)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (370)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (368)
+[2022.04.03-00.31.51:784][530]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (366)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (364)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (362)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (360)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapController (358)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (356)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module MagicLeapAR (354)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (352)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module SignalProcessing (349)
+[2022.04.03-00.31.51:784][530]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module NiagaraCore (344)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (342)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (340)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module AnimationSharing (338)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (336)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module FacialAnimation (334)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module DataValidation (332)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (330)
+[2022.04.03-00.31.51:785][530]LogModuleManager: Shutting down and abandoning module LevelEditor (329)
+[2022.04.03-00.31.51:787][530]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (328)
+[2022.04.03-00.31.51:787][530]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (326)
+[2022.04.03-00.31.51:787][530]LogModuleManager: Shutting down and abandoning module MainFrame (324)
+[2022.04.03-00.31.51:787][530]LogModuleManager: Shutting down and abandoning module HotReload (323)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module ToolMenus (319)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module ContentBrowser (317)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module ContentBrowserData (316)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module TreeMap (313)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (310)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module GameplayCameras (308)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (306)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module Paper2D (304)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (302)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (300)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (298)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module PacketHandler (296)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (294)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (292)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module MediaAssets (290)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module Overlay (288)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module OverlayEditor (287)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module VREditor (284)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module StringTableEditor (282)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (280)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (278)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module FunctionalTesting (276)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (274)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (273)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module UMG (270)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module UMGEditor (269)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module MessageLog (267)
+[2022.04.03-00.31.51:788][530]LogModuleManager: Shutting down and abandoning module SlateReflector (262)
+[2022.04.03-00.31.51:789][530]LogModuleManager: Shutting down and abandoning module Slate (260)
+[2022.04.03-00.31.51:789][530]LogModuleManager: Shutting down and abandoning module SlateCore (258)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (256)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module UnrealEd (254)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module MRMesh (252)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (250)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (248)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module XAudio2 (246)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module Networking (244)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module Core (242)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module MaterialEditor (240)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module MovieSceneTools (238)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module CurveEditor (237)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module Sequencer (235)
+[2022.04.03-00.31.51:790][530]LogModuleManager: Shutting down and abandoning module EditorStyle (234)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module KismetCompiler (230)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module MeshBuilder (228)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module MeshUtilities (226)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (225)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (224)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (223)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (221)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (219)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (217)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module MaterialBaking (213)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (208)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module DerivedDataCache (206)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module TargetPlatform (204)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (203)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (201)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (199)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (197)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (193)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (191)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (189)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (187)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (185)
+[2022.04.03-00.31.51:792][530]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (183)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (181)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module ImageWrapper (180)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (177)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (175)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (173)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (171)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (169)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (167)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (165)
+[2022.04.03-00.31.51:793][530]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (163)
+[2022.04.03-00.31.51:798][530]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (161)
+[2022.04.03-00.31.51:798][530]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (159)
+[2022.04.03-00.31.51:798][530]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (157)
+[2022.04.03-00.31.51:798][530]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (155)
+[2022.04.03-00.31.51:798][530]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (153)
+[2022.04.03-00.31.51:806][530]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (151)
+[2022.04.03-00.31.51:806][530]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (149)
+[2022.04.03-00.31.51:806][530]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (147)
+[2022.04.03-00.31.51:806][530]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (145)
+[2022.04.03-00.31.51:806][530]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (143)
+[2022.04.03-00.31.51:807][530]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (141)
+[2022.04.03-00.31.51:807][530]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (139)
+[2022.04.03-00.31.51:807][530]LogModuleManager: Shutting down and abandoning module Messaging (137)
+[2022.04.03-00.31.51:807][530]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (135)
+[2022.04.03-00.31.51:811][530]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (133)
+[2022.04.03-00.31.51:826][530]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (131)
+[2022.04.03-00.31.51:826][530]LogModuleManager: Shutting down and abandoning module D3D11RHI (128)
+[2022.04.03-00.31.51:826][530]LogModuleManager: Shutting down and abandoning module InputCore (126)
+[2022.04.03-00.31.51:826][530]LogModuleManager: Shutting down and abandoning module Settings (124)
+[2022.04.03-00.31.51:826][530]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (122)
+[2022.04.03-00.31.51:827][530]LogModuleManager: Shutting down and abandoning module PhysXCooking (120)
+[2022.04.03-00.31.51:827][530]LogModuleManager: Shutting down and abandoning module Chaos (118)
+[2022.04.03-00.31.51:827][530]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (116)
+[2022.04.03-00.31.51:827][530]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (115)
+[2022.04.03-00.31.51:827][530]LogModuleManager: Shutting down and abandoning module AVEncoder (114)
+[2022.04.03-00.31.51:827][530]LogModuleManager: Shutting down and abandoning module OculusHMD (110)
+[2022.04.03-00.31.51:827][530]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (108)
+[2022.04.03-00.31.51:827][530]LogModuleManager: Shutting down and abandoning module OpenXRHandTracking (106)
+[2022.04.03-00.31.51:828][530]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.04.03-00.31.51:828][530]LogModuleManager: Shutting down and abandoning module OpenXRAR (104)
+[2022.04.03-00.31.51:828][530]LogModuleManager: Shutting down and abandoning module AugmentedReality (103)
+[2022.04.03-00.31.51:828][530]LogModuleManager: Shutting down and abandoning module OpenXRHMD (100)
+[2022.04.03-00.31.51:828][530]LogModuleManager: Shutting down and abandoning module OpenXREyeTracker (98)
+[2022.04.03-00.31.51:828][530]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2022.04.03-00.31.51:828][530]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2022.04.03-00.31.51:828][530]LogModuleManager: Shutting down and abandoning module WmfMedia (92)
+[2022.04.03-00.31.51:831][530]LogModuleManager: Shutting down and abandoning module Media (91)
+[2022.04.03-00.31.51:832][530]LogModuleManager: Shutting down and abandoning module MediaInfo (90)
+[2022.04.03-00.31.51:832][530]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (86)
+[2022.04.03-00.31.51:832][530]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (84)
+[2022.04.03-00.31.51:832][530]LogModuleManager: Shutting down and abandoning module MLSDK (80)
+[2022.04.03-00.31.51:832][530]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (78)
+[2022.04.03-00.31.51:834][530]LogModuleManager: Shutting down and abandoning module XMPP (73)
+[2022.04.03-00.31.51:834][530]LogModuleManager: Shutting down and abandoning module WebSockets (72)
+[2022.04.03-00.31.51:840][530]LogModuleManager: Shutting down and abandoning module HTTP (69)
+[2022.04.03-00.31.51:840][530]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.04.03-00.31.51:840][530]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA2170D8B-40B7-C81E-30CF-52A0861208CC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.27.2-18319896%2B%2B%2BUE4%2BRelease-4.27&UserID=cb7e5cba4b5bf74c7917b3a85c59275c%7Cc4b6dedf1f0a4ae1a5168fffda9d37e2%7Cb74234df-d37b-4794-b355-46047dbb6f84&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.04.03-00.31.51:840][530]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.04.03-00.31.51:857][530]LogModuleManager: Shutting down and abandoning module SSL (68)
+[2022.04.03-00.31.51:859][530]LogModuleManager: Shutting down and abandoning module VariantManagerContent (64)
+[2022.04.03-00.31.51:859][530]LogModuleManager: Shutting down and abandoning module DatasmithContent (62)
+[2022.04.03-00.31.51:859][530]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
+[2022.04.03-00.31.51:859][530]LogModuleManager: Shutting down and abandoning module ChaosCloth (58)
+[2022.04.03-00.31.51:859][530]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2022.04.03-00.31.51:859][530]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2022.04.03-00.31.51:859][530]LogModuleManager: Shutting down and abandoning module PixWinPlugin (52)
+[2022.04.03-00.31.51:859][530]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module OodleDataCompressionFormat (38)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module XGEController (36)
+[2022.04.03-00.31.51:860][530]LogXGEController: Cleaning working directory: C:/Users/James/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2022.04.03-00.31.51:860][530]LogModuleManager: Shutting down and abandoning module PropertyEditor (31)
+[2022.04.03-00.31.51:861][530]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.04.03-00.31.51:861][530]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.04.03-00.31.51:861][530]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.04.03-00.31.51:861][530]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.04.03-00.31.51:862][530]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.04.03-00.31.51:863][530]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.04.03-00.31.51:911][530]LogD3D11RHI: Shutdown
+[2022.04.03-00.31.51:911][530]LogD3D11RHI: CleanupD3DDevice
+[2022.04.03-00.31.51:916][530]LogExit: Exiting.
+[2022.04.03-00.31.51:924][530]Log file closed, 04/02/22 17:31:51
