@@ -1912,3 +1912,69 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.04.30-00.34.01:190][ 16]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
 [2022.04.30-00.34.01:190][ 16]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
 [2022.04.30-00.34.01:306][ 16]EditorErrors: Warning: No assets to check in!
+[2022.04.30-00.34.40:940][369]LogSlate: Window 'Message' being destroyed
+[2022.04.30-00.34.40:944][369]Message dialog closed, result: Yes, title: Message, text: Untitled already exists. Do you want to replace it?
+[2022.04.30-00.34.40:944][369]LogSlate: Window 'Save Level As' being destroyed
+[2022.04.30-00.34.40:953][369]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.04.30-00.34.40:956][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.30-00.34.40:986][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.04.30-00.34.41:008][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.04.30-00.34.41:110][369]LogObjectTools: Deleting 1 worlds: /Game/Core/Levels/NightTemplate/Untitled.Untitled
+[2022.04.30-00.34.41:110][369]LogObjectTools: Currently 7 active worlds: /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2, /Engine/Transient.World_3, /Engine/Transient.World_5, /Engine/Transient.World_12
+[2022.04.30-00.34.41:136][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.04.30-00.34.41:200][369]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.04.30-00.34.41:201][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.30-00.34.41:288][369]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2022.04.30-00.34.41:288][369]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.04.30-00.34.41:288][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.30-00.34.41:312][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2022.04.30-00.34.41:331][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.04.30-00.34.41:348][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.04.30-00.34.41:533][369]SourceControl: Error: Updated 0 paths from the index
+[2022.04.30-00.34.41:662][369]SourceControl: rm 'FNaF_Reimagined/Content/Core/Levels/NightTemplate/Untitled.umap'
+[2022.04.30-00.34.41:780][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.04.30-00.34.41:928][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.04.30-00.34.42:019][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.04.30-00.34.42:212][369]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/Untitled
+[2022.04.30-00.34.42:212][369]LogSavePackage: Moving '../../../../../../Users/Erik/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/UntitledCC86BFE64686EB02E574239CF85EE7AC.tmp' to '../../../../../../Users/Erik/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/Untitled.umap'
+[2022.04.30-00.34.42:480][369]LogFileHelpers: Saving map 'Untitled' took 1.472
+[2022.04.30-00.34.42:492][369]AssetCheck: New page: Asset Save: Untitled
+[2022.04.30-00.34.42:492][369]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/Untitled.Untitled
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Bridge/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Animation/IKRig/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Animation/IKRig/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Animation/ControlRig/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Animation/ControlRig/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Animation/ControlRigSpline/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:415][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/FullBodyIK/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/MeshModelingToolsetExp/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/MovieScene/SequencerScripting/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/GeometryProcessing/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/HairStrands/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/MeshModelingToolset/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/ResonanceAudio/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:416][525]SourceControl: fatal: C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/Erik/Documents/GitHub/fnaf-reimagined'
+[2022.04.30-00.34.45:683][525]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.04.30-00.34.45:771][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.04.30-00.34.45:963][525]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/Untitled
+[2022.04.30-00.34.45:964][525]LogSavePackage: Moving '../../../../../../Users/Erik/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Untitled40262259470245631D3398B726442357.tmp' to '../../../../../../Users/Erik/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/Untitled.umap'
+[2022.04.30-00.34.46:010][525]LogFileHelpers: Saving map 'Untitled' took 0.329
+[2022.04.30-00.34.51:829][525]LogSlate: Window 'Submit Files' being destroyed
+[2022.04.30-00.34.52:618][525]LogSourceControl: commit successful: [main f3d278d] .
+[2022.04.30-00.34.52:660][525]SourceControl: [main f3d278d] .
+[2022.04.30-00.34.52:660][525]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2022.04.30-00.34.52:667][525]SourceControl: Commited [main f3d278d] ..
+[2022.04.30-00.34.52:707][526]AssetCheck: New page: Asset Save: Untitled
+[2022.04.30-00.34.52:707][526]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/Untitled.Untitled
