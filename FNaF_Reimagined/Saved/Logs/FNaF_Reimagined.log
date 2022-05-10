@@ -3543,3 +3543,1139 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2022.05.10-01.11.29:607][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
 [2022.05.10-01.11.29:638][222]LogPlayLevel: Display: Destroying online subsystem :Context_34
 [2022.05.10-01.16.59:132][702]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.535 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.10-01.32.23:124][768]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.10-01.32.23:145][768]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.10-01.32.23:161][769]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.10-01.32.26:479][963]LogContentBrowser: Attempting asset rename: NewFolder -> Cup01NEW
+[2022.05.10-01.32.26:489][963]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.10-01.32.33:376][ 66]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW.fbx)
+[2022.05.10-01.32.33:414][ 66]LogFbx: Loading FBX Scene from C:/Users/Kira Meyer/Desktop/SM_CupNEW.fbx
+[2022.05.10-01.32.33:424][ 66]LogFbx: FBX Scene Loaded Succesfully
+[2022.05.10-01.32.34:440][ 66]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.05.10-01.32.34:533][ 66]LogMaterial: Display: Missing cached shadermap for M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 4B16B09AEAD8A212A00DDDB20317FABF10E2268B), compiling. 
+[2022.05.10-01.32.34:586][ 66]LogFbx: Display: Triangulating static mesh Cylinder.001
+[2022.05.10-01.32.34:615][ 66]LogStaticMesh: Display: Building static mesh SM_CupNEW...
+[2022.05.10-01.32.34:639][ 66]LogStaticMesh: Built static mesh [0.03s] /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW
+[2022.05.10-01.32.43:434][ 94]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/M_CupNEW_Base_color.png)
+[2022.05.10-01.32.43:558][ 94]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color.M_CupNEW_Base_color (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.32.43:646][ 94]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/M_CupNEW_Mixed_AO.png)
+[2022.05.10-01.32.43:691][ 94]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO.M_CupNEW_Mixed_AO (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.32.43:780][ 94]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/M_CupNEW_Normal_DirectX.png)
+[2022.05.10-01.32.43:958][ 94]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX.M_CupNEW_Normal_DirectX (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.32.44:108][ 94]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/M_CupNEW_Roughness.png)
+[2022.05.10-01.32.44:192][ 94]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness.M_CupNEW_Roughness (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: ================================================
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 4 distinct outputs (100.00%)
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: Shaders Compiled: 2
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100.00%)
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: Time job spent in pending queue: average 0.02 s, longest 0.03 s
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: Job execution time: average 1.44 s, max 1.54 s
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: Job life time (pending + execution): average 1.46 s, max 1.57
+[2022.05.10-01.32.44:338][ 94]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.57 s
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display: Average processing rate: 2.55 jobs/sec
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display: Effective parallelization: 1.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.81 sec, max 0.81 sec, min 0.81 sec)
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 29.50% of total time (compiled    1 times, average 0.81 sec, max 0.81 sec, min 0.81 sec)
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display:                                                 FLumenCardVS - 29.34% of total time (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.54% of total time (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.62% of total time (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2022.05.10-01.32.44:339][ 94]LogShaderCompilers: Display: ================================================
+[2022.05.10-01.32.45:003][114]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/Cup01NEW/M_CupNEW.M_CupNEW
+[2022.05.10-01.32.45:017][114]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 2BAC60AC834CC8A5574AEA6F12725A11E63604AC), compiling. 
+[2022.05.10-01.32.45:083][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.10-01.32.45:416][114]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 429B75BD4BDCBDF5FB4DCE718C1D37A4992A6EE5), compiling. 
+[2022.05.10-01.32.45:428][114]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 0ED7A3F1F61BA30B589B8BF9461003104D41C2BA), compiling. 
+[2022.05.10-01.32.45:440][114]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 322C0845CB30061255876B45221C7DF544302689), compiling. 
+[2022.05.10-01.32.45:700][115]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.32.45:700][115]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.45:700][115]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.32.45:781][116]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.10-01.32.45:781][116]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.45:781][116]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.32.48:432][239]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 3B05D0AB8CC3F62E4776F084D9E430E30F169893), compiling. 
+[2022.05.10-01.32.48:435][239]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.32.48:435][239]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.48:435][239]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.32.49:915][300]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: E5B5367CAA43F21FC869D99E9072AE3463F2071F), compiling. 
+[2022.05.10-01.32.49:918][300]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 948F2352BFFE58ACC5880A35570083F2CA1D8CE1), compiling. 
+[2022.05.10-01.32.49:921][300]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5F2B8A3EC19DB14004787929973BC41EF70259D1), compiling. 
+[2022.05.10-01.32.49:987][301]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.10-01.32.49:987][301]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.49:987][301]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.32.51:536][376]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: F9E5923B28CBF6F8245E74C149423CA72F596DE4), compiling. 
+[2022.05.10-01.32.51:539][376]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: E499E41D73AE675B9577AC10FAD88CD06A58F44A), compiling. 
+[2022.05.10-01.32.51:541][376]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 268C9D483F6A7BD2332984B2E400FD61C6C142A9), compiling. 
+[2022.05.10-01.32.51:543][376]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: CFCD81CB2CE898C902BE70D4F704F128278CC1A9), compiling. 
+[2022.05.10-01.32.51:547][376]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.32.51:547][376]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.51:547][376]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.32.51:600][377]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.10-01.32.51:600][377]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.51:600][377]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.32.53:122][449]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: B447D76B9AC5FE46208AF3AECDF74A02FDFC9B3D), compiling. 
+[2022.05.10-01.32.53:125][449]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: A924BBEBD8FC23B1FBD05B4B96E3C3423FAC0D39), compiling. 
+[2022.05.10-01.32.53:127][449]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EC9B1A3386A31C2319176727DFEB7B014D43651A), compiling. 
+[2022.05.10-01.32.53:129][449]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 17A2CA6D92ABFEC86FACD7558A38F308B0C2A856), compiling. 
+[2022.05.10-01.32.53:130][449]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 22CC4436E9B75CFE067613E923CE6611899C02CB), compiling. 
+[2022.05.10-01.32.53:135][449]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.32.53:135][449]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.53:135][449]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.32.53:188][450]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.10-01.32.53:188][450]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.53:188][450]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.32.54:867][530]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 8D958570D93356347AD387C6F68DF200613DC7BC), compiling. 
+[2022.05.10-01.32.54:870][530]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 87FDDC25E35BF2F03073F85E146737BB98FD277A), compiling. 
+[2022.05.10-01.32.54:872][530]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1AD04854957325C09BF89A83A56E1D61AC0A964D), compiling. 
+[2022.05.10-01.32.54:873][530]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 15D2F8588A5DD51DF80B2C58C8182741CD46C885), compiling. 
+[2022.05.10-01.32.54:874][530]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 93EB3B02AF4F7D134422D23F906081ED27D0F609), compiling. 
+[2022.05.10-01.32.54:876][530]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: C23B7356AA19573E19EABB3A8FE3294FC7F3DC87), compiling. 
+[2022.05.10-01.32.54:880][530]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.32.54:880][530]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.54:880][530]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.32.54:938][531]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.10-01.32.54:938][531]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.10-01.32.54:938][531]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.32.58:006][699]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 7753E84D12F92893DFB9DB5F1E079A68055AB460), compiling. 
+[2022.05.10-01.32.58:009][699]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: B970BDB2FFE612A29CC013EE563610D8B9269535), compiling. 
+[2022.05.10-01.32.58:013][699]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.32.58:013][699]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.05.10-01.32.58:013][699]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.32.58:013][699]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.32.59:234][746]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: B993772C520B21B7D24FAF42B466C98302C4B50A), compiling. 
+[2022.05.10-01.32.59:237][746]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: D89F94F6E10CBDF1664CACAB3285E99A0817F81C), compiling. 
+[2022.05.10-01.32.59:242][746]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.32.59:242][746]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.10-01.32.59:242][746]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.32.59:242][746]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.32.59:897][772]MaterialEditorStats: Texture samplers: 1/16
+[2022.05.10-01.32.59:897][772]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.10-01.32.59:897][772]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.32.59:897][772]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.33.02:650][913]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 4D61B30631531851DA7A486E57E07781338F6FEC), compiling. 
+[2022.05.10-01.33.02:653][913]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 1C27B2E9F9D1ED9D9903C63C0BE8FC02096CB10F), compiling. 
+[2022.05.10-01.33.02:658][913]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.33.02:658][913]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.05.10-01.33.02:658][913]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.33.02:658][913]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.33.03:227][937]MaterialEditorStats: Texture samplers: 1/16
+[2022.05.10-01.33.03:227][937]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.05.10-01.33.03:227][937]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.33.03:227][937]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.33.03:721][961]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.10-01.33.03:721][961]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.05.10-01.33.03:721][961]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.33.03:721][961]MaterialEditorStats: Shader Count: 3
+[2022.05.10-01.33.06:612][116]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: A30D9758256887D4F9915780A48A7044F095FD73), compiling. 
+[2022.05.10-01.33.06:616][116]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3E9C136D3CFD9D73C4153F5A2CBACF4749EC18A6), compiling. 
+[2022.05.10-01.33.06:620][116]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.33.06:620][116]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.33.06:620][116]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.33.06:620][116]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.33.07:227][142]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.10-01.33.07:227][142]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.33.07:227][142]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.33.07:227][142]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.33.07:729][165]MaterialEditorStats: Texture samplers: 5/16
+[2022.05.10-01.33.07:729][165]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.33.07:729][165]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.33.07:729][165]MaterialEditorStats: Shader Count: 3
+[2022.05.10-01.33.34:287][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2022.05.10-01.33.34:295][458]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.060
+[2022.05.10-01.33.34:295][458]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/SM_CupNEW] ([1] browsable assets)...
+[2022.05.10-01.33.34:375][458]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW]
+[2022.05.10-01.33.34:375][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/SM_CupNEW]
+[2022.05.10-01.33.34:382][458]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/SM_CupNEW_Auto3
+[2022.05.10-01.33.34:382][458]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/SM_CupNEW_Auto34ECF82E8456164D40C7348B4E00123AB.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/SM_CupNEW_Auto3.uasset'
+[2022.05.10-01.33.34:383][458]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color] ([1] browsable assets)...
+[2022.05.10-01.33.34:385][458]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color.M_CupNEW_Base_color]
+[2022.05.10-01.33.34:385][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color]
+[2022.05.10-01.33.34:395][458]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color_Auto3
+[2022.05.10-01.33.34:395][458]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Base_color_Auto35A382A18420D182AC2BD559331DFDB3A.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color_Auto3.uasset'
+[2022.05.10-01.33.34:396][458]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO] ([1] browsable assets)...
+[2022.05.10-01.33.34:397][458]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO.M_CupNEW_Mixed_AO]
+[2022.05.10-01.33.34:397][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO]
+[2022.05.10-01.33.34:401][458]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO_Auto3
+[2022.05.10-01.33.34:401][458]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Mixed_AO_Auto3915416144E2AD19FBDAD74836F02173B.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO_Auto3.uasset'
+[2022.05.10-01.33.34:402][458]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX] ([1] browsable assets)...
+[2022.05.10-01.33.34:403][458]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX.M_CupNEW_Normal_DirectX]
+[2022.05.10-01.33.34:403][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX]
+[2022.05.10-01.33.34:432][458]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX_Auto3
+[2022.05.10-01.33.34:432][458]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Normal_DirectX_Auto3A34B044F41E6B3C1D0D508842A0C39BB.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX_Auto3.uasset'
+[2022.05.10-01.33.34:433][458]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness] ([1] browsable assets)...
+[2022.05.10-01.33.34:443][458]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness.M_CupNEW_Roughness]
+[2022.05.10-01.33.34:443][458]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness]
+[2022.05.10-01.33.34:446][458]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness_Auto3
+[2022.05.10-01.33.34:446][458]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Roughness_Auto356C8DDCB4EE0189CBF0EA5B0E582BD7E.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness_Auto3.uasset'
+[2022.05.10-01.33.34:446][458]LogFileHelpers: Auto-saving content packages took 0.152
+[2022.05.10-01.34.53:627][814]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/transparency/M_CupNEW_Base_Opacity.png)
+[2022.05.10-01.34.53:714][815]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity.M_CupNEW_Base_Opacity (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.34.56:454][952]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: E2AD0D516EEE458310F56CFC665F4AF897477C49), compiling. 
+[2022.05.10-01.34.56:457][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: F5AEA1A1F6309D2096F1AB27E77791F799A3C8FF), compiling. 
+[2022.05.10-01.34.56:458][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: ACE37C8512151A99074903B47508D71204A7B55D), compiling. 
+[2022.05.10-01.34.56:460][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 4C656E04E2997770CEB60560882975AA5586169B), compiling. 
+[2022.05.10-01.34.56:462][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 2949F6D453E277A3877F4A611D3DC9A9690E671E), compiling. 
+[2022.05.10-01.34.56:463][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 12E7C686FE725DA9729284FA4C7DFA14001D590C), compiling. 
+[2022.05.10-01.34.56:465][952]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 81E9CED32DB57E92ACDBF65FE30003368E27933E), compiling. 
+[2022.05.10-01.34.56:468][952]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.34.56:468][952]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.34.56:468][952]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.34.56:468][952]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.34.56:525][953]MaterialEditorStats: Texture samplers: 5/16
+[2022.05.10-01.34.56:525][953]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.34.56:525][953]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.34.56:525][953]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.35.04:926][419]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: C53EEF1B52DB42DE5FE3430A3A049DD8E28D03CF), compiling. 
+[2022.05.10-01.35.05:909][473]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 6E5EB4473D19154B9F7B0A94565507FA20FBDA6C), compiling. 
+[2022.05.10-01.35.05:915][473]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 2FC90E6F46CD870C2B2C337FF4CBBE6E0F0FB498), compiling. 
+[2022.05.10-01.35.05:921][473]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 9815E2B5B0171CA7327483E49BD82D3A0E28CBC9), compiling. 
+[2022.05.10-01.35.05:928][473]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.35.05:928][473]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.10-01.35.05:928][473]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.35.05:928][473]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.35.06:911][527]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.10-01.35.06:911][527]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.10-01.35.06:912][527]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.35.06:912][527]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.35.09:316][664]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: F141C4124E13249A2DA4BEC438E11D8D1D15772D), compiling. 
+[2022.05.10-01.35.10:630][735]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 31B6E29B653136C769CCFB31E5BF50E64D8C206A), compiling. 
+[2022.05.10-01.35.10:635][735]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 766968B17D659A7734F589B319438A881DCAEFBB), compiling. 
+[2022.05.10-01.35.10:641][735]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 9E24FF05DDBDC678884392FDDC5D7FC169894F33), compiling. 
+[2022.05.10-01.35.10:648][735]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.35.10:648][735]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.35.10:648][735]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.35.10:648][735]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.35.11:898][802]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.35.11:898][802]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.35.11:898][802]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.35.11:898][802]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.35.13:943][913]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.35.13:943][913]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.35.13:943][913]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.35.13:943][913]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.35.18:857][176]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 672EFA47323BD61AD05AD16E2CFAC5A934F01F44), compiling. 
+[2022.05.10-01.35.18:860][176]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: BD108BECDC12C9EBCE9AFD3187DCDFA822EEF79B), compiling. 
+[2022.05.10-01.35.18:866][176]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.35.18:866][176]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.35.18:866][176]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.35.18:866][176]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.35.20:227][247]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.35.20:227][247]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.35.20:227][247]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.35.20:227][247]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.35.22:203][352]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.35.22:203][352]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.35.22:203][352]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.35.22:203][352]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.35.41:809][704]LogSlate: Window 'Message' being destroyed
+[2022.05.10-01.35.41:814][704]Message dialog closed, result: YesAll, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color
+[2022.05.10-01.35.41:897][704]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/transparency/M_CupNEW_Base_color.png)
+[2022.05.10-01.35.43:014][704]LogSlate: Window 'Message' being destroyed
+[2022.05.10-01.35.43:017][704]Message dialog closed, result: YesAll, title: Message, text: You are about to import 'M_CupNEW_Base_color' over an existing texture. Would you like to overwrite the existing settings?
+
+Yes or Yes to All: Overwrite the existing settings.
+No or No to All: Preserve the existing settings.
+Cancel: Abort the operation.
+[2022.05.10-01.35.43:113][705]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color.M_CupNEW_Base_color (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.35.55:266][125]LogSlate: Window 'Message' being destroyed
+[2022.05.10-01.35.55:269][125]Message dialog closed, result: YesAll, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color
+[2022.05.10-01.35.55:355][125]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/M_CupNEW_Base_color.png)
+[2022.05.10-01.35.56:756][125]LogSlate: Window 'Message' being destroyed
+[2022.05.10-01.35.56:760][125]Message dialog closed, result: YesAll, title: Message, text: You are about to import 'M_CupNEW_Base_color' over an existing texture. Would you like to overwrite the existing settings?
+
+Yes or Yes to All: Overwrite the existing settings.
+No or No to All: Preserve the existing settings.
+Cancel: Abort the operation.
+[2022.05.10-01.35.56:846][125]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color.M_CupNEW_Base_color (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.36.21:776][218]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/transparency/M_CupNEW_Opacity.png)
+[2022.05.10-01.36.21:866][219]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity.M_CupNEW_Opacity (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.36.23:889][321]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 554DF20135138AF377AB16D0FB0CECCD978E6C3B), compiling. 
+[2022.05.10-01.36.23:892][321]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 65D35CF03B49DA545FF9788326074CB8EDD5A038), compiling. 
+[2022.05.10-01.36.23:894][321]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 122D01C7B319CBC262D57415855B477CD9F5068F), compiling. 
+[2022.05.10-01.36.23:896][321]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 36852F9BC07100A3B5CB51825BEFB2671530F4F6), compiling. 
+[2022.05.10-01.36.23:897][321]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 723939E7DEB85900C2BB1103BCE888AAB20F0EA5), compiling. 
+[2022.05.10-01.36.23:899][321]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 3EC178FA338E387FFB569DCD5A0721BCC55BD5EF), compiling. 
+[2022.05.10-01.36.23:900][321]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: A04927D7CA09946D8EF2B585AE79351B0C9C6D5D), compiling. 
+[2022.05.10-01.36.23:902][321]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 5B287F517B3C7343B6BA0AF8F5447470829966D9), compiling. 
+[2022.05.10-01.36.23:906][321]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.23:906][321]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.23:906][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.23:906][321]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: ================================================
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Total job queries 120, among them cache hits 70 (58.33%)
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 32 distinct outputs (76.19%)
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Shaders Compiled: 28
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Jobs assigned 42, completed 42 (100.00%)
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Average time worker was idle: 9.25 s
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Job execution time: average 1.05 s, max 3.13 s
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Job life time (pending + execution): average 1.11 s, max 3.23
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.52 s
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Jobs were issued in 42 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Average processing rate: 2.05 jobs/sec
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Effective parallelization: 1.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.05.10-01.36.23:931][321]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    3 times, average 2.30 sec, max 3.07 sec, min 0.79 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    6 times, average 0.93 sec, max 0.98 sec, min 0.80 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   15 times, average 0.90 sec, max 1.10 sec, min 0.71 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   12 times, average 0.76 sec, max 0.93 sec, min 0.59 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    6 times, average 0.38 sec, max 0.40 sec, min 0.37 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 36.20% of total time (compiled   15 times, average 0.90 sec, max 1.10 sec, min 0.71 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.42% of total time (compiled   12 times, average 0.76 sec, max 0.93 sec, min 0.59 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 18.40% of total time (compiled    3 times, average 2.30 sec, max 3.07 sec, min 0.79 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                                                 FLumenCardVS - 14.84% of total time (compiled    6 times, average 0.93 sec, max 0.98 sec, min 0.80 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.14% of total time (compiled    6 times, average 0.38 sec, max 0.40 sec, min 0.37 sec)
+[2022.05.10-01.36.23:932][321]LogShaderCompilers: Display: ================================================
+[2022.05.10-01.36.23:961][322]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.23:961][322]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.23:961][322]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.23:961][322]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.25:285][382]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: EA31742C400183B3BF5E1C5383A91751A8317E5B), compiling. 
+[2022.05.10-01.36.25:288][382]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_5 in PCD3D_SM5, Default, SM5 (DDC key hash: C0BA3B8C172394C1C3B2B2EE83519D0DAE043D6B), compiling. 
+[2022.05.10-01.36.25:292][382]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.25:292][382]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.25:292][382]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.25:292][382]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.26:258][433]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 25006DB4538F668E13010DBF7F1C3AAB76D70DFD), compiling. 
+[2022.05.10-01.36.26:329][434]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.26:329][434]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.26:329][434]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.26:329][434]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.27:336][489]LogMaterialEditor: Saving and Compiling material M_CupNEW
+[2022.05.10-01.36.28:087][489]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: D63E114FB7F94DF3D7E1CFF9C63AD3F253B53BB4), compiling. 
+[2022.05.10-01.36.28:119][489]LogMaterial: Display: Missing cached shadermap for M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 4DC2B9185A4D837BA8B837BADDDB717B784FCA49), compiling. 
+[2022.05.10-01.36.28:189][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.05.10-01.36.29:283][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.05.10-01.36.33:241][489]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.05.10-01.36.33:241][489]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049535s
+[2022.05.10-01.36.43:093][489]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.002378s (9.901532s overbudget)
+[2022.05.10-01.36.43:149][489]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW
+[2022.05.10-01.36.43:149][489]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEWCBF0C52B4427285DE46130BC6E6C4DF0.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW.uasset'
+[2022.05.10-01.36.43:343][489]AssetCheck: New page: Asset Save: M_CupNEW
+[2022.05.10-01.36.43:344][489]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/Cup01NEW/M_CupNEW.M_CupNEW
+[2022.05.10-01.36.43:350][489]MaterialEditorStats: Base pass shader: 797 instructions
+[2022.05.10-01.36.43:350][489]MaterialEditorStats: Base pass vertex shader: 296 instructions
+[2022.05.10-01.36.43:350][489]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.43:350][489]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.43:350][489]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.43:350][489]MaterialEditorStats: Shader Count: 28
+[2022.05.10-01.36.47:009][681]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 7E87DC2A4DF07B9598B9FD2151DBC48339DBC744), compiling. 
+[2022.05.10-01.36.47:013][681]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.47:013][681]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.47:013][681]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.47:013][681]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.47:060][682]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.47:060][682]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.47:060][682]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.47:060][682]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.49:355][816]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 7F2F76AAD201EC5B04D570EF2FBB3E21ACF93DAE), compiling. 
+[2022.05.10-01.36.49:358][816]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_5 in PCD3D_SM5, Default, SM5 (DDC key hash: B35F427E5BDCDCCD66A87877E7ACDBDBD344FA67), compiling. 
+[2022.05.10-01.36.49:362][816]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.49:362][816]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.49:362][816]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.49:362][816]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.49:398][817]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.49:398][817]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.49:398][817]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.49:398][817]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.50:025][851]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 2DAF99ED0A9313FB07C35622F6B7049AB80199F6), compiling. 
+[2022.05.10-01.36.50:031][851]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.50:031][851]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.50:031][851]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.50:031][851]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.50:096][852]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.50:096][852]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.50:096][852]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.50:096][852]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.52:246][975]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: F0CE7640790FB0CA0ED15E13F31AE4380ACA62EC), compiling. 
+[2022.05.10-01.36.52:250][975]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.52:250][975]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.52:250][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.52:250][975]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.52:300][976]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.52:300][976]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.52:300][976]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.52:300][976]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.53:710][ 60]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 7AB4F701CF7BF28BB02AFA4FF3434B9C66E13AF3), compiling. 
+[2022.05.10-01.36.53:713][ 60]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.53:713][ 60]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.53:713][ 60]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.53:713][ 60]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.53:761][ 61]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.53:761][ 61]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.53:761][ 61]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.53:761][ 61]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.55:466][159]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: DD7066778800CA65D14E0250DA41C4845A6FB83A), compiling. 
+[2022.05.10-01.36.55:472][159]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.55:472][159]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.55:472][159]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.55:472][159]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.55:509][160]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.55:509][160]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.55:509][160]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.55:509][160]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.58:082][313]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 2907B8F4F75ADE7266C019EDC6347E995A2630C9), compiling. 
+[2022.05.10-01.36.58:087][313]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 1AD0AED32868704AFF67FCC8068D64DA69A3EEBC), compiling. 
+[2022.05.10-01.36.58:090][313]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.36.58:090][313]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.58:090][313]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.58:090][313]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.36.58:118][314]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.36.58:118][314]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.36.58:118][314]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.36.58:118][314]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.36.59:409][388]LogMaterialEditor: Saving and Compiling material M_CupNEW
+[2022.05.10-01.36.59:978][388]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: B76C47230AD98AE6FE404F6CEE476346CEE7B6A4), compiling. 
+[2022.05.10-01.37.00:012][388]LogMaterial: Display: Missing cached shadermap for M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 9DBBBE0F49A73838132BA2F1880CF4C0218F9333), compiling. 
+[2022.05.10-01.37.00:078][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2022.05.10-01.37.00:309][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.10-01.37.00:573][388]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW
+[2022.05.10-01.37.00:574][388]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW058EEAA741AE6699F2BDB8BEB6EAF563.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW.uasset'
+[2022.05.10-01.37.00:590][388]AssetCheck: New page: Asset Save: M_CupNEW
+[2022.05.10-01.37.00:590][388]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/Cup01NEW/M_CupNEW.M_CupNEW
+[2022.05.10-01.37.00:591][388]MaterialEditorStats: Base pass shader: 797 instructions
+[2022.05.10-01.37.00:591][388]MaterialEditorStats: Base pass vertex shader: 296 instructions
+[2022.05.10-01.37.00:591][388]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.37.00:591][388]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.00:591][388]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.00:591][388]MaterialEditorStats: Shader Count: 28
+[2022.05.10-01.37.01:660][443]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: B7B615E1C5EE3CF59763EC08965C7069423187B5), compiling. 
+[2022.05.10-01.37.01:670][443]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.37.01:670][443]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.01:670][443]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.01:670][443]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.37.02:926][511]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.37.02:926][511]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.02:926][511]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.02:926][511]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.37.04:972][621]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.37.04:972][621]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.04:972][621]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.04:972][621]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.37.06:649][699]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 058AA80C7761769984B2AB2DF81AD5B102B53C9F), compiling. 
+[2022.05.10-01.37.06:654][699]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: B3DB50DBEC3F464BB518A879E75646B858C1A89E), compiling. 
+[2022.05.10-01.37.06:658][699]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.37.06:658][699]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.06:658][699]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.06:658][699]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.37.07:917][772]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.37.07:917][772]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.07:917][772]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.07:917][772]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.37.09:835][886]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.37.09:835][886]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.09:835][886]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.09:835][886]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.37.10:815][933]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 8D50A4EDD025E55B65BF2AE3C09389DC3E593D42), compiling. 
+[2022.05.10-01.37.10:821][933]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 4FAA6459558AEC00FA9E4E37B907FB69C8DDE728), compiling. 
+[2022.05.10-01.37.10:824][933]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.37.10:824][933]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.10:824][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.10:824][933]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.37.12:070][990]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.37.12:070][990]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.12:070][990]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.12:070][990]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.37.14:070][109]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.37.14:070][109]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.14:070][109]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.14:070][109]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.37.16:849][256]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: C3B8487A082A14FB9630387C067CAFA09C1071C6), compiling. 
+[2022.05.10-01.37.16:855][256]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 438F4CBCD3D3F8602272003C22D5908F04A8BE65), compiling. 
+[2022.05.10-01.37.16:859][256]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.37.16:859][256]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.16:859][256]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.16:859][256]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.37.18:174][332]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.37.18:174][332]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.18:174][332]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.18:174][332]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.37.20:126][438]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.37.20:126][438]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.20:126][438]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.20:126][438]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.37.22:675][562]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 2E5200C0B3A429430E43BEB40D44FC7C31DD4734), compiling. 
+[2022.05.10-01.37.22:680][562]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: F3199AFB756C3CAC354ADAF377277A0B1181FCFA), compiling. 
+[2022.05.10-01.37.22:684][562]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.37.22:684][562]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.22:684][562]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.22:685][562]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.37.23:859][630]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.37.23:859][630]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.23:859][630]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.23:859][630]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.37.25:982][756]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.37.25:983][756]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.25:983][756]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.25:983][756]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.37.26:934][804]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 097203D34394B85585D507B3CEFAFE790FC9184D), compiling. 
+[2022.05.10-01.37.26:939][804]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: D4ECE817BEB518746B5F632FC62542F6937CCBE4), compiling. 
+[2022.05.10-01.37.26:942][804]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.37.26:942][804]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.26:942][804]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.26:942][804]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.37.28:185][875]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.37.28:185][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.28:185][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.28:185][875]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.37.30:109][989]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.37.30:109][989]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.30:109][989]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.30:109][989]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.37.36:241][293]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW
+[2022.05.10-01.37.36:242][293]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW
+[2022.05.10-01.37.36:248][293]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_112
+[2022.05.10-01.37.36:922][322]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW
+[2022.05.10-01.37.36:922][322]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW
+[2022.05.10-01.37.36:930][322]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_113
+[2022.05.10-01.37.45:658][821]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 490302CA82750FD7C30994436823759EED278A05), compiling. 
+[2022.05.10-01.37.45:664][821]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: A2BD66BE144CE80956BF5793121DB6830062193C), compiling. 
+[2022.05.10-01.37.45:670][821]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: DED2964B71A0694A825E089A1B5297B9DD08532F), compiling. 
+[2022.05.10-01.37.45:674][821]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.37.45:674][821]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.37.45:674][821]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.37.45:674][821]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.37.46:739][868]LogMaterialEditor: Saving and Compiling material M_CupNEW
+[2022.05.10-01.37.47:203][868]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 193064EFDE9130AEBC3FA5AFC3015E006FAC73A4), compiling. 
+[2022.05.10-01.37.47:244][868]LogMaterial: Display: Missing cached shadermap for M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: A1A7A6E2FDE98715C00B451549AFCD2A8989B260), compiling. 
+[2022.05.10-01.37.47:334][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2022.05.10-01.37.48:587][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.05.10-01.37.50:812][868]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.05.10-01.38.02:211][868]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000019s (11.402557s overbudget)
+[2022.05.10-01.38.02:310][868]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW
+[2022.05.10-01.38.02:310][868]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW2A154D4C40AA0C220D37D5B60948BDD8.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW.uasset'
+[2022.05.10-01.38.02:331][868]AssetCheck: New page: Asset Save: M_CupNEW
+[2022.05.10-01.38.02:332][868]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/Cup01NEW/M_CupNEW.M_CupNEW
+[2022.05.10-01.38.02:333][868]MaterialEditorStats: Base pass shader: 805 instructions
+[2022.05.10-01.38.02:334][868]MaterialEditorStats: Base pass vertex shader: 296 instructions
+[2022.05.10-01.38.02:334][868]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.38.02:334][868]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.38.02:334][868]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.02:334][868]MaterialEditorStats: Shader Count: 30
+[2022.05.10-01.38.04:998][ 11]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: E12F34FD4FC984A25FD3134BE275B57BD0963994), compiling. 
+[2022.05.10-01.38.05:004][ 11]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 6B9C8765535421674ACF03A1C067042A0945C628), compiling. 
+[2022.05.10-01.38.05:010][ 11]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 34A45036E24D8037B49DE00C1C6C6F11137FE787), compiling. 
+[2022.05.10-01.38.05:014][ 11]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.38.05:014][ 11]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.38.05:014][ 11]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.05:014][ 11]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.38.05:055][ 12]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.38.05:055][ 12]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.38.05:055][ 12]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.05:055][ 12]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.38.06:892][121]LogMaterialEditor: Saving and Compiling material M_CupNEW
+[2022.05.10-01.38.07:300][121]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 60E8910FB01DA4ACE175CF70DBA6C78B3D59F206), compiling. 
+[2022.05.10-01.38.07:330][121]LogMaterial: Display: Missing cached shadermap for M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 53F7178712C99CF7A7BA1A15CF4842C82F08F331), compiling. 
+[2022.05.10-01.38.07:394][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.05.10-01.38.08:420][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.05.10-01.38.10:823][121]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.05.10-01.38.22:287][121]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.002068s (11.660034s overbudget)
+[2022.05.10-01.38.22:338][121]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW
+[2022.05.10-01.38.22:338][121]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW2150B15C47DD0F67203A78B7C0360C4D.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW.uasset'
+[2022.05.10-01.38.22:356][121]AssetCheck: New page: Asset Save: M_CupNEW
+[2022.05.10-01.38.22:356][121]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/Cup01NEW/M_CupNEW.M_CupNEW
+[2022.05.10-01.38.22:358][121]MaterialEditorStats: Base pass shader: 797 instructions
+[2022.05.10-01.38.22:358][121]MaterialEditorStats: Base pass vertex shader: 296 instructions
+[2022.05.10-01.38.22:358][121]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.38.22:358][121]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.38.22:358][121]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.22:358][121]MaterialEditorStats: Shader Count: 28
+[2022.05.10-01.38.26:110][285]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 0A9DF7C70E4F6761D13D36970FA2837A30803EF1), compiling. 
+[2022.05.10-01.38.26:196][289]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.38.26:196][289]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.26:196][289]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.26:196][289]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.38.27:760][380]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 167FF282E28B76BEB61DBB1882F1EBA311D51243), compiling. 
+[2022.05.10-01.38.30:161][519]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 14DDA1D185745E3E4422AB380BC7A590316A0187), compiling. 
+[2022.05.10-01.38.35:946][862]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: C7E924FD1EEFE893FBE8D5EA2C82F7CD4C6536C5), compiling. 
+[2022.05.10-01.38.35:963][862]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 62406141912D5FCB0F779966949D85B57FA85E55), compiling. 
+[2022.05.10-01.38.35:970][862]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 948B77BC971702CBFE171F21B095712A2F712441), compiling. 
+[2022.05.10-01.38.35:977][862]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.38.35:977][862]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.35:977][862]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.35:977][862]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.38.37:184][927]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.38.37:184][927]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.37:184][927]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.37:184][927]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.38.39:369][ 40]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.38.39:369][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.39:369][ 40]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.39:369][ 40]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.38.44:351][321]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 7629EE882F1127C24AE37221B8DF2BDDD7902624), compiling. 
+[2022.05.10-01.38.44:355][321]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.38.44:355][321]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.44:355][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.44:355][321]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.38.44:385][322]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.38.44:385][322]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.44:385][322]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.44:385][322]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.38.53:819][875]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 97D3FBB822CFD4DE7C8EC03A4BF6FD5861F2358D), compiling. 
+[2022.05.10-01.38.53:823][875]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.38.53:823][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.53:823][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.53:823][875]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.38.53:867][876]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.38.53:867][876]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.53:867][876]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.53:867][876]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.38.56:252][ 13]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 6ACA23DEC94871F6048AA43B97529A90B6750D79), compiling. 
+[2022.05.10-01.38.56:258][ 13]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.38.56:258][ 13]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.56:258][ 13]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.56:258][ 13]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.38.57:404][ 72]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.38.57:404][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.57:404][ 72]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.57:404][ 72]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.38.59:395][186]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.38.59:395][186]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.38.59:395][186]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.38.59:395][186]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.39.45:620][532]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/subsurface/M_CupNEW_Subsurfacer.png)
+[2022.05.10-01.39.45:711][533]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer.M_CupNEW_Subsurfacer (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.39.49:928][739]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 9FCBCDF1373396C8AE329317B459BCDB93E09FB8), compiling. 
+[2022.05.10-01.39.49:931][739]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 1F8B2E252A9A0F5193CF1903D6D1B9C46459FEF9), compiling. 
+[2022.05.10-01.39.49:933][739]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1A797361BA4F964C25FBC65BB7F1EC9D6F4DC0C0), compiling. 
+[2022.05.10-01.39.49:935][739]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: F3CB536A9082A6D1BF4890EEF02033C7853C1D47), compiling. 
+[2022.05.10-01.39.49:936][739]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 449137D2085DA0F8FF41BDA463DF1C56E843A0A4), compiling. 
+[2022.05.10-01.39.49:938][739]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: F12A28914FF8D172C12FB8C6CB9574D3BA5F320E), compiling. 
+[2022.05.10-01.39.49:940][739]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_5 in PCD3D_SM5, Default, SM5 (DDC key hash: F0E9A22B37FFF03814AC3B982E2A7A9E6B330A92), compiling. 
+[2022.05.10-01.39.49:942][739]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 5FE7BAA4BA56AA15BD492CBA96BB9C24D7A495CA), compiling. 
+[2022.05.10-01.39.49:946][739]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.39.49:946][739]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.39.49:946][739]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.39.49:946][739]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.39.49:968][739]LogShaderCompilers: Display: ================================================
+[2022.05.10-01.39.49:968][739]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.10-01.39.49:968][739]LogShaderCompilers: Display: Total job queries 313, among them cache hits 159 (50.80%)
+[2022.05.10-01.39.49:968][739]LogShaderCompilers: Display: Tracking 146 distinct input hashes that result in 96 distinct outputs (65.75%)
+[2022.05.10-01.39.49:968][739]LogShaderCompilers: Display: RAM used: 0.40 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.05%
+[2022.05.10-01.39.49:968][739]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.10-01.39.49:968][739]LogShaderCompilers: Display: Shaders Compiled: 38
+[2022.05.10-01.39.49:968][739]LogShaderCompilers: Display: Jobs assigned 146, completed 146 (100.00%)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Average time worker was idle: 11.02 s
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Time job spent in pending queue: average 1.63 s, longest 10.21 s
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Job execution time: average 2.62 s, max 8.45 s
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Job life time (pending + execution): average 4.25 s, max 13.65
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 95.97 s
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Jobs were issued in 146 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Average processing rate: 1.52 jobs/sec
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Effective parallelization: 3.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    3 times, average 8.12 sec, max 8.34 sec, min 7.93 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 8.02 sec, max 8.32 sec, min 7.68 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 7.81 sec, max 8.10 sec, min 7.60 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    3 times, average 7.70 sec, max 8.02 sec, min 7.38 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 7.68 sec, max 8.00 sec, min 7.40 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 10.14% of total time (compiled   13 times, average 2.82 sec, max 3.21 sec, min 0.79 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.13% of total time (compiled   17 times, average 1.94 sec, max 7.76 sec, min 0.59 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.16% of total time (compiled   27 times, average 0.96 sec, max 1.11 sec, min 0.71 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight - 6.73% of total time (compiled    3 times, average 8.12 sec, max 8.34 sec, min 7.93 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.64% of total time (compiled    3 times, average 8.02 sec, max 8.32 sec, min 7.68 sec)
+[2022.05.10-01.39.49:969][739]LogShaderCompilers: Display: ================================================
+[2022.05.10-01.39.49:999][740]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.39.49:999][740]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.39.49:999][740]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.39.50:000][740]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.39.53:266][909]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 547534A8D9FEC63C5933A33DCBB6B9CAB45610ED), compiling. 
+[2022.05.10-01.39.53:268][909]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 0604C8FCF85C11155707C2444E5A1F44DF32235C), compiling. 
+[2022.05.10-01.39.53:274][909]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.39.53:274][909]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.39.53:274][909]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.39.53:274][909]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.39.54:469][958]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.39.54:469][958]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.39.54:469][958]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.39.54:470][958]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.39.56:509][ 70]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.39.56:509][ 70]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.39.56:509][ 70]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.39.56:509][ 70]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.39.57:309][103]LogMaterialEditor: Saving and Compiling material M_CupNEW
+[2022.05.10-01.39.57:715][103]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 12D4C1B73B9E05E4051001ED5D8B52D56F922F45), compiling. 
+[2022.05.10-01.39.57:746][103]LogMaterial: Display: Missing cached shadermap for M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 10F488A46D71175BFB709DD377312DE5CB70C469), compiling. 
+[2022.05.10-01.39.57:816][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2022.05.10-01.39.58:972][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.05.10-01.40.01:393][103]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.05.10-01.40.12:863][103]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001976s (11.659253s overbudget)
+[2022.05.10-01.40.12:912][103]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW
+[2022.05.10-01.40.12:913][103]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW9A012D6347A25CE3F3C8B49EFD9264B3.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW.uasset'
+[2022.05.10-01.40.12:934][103]AssetCheck: New page: Asset Save: M_CupNEW
+[2022.05.10-01.40.12:934][103]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/Cup01NEW/M_CupNEW.M_CupNEW
+[2022.05.10-01.40.12:936][103]MaterialEditorStats: Base pass shader: 796 instructions
+[2022.05.10-01.40.12:936][103]MaterialEditorStats: Base pass vertex shader: 296 instructions
+[2022.05.10-01.40.12:936][103]MaterialEditorStats: Texture samplers: 9/16
+[2022.05.10-01.40.12:936][103]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.40.12:936][103]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.40.12:936][103]MaterialEditorStats: Shader Count: 28
+[2022.05.10-01.40.30:843][117]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 9398F908EE9F828DEC98E10A49C8A79727603273), compiling. 
+[2022.05.10-01.40.31:597][157]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 990DA27953199B65EA629BBC9A71210E6BEEE206), compiling. 
+[2022.05.10-01.40.31:603][157]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: AD75379A2AB2B977660380BBF15D7E7019911FF5), compiling. 
+[2022.05.10-01.40.31:607][157]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: F8400F33D02EB26C2D626F4C139C5261F0B818F2), compiling. 
+[2022.05.10-01.40.31:615][157]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.40.31:615][157]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.40.31:615][157]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.40.31:615][157]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.40.32:096][176]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.40.32:096][176]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.40.32:096][176]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.40.32:096][176]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.40.32:702][202]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.40.32:702][202]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.40.32:702][202]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.40.32:702][202]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.40.37:303][470]LogMaterialEditor: Saving and Compiling material M_CupNEW
+[2022.05.10-01.40.37:714][470]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 22CA6972CB47C055FD2E968B5CB58EE577EC22F8), compiling. 
+[2022.05.10-01.40.37:738][470]LogMaterial: Display: Missing cached shadermap for M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 76D235513C163544C2FF68385D1C4B22DED015E8), compiling. 
+[2022.05.10-01.40.37:805][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.05.10-01.40.39:048][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.05.10-01.40.41:198][470]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW
+[2022.05.10-01.40.41:198][470]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEWCFD2E4A743967B781FAAECBC5FDFEA85.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW.uasset'
+[2022.05.10-01.40.41:215][470]AssetCheck: New page: Asset Save: M_CupNEW
+[2022.05.10-01.40.41:215][470]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/Cup01NEW/M_CupNEW.M_CupNEW
+[2022.05.10-01.40.41:217][470]MaterialEditorStats: Base pass shader: 141 instructions
+[2022.05.10-01.40.41:217][470]MaterialEditorStats: Base pass vertex shader: 114 instructions
+[2022.05.10-01.40.41:217][470]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.40.41:217][470]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.40.41:217][470]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.40.41:217][470]MaterialEditorStats: Shader Count: 16
+[2022.05.10-01.41.23:297][613]Cmd: DELETE
+[2022.05.10-01.41.23:297][613]Cmd: ACTOR DELETE
+[2022.05.10-01.41.24:844][613]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.05.10-01.41.24:974][613]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.05.10-01.41.24:977][613]LogEditorActor: Deleted 1 Actors (1.664 secs)
+[2022.05.10-01.41.28:238][798]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.10-01.41.28:253][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.10-01.41.28:261][798]PIE: New page: PIE session: LVL_NightTemplate (May 9, 2022, 5:41:28 PM)
+[2022.05.10-01.41.28:267][798]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-01.41.28:444][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.177675s)
+[2022.05.10-01.41.28:444][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.178338s)
+[2022.05.10-01.41.28:445][798]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.10-01.41.28:449][798]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.10-01.41.28:450][798]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.10-01.41.28:450][798]LogPlayLevel: PIE: World Init took: (0.005848s)
+[2022.05.10-01.41.28:506][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.05.10-01.41.28:511][798]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.05.10-01.41.28:513][798]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.10-01.41.28:513][798]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.10-01.41.28:514][798]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.10-01.41.28:514][798]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.10-01.41.28:514][798]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.10-01.41.28:514][798]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.10-01.41.28:514][798]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.10-01.41.28:514][798]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.10-01.41.28:517][798]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.10-01.41.28:517][798]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.10-01.41.28:517][798]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.10-01.41.28:522][798]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.10-01.41.28:539][798]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.10-01.41.28:544][798]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.10-01.41.28:544][798]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.10-01.41.28:545][798]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.10-01.41.28:549][798]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2022.05.10-01.41.28:549][798]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2022.05.10-01.41.28:550][798]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2022.05.10-01.41.28:550][798]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2022.05.10-01.41.28:550][798]LogInit: FAudioDevice initialized.
+[2022.05.10-01.41.28:551][798]LogAudio: Display: Audio Device (ID: 27) registered with world 'LVL_NightTemplate'.
+[2022.05.10-01.41.28:602][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-01.41.28:606][798]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.10-01.41.28:667][798]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.09-21.41.28
+[2022.05.10-01.41.28:670][798]LogWorld: Bringing up level for play took: 0.063044
+[2022.05.10-01.41.28:674][798]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2022.05.10-01.41.28:719][798]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.10-01.41.28:719][798]r.HDR.Display.OutputDevice = "1"
+[2022.05.10-01.41.28:728][798]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-01.41.28:732][798]PIE: Server logged in
+[2022.05.10-01.41.28:734][798]PIE: Play in editor total start time 0.487 seconds.
+[2022.05.10-01.41.31:724][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-01.41.31:724][952]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-01.41.31:727][952]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.10-01.41.31:733][952]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.10-01.41.31:741][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-01.41.31:797][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.10-01.41.31:804][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-01.41.31:848][952]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.10-01.41.31:854][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.05.10-01.41.31:856][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.05.10-01.41.31:881][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.05.10-01.41.31:932][953]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.05.10-01.41.43:038][601]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.10-01.41.43:043][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.10-01.41.43:043][601]PIE: New page: PIE session: LVL_NightTemplate (May 9, 2022, 5:41:43 PM)
+[2022.05.10-01.41.43:045][601]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-01.41.43:213][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.167392s)
+[2022.05.10-01.41.43:213][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.167485s)
+[2022.05.10-01.41.43:213][601]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.10-01.41.43:213][601]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.10-01.41.43:213][601]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.10-01.41.43:214][601]LogPlayLevel: PIE: World Init took: (0.001437s)
+[2022.05.10-01.41.43:263][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.05.10-01.41.43:266][601]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2022.05.10-01.41.43:266][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.10-01.41.43:266][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.10-01.41.43:266][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.10-01.41.43:266][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.10-01.41.43:266][601]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.10-01.41.43:266][601]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.10-01.41.43:266][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.10-01.41.43:266][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.10-01.41.43:267][601]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.10-01.41.43:267][601]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.10-01.41.43:267][601]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.10-01.41.43:268][601]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.10-01.41.43:284][601]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.10-01.41.43:284][601]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.10-01.41.43:284][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.10-01.41.43:284][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.10-01.41.43:285][601]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2022.05.10-01.41.43:285][601]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2022.05.10-01.41.43:286][601]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2022.05.10-01.41.43:286][601]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2022.05.10-01.41.43:286][601]LogInit: FAudioDevice initialized.
+[2022.05.10-01.41.43:286][601]LogAudio: Display: Audio Device (ID: 28) registered with world 'LVL_NightTemplate'.
+[2022.05.10-01.41.43:338][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-01.41.43:338][601]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.10-01.41.43:392][601]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.09-21.41.43
+[2022.05.10-01.41.43:394][601]LogWorld: Bringing up level for play took: 0.056208
+[2022.05.10-01.41.43:396][601]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2022.05.10-01.41.43:402][601]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.10-01.41.43:402][601]r.HDR.Display.OutputDevice = "1"
+[2022.05.10-01.41.43:402][601]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-01.41.43:405][601]PIE: Server logged in
+[2022.05.10-01.41.43:407][601]PIE: Play in editor total start time 0.364 seconds.
+[2022.05.10-01.41.47:136][814]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] 1A
+[2022.05.10-01.41.47:137][814]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.10-01.41.47:137][814]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.10-01.41.47:137][814]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-01.41.48:368][888]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.10-01.41.48:368][888]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.10-01.41.48:369][888]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-01.41.48:369][888]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-01.41.48:811][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-01.41.48:811][912]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-01.41.48:812][912]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.10-01.41.48:818][912]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.10-01.41.48:824][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-01.41.48:841][912]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.10-01.41.48:848][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-01.41.48:898][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2022.05.10-01.41.48:899][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2022.05.10-01.41.48:918][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2022.05.10-01.41.48:969][913]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.05.10-01.41.55:114][250]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: E8A86969EC84BBE83D6C023FB2E24DD7F40A7641), compiling. 
+[2022.05.10-01.41.55:121][250]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.41.55:121][250]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.41.55:121][250]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.41.55:121][250]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.41.55:197][251]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.41.55:197][251]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.41.55:197][251]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.41.55:197][251]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.41.58:534][446]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 9F6D168E78F4414FC2B5CA44C4B8A3E45A921B1F), compiling. 
+[2022.05.10-01.41.58:541][446]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.41.58:541][446]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.41.58:541][446]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.41.58:541][446]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.41.58:606][447]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.41.58:606][447]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.41.58:606][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.41.58:606][447]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.00:330][546]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: D164E630BF8B7A3AEE2914E7068346E272BB722F), compiling. 
+[2022.05.10-01.42.00:338][546]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: CCC9C1D671D284BB103B23955E6F3A101266D451), compiling. 
+[2022.05.10-01.42.01:427][605]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: FF1F4A6036DE97C654FF4764F6D82C385EAB056A), compiling. 
+[2022.05.10-01.42.01:435][605]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.01:435][605]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.01:435][605]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.01:435][605]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.01:489][606]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.01:489][606]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.01:489][606]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.01:489][606]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.02:394][654]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: CC3F7C494220708A021A3180ED040F1D08EFC289), compiling. 
+[2022.05.10-01.42.02:400][654]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 11171F1C9A53D2E8C7D8F5F61B9E5712D789991A), compiling. 
+[2022.05.10-01.42.02:404][654]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.02:404][654]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.02:404][654]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.02:404][654]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.02:457][655]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.02:457][655]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.02:457][655]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.02:457][655]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.03:708][723]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 580FEB93810793980B4D80A84F540227C4322214), compiling. 
+[2022.05.10-01.42.03:720][723]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.03:720][723]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.03:720][723]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.03:720][723]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.04:498][751]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.42.04:498][751]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.04:498][751]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.04:498][751]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.42.05:082][777]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.05:082][777]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.05:082][777]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.05:082][777]MaterialEditorStats: Shader Count: 2
+[2022.05.10-01.42.11:129][126]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 3BE4AF7F0E1DEE2DE92569EDCB37AF089F19C9DB), compiling. 
+[2022.05.10-01.42.11:135][126]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.11:135][126]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.42.11:135][126]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.11:135][126]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.11:814][155]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.10-01.42.11:814][155]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.10-01.42.11:814][155]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.11:814][155]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.42.12:234][173]LogEditorTransaction: Undo Material Editor: Delete
+[2022.05.10-01.42.12:239][173]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 447C19180FFFADF034FD4A8E1F04EFAB8B25740D), compiling. 
+[2022.05.10-01.42.12:247][173]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 2B19C63897732995189944317A94083EA5A972F2), compiling. 
+[2022.05.10-01.42.12:256][173]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 7997A268C67626D282E5E30AC6339AB75DA03CF9), compiling. 
+[2022.05.10-01.42.12:294][173]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.12:295][173]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.12:295][173]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.12:295][173]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.12:407][174]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.12:407][174]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.12:407][174]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.12:407][174]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.13:770][237]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: B0CCF5502BD643455668EACD37E44DD6F7E8FD52), compiling. 
+[2022.05.10-01.42.13:776][237]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.13:776][237]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.13:776][237]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.13:776][237]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.13:850][238]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.13:850][238]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.13:850][238]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.13:850][238]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.14:545][279]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 5B6F3ABB4673382517D2AD88882F32E70A311AA9), compiling. 
+[2022.05.10-01.42.14:552][279]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.14:552][279]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.14:552][279]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.14:552][279]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.14:619][280]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.14:619][280]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.14:619][280]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.14:619][280]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.15:480][330]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 95F7086E67CC539CBD3A0605A820614969C0CB85), compiling. 
+[2022.05.10-01.42.15:488][330]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.15:488][330]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.15:488][330]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.15:488][330]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.15:565][331]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.15:565][331]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.15:565][331]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.15:565][331]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.19:109][542]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 225EEFCCC2751DD04487041B01F2FB6AEC3DB837), compiling. 
+[2022.05.10-01.42.19:117][542]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 16383B73B5E7607128CC2559D80725F2CCE404DE), compiling. 
+[2022.05.10-01.42.20:260][604]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: A02D833CD0F93AAA27088915981E02D9EC8203BF), compiling. 
+[2022.05.10-01.42.20:268][604]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.20:268][604]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.20:268][604]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.20:268][604]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.20:321][605]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.20:321][605]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.20:321][605]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.20:321][605]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.21:341][660]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 6E898267C50CA3D1CD297E42AAF88F2BE7235570), compiling. 
+[2022.05.10-01.42.21:347][660]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_6 in PCD3D_SM5, Default, SM5 (DDC key hash: AAD57D461A6AD704DCFDD82D71893315A88F227D), compiling. 
+[2022.05.10-01.42.21:352][660]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.21:352][660]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.21:352][660]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.21:352][660]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.21:403][661]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.21:403][661]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.21:403][661]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.21:403][661]MaterialEditorStats: Shader Count: 4
+[2022.05.10-01.42.24:238][813]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 7FD816E77C510A310E954B3C5D69200B6DB22021), compiling. 
+[2022.05.10-01.42.24:249][813]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.10-01.42.24:249][813]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.24:249][813]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.24:249][813]MaterialEditorStats: Shader Count: 0
+[2022.05.10-01.42.25:244][855]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.10-01.42.25:244][855]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.25:244][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.25:244][855]MaterialEditorStats: Shader Count: 1
+[2022.05.10-01.42.25:501][864]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.10-01.42.25:501][864]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.25:501][864]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.25:501][864]MaterialEditorStats: Shader Count: 3
+[2022.05.10-01.42.26:183][900]LogMaterialEditor: Saving and Compiling material M_CupNEW
+[2022.05.10-01.42.26:616][900]LogMaterial: Display: Missing cached shadermap for Preview:M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 566EB54A2FD0F271079160999920B4F9C6F871DC), compiling. 
+[2022.05.10-01.42.26:688][900]LogMaterial: Display: Missing cached shadermap for M_CupNEW in PCD3D_SM5, Default, SM5 (DDC key hash: 44384F9A915303E72ACA64F828616795D8CCDD91), compiling. 
+[2022.05.10-01.42.26:800][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.05.10-01.42.28:266][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.05.10-01.42.30:464][900]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.05.10-01.42.30:616][900]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000032s (0.189371s overbudget)
+[2022.05.10-01.42.30:656][900]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW
+[2022.05.10-01.42.30:656][900]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW28C453DF4606CA185B595D9A2F44C030.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW.uasset'
+[2022.05.10-01.42.30:676][900]AssetCheck: New page: Asset Save: M_CupNEW
+[2022.05.10-01.42.30:676][900]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/Cup01NEW/M_CupNEW.M_CupNEW
+[2022.05.10-01.42.30:677][900]MaterialEditorStats: Base pass shader: 141 instructions
+[2022.05.10-01.42.30:677][900]MaterialEditorStats: Base pass vertex shader: 114 instructions
+[2022.05.10-01.42.30:677][900]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.10-01.42.30:677][900]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.10-01.42.30:677][900]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.10-01.42.30:677][900]MaterialEditorStats: Shader Count: 16
+[2022.05.10-01.42.32:885][995]LogContentBrowser: Deferred new asset file creation: M_CupNEW_Inst
+[2022.05.10-01.42.32:904][995]LogContentBrowser: Creating deferred item: M_CupNEW_Inst
+[2022.05.10-01.42.32:914][996]LogContentBrowser: Renaming the item being created (Deferred Item: M_CupNEW_Inst).
+[2022.05.10-01.42.33:375][ 22]LogContentBrowser: Attempting asset rename: M_CupNEW_Inst -> M_CupNEW_Inst
+[2022.05.10-01.42.33:463][ 22]LogContentBrowser: End creating deferred item M_CupNEW_Inst
+[2022.05.10-01.42.36:159][ 86]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Inst.M_CupNEW_Inst
+[2022.05.10-01.42.36:161][ 86]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.10-01.42.36:474][ 86]LogSlate: Took 0.001082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.10-01.43.01:288][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.05.10-01.43.01:412][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.05.10-01.43.01:417][902]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Inst
+[2022.05.10-01.43.01:417][902]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Inst54C2DAF84C884770AEFAB4BDB83D2978.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW_Inst.uasset'
+[2022.05.10-01.43.01:554][902]AssetCheck: New page: Asset Save: M_CupNEW_Inst
+[2022.05.10-01.43.01:554][902]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Inst.M_CupNEW_Inst
+[2022.05.10-01.43.44:272][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.05.10-01.43.44:752][596]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto4
+[2022.05.10-01.43.44:752][596]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplate_Auto465CAB602415A620635F76CBCD55208AA.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto4.umap'
+[2022.05.10-01.43.44:763][596]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.550
+[2022.05.10-01.43.44:763][596]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.550
+[2022.05.10-01.43.44:763][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color] ([1] browsable assets)...
+[2022.05.10-01.43.44:765][596]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color.M_CupNEW_Base_color]
+[2022.05.10-01.43.44:765][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color]
+[2022.05.10-01.43.44:776][596]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color_Auto4
+[2022.05.10-01.43.44:776][596]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Base_color_Auto43D44CCBA4003FC4A5F3103A63B5C70F2.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color_Auto4.uasset'
+[2022.05.10-01.43.44:776][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity] ([1] browsable assets)...
+[2022.05.10-01.43.44:778][596]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity.M_CupNEW_Base_Opacity]
+[2022.05.10-01.43.44:778][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity]
+[2022.05.10-01.43.44:790][596]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity_Auto4
+[2022.05.10-01.43.44:790][596]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Base_Opacity_Auto49795D18248F1ABC054F859A78194D398.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity_Auto4.uasset'
+[2022.05.10-01.43.44:790][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity] ([1] browsable assets)...
+[2022.05.10-01.43.44:792][596]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity.M_CupNEW_Opacity]
+[2022.05.10-01.43.44:792][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity]
+[2022.05.10-01.43.44:804][596]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity_Auto4
+[2022.05.10-01.43.44:804][596]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Opacity_Auto4D068FC784EE466603C84CD9D728A4EE4.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity_Auto4.uasset'
+[2022.05.10-01.43.44:804][596]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer] ([1] browsable assets)...
+[2022.05.10-01.43.44:806][596]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer.M_CupNEW_Subsurfacer]
+[2022.05.10-01.43.44:806][596]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer]
+[2022.05.10-01.43.44:817][596]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer_Auto4
+[2022.05.10-01.43.44:817][596]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Subsurfacer_Auto406E4C18E481FAAE36128A3B0F268B6E9.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer_Auto4.uasset'
+[2022.05.10-01.43.44:818][596]LogFileHelpers: Auto-saving content packages took 0.055
+[2022.05.10-01.44.30:704][848]LogSlate: Window 'Message' being destroyed
+[2022.05.10-01.44.30:708][848]Message dialog closed, result: YesAll, title: Message, text: Do you want to overwrite the existing asset?
+
+An asset already exists at the import location: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness
+[2022.05.10-01.44.30:799][848]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_CupNEW/M_CupNEW_Roughness.png)
+[2022.05.10-01.44.32:092][848]LogSlate: Window 'Message' being destroyed
+[2022.05.10-01.44.32:096][848]Message dialog closed, result: YesAll, title: Message, text: You are about to import 'M_CupNEW_Roughness' over an existing texture. Would you like to overwrite the existing settings?
+
+Yes or Yes to All: Overwrite the existing settings.
+No or No to All: Preserve the existing settings.
+Cancel: Abort the operation.
+[2022.05.10-01.44.32:112][848]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness.M_CupNEW_Roughness (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.05.10-01.44.39:455][275]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.10-01.44.39:461][275]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.10-01.44.39:461][275]PIE: New page: PIE session: LVL_NightTemplate (May 9, 2022, 5:44:39 PM)
+[2022.05.10-01.44.39:462][275]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-01.44.39:624][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.161712s)
+[2022.05.10-01.44.39:624][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.161800s)
+[2022.05.10-01.44.39:624][275]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.10-01.44.39:624][275]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.10-01.44.39:624][275]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.10-01.44.39:625][275]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2022.05.10-01.44.39:673][275]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2022.05.10-01.44.39:674][275]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2022.05.10-01.44.39:674][275]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.10-01.44.39:674][275]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.10-01.44.39:674][275]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.10-01.44.39:674][275]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.10-01.44.39:674][275]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.10-01.44.39:674][275]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.10-01.44.39:674][275]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.10-01.44.39:674][275]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.10-01.44.39:675][275]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.10-01.44.39:675][275]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.10-01.44.39:675][275]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.10-01.44.39:677][275]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.10-01.44.39:692][275]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.10-01.44.39:692][275]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.10-01.44.39:693][275]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.10-01.44.39:693][275]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.10-01.44.39:693][275]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2022.05.10-01.44.39:693][275]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2022.05.10-01.44.39:695][275]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2022.05.10-01.44.39:695][275]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2022.05.10-01.44.39:695][275]LogInit: FAudioDevice initialized.
+[2022.05.10-01.44.39:695][275]LogAudio: Display: Audio Device (ID: 29) registered with world 'LVL_NightTemplate'.
+[2022.05.10-01.44.39:739][275]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-01.44.39:739][275]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.10-01.44.39:800][275]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.09-21.44.39
+[2022.05.10-01.44.39:802][275]LogWorld: Bringing up level for play took: 0.063241
+[2022.05.10-01.44.39:804][275]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2022.05.10-01.44.39:810][275]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.10-01.44.39:810][275]r.HDR.Display.OutputDevice = "1"
+[2022.05.10-01.44.39:810][275]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-01.44.39:813][275]PIE: Server logged in
+[2022.05.10-01.44.39:815][275]PIE: Play in editor total start time 0.354 seconds.
+[2022.05.10-01.44.41:360][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-01.44.41:360][352]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-01.44.41:361][352]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.10-01.44.41:366][352]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.10-01.44.41:373][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-01.44.41:386][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.10-01.44.41:394][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-01.44.41:443][352]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.10-01.44.41:450][352]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2022.05.10-01.44.41:452][352]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2022.05.10-01.44.41:471][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.05.10-01.44.41:521][353]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2022.05.10-01.44.44:110][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.05.10-01.44.44:628][483]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2022.05.10-01.44.44:628][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplateC117FB424DF62702CF97EE873572130D.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2022.05.10-01.44.44:653][483]LogFileHelpers: No new changes to save!
+[2022.05.10-01.44.44:653][483]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.596
+[2022.05.10-01.44.44:749][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Characters/Bonnie/Blueprint/BonnieBP
+[2022.05.10-01.44.44:749][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/BonnieBP78638D1546D3CC7BB641D9B4F52E9937.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Bonnie/Blueprint/BonnieBP.uasset'
+[2022.05.10-01.44.44:823][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Characters/Chica/Blueprint/ChicaBP
+[2022.05.10-01.44.44:823][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/ChicaBP45F351A04065559A2A9CABA0A764C1F8.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Characters/Chica/Blueprint/ChicaBP.uasset'
+[2022.05.10-01.44.44:827][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW
+[2022.05.10-01.44.44:827][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/SM_CupNEW619A5AED4D7B1F54EE6788A7552E86CA.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/SM_CupNEW.uasset'
+[2022.05.10-01.44.45:073][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color
+[2022.05.10-01.44.45:073][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Base_colorA0BF08864A940DB6CE5466863E1A987B.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color.uasset'
+[2022.05.10-01.44.45:134][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO
+[2022.05.10-01.44.45:134][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Mixed_AO46AC065F4296541CA46E998AB5E8C26E.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO.uasset'
+[2022.05.10-01.44.45:500][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX
+[2022.05.10-01.44.45:500][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Normal_DirectX6F4EAD19488EC0AAFDD4E284323FA82A.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX.uasset'
+[2022.05.10-01.44.45:531][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness
+[2022.05.10-01.44.45:531][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Roughness6D4CB84A4B7C35C384FF32890D09A403.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness.uasset'
+[2022.05.10-01.44.45:660][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity
+[2022.05.10-01.44.45:660][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Base_Opacity16C5BD1A4859D3BA057C34B0D78E9D77.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity.uasset'
+[2022.05.10-01.44.45:788][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity
+[2022.05.10-01.44.45:788][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Opacity6C2817B84AE228871F7BADA356430A41.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity.uasset'
+[2022.05.10-01.44.45:919][483]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer
+[2022.05.10-01.44.45:919][483]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_CupNEW_Subsurfacer7ADE1B03412FF1910A4215B8F2133FF0.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer.uasset'
+[2022.05.10-01.44.46:215][483]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Blueprint /Game/Core/Assets/Characters/Bonnie/Blueprint/BonnieBP.BonnieBP
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Blueprint /Game/Core/Assets/Characters/Chica/Blueprint/ChicaBP.ChicaBP
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Roughness.M_CupNEW_Roughness
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Normal_DirectX.M_CupNEW_Normal_DirectX
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Mixed_AO.M_CupNEW_Mixed_AO
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_color.M_CupNEW_Base_color
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Subsurfacer.M_CupNEW_Subsurfacer
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating StaticMesh /Game/Core/Assets/Props/Cup01NEW/SM_CupNEW.SM_CupNEW
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Opacity.M_CupNEW_Opacity
+[2022.05.10-01.44.46:215][483]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/Cup01NEW/M_CupNEW_Base_Opacity.M_CupNEW_Base_Opacity
