@@ -3138,3 +3138,1084 @@ An asset already exists at the import location: /Game/Core/Assets/Props/Backstag
 [2022.05.10-20.20.26:540][807]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.527
 [2022.05.10-20.20.26:560][807]AssetCheck: New page: Asset Save: LVL_NightTemplate
 [2022.05.10-20.20.26:560][807]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2022.05.10-20.21.43:467][646]Cmd: POLY SELECT ALL
+[2022.05.10-20.26.09:444][610]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.700 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.10-21.22.28:412][765]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.10-21.22.28:419][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.10-21.22.28:419][765]PIE: New page: PIE session: LVL_NightTemplate (May 10, 2022, 1:22:28 PM)
+[2022.05.10-21.22.28:419][765]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-21.22.28:589][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170082s)
+[2022.05.10-21.22.28:589][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.170163s)
+[2022.05.10-21.22.28:589][765]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.10-21.22.28:589][765]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.10-21.22.28:590][765]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.10-21.22.28:591][765]LogPlayLevel: PIE: World Init took: (0.001769s)
+[2022.05.10-21.22.28:622][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.05.10-21.22.28:625][765]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2022.05.10-21.22.28:625][765]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.10-21.22.28:625][765]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.10-21.22.28:625][765]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.10-21.22.28:625][765]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.10-21.22.28:625][765]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.10-21.22.28:625][765]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.10-21.22.28:625][765]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.10-21.22.28:625][765]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.10-21.22.28:626][765]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.10-21.22.28:626][765]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.10-21.22.28:626][765]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.10-21.22.28:632][765]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.10-21.22.28:750][765]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.10-21.22.28:750][765]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.10-21.22.28:750][765]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.10-21.22.28:750][765]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.10-21.22.28:751][765]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2022.05.10-21.22.28:751][765]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2022.05.10-21.22.28:753][765]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2022.05.10-21.22.28:753][765]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2022.05.10-21.22.28:753][765]LogInit: FAudioDevice initialized.
+[2022.05.10-21.22.28:753][765]LogAudio: Display: Audio Device (ID: 30) registered with world 'LVL_NightTemplate'.
+[2022.05.10-21.22.28:796][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-21.22.28:796][765]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.10-21.22.28:848][765]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.10-17.22.28
+[2022.05.10-21.22.28:850][765]LogWorld: Bringing up level for play took: 0.054294
+[2022.05.10-21.22.28:852][765]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2022.05.10-21.22.28:859][765]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.10-21.22.28:859][765]r.HDR.Display.OutputDevice = "1"
+[2022.05.10-21.22.28:859][765]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-21.22.28:861][765]PIE: Server logged in
+[2022.05.10-21.22.28:863][765]PIE: Play in editor total start time 0.444 seconds.
+[2022.05.10-21.22.30:327][822]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.10-21.22.32:211][935]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.10-21.22.35:595][137]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.10-21.22.35:595][137]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.10-21.22.35:595][137]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.10-21.22.35:595][137]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.22.37:393][245]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.10-21.22.38:577][316]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1C
+[2022.05.10-21.22.39:043][344]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.22.40:527][433]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.22.41:210][474]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 3
+[2022.05.10-21.22.42:027][523]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 5
+[2022.05.10-21.22.42:178][532]LogBlueprintUserMessages: [BonnieBP_C_1] EmployeeOnly1
+[2022.05.10-21.22.42:561][555]LogBlueprintUserMessages: [ChicaBP_C_2] ChicaTryAgain
+[2022.05.10-21.22.42:561][555]LogBlueprintUserMessages: [ChicaBP_C_2] Bathroom2
+[2022.05.10-21.22.50:712][ 44]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.10-21.22.51:478][ 90]LogBlueprintUserMessages: [ChicaBP_C_2] Dining2
+[2022.05.10-21.22.52:011][122]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.10-21.22.52:511][152]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.10-21.22.53:544][214]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.22.54:044][244]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.22.54:561][275]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.22.55:278][318]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.22.55:927][357]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.22.56:711][404]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 3
+[2022.05.10-21.22.57:561][455]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.10-21.22.59:245][556]LogBlueprintUserMessages: [BonnieBP_C_1] EmployeeOnly1
+[2022.05.10-21.22.59:878][594]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.00:395][625]LogBlueprintUserMessages: [ChicaBP_C_2] Kitchen
+[2022.05.10-21.23.00:461][629]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 7
+[2022.05.10-21.23.01:544][694]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.10-21.23.02:194][733]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.02:778][768]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.23.03:428][807]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.23.03:861][833]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.23.04:678][882]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.23.07:777][ 68]LogBlueprintUserMessages: [BonnieBP_C_1] EmployeeOnly1
+[2022.05.10-21.23.08:610][118]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 3
+[2022.05.10-21.23.09:312][160]LogBlueprintUserMessages: [ChicaBP_C_2] RightHallway1
+[2022.05.10-21.23.09:810][190]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1C
+[2022.05.10-21.23.10:327][221]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.10-21.23.11:760][307]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.10-21.23.12:260][337]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 5
+[2022.05.10-21.23.13:644][420]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 7
+[2022.05.10-21.23.14:444][468]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 6
+[2022.05.10-21.23.15:136][471]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.05.10-21.23.15:222][471]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.16:554][544]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.10-21.23.16:720][554]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.17:336][591]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 6
+[2022.05.10-21.23.18:313][630]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.18:494][640]LogBlueprintUserMessages: [ChicaBP_C_2] RightHallway2
+[2022.05.10-21.23.20:377][753]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.23.20:977][789]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.22:093][856]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.23.23:860][962]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.23.24:527][  2]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.25:077][ 35]LogBlueprintUserMessages: [BonnieBP_C_1] Dining2
+[2022.05.10-21.23.25:160][ 40]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.23.25:743][ 75]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.27:411][175]LogBlueprintUserMessages: [ChicaBP_C_2] RightCorner
+[2022.05.10-21.23.27:827][200]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.23.29:393][294]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.30:060][334]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.23.33:611][547]LogBlueprintUserMessages: [BonnieBP_C_1] LeftHallway
+[2022.05.10-21.23.33:960][568]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 3
+[2022.05.10-21.23.34:377][593]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.23.34:910][625]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.23.36:171][699]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.36:339][709]LogBlueprintUserMessages: [ChicaBP_C_2] RightDoor
+[2022.05.10-21.23.36:688][730]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.23.37:455][776]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.10-21.23.37:455][776]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.10-21.23.37:455][776]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.23.37:455][776]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-21.23.38:940][865]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.39:440][895]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.23.39:857][920]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.40:924][984]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.23.41:207][  1]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.41:789][ 36]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.23.41:789][ 36]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.10-21.23.41:789][ 36]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.05.10-21.23.41:789][ 36]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.23.42:139][ 57]LogBlueprintUserMessages: [BonnieBP_C_1] Closet
+[2022.05.10-21.23.43:122][116]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.23.43:905][163]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.23.45:172][239]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.45:256][244]LogBlueprintUserMessages: [ChicaBP_C_2] Dining1
+[2022.05.10-21.23.45:889][282]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.23.46:422][314]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.23.47:739][393]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.10-21.23.47:739][393]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.10-21.23.47:739][393]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.47:740][393]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-21.23.48:374][431]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.23.49:007][469]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.49:640][507]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.23.49:990][528]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.50:673][569]LogBlueprintUserMessages: [BonnieBP_C_1] LeftCorner
+[2022.05.10-21.23.51:190][600]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.23.52:474][677]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.52:841][699]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.23.53:874][761]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.54:172][779]LogBlueprintUserMessages: [ChicaBP_C_2] Bathroom1
+[2022.05.10-21.23.54:207][781]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.23.54:739][813]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.23.54:739][813]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.10-21.23.54:739][813]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.05.10-21.23.54:739][813]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.55:905][883]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.23.56:322][908]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.23.56:889][942]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.23.57:605][985]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.23.58:041][ 11]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.23.58:789][ 56]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.23.59:057][ 72]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.23.59:206][ 81]LogBlueprintUserMessages: [BonnieBP_C_1] LeftDoor
+[2022.05.10-21.23.59:706][111]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.10-21.23.59:706][111]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.10-21.23.59:706][111]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.23.59:706][111]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-21.24.00:192][140]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.00:858][180]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.24.00:858][180]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.10-21.24.01:257][204]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.02:491][278]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.24.02:941][305]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.03:090][314]LogBlueprintUserMessages: [ChicaBP_C_2] Dining2
+[2022.05.10-21.24.04:207][381]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.24.04:207][381]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.10-21.24.04:207][381]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.05.10-21.24.04:207][381]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.24.05:439][455]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.10-21.24.05:889][482]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.10-21.24.06:456][516]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-21.24.07:022][550]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-21.24.07:740][593]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.10-21.24.07:823][598]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.10-21.24.07:823][598]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.10-21.24.07:823][598]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.07:823][598]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-21.24.08:624][646]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.24.09:274][685]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.10:792][776]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.24.12:007][849]LogBlueprintUserMessages: [ChicaBP_C_2] RightHallway1
+[2022.05.10-21.24.12:708][891]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.12:708][891]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.24.13:058][912]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.14:292][986]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-21.24.14:542][  1]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.14:542][  1]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.10-21.24.15:441][ 55]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.24.16:274][105]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.10-21.24.16:274][105]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2022.05.10-21.24.16:274][105]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2022.05.10-21.24.16:274][105]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2022.05.10-21.24.16:841][139]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.17:425][174]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.24.19:075][273]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.20:275][345]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.24.20:275][345]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.20:925][384]LogBlueprintUserMessages: [ChicaBP_C_2] RightHallway2
+[2022.05.10-21.24.21:442][415]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.24.21:442][415]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.21:642][427]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.24.22:792][496]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.10-21.24.22:943][505]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.10-21.24.23:310][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-21.24.23:310][525]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-21.24.23:311][525]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.10-21.24.23:317][525]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.10-21.24.23:324][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-21.24.23:334][525]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.10-21.24.23:343][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-21.24.23:382][525]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2022.05.10-21.24.23:383][525]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2022.05.10-21.24.23:408][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.05.10-21.24.23:453][526]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.05.10-21.26.09:033][473]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.427 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.10-21.49.07:170][206]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.10-21.49.07:201][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.10-21.49.07:212][206]PIE: New page: PIE session: LVL_NightTemplate (May 10, 2022, 1:49:07 PM)
+[2022.05.10-21.49.07:224][206]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-21.49.07:853][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.627271s)
+[2022.05.10-21.49.07:853][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.629318s)
+[2022.05.10-21.49.07:855][206]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.10-21.49.07:874][206]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.10-21.49.07:898][206]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.10-21.49.07:920][206]LogPlayLevel: PIE: World Init took: (0.067234s)
+[2022.05.10-21.49.08:250][206]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2022.05.10-21.49.08:300][206]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2022.05.10-21.49.08:303][206]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.10-21.49.08:303][206]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.10-21.49.08:303][206]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.10-21.49.08:303][206]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.10-21.49.08:303][206]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.10-21.49.08:303][206]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.10-21.49.08:304][206]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.10-21.49.08:304][206]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.10-21.49.08:308][206]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.10-21.49.08:308][206]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.10-21.49.08:308][206]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.10-21.49.08:313][206]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.10-21.49.08:335][206]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.10-21.49.08:353][206]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.10-21.49.08:353][206]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.10-21.49.08:354][206]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.10-21.49.08:363][206]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2022.05.10-21.49.08:363][206]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2022.05.10-21.49.08:370][206]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2022.05.10-21.49.08:370][206]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2022.05.10-21.49.08:370][206]LogInit: FAudioDevice initialized.
+[2022.05.10-21.49.08:370][206]LogAudio: Display: Audio Device (ID: 31) registered with world 'LVL_NightTemplate'.
+[2022.05.10-21.49.08:434][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-21.49.08:438][206]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.10-21.49.08:616][206]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.10-17.49.08
+[2022.05.10-21.49.08:628][206]LogWorld: Bringing up level for play took: 0.185900
+[2022.05.10-21.49.08:645][206]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2022.05.10-21.49.08:709][206]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.10-21.49.08:729][206]r.HDR.Display.OutputDevice = "1"
+[2022.05.10-21.49.08:739][206]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-21.49.08:780][206]PIE: Server logged in
+[2022.05.10-21.49.08:783][206]PIE: Play in editor total start time 1.592 seconds.
+[2022.05.10-21.49.12:108][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-21.49.12:108][335]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-21.49.12:112][335]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.10-21.49.12:119][335]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.10-21.49.12:131][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-21.49.12:170][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.10-21.49.12:180][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-21.49.12:222][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2022.05.10-21.49.12:237][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2022.05.10-21.49.12:278][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.05.10-21.49.12:367][336]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.05.10-21.49.46:544][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2022.05.10-21.49.47:194][920]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto4
+[2022.05.10-21.49.47:195][920]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplate_Auto47314530F42A74D93D4D4EF9942FA379E.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto4.umap'
+[2022.05.10-21.49.47:232][920]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.717
+[2022.05.10-21.49.47:232][920]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.717
+[2022.05.10-22.19.27:997][253]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.10-22.19.28:004][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.10-22.19.28:004][253]PIE: New page: PIE session: LVL_NightTemplate (May 10, 2022, 2:19:28 PM)
+[2022.05.10-22.19.28:006][253]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-22.19.28:208][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.201199s)
+[2022.05.10-22.19.28:208][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.201307s)
+[2022.05.10-22.19.28:208][253]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.10-22.19.28:208][253]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.10-22.19.28:208][253]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.10-22.19.28:209][253]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2022.05.10-22.19.28:242][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.05.10-22.19.28:244][253]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2022.05.10-22.19.28:244][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.10-22.19.28:244][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.10-22.19.28:244][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.10-22.19.28:244][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.10-22.19.28:244][253]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.10-22.19.28:244][253]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.10-22.19.28:244][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.10-22.19.28:244][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.10-22.19.28:244][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.10-22.19.28:244][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.10-22.19.28:244][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.10-22.19.28:247][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.10-22.19.28:263][253]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.10-22.19.28:263][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.10-22.19.28:263][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.10-22.19.28:263][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.10-22.19.28:265][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2022.05.10-22.19.28:265][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2022.05.10-22.19.28:267][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2022.05.10-22.19.28:268][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2022.05.10-22.19.28:268][253]LogInit: FAudioDevice initialized.
+[2022.05.10-22.19.28:268][253]LogAudio: Display: Audio Device (ID: 32) registered with world 'LVL_NightTemplate'.
+[2022.05.10-22.19.28:310][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-22.19.28:311][253]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.10-22.19.28:410][253]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.10-18.19.28
+[2022.05.10-22.19.28:412][253]LogWorld: Bringing up level for play took: 0.101483
+[2022.05.10-22.19.28:415][253]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2022.05.10-22.19.28:422][253]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.10-22.19.28:422][253]r.HDR.Display.OutputDevice = "1"
+[2022.05.10-22.19.28:422][253]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-22.19.28:425][253]PIE: Server logged in
+[2022.05.10-22.19.28:426][253]PIE: Play in editor total start time 0.422 seconds.
+[2022.05.10-22.19.31:359][366]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.10-22.19.32:707][427]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.10-22.19.32:707][427]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.10-22.19.32:707][427]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.10-22.19.32:707][427]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.10-22.19.33:798][477]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.10-22.19.34:396][502]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1C
+[2022.05.10-22.19.35:136][536]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 3
+[2022.05.10-22.19.35:698][562]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.10-22.19.36:200][582]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.10-22.19.37:379][636]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.10-22.19.37:379][636]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.10-22.19.37:379][636]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.10-22.19.37:379][636]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.10-22.19.38:296][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.10-22.19.38:296][676]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.10-22.19.38:297][676]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.10-22.19.38:330][676]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.10-22.19.38:338][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-22.19.38:352][676]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.10-22.19.38:361][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.10-22.19.38:392][676]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.10-22.19.38:394][676]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2022.05.10-22.19.38:396][676]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2022.05.10-22.19.38:422][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.05.10-22.19.38:493][677]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.05.10-22.26.10:785][875]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.059 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.10-23.26.09:130][857]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.252 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.11-00.26.08:459][518]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.864 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.11-01.22.54:734][746]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.11-01.22.54:741][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-01.22.54:741][746]PIE: New page: PIE session: LVL_NightTemplate (May 10, 2022, 5:22:54 PM)
+[2022.05.11-01.22.54:744][746]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.11-01.22.54:951][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.207228s)
+[2022.05.11-01.22.54:951][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.207327s)
+[2022.05.11-01.22.54:951][746]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.11-01.22.54:951][746]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-01.22.54:952][746]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.11-01.22.54:953][746]LogPlayLevel: PIE: World Init took: (0.001719s)
+[2022.05.11-01.22.54:988][746]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.05.11-01.22.54:992][746]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2022.05.11-01.22.54:992][746]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-01.22.54:992][746]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-01.22.54:992][746]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-01.22.54:992][746]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-01.22.54:992][746]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-01.22.54:992][746]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.11-01.22.54:992][746]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-01.22.54:992][746]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-01.22.54:993][746]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.11-01.22.54:993][746]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.11-01.22.54:993][746]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.11-01.22.54:995][746]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.11-01.22.55:011][746]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.11-01.22.55:012][746]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-01.22.55:012][746]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-01.22.55:012][746]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-01.22.55:013][746]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2022.05.11-01.22.55:013][746]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2022.05.11-01.22.55:015][746]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2022.05.11-01.22.55:015][746]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2022.05.11-01.22.55:015][746]LogInit: FAudioDevice initialized.
+[2022.05.11-01.22.55:015][746]LogAudio: Display: Audio Device (ID: 33) registered with world 'LVL_NightTemplate'.
+[2022.05.11-01.22.55:068][746]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-01.22.55:069][746]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.11-01.22.55:173][746]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.10-21.22.55
+[2022.05.11-01.22.55:178][746]LogWorld: Bringing up level for play took: 0.108879
+[2022.05.11-01.22.55:181][746]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2022.05.11-01.22.55:188][746]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.11-01.22.55:188][746]r.HDR.Display.OutputDevice = "1"
+[2022.05.11-01.22.55:189][746]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.11-01.22.55:191][746]PIE: Server logged in
+[2022.05.11-01.22.55:192][746]PIE: Play in editor total start time 0.451 seconds.
+[2022.05.11-01.22.56:215][774]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.11-01.22.56:215][774]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.11-01.22.56:215][774]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.11-01.22.56:215][774]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-01.22.56:787][808]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.11-01.22.56:787][808]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.11-01.22.56:787][808]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.11-01.22.56:787][808]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.11-01.22.59:472][969]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-01.23.00:440][ 27]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.11-01.23.03:866][231]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-01.23.06:188][370]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.11-01.23.07:808][467]LogBlueprintUserMessages: [ChicaBP_C_2] Dining2
+[2022.05.11-01.23.07:904][473]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.11-01.23.07:957][474]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-01.23.07:957][474]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.11-01.23.07:957][474]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.11-01.23.07:963][474]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-01.23.07:975][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-01.23.07:987][474]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-01.23.07:996][474]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-01.23.08:034][474]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.11-01.23.08:037][474]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2022.05.11-01.23.08:039][474]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2022.05.11-01.23.08:066][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.05.11-01.23.08:139][475]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2022.05.11-01.26.09:215][ 80]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.563 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.11-02.26.08:853][760]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.258 and deleted 1 file(s) with total size 0 MiB.
+[2022.05.11-02.44.33:381][154]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.11-02.44.33:387][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-02.44.33:387][154]PIE: New page: PIE session: LVL_NightTemplate (May 10, 2022, 6:44:33 PM)
+[2022.05.11-02.44.33:390][154]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.11-02.44.33:571][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.180615s)
+[2022.05.11-02.44.33:571][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.180716s)
+[2022.05.11-02.44.33:571][154]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.11-02.44.33:571][154]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.44.33:572][154]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.11-02.44.33:573][154]LogPlayLevel: PIE: World Init took: (0.001636s)
+[2022.05.11-02.44.33:603][154]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.05.11-02.44.33:607][154]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2022.05.11-02.44.33:607][154]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-02.44.33:607][154]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-02.44.33:607][154]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-02.44.33:607][154]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-02.44.33:607][154]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-02.44.33:607][154]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.11-02.44.33:607][154]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-02.44.33:607][154]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-02.44.33:607][154]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.11-02.44.33:607][154]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.11-02.44.33:607][154]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.11-02.44.33:610][154]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.11-02.44.33:624][154]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.11-02.44.33:625][154]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-02.44.33:625][154]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-02.44.33:625][154]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-02.44.33:625][154]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2022.05.11-02.44.33:625][154]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2022.05.11-02.44.33:627][154]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2022.05.11-02.44.33:627][154]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2022.05.11-02.44.33:627][154]LogInit: FAudioDevice initialized.
+[2022.05.11-02.44.33:627][154]LogAudio: Display: Audio Device (ID: 34) registered with world 'LVL_NightTemplate'.
+[2022.05.11-02.44.33:675][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-02.44.33:675][154]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.11-02.44.33:757][154]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.10-22.44.33
+[2022.05.11-02.44.33:761][154]LogWorld: Bringing up level for play took: 0.085844
+[2022.05.11-02.44.33:763][154]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2022.05.11-02.44.33:769][154]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.11-02.44.33:769][154]r.HDR.Display.OutputDevice = "1"
+[2022.05.11-02.44.33:770][154]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.11-02.44.33:772][154]PIE: Server logged in
+[2022.05.11-02.44.33:773][154]PIE: Play in editor total start time 0.386 seconds.
+[2022.05.11-02.44.35:176][211]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.11-02.44.35:176][211]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.11-02.44.35:177][211]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.11-02.44.35:177][211]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-02.44.36:908][315]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.11-02.44.37:492][350]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 5
+[2022.05.11-02.44.39:342][461]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.11-02.44.39:978][499]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.11-02.44.40:394][524]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 7
+[2022.05.11-02.44.41:061][564]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.11-02.44.41:494][590]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.11-02.44.42:245][635]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.11-02.44.42:561][654]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.11-02.44.43:761][726]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.11-02.44.44:079][745]LogBlueprintUserMessages: [ChicaBP_C_2] ChicaTryAgain
+[2022.05.11-02.44.44:079][745]LogBlueprintUserMessages: [ChicaBP_C_2] Dining2
+[2022.05.11-02.44.45:362][822]LogBlueprintUserMessages: [BonnieBP_C_1] Dining2
+[2022.05.11-02.44.49:600][ 76]LogBlueprintUserMessages: [ChicaBP_C_2] Kitchen
+[2022.05.11-02.44.50:847][151]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.11-02.44.51:263][176]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.11-02.44.51:980][219]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.11-02.44.52:164][230]LogBlueprintUserMessages: [BonnieBP_C_1] LeftHallway
+[2022.05.11-02.44.52:514][251]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.11-02.44.52:997][280]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.11-02.44.53:463][308]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.11-02.44.54:847][391]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.11-02.44.55:114][407]LogBlueprintUserMessages: [ChicaBP_C_2] RightHallway2
+[2022.05.11-02.44.56:130][468]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.11-02.44.57:539][552]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.11-02.44.58:956][637]LogBlueprintUserMessages: [BonnieBP_C_1] Closet
+[2022.05.11-02.44.59:222][653]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.11-02.44.59:605][676]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.11-02.45.00:640][738]LogBlueprintUserMessages: [ChicaBP_C_2] RightCorner
+[2022.05.11-02.45.00:755][745]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.11-02.45.01:822][809]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4A
+[2022.05.11-02.45.02:422][845]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 3
+[2022.05.11-02.45.03:389][903]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.11-02.45.05:289][ 17]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.11-02.45.05:289][ 17]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.11-02.45.05:290][ 17]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.11-02.45.05:290][ 17]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.11-02.45.05:762][ 45]LogBlueprintUserMessages: [BonnieBP_C_1] LeftCorner
+[2022.05.11-02.45.06:162][ 69]LogBlueprintUserMessages: [ChicaBP_C_2] RightDoor
+[2022.05.11-02.45.06:663][ 99]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-02.45.07:813][168]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.11-02.45.07:996][179]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-02.45.08:695][221]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.11-02.45.08:695][221]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.11-02.45.08:695][221]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.05.11-02.45.08:695][221]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.11-02.45.09:778][286]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2A
+[2022.05.11-02.45.10:328][319]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 3
+[2022.05.11-02.45.10:898][353]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.11-02.45.11:680][400]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.11-02.45.11:681][400]LogBlueprintUserMessages: [ChicaBP_C_2] RightHallway2
+[2022.05.11-02.45.11:681][400]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.11-02.45.12:449][446]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.11-02.45.12:565][453]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.11-02.45.12:565][453]LogBlueprintUserMessages: [BonnieBP_C_1] LeftDoor
+[2022.05.11-02.45.13:064][483]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.11-02.45.13:064][483]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.11-02.45.13:064][483]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-02.45.13:064][483]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.11-02.45.13:853][530]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.11-02.45.14:585][574]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.11-02.45.14:585][574]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.11-02.45.14:885][592]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.11-02.45.17:200][731]LogBlueprintUserMessages: [ChicaBP_C_2] RightCorner
+[2022.05.11-02.45.19:369][860]LogBlueprintUserMessages: [BonnieBP_C_1] LeftHallway
+[2022.05.11-02.45.22:719][ 61]LogBlueprintUserMessages: [ChicaBP_C_2] RightDoor
+[2022.05.11-02.45.24:119][145]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 2B
+[2022.05.11-02.45.24:119][145]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.11-02.45.24:119][145]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.05.11-02.45.24:119][145]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.11-02.45.25:119][205]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.11-02.45.25:119][205]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.11-02.45.25:119][205]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.11-02.45.25:119][205]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.11-02.45.26:168][268]LogBlueprintUserMessages: [BonnieBP_C_1] Closet
+[2022.05.11-02.45.26:253][273]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.11-02.45.26:486][287]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.11-02.45.26:486][287]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.11-02.45.27:770][364]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-02.45.28:048][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-02.45.28:048][378]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.11-02.45.28:049][378]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.11-02.45.28:054][378]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.45.28:061][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.45.28:073][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-02.45.28:081][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.45.28:116][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2022.05.11-02.45.28:117][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2022.05.11-02.45.28:142][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2022.05.11-02.45.28:204][379]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2022.05.11-02.46.06:497][251]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_BluePartyHat.MI_BluePartyHat
+[2022.05.11-02.46.06:534][251]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.46.09:820][390]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/PartyHats/MM_PartyHat.MM_PartyHat
+[2022.05.11-02.46.09:859][390]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 7D051C2A3651C65E28918A282ADAB6FABAEF0825), compiling. 
+[2022.05.11-02.46.09:955][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.46.10:182][390]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 1E389EE35EA379D8D534661C7B99FC45B016D884), compiling. 
+[2022.05.11-02.46.10:202][390]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: ED55BFAAC035EDDDAC3F541393BE7CDB29B986C4), compiling. 
+[2022.05.11-02.46.10:225][390]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: FA601C2904F4834C02F887731CC3AA392D70C8EE), compiling. 
+[2022.05.11-02.46.10:228][390]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1E563DD45071A5676DF0D749CA0459C62E30A636), compiling. 
+[2022.05.11-02.46.10:287][390]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.46.10:287][390]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.10:287][390]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.10:287][390]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.46.13:553][460]LogShaderCompilers: Display: ================================================
+[2022.05.11-02.46.13:553][460]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.11-02.46.13:554][460]LogShaderCompilers: Display: Total job queries 105, among them cache hits 17 (16.19%)
+[2022.05.11-02.46.13:554][460]LogShaderCompilers: Display: Tracking 68 distinct input hashes that result in 15 distinct outputs (22.06%)
+[2022.05.11-02.46.13:554][460]LogShaderCompilers: Display: RAM used: 0.04 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.11-02.46.13:554][460]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Shaders Compiled: 30
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Jobs assigned 82, completed 68 (82.93%)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Average time worker was idle: 2901.75 s
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Time job spent in pending queue: average 0.58 s, longest 3.41 s
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Job execution time: average 2.11 s, max 3.48 s
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Job life time (pending + execution): average 2.78 s, max 4.32
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 23.63 s
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Jobs were issued in 75 batches (only local compilation was used), average 1.09 jobs/batch
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Average processing rate: 2.88 jobs/sec
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Effective parallelization: 4.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 2.33 sec, max 2.37 sec, min 2.25 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 2.19 sec, max 2.27 sec, min 2.13 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 2.17 sec, max 2.39 sec, min 1.98 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 2.16 sec, max 2.38 sec, min 1.96 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 2.08 sec, max 2.29 sec, min 1.89 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.96% of total time (compiled    6 times, average 2.33 sec, max 2.37 sec, min 2.25 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.27% of total time (compiled    6 times, average 2.19 sec, max 2.27 sec, min 2.13 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 9.95% of total time (compiled    7 times, average 1.66 sec, max 1.82 sec, min 1.52 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.92% of total time (compiled    6 times, average 1.74 sec, max 1.79 sec, min 1.49 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.43% of total time (compiled    6 times, average 1.64 sec, max 2.29 sec, min 0.80 sec)
+[2022.05.11-02.46.13:555][460]LogShaderCompilers: Display: ================================================
+[2022.05.11-02.46.14:067][468]MaterialEditorStats: Texture samplers: 1/16
+[2022.05.11-02.46.14:067][468]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.14:067][468]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.14:067][468]MaterialEditorStats: Shader Count: 1
+[2022.05.11-02.46.14:719][482]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.46.14:719][482]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.14:719][482]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.14:719][482]MaterialEditorStats: Shader Count: 3
+[2022.05.11-02.46.21:761][784]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_RedPartyHat.MI_RedPartyHat
+[2022.05.11-02.46.21:770][784]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.46.29:356][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.05.11-02.46.29:409][197]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.05.11-02.46.29:464][197]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MI_RedPartyHat
+[2022.05.11-02.46.29:465][197]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_RedPartyHatBBA173464D97779A1DAAAEAA1103976E.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MI_RedPartyHat.uasset'
+[2022.05.11-02.46.29:497][197]AssetCheck: New page: Asset Save: MI_RedPartyHat
+[2022.05.11-02.46.29:498][197]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_RedPartyHat.MI_RedPartyHat
+[2022.05.11-02.46.30:601][259]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_PurplePartyHat.MI_PurplePartyHat
+[2022.05.11-02.46.30:602][259]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.46.32:559][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2022.05.11-02.46.32:588][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.05.11-02.46.32:591][348]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MI_PurplePartyHat
+[2022.05.11-02.46.32:591][348]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_PurplePartyHatDB0AC69A4254966CC8767DA7DD9F4C56.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MI_PurplePartyHat.uasset'
+[2022.05.11-02.46.32:613][348]AssetCheck: New page: Asset Save: MI_PurplePartyHat
+[2022.05.11-02.46.32:613][348]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_PurplePartyHat.MI_PurplePartyHat
+[2022.05.11-02.46.33:310][385]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_GreenPartyHat.MI_GreenPartyHat
+[2022.05.11-02.46.33:317][385]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.46.35:474][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.05.11-02.46.35:502][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.11-02.46.35:506][479]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MI_GreenPartyHat
+[2022.05.11-02.46.35:506][479]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_GreenPartyHat5BB516CE49CB2C6D8E7AB2BDAE58F25D.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MI_GreenPartyHat.uasset'
+[2022.05.11-02.46.35:536][479]AssetCheck: New page: Asset Save: MI_GreenPartyHat
+[2022.05.11-02.46.35:536][479]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_GreenPartyHat.MI_GreenPartyHat
+[2022.05.11-02.46.38:300][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.05.11-02.46.38:331][628]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.05.11-02.46.38:334][628]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MI_BluePartyHat
+[2022.05.11-02.46.38:334][628]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_BluePartyHat1B7C44654BD812C6CB653D9AC9C5C1C0.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MI_BluePartyHat.uasset'
+[2022.05.11-02.46.38:348][628]AssetCheck: New page: Asset Save: MI_BluePartyHat
+[2022.05.11-02.46.38:348][628]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_BluePartyHat.MI_BluePartyHat
+[2022.05.11-02.46.44:632][981]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 93C7779A5570EE529BD15EE58F969AB715BFBE17), compiling. 
+[2022.05.11-02.46.44:642][981]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 74D097782C3A62C1A2022F5E2B11339D892D78D7), compiling. 
+[2022.05.11-02.46.47:317][128]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: C3082FE0F8C9EDC88EFBFBB7DF479EBEB9AD7608), compiling. 
+[2022.05.11-02.46.47:328][128]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 454F0848FDBAB801B92E167BDA81C48A4C032DB8), compiling. 
+[2022.05.11-02.46.47:339][128]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.46.47:339][128]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.47:339][128]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.47:339][128]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.46.47:377][129]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.46.47:377][129]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.47:377][129]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.47:377][129]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.46.47:992][156]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 14472D538C444D1211477B73A4432A5AECDA2A8D), compiling. 
+[2022.05.11-02.46.48:002][156]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 90A933A1487257CB3F084C8FD4E29DF177CEBAA5), compiling. 
+[2022.05.11-02.46.48:011][156]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.46.48:011][156]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.48:011][156]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.48:011][156]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.46.48:045][157]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.46.48:045][157]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.48:045][157]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.48:045][157]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.46.48:673][187]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 77FE50EF8BD825FA3FE32BBD6452D291427AB490), compiling. 
+[2022.05.11-02.46.48:683][187]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 319685DE2B6939BB2B37135DB7F51CE96219EECB), compiling. 
+[2022.05.11-02.46.48:692][187]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.46.48:692][187]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.48:692][187]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.48:692][187]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.46.48:726][188]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.46.48:726][188]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.48:726][188]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.48:726][188]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.46.49:390][214]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 61D68ABB3B3E326913EDB6A362A8D256D077A11B), compiling. 
+[2022.05.11-02.46.49:399][214]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: CD2B707A3E68D90D518A201F501D7E3329E0583B), compiling. 
+[2022.05.11-02.46.49:407][214]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.46.49:408][214]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.49:408][214]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.49:408][214]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.46.49:441][215]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.46.49:441][215]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.49:441][215]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.49:441][215]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.46.50:248][258]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 320875D5B07EFB4AC754491D3BEF692428A59F18), compiling. 
+[2022.05.11-02.46.50:259][258]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 496CF8A04D04664ABA35E5FA64237031576AA534), compiling. 
+[2022.05.11-02.46.50:270][258]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.46.50:270][258]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.50:270][258]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.50:270][258]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.46.50:304][259]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.46.50:304][259]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.50:304][259]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.50:304][259]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.46.50:837][289]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 27E982F6F3BA9609BF60D7ADC629D3BA062D1396), compiling. 
+[2022.05.11-02.46.50:846][289]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: FC9EB38388135D5E93D49B38847C81629A8CEF31), compiling. 
+[2022.05.11-02.46.50:855][289]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.46.50:855][289]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.50:855][289]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.50:855][289]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.46.50:892][290]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.46.50:892][290]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.50:892][290]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.50:892][290]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.46.51:550][328]LogMaterialEditor: Saving and Compiling material MM_PartyHat
+[2022.05.11-02.46.52:292][328]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 535783442913FFA634778F927E10C28172CF9BAF), compiling. 
+[2022.05.11-02.46.53:100][328]LogMaterial: Display: Missing cached shadermap for MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: FD732065F895AF8C26AD7A8BAE7AD08F72B8F69C), compiling. 
+[2022.05.11-02.46.54:003][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.05.11-02.46.54:821][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2022.05.11-02.46.57:052][328]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.05.11-02.46.57:694][328]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001052s (0.659349s overbudget)
+[2022.05.11-02.46.57:773][328]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MM_PartyHat
+[2022.05.11-02.46.57:773][328]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MM_PartyHatE6CE41BA4D89D310B51DEF97E435E7AE.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MM_PartyHat.uasset'
+[2022.05.11-02.46.57:805][328]AssetCheck: New page: Asset Save: MM_PartyHat
+[2022.05.11-02.46.57:805][328]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/PartyHats/MM_PartyHat.MM_PartyHat
+[2022.05.11-02.46.57:815][328]MaterialEditorStats: Base pass shader: 129 instructions
+[2022.05.11-02.46.57:815][328]MaterialEditorStats: Base pass shader with Surface Lightmap: 155 instructions
+[2022.05.11-02.46.57:815][328]MaterialEditorStats: Base pass vertex shader: 114 instructions
+[2022.05.11-02.46.57:815][328]MaterialEditorStats: Texture samplers: 5/16
+[2022.05.11-02.46.57:815][328]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.46.57:815][328]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.46.57:815][328]MaterialEditorStats: Shader Count: 25
+[2022.05.11-02.47.00:893][491]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 946B387E27045E0C4D2D6D6EC515BEC424DA0E28), compiling. 
+[2022.05.11-02.47.00:904][491]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 2E3BA7DA9AF352A39B778D98F2F0B62CAF5F70FD), compiling. 
+[2022.05.11-02.47.00:913][491]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.47.00:913][491]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.00:913][491]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.00:913][491]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.47.00:959][492]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.47.00:959][492]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.00:959][492]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.00:959][492]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.47.02:202][561]LogMaterialEditor: Saving and Compiling material MM_PartyHat
+[2022.05.11-02.47.02:635][561]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 084CDFDC39EB45E8F334ACDEB47B70ABCB5EF930), compiling. 
+[2022.05.11-02.47.02:746][561]LogMaterial: Display: Missing cached shadermap for MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 6AC71EAD5403F51A3AAFAFE558A628677C15D9E3), compiling. 
+[2022.05.11-02.47.03:489][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.05.11-02.47.03:711][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.05.11-02.47.03:977][561]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MM_PartyHat
+[2022.05.11-02.47.03:977][561]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MM_PartyHatE678285D496AE128DD51A29ACD4D10E9.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MM_PartyHat.uasset'
+[2022.05.11-02.47.03:996][561]AssetCheck: New page: Asset Save: MM_PartyHat
+[2022.05.11-02.47.03:996][561]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/PartyHats/MM_PartyHat.MM_PartyHat
+[2022.05.11-02.47.04:007][561]MaterialEditorStats: Base pass shader: 129 instructions
+[2022.05.11-02.47.04:007][561]MaterialEditorStats: Base pass shader with Surface Lightmap: 155 instructions
+[2022.05.11-02.47.04:007][561]MaterialEditorStats: Base pass vertex shader: 114 instructions
+[2022.05.11-02.47.04:007][561]MaterialEditorStats: Texture samplers: 5/16
+[2022.05.11-02.47.04:007][561]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.04:007][561]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.04:007][561]MaterialEditorStats: Shader Count: 25
+[2022.05.11-02.47.18:217][229]Cmd: TRANSACTION UNDO
+[2022.05.11-02.47.18:218][229]LogEditorTransaction: Undo Replace component used material
+[2022.05.11-02.47.18:280][229]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: E4D2FB7182052DC4549FCD30FA5F837CA60251DE), compiling. 
+[2022.05.11-02.47.18:428][229]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.47.18:428][229]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.18:428][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.18:428][229]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.47.18:596][230]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.47.18:596][230]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.18:596][230]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.18:596][230]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.47.56:277][255]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: D2007647E3B336D5501020866F0E2B29D7B32959), compiling. 
+[2022.05.11-02.47.56:287][255]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 783D22BC7729841FFB4D79AF3988AD3F1A61C483), compiling. 
+[2022.05.11-02.47.56:295][255]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.47.56:295][255]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.56:295][255]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.56:295][255]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.47.56:330][256]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.47.56:330][256]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.56:330][256]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.56:330][256]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.47.57:518][327]LogEditorTransaction: Undo Edit Default Value
+[2022.05.11-02.47.57:521][327]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 81BBE9C806A6C6157342C34CD2A6477D9545737A), compiling. 
+[2022.05.11-02.47.57:551][327]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 35B20A9989F28AD2AFE29BCC9B8C6EF3005492F3), compiling. 
+[2022.05.11-02.47.57:690][327]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.47.57:690][327]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.57:690][327]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.57:690][327]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.47.57:811][328]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.47.57:811][328]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.57:811][328]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.57:811][328]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.47.58:421][354]LogEditorTransaction: Undo Replace component used material
+[2022.05.11-02.47.58:465][354]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: 0ABEEF6562AB59164B2EE0B6A49F2C43A43E3125), compiling. 
+[2022.05.11-02.47.58:587][354]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.47.58:587][354]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.58:587][354]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.58:587][354]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.47.58:721][355]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.11-02.47.58:722][355]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.11-02.47.58:722][355]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.47.58:722][355]MaterialEditorStats: Shader Count: 4
+[2022.05.11-02.48.13:932][123]LogSlate: Window 'Message' being destroyed
+[2022.05.11-02.48.13:937][123]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Core/Assets/Props/PartyHats/MM_PartyHat.MM_PartyHat
+(Selecting 'No' will cause all changes to be lost!)
+[2022.05.11-02.48.14:344][123]LogMaterial: Display: Missing cached shadermap for Preview:MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: C568B7E450CAC9C7F7196308212695103C276CA4), compiling. 
+[2022.05.11-02.48.14:439][123]LogMaterial: Display: Missing cached shadermap for MM_PartyHat in PCD3D_SM5, Default, SM5 (DDC key hash: D17F2DB50BE10DBB08A39F86C0327E70F34E19B1), compiling. 
+[2022.05.11-02.48.15:146][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.05.11-02.48.15:359][123]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.05.11-02.48.15:387][123]LogSlate: Window 'MI_GreenPartyHat' being destroyed
+[2022.05.11-02.48.15:388][123]LogSlate: Window 'MI_GreenPartyHat' being destroyed
+[2022.05.11-02.48.15:402][123]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.15:402][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.15:448][123]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.15:448][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.15:480][123]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.15:480][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.15:504][123]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.15:504][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.15:537][123]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.15:538][123]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.21:879][460]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_BluePartyHat.MI_BluePartyHat
+[2022.05.11-02.48.21:880][460]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.48.25:579][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2022.05.11-02.48.25:625][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2022.05.11-02.48.25:627][624]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MI_BluePartyHat
+[2022.05.11-02.48.25:628][624]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_BluePartyHat9FB32BEC446EACCDD7DDCFAF74061637.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MI_BluePartyHat.uasset'
+[2022.05.11-02.48.25:648][624]AssetCheck: New page: Asset Save: MI_BluePartyHat
+[2022.05.11-02.48.25:648][624]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_BluePartyHat.MI_BluePartyHat
+[2022.05.11-02.48.27:410][717]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_GreenPartyHat.MI_GreenPartyHat
+[2022.05.11-02.48.27:411][717]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.48.29:347][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.05.11-02.48.29:376][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.05.11-02.48.29:378][807]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MI_GreenPartyHat
+[2022.05.11-02.48.29:378][807]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_GreenPartyHatC739F94F48C641C798EB23A8FB94B493.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MI_GreenPartyHat.uasset'
+[2022.05.11-02.48.29:391][807]AssetCheck: New page: Asset Save: MI_GreenPartyHat
+[2022.05.11-02.48.29:392][807]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_GreenPartyHat.MI_GreenPartyHat
+[2022.05.11-02.48.30:212][849]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_PurplePartyHat.MI_PurplePartyHat
+[2022.05.11-02.48.30:213][849]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.48.32:062][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.05.11-02.48.32:091][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.05.11-02.48.32:093][932]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MI_PurplePartyHat
+[2022.05.11-02.48.32:093][932]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_PurplePartyHatD01B2C9045B297D805B7BE91400898F7.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MI_PurplePartyHat.uasset'
+[2022.05.11-02.48.32:107][932]AssetCheck: New page: Asset Save: MI_PurplePartyHat
+[2022.05.11-02.48.32:107][932]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_PurplePartyHat.MI_PurplePartyHat
+[2022.05.11-02.48.32:989][978]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_RedPartyHat.MI_RedPartyHat
+[2022.05.11-02.48.32:991][978]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.48.35:723][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.05.11-02.48.35:752][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.05.11-02.48.35:754][110]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MI_RedPartyHat
+[2022.05.11-02.48.35:755][110]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_RedPartyHat0159919749FE2D735C4DD9886E60976C.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MI_RedPartyHat.uasset'
+[2022.05.11-02.48.35:788][110]AssetCheck: New page: Asset Save: MI_RedPartyHat
+[2022.05.11-02.48.35:789][110]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Props/PartyHats/MI_RedPartyHat.MI_RedPartyHat
+[2022.05.11-02.48.36:709][163]LogSlate: Window 'MI_RedPartyHat' being destroyed
+[2022.05.11-02.48.36:713][163]LogSlate: Window 'MI_RedPartyHat' being destroyed
+[2022.05.11-02.48.36:722][163]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.36:722][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.36:749][163]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.36:750][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.36:773][163]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.36:773][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.36:790][163]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.36:790][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.47:264][757]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/DiningTable/MI_DiningTable.MI_DiningTable
+[2022.05.11-02.48.47:270][757]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.48.48:745][828]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/DiningTable/M_DiningTable.M_DiningTable
+[2022.05.11-02.48.48:773][828]LogMaterial: Display: Missing cached shadermap for Preview:M_DiningTable in PCD3D_SM5, Default, SM5 (DDC key hash: FA6F8F0CCB60CDC5E899B62ECD3C6FA2FEAA80BA), compiling. 
+[2022.05.11-02.48.48:813][828]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.48.48:876][828]LogMaterial: Display: Missing cached shadermap for Preview:M_DiningTable in PCD3D_SM5, Default, SM5 (DDC key hash: B67FCD0ACFD9900EB0979E430166974E1E463E45), compiling. 
+[2022.05.11-02.48.48:884][828]LogMaterial: Display: Missing cached shadermap for Preview:M_DiningTable in PCD3D_SM5, Default, SM5 (DDC key hash: 817EAF1757FFACE8F2CEF0226B3DB1D8FF9F73B4), compiling. 
+[2022.05.11-02.48.48:898][828]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0237C2122E979D1F1955BECB16BF5390FED0DCB1), compiling. 
+[2022.05.11-02.48.48:901][828]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: B85FE0576DB4345DB37A6D346EC203642F83D53A), compiling. 
+[2022.05.11-02.48.48:903][828]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: BA812FE339ED1750AD44CDABD31FF6E1B68C6001), compiling. 
+[2022.05.11-02.48.48:905][828]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 406322498D255D28C02413985EE1260DE31ABBF8), compiling. 
+[2022.05.11-02.48.48:908][828]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: FAF5344E8D5F228694F9A90631A7B1364369B5D1), compiling. 
+[2022.05.11-02.48.48:934][828]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.11-02.48.48:934][828]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.11-02.48.48:934][828]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.48.48:934][828]MaterialEditorStats: Shader Count: 0
+[2022.05.11-02.48.50:222][858]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.11-02.48.50:223][858]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.11-02.48.50:223][858]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.48.50:223][858]MaterialEditorStats: Shader Count: 2
+[2022.05.11-02.48.54:101][992]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.11-02.48.54:101][992]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.11-02.48.54:101][992]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.11-02.48.54:101][992]MaterialEditorStats: Shader Count: 8
+[2022.05.11-02.48.57:920][202]LogSlate: Window 'M_DiningTable' being destroyed
+[2022.05.11-02.48.57:925][202]LogSlate: Window 'M_DiningTable' being destroyed
+[2022.05.11-02.48.57:935][202]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.57:935][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.48.57:967][202]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.48.57:967][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.49.06:826][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.05.11-02.49.07:377][695]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2022.05.11-02.49.07:377][695]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplateCAEFB676402974F0CD6AEDA255CA3514.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2022.05.11-02.49.07:399][695]LogFileHelpers: No new changes to save!
+[2022.05.11-02.49.07:399][695]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.625
+[2022.05.11-02.49.07:496][695]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHats/MM_PartyHat
+[2022.05.11-02.49.07:496][695]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MM_PartyHatEDD4905E42DB4A030D6EC2BFEF3BABEA.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/PartyHats/MM_PartyHat.uasset'
+[2022.05.11-02.49.07:520][695]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.11-02.49.07:520][695]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/PartyHats/MM_PartyHat.MM_PartyHat
+[2022.05.11-02.49.07:520][695]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2022.05.11-02.49.16:664][197]Cmd: TRANSACTION UNDO
+[2022.05.11-02.49.16:664][197]LogEditorTransaction: Undo Edit Method
+[2022.05.11-02.49.33:409][104]Cmd: TRANSACTION UNDO
+[2022.05.11-02.49.33:409][104]LogEditorTransaction: Undo Edit Method
+[2022.05.11-02.49.35:587][206]Cmd: TRANSACTION UNDO
+[2022.05.11-02.49.35:587][206]LogEditorTransaction: Undo Edit Method
+[2022.05.11-02.49.38:253][359]Cmd: TRANSACTION UNDO
+[2022.05.11-02.49.38:253][359]LogEditorTransaction: Undo Edit Method
+[2022.05.11-02.50.04:570][917]Cmd: TRANSACTION UNDO
+[2022.05.11-02.50.04:570][917]LogEditorTransaction: Undo Edit Toe
+[2022.05.11-02.50.08:802][149]Cmd: TRANSACTION UNDO
+[2022.05.11-02.50.08:802][149]LogEditorTransaction: Undo Edit Slope
+[2022.05.11-02.50.13:034][379]Cmd: TRANSACTION UNDO
+[2022.05.11-02.50.13:034][379]LogEditorTransaction: Undo Reset to Default
+[2022.05.11-02.50.20:599][800]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.11-02.50.20:606][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-02.50.20:606][800]PIE: New page: PIE session: LVL_NightTemplate (May 10, 2022, 6:50:20 PM)
+[2022.05.11-02.50.20:606][800]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.11-02.50.20:777][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.170792s)
+[2022.05.11-02.50.20:777][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.170867s)
+[2022.05.11-02.50.20:777][800]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.11-02.50.20:777][800]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.50.20:777][800]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.11-02.50.20:778][800]LogPlayLevel: PIE: World Init took: (0.001441s)
+[2022.05.11-02.50.20:808][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.05.11-02.50.20:813][800]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2022.05.11-02.50.20:813][800]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-02.50.20:813][800]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-02.50.20:813][800]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-02.50.20:813][800]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-02.50.20:813][800]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-02.50.20:813][800]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.11-02.50.20:813][800]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-02.50.20:813][800]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-02.50.20:814][800]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.11-02.50.20:814][800]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.11-02.50.20:814][800]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.11-02.50.20:817][800]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.11-02.50.20:949][800]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.11-02.50.20:949][800]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-02.50.20:950][800]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-02.50.20:950][800]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-02.50.20:952][800]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2022.05.11-02.50.20:952][800]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2022.05.11-02.50.20:954][800]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2022.05.11-02.50.20:954][800]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2022.05.11-02.50.20:954][800]LogInit: FAudioDevice initialized.
+[2022.05.11-02.50.20:954][800]LogAudio: Display: Audio Device (ID: 35) registered with world 'LVL_NightTemplate'.
+[2022.05.11-02.50.20:999][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-02.50.20:999][800]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.11-02.50.21:061][800]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.10-22.50.21
+[2022.05.11-02.50.21:064][800]LogWorld: Bringing up level for play took: 0.064564
+[2022.05.11-02.50.21:066][800]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2022.05.11-02.50.21:073][800]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.11-02.50.21:073][800]r.HDR.Display.OutputDevice = "1"
+[2022.05.11-02.50.21:074][800]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.11-02.50.21:075][800]PIE: Server logged in
+[2022.05.11-02.50.21:077][800]PIE: Play in editor total start time 0.471 seconds.
+[2022.05.11-02.50.21:283][801]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.11-02.50.21:283][801]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.11-02.50.21:283][801]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.11-02.50.21:283][801]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-02.50.22:626][854]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.11-02.50.28:567][157]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-02.50.28:568][157]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.11-02.50.28:568][157]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.11-02.50.28:583][157]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.50.28:590][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.50.28:600][157]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-02.50.28:608][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.50.28:654][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2022.05.11-02.50.28:655][157]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2022.05.11-02.50.28:680][157]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.05.11-02.50.28:756][158]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.05.11-02.50.29:771][211]Cmd: TRANSACTION UNDO
+[2022.05.11-02.50.29:772][211]LogEditorTransaction: Undo Color Grading Main Value
+[2022.05.11-02.50.30:310][221]Cmd: TRANSACTION UNDO
+[2022.05.11-02.50.30:310][221]LogEditorTransaction: Undo Edit Slope
+[2022.05.11-02.50.30:859][252]Cmd: TRANSACTION UNDO
+[2022.05.11-02.50.30:859][252]LogEditorTransaction: Undo Edit Radius in WorldSpace
+[2022.05.11-02.50.31:537][292]Cmd: TRANSACTION UNDO
+[2022.05.11-02.50.31:537][292]LogEditorTransaction: Undo Edit Radius in WorldSpace
+[2022.05.11-02.50.46:444][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2022.05.11-02.50.46:931][145]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2022.05.11-02.50.46:932][145]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplateD3EC3ACC4150D0FB9B6979ABFB43160C.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2022.05.11-02.50.46:947][145]LogFileHelpers: No new changes to save!
+[2022.05.11-02.50.46:967][145]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2022.05.11-02.50.46:967][145]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2022.05.11-02.50.48:805][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.05.11-02.50.49:285][245]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2022.05.11-02.50.49:286][245]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplate7927212B4164C50C3C73B0A68AD4101A.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2022.05.11-02.50.49:298][245]LogFileHelpers: No new changes to save!
+[2022.05.11-02.50.49:316][245]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2022.05.11-02.50.49:316][245]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2022.05.11-02.50.59:257][842]Cmd: TRANSACTION UNDO
+[2022.05.11-02.50.59:257][842]LogEditorTransaction: Undo Color Grading Main Value
+[2022.05.11-02.51.08:337][365]Cmd: TRANSACTION UNDO
+[2022.05.11-02.51.08:337][365]LogEditorTransaction: Undo Color Grading Main Value
+[2022.05.11-02.51.20:662][ 12]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Fog/MI_Fog.MI_Fog
+[2022.05.11-02.51.20:664][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.51.25:649][261]Cmd: TRANSACTION UNDO
+[2022.05.11-02.51.25:649][261]LogEditorTransaction: Undo Edit Param
+[2022.05.11-02.51.36:225][770]Cmd: TRANSACTION UNDO
+[2022.05.11-02.51.36:225][770]LogEditorTransaction: Undo Edit Speed of Fog
+[2022.05.11-02.51.38:310][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Core/Assets/Fog/MI_Fog" FILE="C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Fog/MI_Fog.uasset" SILENT=true
+[2022.05.11-02.51.38:339][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.05.11-02.51.38:375][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.05.11-02.51.38:378][845]LogSavePackage: Moving output files for package: /Game/Core/Assets/Fog/MI_Fog
+[2022.05.11-02.51.38:378][845]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/MI_Fog5C552A55478019FF675E259994C3303F.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Fog/MI_Fog.uasset'
+[2022.05.11-02.51.38:393][845]AssetCheck: New page: Asset Save: MI_Fog
+[2022.05.11-02.51.38:393][845]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Core/Assets/Fog/MI_Fog.MI_Fog
+[2022.05.11-02.51.38:955][877]LogSlate: Window 'MI_Fog' being destroyed
+[2022.05.11-02.51.38:968][877]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.51.38:968][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.51.39:926][931]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.11-02.51.39:934][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-02.51.39:934][931]PIE: New page: PIE session: LVL_NightTemplate (May 10, 2022, 6:51:39 PM)
+[2022.05.11-02.51.39:934][931]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.11-02.51.40:112][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178410s)
+[2022.05.11-02.51.40:112][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.178490s)
+[2022.05.11-02.51.40:112][931]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.11-02.51.40:113][931]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.11-02.51.40:113][931]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.11-02.51.40:114][931]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2022.05.11-02.51.40:146][931]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2022.05.11-02.51.40:148][931]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2022.05.11-02.51.40:148][931]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-02.51.40:148][931]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-02.51.40:148][931]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-02.51.40:148][931]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-02.51.40:148][931]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-02.51.40:148][931]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.11-02.51.40:148][931]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-02.51.40:148][931]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-02.51.40:149][931]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.11-02.51.40:149][931]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.11-02.51.40:149][931]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.11-02.51.40:150][931]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.11-02.51.40:278][931]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.11-02.51.40:279][931]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-02.51.40:279][931]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-02.51.40:279][931]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-02.51.40:280][931]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2022.05.11-02.51.40:280][931]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2022.05.11-02.51.40:281][931]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2022.05.11-02.51.40:281][931]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2022.05.11-02.51.40:281][931]LogInit: FAudioDevice initialized.
+[2022.05.11-02.51.40:282][931]LogAudio: Display: Audio Device (ID: 36) registered with world 'LVL_NightTemplate'.
+[2022.05.11-02.51.40:326][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-02.51.40:326][931]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.11-02.51.40:395][931]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.10-22.51.40
+[2022.05.11-02.51.40:398][931]LogWorld: Bringing up level for play took: 0.072157
+[2022.05.11-02.51.40:400][931]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2022.05.11-02.51.40:407][931]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.11-02.51.40:407][931]r.HDR.Display.OutputDevice = "1"
+[2022.05.11-02.51.40:407][931]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.11-02.51.40:409][931]PIE: Server logged in
+[2022.05.11-02.51.40:411][931]PIE: Play in editor total start time 0.477 seconds.
+[2022.05.11-02.51.44:789][180]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.11-02.51.44:789][180]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.11-02.51.44:789][180]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.11-02.51.44:789][180]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.11-02.51.45:588][228]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.11-02.51.47:817][359]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-02.51.47:817][359]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.11-02.51.47:817][359]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.11-02.51.47:833][359]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-02.51.47:839][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.51.47:853][359]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-02.51.47:861][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-02.51.47:893][359]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.11-02.51.47:893][359]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2022.05.11-02.51.47:895][359]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2022.05.11-02.51.47:926][359]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.05.11-02.51.47:966][360]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.05.11-02.51.49:465][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.05.11-02.51.49:954][431]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2022.05.11-02.51.49:955][431]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplate4F2512EC49444DE808B50B8CA07DD009.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2022.05.11-02.51.49:967][431]LogFileHelpers: No new changes to save!
+[2022.05.11-02.51.49:968][431]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.533
+[2022.05.11-02.51.49:985][431]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2022.05.11-02.51.49:985][431]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
