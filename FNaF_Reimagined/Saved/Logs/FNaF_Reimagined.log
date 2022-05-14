@@ -3613,3 +3613,699 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.05.14-04.46.56:480][ 33]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Building/Textures/Wall/Textures/New/Substance_graph_normal.Substance_graph_normal
 [2022.05.14-04.46.56:480][ 33]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Building/Textures/Wall/Textures/New/Substance_graph_basecolor.Substance_graph_basecolor
 [2022.05.14-04.46.56:480][ 33]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Building/Textures/Wall/Textures/New/Substance_graph_ambientocclusion.Substance_graph_ambientocclusion
+[2022.05.14-04.48.55:244][506]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.14-04.48.55:251][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.14-04.48.55:251][506]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2022, 8:48:55 PM)
+[2022.05.14-04.48.55:251][506]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-04.48.55:417][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.165909s)
+[2022.05.14-04.48.55:417][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.165987s)
+[2022.05.14-04.48.55:417][506]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.14-04.48.55:417][506]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-04.48.55:418][506]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.14-04.48.55:418][506]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2022.05.14-04.48.55:437][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2022.05.14-04.48.55:439][506]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.05.14-04.48.55:439][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.14-04.48.55:439][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.14-04.48.55:439][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.14-04.48.55:439][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.14-04.48.55:439][506]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.14-04.48.55:439][506]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.14-04.48.55:439][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.14-04.48.55:439][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.14-04.48.55:440][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.14-04.48.55:440][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.14-04.48.55:440][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.14-04.48.55:443][506]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.14-04.48.55:548][506]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.14-04.48.55:548][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.14-04.48.55:548][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.14-04.48.55:548][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.14-04.48.55:548][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.05.14-04.48.55:548][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2022.05.14-04.48.55:551][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.05.14-04.48.55:551][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.05.14-04.48.55:551][506]LogInit: FAudioDevice initialized.
+[2022.05.14-04.48.55:551][506]LogAudio: Display: Audio Device (ID: 24) registered with world 'LVL_NightTemplate'.
+[2022.05.14-04.48.55:606][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-04.48.55:607][506]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.14-04.48.55:660][506]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.14-00.48.55
+[2022.05.14-04.48.55:663][506]LogWorld: Bringing up level for play took: 0.056006
+[2022.05.14-04.48.55:664][506]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2022.05.14-04.48.55:672][506]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.14-04.48.55:672][506]r.HDR.Display.OutputDevice = "1"
+[2022.05.14-04.48.55:672][506]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-04.48.55:674][506]PIE: Server logged in
+[2022.05.14-04.48.55:676][506]PIE: Play in editor total start time 0.426 seconds.
+[2022.05.14-04.48.58:589][660]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.14-04.49.00:940][801]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.14-04.49.04:634][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-04.49.04:634][ 21]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-04.49.04:635][ 21]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.14-04.49.04:649][ 21]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-04.49.04:656][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-04.49.04:667][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.14-04.49.04:673][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-04.49.04:687][ 21]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-04.49.04:688][ 21]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.05.14-04.49.04:690][ 21]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.05.14-04.49.04:719][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2022.05.14-04.49.04:760][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.05.14-04.49.24:811][180]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.14-04.49.24:817][180]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.14-04.49.24:817][180]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2022, 8:49:24 PM)
+[2022.05.14-04.49.24:818][180]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-04.49.24:977][180]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158744s)
+[2022.05.14-04.49.24:977][180]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.158845s)
+[2022.05.14-04.49.24:977][180]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.14-04.49.24:977][180]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-04.49.24:977][180]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.14-04.49.24:978][180]LogPlayLevel: PIE: World Init took: (0.001171s)
+[2022.05.14-04.49.24:993][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.05.14-04.49.24:995][180]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.05.14-04.49.24:995][180]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.14-04.49.24:995][180]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.14-04.49.24:995][180]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.14-04.49.24:996][180]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.14-04.49.24:996][180]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.14-04.49.24:996][180]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.14-04.49.24:996][180]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.14-04.49.24:996][180]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.14-04.49.24:996][180]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.14-04.49.24:996][180]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.14-04.49.24:996][180]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.14-04.49.24:998][180]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.14-04.49.25:098][180]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.14-04.49.25:099][180]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.14-04.49.25:099][180]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.14-04.49.25:099][180]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.14-04.49.25:099][180]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.05.14-04.49.25:100][180]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.05.14-04.49.25:102][180]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.05.14-04.49.25:102][180]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.05.14-04.49.25:102][180]LogInit: FAudioDevice initialized.
+[2022.05.14-04.49.25:102][180]LogAudio: Display: Audio Device (ID: 25) registered with world 'LVL_NightTemplate'.
+[2022.05.14-04.49.25:145][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-04.49.25:146][180]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.14-04.49.25:199][180]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.14-00.49.25
+[2022.05.14-04.49.25:201][180]LogWorld: Bringing up level for play took: 0.055365
+[2022.05.14-04.49.25:203][180]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2022.05.14-04.49.25:209][180]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.14-04.49.25:209][180]r.HDR.Display.OutputDevice = "1"
+[2022.05.14-04.49.25:209][180]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-04.49.25:211][180]PIE: Server logged in
+[2022.05.14-04.49.25:214][180]PIE: Play in editor total start time 0.396 seconds.
+[2022.05.14-04.49.26:409][231]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.14-04.49.26:409][231]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.14-04.49.26:409][231]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.05.14-04.49.26:409][231]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.49.27:725][310]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.14-04.49.27:725][310]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.14-04.49.27:726][310]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.49.27:726][310]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-04.49.30:393][470]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1A
+[2022.05.14-04.49.30:393][470]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.14-04.49.30:393][470]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.05.14-04.49.30:393][470]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.49.31:542][539]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.14-04.49.32:076][571]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.14-04.49.32:076][571]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.14-04.49.32:076][571]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.49.32:076][571]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-04.49.38:698][949]LogBlueprintUserMessages: [BonnieBP_C_1] EmployeeOnly1
+[2022.05.14-04.49.38:698][949]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2022.05.14-04.49.40:027][953]LogBlueprintUserMessages: [ChicaBP_C_2] Dining1
+[2022.05.14-04.49.45:361][272]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.14-04.49.45:361][272]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.14-04.49.45:361][272]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.05.14-04.49.45:361][272]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.49.46:478][339]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.14-04.49.46:478][339]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.14-04.49.46:478][339]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.49.46:478][339]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-04.49.47:414][395]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.14-04.49.49:517][521]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.49.49:981][549]LogBlueprintUserMessages: [ChicaBP_C_2] Bathroom1
+[2022.05.14-04.49.51:068][614]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.49.51:517][641]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.49.51:517][641]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.14-04.49.56:132][918]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.14-04.49.56:350][931]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.49.56:350][931]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.14-04.49.58:571][ 64]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.49.58:571][ 64]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.14-04.49.59:922][145]LogBlueprintUserMessages: [ChicaBP_C_2] Bathroom2
+[2022.05.14-04.50.00:898][203]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.00:898][203]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.14-04.50.04:845][440]LogBlueprintUserMessages: [BonnieBP_C_1] EmployeeOnly1
+[2022.05.14-04.50.04:845][440]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2022.05.14-04.50.06:831][559]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.06:831][559]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.14-04.50.08:814][678]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.08:814][678]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.14-04.50.09:862][741]LogBlueprintUserMessages: [ChicaBP_C_2] Kitchen
+[2022.05.14-04.50.11:314][828]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.11:315][828]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.14-04.50.13:201][941]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.13:201][941]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.14-04.50.13:566][963]LogBlueprintUserMessages: [BonnieBP_C_1] Dining2
+[2022.05.14-04.50.13:566][963]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2022.05.14-04.50.13:566][963]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2022.05.14-04.50.19:815][338]LogBlueprintUserMessages: [ChicaBP_C_2] RightHallway1
+[2022.05.14-04.50.21:151][418]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.21:655][448]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.22:287][486]LogBlueprintUserMessages: [BonnieBP_C_1] LeftHallway
+[2022.05.14-04.50.23:572][563]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.26:305][727]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.27:388][792]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.27:755][814]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.28:205][841]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.28:388][852]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.29:089][894]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.29:322][908]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.29:756][934]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.29:770][935]LogBlueprintUserMessages: [ChicaBP_C_2] RightHallway2
+[2022.05.14-04.50.30:006][949]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.31:004][  9]LogBlueprintUserMessages: [BonnieBP_C_1] LeftCorner
+[2022.05.14-04.50.31:206][ 21]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.31:706][ 51]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.32:873][121]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.33:156][138]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.35:107][255]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.35:524][280]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.37:324][388]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.37:524][400]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.38:873][481]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.39:224][502]LogBlueprintUserMessages: [CameraUI_C_0] 0
+[2022.05.14-04.50.39:722][532]LogBlueprintUserMessages: [BonnieBP_C_1] LeftDoor
+[2022.05.14-04.50.39:722][532]LogBlueprintUserMessages: [ChicaBP_C_2] RightCorner
+[2022.05.14-04.50.40:677][587]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.41:329][626]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.14-04.50.41:329][626]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.14-04.50.41:679][647]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.43:096][732]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.14-04.50.43:612][763]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.44:693][828]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 1B
+[2022.05.14-04.50.44:693][828]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.05.14-04.50.44:693][828]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2022.05.14-04.50.44:693][828]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.14-04.50.45:616][883]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] 4B
+[2022.05.14-04.50.46:019][907]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.14-04.50.46:769][952]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.14-04.50.48:433][ 52]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.14-04.50.49:667][126]LogBlueprintUserMessages: [ChicaBP_C_2] RightDoor
+[2022.05.14-04.50.50:283][163]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2022.05.14-04.50.50:283][163]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2022.05.14-04.50.50:283][163]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.50:283][163]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-04.50.50:669][186]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.14-04.50.50:969][204]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.14-04.50.52:369][288]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.14-04.50.53:736][370]LogBlueprintUserMessages: [CameraUI_C_0] 3
+[2022.05.14-04.50.54:039][388]LogBlueprintUserMessages: [CameraUI_C_0] 2
+[2022.05.14-04.50.54:039][388]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.14-04.50.56:072][510]LogBlueprintUserMessages: [CameraUI_C_0] 1
+[2022.05.14-04.50.57:154][575]LogBlueprintUserMessages: [BonnieBP_C_1] Dining1
+[2022.05.14-04.50.59:607][722]LogBlueprintUserMessages: [ChicaBP_C_2] Dining1
+[2022.05.14-04.51.03:061][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-04.51.03:061][927]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-04.51.03:062][927]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.14-04.51.03:069][927]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-04.51.03:075][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-04.51.03:086][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.14-04.51.03:093][927]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-04.51.03:117][927]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.05.14-04.51.03:118][927]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.05.14-04.51.03:141][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2022.05.14-04.51.03:367][928]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.05.14-04.54.46:261][170]LogDerivedDataCache: C:/Users/Kira Meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.690 and deleted 0 file(s) with total size 0 MiB.
+[2022.05.14-04.58.37:485][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.05.14-04.58.37:994][860]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto5
+[2022.05.14-04.58.37:994][860]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplate_Auto5A87ACDCB48308EA8832763917AE56486.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto5.umap'
+[2022.05.14-04.58.38:002][860]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.534
+[2022.05.14-04.58.38:002][860]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.534
+[2022.05.14-05.13.06:433][457]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.05.14-05.13.11:728][713]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/HydraulicDoor/SM_HydroloicDoor.SM_HydroloicDoor
+[2022.05.14-05.13.11:800][713]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-05.41.51:900][  2]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.14-05.41.51:920][  2]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.14-05.41.51:935][  3]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.05.14-05.41.53:760][108]LogContentBrowser: Attempting asset rename: NewFolder -> NEW
+[2022.05.14-05.41.53:767][108]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.14-05.42.05:484][197]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/DoorNEWtextures/M_HydrolicDoor_Base_color.png)
+[2022.05.14-05.42.05:707][197]LogTexture: Display: Building textures: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color.M_HydrolicDoor_Base_color (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 80.000 MB), EncodeSpeed: Fast
+[2022.05.14-05.42.05:827][197]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/DoorNEWtextures/M_HydrolicDoor_Metallic.png)
+[2022.05.14-05.42.05:873][197]LogTexture: Display: Building textures: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic.M_HydrolicDoor_Metallic (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.05.14-05.42.05:976][197]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/DoorNEWtextures/M_HydrolicDoor_Mixed_AO.png)
+[2022.05.14-05.42.06:075][197]LogTexture: Display: Building textures: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO.M_HydrolicDoor_Mixed_AO (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.05.14-05.42.06:131][197]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/DoorNEWtextures/M_HydrolicDoor_Normal_DirectX.png)
+[2022.05.14-05.42.06:426][197]LogTexture: Display: Building textures: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX.M_HydrolicDoor_Normal_DirectX (TFO_BC5, 2048X2048 X1X1) (Required Memory Estimate: 160.000 MB), EncodeSpeed: Fast
+[2022.05.14-05.42.06:607][197]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Kira Meyer/Desktop/DoorNEWtextures/M_HydrolicDoor_Roughness.png)
+[2022.05.14-05.42.06:690][197]LogTexture: Display: Building textures: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness.M_HydrolicDoor_Roughness (TFO_AutoDXT, 2048X2048 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.05.14-05.42.11:160][200]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Kira Meyer/Desktop/SM_SecurityDoor.fbx)
+[2022.05.14-05.42.11:200][200]LogFbx: Loading FBX Scene from C:/Users/Kira Meyer/Desktop/SM_SecurityDoor.fbx
+[2022.05.14-05.42.11:210][200]LogFbx: FBX Scene Loaded Succesfully
+[2022.05.14-05.42.12:393][200]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.05.14-05.42.12:475][200]LogMaterial: Display: Missing cached shadermap for M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: AE28EF8A4372FA6A68FAF9A54D0063D30349DD71), compiling. 
+[2022.05.14-05.42.12:998][200]LogFbx: Display: Triangulating static mesh Cube
+[2022.05.14-05.42.14:173][200]LogStaticMesh: Display: Building static mesh SM_SecurityDoor...
+[2022.05.14-05.42.14:187][200]LogStaticMesh: Built static mesh [0.02s] /Game/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor.SM_SecurityDoor
+[2022.05.14-05.42.15:766][237]LogShaderCompilers: Display: ================================================
+[2022.05.14-05.42.15:766][237]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.14-05.42.15:766][237]LogShaderCompilers: Display: Total job queries 388, among them cache hits 242 (62.37%)
+[2022.05.14-05.42.15:766][237]LogShaderCompilers: Display: Tracking 107 distinct input hashes that result in 46 distinct outputs (42.99%)
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: RAM used: 0.10 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Shaders Compiled: 52
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Jobs assigned 110, completed 107 (97.27%)
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Average time worker was idle: 304.63 s
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Time job spent in pending queue: average 0.16 s, longest 1.90 s
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Job execution time: average 1.17 s, max 2.15 s
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Job life time (pending + execution): average 1.33 s, max 3.40
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 35.36 s
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Jobs were issued in 110 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Average processing rate: 3.03 jobs/sec
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Effective parallelization: 3.08 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 1.86 sec, max 1.88 sec, min 1.84 sec)
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 1.81 sec, max 1.83 sec, min 1.77 sec)
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 1.80 sec, max 1.81 sec, min 1.77 sec)
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    3 times, average 1.79 sec, max 1.80 sec, min 1.78 sec)
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 1.75 sec, max 1.78 sec, min 1.73 sec)
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.05.14-05.42.15:767][237]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.56% of total time (compiled   20 times, average 0.96 sec, max 1.08 sec, min 0.73 sec)
+[2022.05.14-05.42.15:768][237]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.93% of total time (compiled   20 times, average 0.87 sec, max 1.02 sec, min 0.60 sec)
+[2022.05.14-05.42.15:768][237]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.58% of total time (compiled   15 times, average 0.99 sec, max 1.06 sec, min 0.91 sec)
+[2022.05.14-05.42.15:768][237]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.00% of total time (compiled   16 times, average 0.41 sec, max 0.47 sec, min 0.39 sec)
+[2022.05.14-05.42.15:768][237]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.13% of total time (compiled    3 times, average 1.86 sec, max 1.88 sec, min 1.84 sec)
+[2022.05.14-05.42.15:768][237]LogShaderCompilers: Display: ================================================
+[2022.05.14-05.42.16:094][251]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor.M_HydrolicDoor
+[2022.05.14-05.42.16:112][251]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 5BFBE5726B45B3C90A799E192B00C380F1F0A0F9), compiling. 
+[2022.05.14-05.42.16:181][251]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-05.42.16:376][251]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 5744C468E997508C9EFE9242A033C8995170A33E), compiling. 
+[2022.05.14-05.42.16:391][251]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: AA5FB5A918D4076CDFA0CB022197BA7C23A701B5), compiling. 
+[2022.05.14-05.42.16:404][251]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 923E2CD86B988685A3E9B82F59248C39FD7A50EB), compiling. 
+[2022.05.14-05.42.16:441][251]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.16:441][251]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.14-05.42.16:441][251]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.16:659][253]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.14-05.42.16:659][253]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.14-05.42.16:659][253]MaterialEditorStats: Shader Count: 4
+[2022.05.14-05.42.19:493][364]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 13DCE8DC408327B9B3B163519AF479C432981837), compiling. 
+[2022.05.14-05.42.19:502][364]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.19:502][364]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.14-05.42.19:502][364]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.21:056][433]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.14-05.42.21:056][433]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.14-05.42.21:056][433]MaterialEditorStats: Shader Count: 4
+[2022.05.14-05.42.22:513][500]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 4AEB5A97CB9422F979BA9405CB428B3ACDEA62E2), compiling. 
+[2022.05.14-05.42.22:523][500]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5112EC134A0CB3FD6954DEFF52DD46A064B714E4), compiling. 
+[2022.05.14-05.42.22:528][500]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B6D220B6F5A87BAAC053E6C19EB3E7C3488DFA28), compiling. 
+[2022.05.14-05.42.22:532][500]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.22:532][500]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.14-05.42.22:532][500]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.22:616][501]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.14-05.42.22:616][501]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.14-05.42.22:616][501]MaterialEditorStats: Shader Count: 4
+[2022.05.14-05.42.24:868][626]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 8F723DCAD487F4F06F703925BF5FE7B18D95AD43), compiling. 
+[2022.05.14-05.42.24:879][626]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C69F1B0D8C5765363B6A0FDCA164421EAD28E2F3), compiling. 
+[2022.05.14-05.42.24:884][626]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.24:884][626]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.05.14-05.42.24:884][626]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.24:884][626]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.25:872][671]MaterialEditorStats: Texture samplers: 1/16
+[2022.05.14-05.42.25:872][671]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.05.14-05.42.25:872][671]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.25:872][671]MaterialEditorStats: Shader Count: 1
+[2022.05.14-05.42.26:023][678]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.14-05.42.26:023][678]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.05.14-05.42.26:023][678]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.26:023][678]MaterialEditorStats: Shader Count: 2
+[2022.05.14-05.42.26:694][698]LogUObjectHash: Compacting FUObjectHashTables data took  20.48ms
+[2022.05.14-05.42.26:716][698]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.182
+[2022.05.14-05.42.26:719][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color] ([1] browsable assets)...
+[2022.05.14-05.42.26:721][698]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color.M_HydrolicDoor_Base_color]
+[2022.05.14-05.42.26:722][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color]
+[2022.05.14-05.42.26:758][698]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color_Auto6
+[2022.05.14-05.42.26:758][698]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Base_color_Auto6086A7B7645A4D1DFA987D39F8B7C7628.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color_Auto6.uasset'
+[2022.05.14-05.42.26:762][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic] ([1] browsable assets)...
+[2022.05.14-05.42.26:770][698]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic.M_HydrolicDoor_Metallic]
+[2022.05.14-05.42.26:770][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic]
+[2022.05.14-05.42.26:774][698]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic_Auto6
+[2022.05.14-05.42.26:774][698]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Metallic_Auto648B85D5F4A012D53375926A77915D49D.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic_Auto6.uasset'
+[2022.05.14-05.42.26:774][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO] ([1] browsable assets)...
+[2022.05.14-05.42.26:776][698]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO.M_HydrolicDoor_Mixed_AO]
+[2022.05.14-05.42.26:776][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO]
+[2022.05.14-05.42.26:781][698]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO_Auto6
+[2022.05.14-05.42.26:781][698]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Mixed_AO_Auto64DBE80FA4D4847EBF2623399C586BFF3.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO_Auto6.uasset'
+[2022.05.14-05.42.26:781][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX] ([1] browsable assets)...
+[2022.05.14-05.42.26:782][698]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX.M_HydrolicDoor_Normal_DirectX]
+[2022.05.14-05.42.26:782][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX]
+[2022.05.14-05.42.26:812][698]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX_Auto6
+[2022.05.14-05.42.26:812][698]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Normal_DirectX_AuAD7CCCD049AF9A24D0A7DCA9C97DD485.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX_Auto6.uasset'
+[2022.05.14-05.42.26:812][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness] ([1] browsable assets)...
+[2022.05.14-05.42.26:813][698]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness.M_HydrolicDoor_Roughness]
+[2022.05.14-05.42.26:813][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness]
+[2022.05.14-05.42.26:817][698]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness_Auto6
+[2022.05.14-05.42.26:817][698]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Roughness_Auto60DCAA51C4EB493E04B071AA19209AC08.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness_Auto6.uasset'
+[2022.05.14-05.42.26:817][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor] ([1] browsable assets)...
+[2022.05.14-05.42.26:827][698]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor.SM_SecurityDoor]
+[2022.05.14-05.42.26:827][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor]
+[2022.05.14-05.42.26:841][698]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor_Auto6
+[2022.05.14-05.42.26:841][698]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/SM_SecurityDoor_Auto6BD8A779042EC50CC31AD7EB243A3A113.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/Autosaves/Game/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor_Auto6.uasset'
+[2022.05.14-05.42.26:841][698]LogFileHelpers: Auto-saving content packages took 0.125
+[2022.05.14-05.42.27:522][732]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 86D5FFC339428720C66827E6725687521773EB1A), compiling. 
+[2022.05.14-05.42.27:529][732]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: F9A9336492879F04BDA3A3F9B1338194A9E6AD00), compiling. 
+[2022.05.14-05.42.27:531][732]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C4CE76909E970763677B58C2DBA44149D3BC3C1F), compiling. 
+[2022.05.14-05.42.27:533][732]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 82882F3CDD542FE9DD5852FBE2C2B18DA3C5D83A), compiling. 
+[2022.05.14-05.42.27:538][732]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.27:538][732]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.05.14-05.42.27:538][732]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.27:538][732]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.27:614][733]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.14-05.42.27:614][733]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.05.14-05.42.27:614][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.27:614][733]MaterialEditorStats: Shader Count: 4
+[2022.05.14-05.42.29:854][852]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 92809570970CB6AA04936B9B563FD834077549AA), compiling. 
+[2022.05.14-05.42.29:861][852]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 30164B322F0FB7D89AFA34D8363FC14B77C4741B), compiling. 
+[2022.05.14-05.42.29:868][852]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.29:868][852]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.14-05.42.29:868][852]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.29:868][852]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.30:576][875]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.14-05.42.30:576][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.14-05.42.30:576][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.30:576][875]MaterialEditorStats: Shader Count: 1
+[2022.05.14-05.42.31:287][903]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 72A7EF3C811E584C8A3EE0230151E62747BD209B), compiling. 
+[2022.05.14-05.42.31:295][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: B78A714B35510ABA7A4DCCF57BAE11487C7E3987), compiling. 
+[2022.05.14-05.42.31:297][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3994E0103AA5CAEFA5E90237911D5EC097A5C265), compiling. 
+[2022.05.14-05.42.31:298][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: DA42F2D644D8AE4DA2910858ECFBBD5D45A4A495), compiling. 
+[2022.05.14-05.42.31:300][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 2D039BBA0E742E51CE62D51A1FFD62B2E3F225D0), compiling. 
+[2022.05.14-05.42.31:304][903]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.31:304][903]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.14-05.42.31:304][903]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.31:304][903]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.31:373][904]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.14-05.42.31:373][904]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.05.14-05.42.31:374][904]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.31:374][904]MaterialEditorStats: Shader Count: 4
+[2022.05.14-05.42.34:058][ 36]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: E4FDD31DA9559DAB25ED05DFE3BAD35674DA8AF0), compiling. 
+[2022.05.14-05.42.34:067][ 36]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: E78977A89BC1942D0F955BCD101E4C7796B79C08), compiling. 
+[2022.05.14-05.42.34:071][ 36]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.34:071][ 36]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.05.14-05.42.34:071][ 36]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.34:072][ 36]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.34:681][ 60]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.14-05.42.34:681][ 60]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.05.14-05.42.34:681][ 60]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.34:681][ 60]MaterialEditorStats: Shader Count: 1
+[2022.05.14-05.42.35:182][ 80]MaterialEditorStats: Texture samplers: 5/16
+[2022.05.14-05.42.35:182][ 80]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.05.14-05.42.35:182][ 80]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.35:182][ 80]MaterialEditorStats: Shader Count: 2
+[2022.05.14-05.42.36:600][149]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: B10EA8CF4C024BEE8802BDE985376B2B0C746280), compiling. 
+[2022.05.14-05.42.36:607][149]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 488D936147FBFF3FDEF8CFFDC180BBA8DCEB36CE), compiling. 
+[2022.05.14-05.42.36:609][149]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3A0527CBC8029AA8F92793BE14627A0487DF4FCE), compiling. 
+[2022.05.14-05.42.36:611][149]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2CD74AA63F350E2C56B38BC644B3D8FF3CD25923), compiling. 
+[2022.05.14-05.42.36:613][149]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 469B97DA23D34C4A71D07C8D1CCE3E96FC37184E), compiling. 
+[2022.05.14-05.42.36:616][149]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 2063E79CB693F9B9D6A52BB426FF3B239876C3DA), compiling. 
+[2022.05.14-05.42.36:620][149]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.36:621][149]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.05.14-05.42.36:621][149]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.36:621][149]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.36:693][150]MaterialEditorStats: Texture samplers: 5/16
+[2022.05.14-05.42.36:693][150]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.05.14-05.42.36:693][150]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.36:693][150]MaterialEditorStats: Shader Count: 4
+[2022.05.14-05.42.39:794][309]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 94183C8E6468C1B8D9A90D0A4A9B3B4733E7259F), compiling. 
+[2022.05.14-05.42.39:806][309]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: ABC3263A500CA7C29FB9105CAF710EAFC433DA44), compiling. 
+[2022.05.14-05.42.39:816][309]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.39:816][309]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.14-05.42.39:816][309]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.39:816][309]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.40:544][332]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.14-05.42.40:544][332]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.14-05.42.40:544][332]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.40:544][332]MaterialEditorStats: Shader Count: 1
+[2022.05.14-05.42.41:062][352]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.14-05.42.41:062][352]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.14-05.42.41:062][352]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.41:062][352]MaterialEditorStats: Shader Count: 2
+[2022.05.14-05.42.41:845][389]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: D69A2FBEE280A32C7C53619C0E6D18C43A3DE357), compiling. 
+[2022.05.14-05.42.41:853][389]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 77890B01C7A142401239F545BC3ED239A6C174E0), compiling. 
+[2022.05.14-05.42.41:855][389]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DF30EFB3C8F7EE9537FED419CB27290A6643CB63), compiling. 
+[2022.05.14-05.42.41:857][389]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2984224ED0EFDCFD26FD9D566D7EE2B22C4E666E), compiling. 
+[2022.05.14-05.42.41:860][389]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 82A9F7A03F93C8ED38E7D36FDEC2CC0E9C3A6BD9), compiling. 
+[2022.05.14-05.42.41:861][389]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: DD15827E40E0EF53190733079646DFA803FF8874), compiling. 
+[2022.05.14-05.42.41:863][389]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: B056CA3E825032EDD74BCFAA207DD5C43E61832C), compiling. 
+[2022.05.14-05.42.41:868][389]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.41:868][389]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.14-05.42.41:868][389]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.41:868][389]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.41:946][390]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.14-05.42.41:946][390]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.14-05.42.41:946][390]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.41:946][390]MaterialEditorStats: Shader Count: 4
+[2022.05.14-05.42.46:380][626]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 3C220593E2ECABAB72C9FBEF9A6FA12B3B8B191F), compiling. 
+[2022.05.14-05.42.46:392][626]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 26F0C1709C51A6B66A4A4ECB35F78DAF6670A24D), compiling. 
+[2022.05.14-05.42.46:397][626]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.42.46:397][626]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.14-05.42.46:399][626]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.46:399][626]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.42.47:055][646]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.14-05.42.47:055][646]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.14-05.42.47:055][646]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.47:055][646]MaterialEditorStats: Shader Count: 1
+[2022.05.14-05.42.47:350][659]LogMaterialEditor: Saving and Compiling material M_HydrolicDoor
+[2022.05.14-05.42.48:171][659]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 94C5C4966D8950E03DF0CB94827FC2E71DF92F03), compiling. 
+[2022.05.14-05.42.48:290][659]LogMaterial: Display: Missing cached shadermap for M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: D35F2ABC5D28C9C0DDBC6B948C57F84754069591), compiling. 
+[2022.05.14-05.42.48:444][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.05.14-05.42.49:811][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.05.14-05.42.52:077][659]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.05.14-05.42.52:616][659]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000329s (0.560367s overbudget)
+[2022.05.14-05.42.52:677][659]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor
+[2022.05.14-05.42.52:678][659]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor9F18077B48CE883C40382881F0E5E5EF.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor.uasset'
+[2022.05.14-05.42.52:856][659]AssetCheck: New page: Asset Save: M_HydrolicDoor
+[2022.05.14-05.42.52:856][659]LogContentValidation: Display: Validating Material /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor.M_HydrolicDoor
+[2022.05.14-05.42.52:862][659]MaterialEditorStats: Base pass shader: 136 instructions
+[2022.05.14-05.42.52:862][659]MaterialEditorStats: Base pass vertex shader: 114 instructions
+[2022.05.14-05.42.52:862][659]MaterialEditorStats: Texture samplers: 8/16
+[2022.05.14-05.42.52:862][659]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.14-05.42.52:862][659]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.42.52:862][659]MaterialEditorStats: Shader Count: 16
+[2022.05.14-05.43.14:517][749]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.14-05.43.14:538][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.14-05.43.14:549][749]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2022, 9:43:14 PM)
+[2022.05.14-05.43.14:558][749]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-05.43.14:861][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.303187s)
+[2022.05.14-05.43.14:861][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.303992s)
+[2022.05.14-05.43.14:862][749]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.14-05.43.14:868][749]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-05.43.14:872][749]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.14-05.43.14:881][749]LogPlayLevel: PIE: World Init took: (0.020166s)
+[2022.05.14-05.43.14:899][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.05.14-05.43.14:905][749]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.05.14-05.43.14:907][749]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.14-05.43.14:907][749]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.14-05.43.14:908][749]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.14-05.43.14:908][749]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.14-05.43.14:908][749]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.14-05.43.14:908][749]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.14-05.43.14:908][749]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.14-05.43.14:908][749]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.14-05.43.14:913][749]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.14-05.43.14:913][749]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.14-05.43.14:913][749]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.14-05.43.14:918][749]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.14-05.43.15:023][749]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.14-05.43.15:035][749]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.14-05.43.15:035][749]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.14-05.43.15:036][749]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.14-05.43.15:039][749]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2022.05.14-05.43.15:040][749]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2022.05.14-05.43.15:043][749]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2022.05.14-05.43.15:043][749]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2022.05.14-05.43.15:043][749]LogInit: FAudioDevice initialized.
+[2022.05.14-05.43.15:043][749]LogAudio: Display: Audio Device (ID: 26) registered with world 'LVL_NightTemplate'.
+[2022.05.14-05.43.15:099][749]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-05.43.15:105][749]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.14-05.43.15:221][749]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.14-01.43.15
+[2022.05.14-05.43.15:230][749]LogWorld: Bringing up level for play took: 0.125342
+[2022.05.14-05.43.15:247][749]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2022.05.14-05.43.15:326][749]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.14-05.43.15:340][749]r.HDR.Display.OutputDevice = "1"
+[2022.05.14-05.43.15:351][749]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-05.43.15:391][749]PIE: Server logged in
+[2022.05.14-05.43.15:394][749]PIE: Play in editor total start time 0.863 seconds.
+[2022.05.14-05.43.19:956][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-05.43.19:956][985]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-05.43.19:960][985]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.14-05.43.19:966][985]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-05.43.19:979][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-05.43.20:011][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.14-05.43.20:018][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-05.43.20:045][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.05.14-05.43.20:046][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.05.14-05.43.20:100][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2022.05.14-05.43.20:132][986]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.05.14-05.43.35:892][879]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.14-05.43.35:899][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.14-05.43.35:899][879]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2022, 9:43:35 PM)
+[2022.05.14-05.43.35:900][879]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-05.43.36:088][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.188058s)
+[2022.05.14-05.43.36:088][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.188167s)
+[2022.05.14-05.43.36:088][879]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.14-05.43.36:088][879]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-05.43.36:089][879]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.14-05.43.36:090][879]LogPlayLevel: PIE: World Init took: (0.001404s)
+[2022.05.14-05.43.36:111][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.05.14-05.43.36:114][879]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.05.14-05.43.36:114][879]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.14-05.43.36:114][879]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.14-05.43.36:114][879]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.14-05.43.36:114][879]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.14-05.43.36:114][879]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.14-05.43.36:114][879]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.14-05.43.36:114][879]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.14-05.43.36:114][879]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.14-05.43.36:114][879]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.14-05.43.36:114][879]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.14-05.43.36:114][879]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.14-05.43.36:117][879]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.14-05.43.36:219][879]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.14-05.43.36:219][879]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.14-05.43.36:219][879]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.14-05.43.36:219][879]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.14-05.43.36:219][879]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2022.05.14-05.43.36:220][879]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2022.05.14-05.43.36:223][879]LogInit: FAudioDevice initialized.
+[2022.05.14-05.43.36:223][879]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2022.05.14-05.43.36:223][879]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2022.05.14-05.43.36:223][879]LogAudio: Display: Audio Device (ID: 27) registered with world 'LVL_NightTemplate'.
+[2022.05.14-05.43.36:278][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-05.43.36:278][879]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.14-05.43.36:342][879]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.14-01.43.36
+[2022.05.14-05.43.36:345][879]LogWorld: Bringing up level for play took: 0.067132
+[2022.05.14-05.43.36:347][879]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2022.05.14-05.43.36:354][879]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.14-05.43.36:354][879]r.HDR.Display.OutputDevice = "1"
+[2022.05.14-05.43.36:354][879]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-05.43.36:358][879]PIE: Server logged in
+[2022.05.14-05.43.36:361][879]PIE: Play in editor total start time 0.461 seconds.
+[2022.05.14-05.43.39:906][997]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.14-05.43.45:561][336]LogBlueprintUserMessages: [PlayerBP_C_0] Open
+[2022.05.14-05.43.47:447][449]LogBlueprintUserMessages: [BonnieBP_C_1] EmployeeOnly1
+[2022.05.14-05.43.48:173][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-05.43.48:173][491]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-05.43.48:173][491]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.14-05.43.48:180][491]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-05.43.48:188][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-05.43.48:201][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.14-05.43.48:210][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-05.43.48:235][491]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-05.43.48:235][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.05.14-05.43.48:236][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.05.14-05.43.48:265][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2022.05.14-05.43.48:481][492]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2022.05.14-05.44.00:462][ 93]Cmd: TRANSACTION UNDO
+[2022.05.14-05.44.00:462][ 93]LogEditorTransaction: Undo Move Elements
+[2022.05.14-05.44.00:543][ 93]LogMaterial: Display: Missing cached shadermap for Preview:M_BackstageWall in PCD3D_SM5, Default, SM5 (DDC key hash: 04AFA19967C3F3AFC790D78A5D24A0829725DA55), compiling. 
+[2022.05.14-05.44.00:609][ 93]LogMaterial: Display: Missing cached shadermap for Preview:M_HydrolicDoor in PCD3D_SM5, Default, SM5 (DDC key hash: 950865619ABB7D06328FDEC2FC0F76ED5276D9D2), compiling. 
+[2022.05.14-05.44.00:674][ 93]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.44.00:674][ 93]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.14-05.44.00:674][ 93]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.44.00:674][ 93]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.44.00:674][ 93]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.14-05.44.00:674][ 93]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.14-05.44.00:674][ 93]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.44.00:674][ 93]MaterialEditorStats: Shader Count: 0
+[2022.05.14-05.44.00:807][ 95]MaterialEditorStats: Texture samplers: 5/16
+[2022.05.14-05.44.00:807][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2022.05.14-05.44.00:807][ 95]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.44.00:807][ 95]MaterialEditorStats: Shader Count: 2
+[2022.05.14-05.44.00:874][ 96]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.14-05.44.00:874][ 96]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2022.05.14-05.44.00:874][ 96]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.14-05.44.00:874][ 96]MaterialEditorStats: Shader Count: 4
+[2022.05.14-05.44.18:936][108]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.05.14-05.44.18:942][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.14-05.44.18:942][108]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2022, 9:44:18 PM)
+[2022.05.14-05.44.18:943][108]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-05.44.19:107][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.164297s)
+[2022.05.14-05.44.19:107][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.164383s)
+[2022.05.14-05.44.19:107][108]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.05.14-05.44.19:107][108]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.05.14-05.44.19:108][108]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.05.14-05.44.19:108][108]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2022.05.14-05.44.19:123][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2022.05.14-05.44.19:125][108]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2022.05.14-05.44.19:125][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.14-05.44.19:125][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.14-05.44.19:125][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.14-05.44.19:125][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.14-05.44.19:125][108]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.14-05.44.19:125][108]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.05.14-05.44.19:125][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.14-05.44.19:125][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.14-05.44.19:127][108]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.14-05.44.19:127][108]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.14-05.44.19:127][108]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.14-05.44.19:129][108]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.05.14-05.44.19:236][108]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.05.14-05.44.19:236][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.14-05.44.19:236][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.14-05.44.19:236][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.14-05.44.19:237][108]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2022.05.14-05.44.19:237][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2022.05.14-05.44.19:240][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2022.05.14-05.44.19:240][108]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2022.05.14-05.44.19:240][108]LogInit: FAudioDevice initialized.
+[2022.05.14-05.44.19:240][108]LogAudio: Display: Audio Device (ID: 28) registered with world 'LVL_NightTemplate'.
+[2022.05.14-05.44.19:285][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-05.44.19:286][108]LogLoad: Game class is 'FNaFGM_C'
+[2022.05.14-05.44.19:347][108]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2022.05.14-01.44.19
+[2022.05.14-05.44.19:351][108]LogWorld: Bringing up level for play took: 0.065003
+[2022.05.14-05.44.19:354][108]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2022.05.14-05.44.19:361][108]Cmd: r.HDR.Display.OutputDevice 1
+[2022.05.14-05.44.19:361][108]r.HDR.Display.OutputDevice = "1"
+[2022.05.14-05.44.19:361][108]LogBlueprintUserMessages: [PlayerBP_C_0] Off
+[2022.05.14-05.44.19:363][108]PIE: Server logged in
+[2022.05.14-05.44.19:366][108]PIE: Play in editor total start time 0.424 seconds.
+[2022.05.14-05.44.21:605][212]LogBlueprintUserMessages: [PlayerBP_C_0] Close
+[2022.05.14-05.44.27:773][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.14-05.44.27:773][580]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.05.14-05.44.27:773][580]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.05.14-05.44.27:787][580]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.05.14-05.44.27:794][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-05.44.27:808][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.14-05.44.27:815][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.14-05.44.27:837][580]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.14-05.44.27:838][580]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2022.05.14-05.44.27:839][580]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2022.05.14-05.44.27:864][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.05.14-05.44.27:907][581]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2022.05.14-05.44.40:228][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.05.14-05.44.40:788][261]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2022.05.14-05.44.40:788][261]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplate9EC620DC47CD396DFDD071A29D461335.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2022.05.14-05.44.40:811][261]LogFileHelpers: No new changes to save!
+[2022.05.14-05.44.40:812][261]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.606
+[2022.05.14-05.44.41:144][261]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color
+[2022.05.14-05.44.41:144][261]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Base_color627E778846872C9A62A340B8B21B2C52.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color.uasset'
+[2022.05.14-05.44.41:218][261]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic
+[2022.05.14-05.44.41:218][261]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Metallic7331B110422B680F22D4B6A99B972508.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic.uasset'
+[2022.05.14-05.44.41:264][261]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO
+[2022.05.14-05.44.41:264][261]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Mixed_AOA57F3D8049A934AD35111BB3CAAE28FD.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO.uasset'
+[2022.05.14-05.44.41:903][261]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX
+[2022.05.14-05.44.41:903][261]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_Normal_DirectX784528084303DEFC5ACD078F6540E43B.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX.uasset'
+[2022.05.14-05.44.41:974][261]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness
+[2022.05.14-05.44.41:974][261]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/M_HydrolicDoor_RoughnessD83EDE794EE293EA194C369472AE91F3.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness.uasset'
+[2022.05.14-05.44.41:980][261]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor
+[2022.05.14-05.44.41:980][261]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/SM_SecurityDoor685A73D34295778D544EED8850C6325D.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor.uasset'
+[2022.05.14-05.44.42:770][261]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.14-05.44.42:770][261]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2022.05.14-05.44.42:770][261]LogContentValidation: Display: Validating StaticMesh /Game/Core/Assets/Props/HydraulicDoor/NEW/SM_SecurityDoor.SM_SecurityDoor
+[2022.05.14-05.44.42:770][261]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Roughness.M_HydrolicDoor_Roughness
+[2022.05.14-05.44.42:770][261]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Normal_DirectX.M_HydrolicDoor_Normal_DirectX
+[2022.05.14-05.44.42:770][261]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Mixed_AO.M_HydrolicDoor_Mixed_AO
+[2022.05.14-05.44.42:770][261]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Metallic.M_HydrolicDoor_Metallic
+[2022.05.14-05.44.42:770][261]LogContentValidation: Display: Validating Texture2D /Game/Core/Assets/Props/HydraulicDoor/NEW/M_HydrolicDoor_Base_color.M_HydrolicDoor_Base_color
