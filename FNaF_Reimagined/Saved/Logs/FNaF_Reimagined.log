@@ -2494,3 +2494,83 @@ Cancel: Abort the operation.
 [2022.06.09-07.16.36:033][ 22]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.704
 [2022.06.09-07.16.36:055][ 22]AssetCheck: New page: Asset Save: LVL_NightTemplate
 [2022.06.09-07.16.36:055][ 22]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2022.06.09-07.17.32:492][731]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.06.09-07.18.33:634][551]Cmd: TRANSACTION UNDO
+[2022.06.09-07.18.33:634][551]LogEditorTransaction: Undo Color Grading Main Value
+[2022.06.09-07.18.35:076][605]Cmd: TRANSACTION UNDO
+[2022.06.09-07.18.35:076][605]LogEditorTransaction: Undo Color Grading Main Value
+[2022.06.09-07.18.41:230][930]Cmd: TRANSACTION UNDO
+[2022.06.09-07.18.41:230][930]LogEditorTransaction: Undo Color Grading Main Value
+[2022.06.09-07.18.46:115][169]Cmd: TRANSACTION UNDO
+[2022.06.09-07.18.46:115][169]LogEditorTransaction: Undo Color Grading Main Value
+[2022.06.09-07.18.48:796][290]Cmd: TRANSACTION UNDO
+[2022.06.09-07.18.48:796][290]LogEditorTransaction: Undo Color Grading Main Value
+[2022.06.09-07.18.54:357][583]Cmd: TRANSACTION UNDO
+[2022.06.09-07.18.54:357][583]LogEditorTransaction: Undo Color Grading Main Value
+[2022.06.09-07.18.58:497][773]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2022.06.09-07.18.58:504][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.09-07.18.58:504][773]PIE: New page: PIE session: LVL_NightTemplate (Jun 8, 2022, 11:18:58 PM)
+[2022.06.09-07.18.58:504][773]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.06.09-07.18.58:702][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.197557s)
+[2022.06.09-07.18.58:702][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.197640s)
+[2022.06.09-07.18.58:702][773]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.06.09-07.18.58:702][773]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.09-07.18.58:703][773]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2022.06.09-07.18.58:703][773]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2022.06.09-07.18.58:750][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2022.06.09-07.18.58:752][773]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.06.09-07.18.58:752][773]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.09-07.18.58:752][773]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.09-07.18.58:752][773]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.09-07.18.58:752][773]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.09-07.18.58:752][773]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.09-07.18.58:752][773]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.09-07.18.58:752][773]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.09-07.18.58:752][773]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.09-07.18.58:752][773]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.09-07.18.58:752][773]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.09-07.18.58:752][773]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.09-07.18.58:755][773]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.09-07.18.58:931][773]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2022.06.09-07.18.58:932][773]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.09-07.18.58:932][773]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.09-07.18.58:932][773]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.09-07.18.58:933][773]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2022.06.09-07.18.58:933][773]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2022.06.09-07.18.58:934][773]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2022.06.09-07.18.58:934][773]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2022.06.09-07.18.58:934][773]LogInit: FAudioDevice initialized.
+[2022.06.09-07.18.58:934][773]LogAudio: Display: Audio Device (ID: 18) registered with world 'LVL_NightTemplate'.
+[2022.06.09-07.18.58:974][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.09-07.18.58:974][773]LogLoad: Game class is 'FNaFGM_C'
+[2022.06.09-07.18.59:029][773]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 0) at 2022.06.09-03.18.59
+[2022.06.09-07.18.59:032][773]LogWorld: Bringing up level for play took: 0.057921
+[2022.06.09-07.18.59:034][773]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2022.06.09-07.18.59:041][773]Cmd: r.HDR.Display.OutputDevice 1
+[2022.06.09-07.18.59:041][773]r.HDR.Display.OutputDevice = "1"
+[2022.06.09-07.18.59:045][773]PIE: Server logged in
+[2022.06.09-07.18.59:048][773]PIE: Play in editor total start time 0.544 seconds.
+[2022.06.09-07.18.59:241][774]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2022.06.09-07.18.59:241][774]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2022.06.09-07.19.06:309][208]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2022.06.09-07.19.07:988][314]LogBlueprintUserMessages: [FoxyStageBP_C_3] FOXY CAM FAIL
+[2022.06.09-07.19.10:175][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.09-07.19.10:175][448]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2022.06.09-07.19.10:175][448]LogSlate: Window 'FNaF_Reimagined Preview [NetMode: Standalone]  (64-bit/SM5)' being destroyed
+[2022.06.09-07.19.10:181][448]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2022.06.09-07.19.10:187][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.09-07.19.10:199][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.09-07.19.10:207][448]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.09-07.19.10:248][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.06.09-07.19.10:250][448]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.06.09-07.19.10:273][448]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.06.09-07.19.10:346][449]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.06.09-07.19.27:251][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.06.09-07.19.27:435][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.06.09-07.19.28:034][433]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2022.06.09-07.19.28:034][433]LogSavePackage: Moving 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Saved/LVL_NightTemplate2C82E9A343A5E38BBFF523998E18A10B.tmp' to 'C:/Users/Kira Meyer/Documents/GitHub/fnaf-reimagined/FNaF_Reimagined/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2022.06.09-07.19.28:052][433]LogFileHelpers: No new changes to save!
+[2022.06.09-07.19.28:052][433]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.653
+[2022.06.09-07.19.28:072][433]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2022.06.09-07.19.28:072][433]LogContentValidation: Display: Validating World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2022.06.09-07.19.54:262][873]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
