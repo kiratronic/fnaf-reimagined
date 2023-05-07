@@ -3374,3 +3374,226 @@ PointLight
 [2023.05.07-23.33.55:208][559]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
 [2023.05.07-23.33.55:217][559]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
 [2023.05.07-23.33.55:292][560]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.05.07-23.34.47:015][790]LogViewport: Scene viewport resized to 1215x677, mode Windowed.
+[2023.05.07-23.34.47:030][791]LogViewport: Scene viewport resized to 1056x594, mode Windowed.
+[2023.05.07-23.34.47:079][792]LogViewport: Scene viewport resized to 1038x585, mode Windowed.
+[2023.05.07-23.34.50:966][ 13]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.07-23.34.50:976][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.07-23.34.50:976][ 13]PIE: New page: PIE session: LVL_MainMenu (May 7, 2023, 11:34:50 PM)
+[2023.05.07-23.34.50:976][ 13]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.07-23.34.50:987][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010847s)
+[2023.05.07-23.34.50:987][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.010897s)
+[2023.05.07-23.34.50:987][ 13]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.07-23.34.50:987][ 13]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.07-23.34.50:988][ 13]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2023.05.07-23.34.51:033][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.05.07-23.34.51:034][ 13]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.05.07-23.34.51:034][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.07-23.34.51:034][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.07-23.34.51:034][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.07-23.34.51:034][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.07-23.34.51:034][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.07-23.34.51:034][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.07-23.34.51:034][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.07-23.34.51:034][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.07-23.34.51:035][ 13]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.07-23.34.51:035][ 13]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.07-23.34.51:035][ 13]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.07-23.34.51:037][ 13]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.07-23.34.51:051][ 13]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.07-23.34.51:052][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.07-23.34.51:052][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.07-23.34.51:052][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.07-23.34.51:052][ 13]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.05.07-23.34.51:052][ 13]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.05.07-23.34.51:054][ 13]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.05.07-23.34.51:054][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.05.07-23.34.51:054][ 13]LogInit: FAudioDevice initialized.
+[2023.05.07-23.34.51:054][ 13]LogAudio: Display: Audio Device (ID: 29) registered with world 'LVL_MainMenu'.
+[2023.05.07-23.34.51:057][ 13]LogLoad: Game class is 'GameMode'
+[2023.05.07-23.34.51:060][ 13]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.07-23.34.51
+[2023.05.07-23.34.51:061][ 13]LogWorld: Bringing up level for play took: 0.003161
+[2023.05.07-23.34.51:062][ 13]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.05.07-23.34.51:063][ 13]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.07-23.34.51:063][ 13]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.07-23.34.51:063][ 13]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.07-23.34.51:064][ 13]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.07-23.34.51:064][ 13]PIE: Server logged in
+[2023.05.07-23.34.51:065][ 13]PIE: Play in editor total start time 0.089 seconds.
+[2023.05.07-23.34.55:768][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.07-23.34.55:768][287]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.07-23.34.55:768][287]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.07-23.34.55:769][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-23.34.55:772][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.07-23.34.55:779][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-23.34.55:818][287]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.07-23.34.55:819][287]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.05.07-23.34.55:820][287]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.05.07-23.34.55:824][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.07-23.34.55:827][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.05.07-23.34.55:900][288]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.05.07-23.35.30:217][406]LogSlate: Window 'WDGT_Startmenu' being destroyed
+[2023.05.07-23.35.30:223][406]LogSlate: Window 'WDGT_Startmenu' being destroyed
+[2023.05.07-23.35.30:237][406]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.05.07-23.35.30:237][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-23.35.30:246][406]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.05.07-23.35.30:246][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-23.40.28:558][299]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2023.05.07-23.40.28:627][299]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/Other/LVL_MainMenu_Auto4
+[2023.05.07-23.40.28:627][299]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_MainMenu_Auto4C75C59124D3F9B0B2E7B8B808F626304.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/Other/LVL_MainMenu_Auto4.umap'
+[2023.05.07-23.40.28:629][299]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/Other/LVL_MainMenu' took 0.143
+[2023.05.07-23.40.28:629][299]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.143
+[2023.05.07-23.40.28:630][299]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Core/Assets/Widgets/WDGT_Startmenu] ([2] browsable assets)...
+[2023.05.07-23.40.28:633][299]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Core/Assets/Widgets/WDGT_Startmenu.WDGT_Startmenu]
+[2023.05.07-23.40.28:633][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Widgets/WDGT_Startmenu]
+[2023.05.07-23.40.28:649][299]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Widgets/WDGT_Startmenu_Auto4
+[2023.05.07-23.40.28:649][299]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/WDGT_Startmenu_Auto4B71BACB14607572496988E873AE513AB.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Widgets/WDGT_Startmenu_Auto4.uasset'
+[2023.05.07-23.40.28:649][299]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Widgets/Textures/Startmenu/t_NEW-startmenu-backdrop] ([1] browsable assets)...
+[2023.05.07-23.40.28:652][299]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Widgets/Textures/Startmenu/t_NEW-startmenu-backdrop.t_NEW-startmenu-backdrop]
+[2023.05.07-23.40.28:652][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Widgets/Textures/Startmenu/t_NEW-startmenu-backdrop]
+[2023.05.07-23.40.28:662][299]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Widgets/Textures/Startmenu/t_NEW-startmenu-backdrop_Auto4
+[2023.05.07-23.40.28:662][299]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/t_NEW-startmenu-backdrop_Auto447CA857A4F2CBD8CDADA6C892D12C07C.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Widgets/Textures/Startmenu/t_NEW-startmenu-backdrop_Auto4.uasset'
+[2023.05.07-23.40.28:662][299]LogFileHelpers: Auto-saving content packages took 0.033
+[2023.05.07-23.50.13:000][110]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.07-23.50.13:008][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.07-23.50.13:008][110]PIE: New page: PIE session: LVL_MainMenu (May 7, 2023, 11:50:13 PM)
+[2023.05.07-23.50.13:024][110]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.07-23.50.13:034][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010194s)
+[2023.05.07-23.50.13:034][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.010230s)
+[2023.05.07-23.50.13:034][110]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.07-23.50.13:034][110]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.07-23.50.13:035][110]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2023.05.07-23.50.13:097][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.05.07-23.50.13:107][110]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2023.05.07-23.50.13:107][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.07-23.50.13:107][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.07-23.50.13:107][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.07-23.50.13:107][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.07-23.50.13:107][110]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.07-23.50.13:107][110]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.07-23.50.13:107][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.07-23.50.13:107][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.07-23.50.13:108][110]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.07-23.50.13:108][110]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.07-23.50.13:108][110]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.07-23.50.13:110][110]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.07-23.50.13:123][110]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.07-23.50.13:124][110]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.07-23.50.13:124][110]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.07-23.50.13:124][110]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.07-23.50.13:124][110]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2023.05.07-23.50.13:124][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2023.05.07-23.50.13:126][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2023.05.07-23.50.13:126][110]LogInit: FAudioDevice initialized.
+[2023.05.07-23.50.13:126][110]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2023.05.07-23.50.13:126][110]LogAudio: Display: Audio Device (ID: 30) registered with world 'LVL_MainMenu'.
+[2023.05.07-23.50.13:129][110]LogLoad: Game class is 'GameMode'
+[2023.05.07-23.50.13:132][110]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.07-23.50.13
+[2023.05.07-23.50.13:132][110]LogWorld: Bringing up level for play took: 0.003183
+[2023.05.07-23.50.13:134][110]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2023.05.07-23.50.13:135][110]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.07-23.50.13:135][110]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.07-23.50.13:135][110]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.07-23.50.13:136][110]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.07-23.50.13:136][110]PIE: Server logged in
+[2023.05.07-23.50.13:136][110]PIE: Play in editor total start time 0.129 seconds.
+[2023.05.07-23.50.21:422][602]Cmd: LevelEditor.ToggleImmersive
+[2023.05.07-23.50.21:441][602]LogViewport: Scene viewport resized to 1479x813, mode Windowed.
+[2023.05.07-23.50.21:460][603]LogViewport: Scene viewport resized to 1651x901, mode Windowed.
+[2023.05.07-23.50.21:506][604]LogViewport: Scene viewport resized to 1878x1018, mode Windowed.
+[2023.05.07-23.50.21:597][605]LogViewport: Scene viewport resized to 1920x1040, mode Windowed.
+[2023.05.07-23.51.03:077][781]Set new viewmode: Wireframe
+[2023.05.07-23.51.03:833][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.07-23.51.03:833][822]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.07-23.51.03:833][822]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.07-23.51.03:833][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-23.51.03:839][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.07-23.51.03:845][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-23.51.03:870][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.07-23.51.03:870][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.05.07-23.51.03:872][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2023.05.07-23.51.03:879][822]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.05.07-23.51.03:938][823]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.05.07-23.51.06:572][857]LogViewport: Scene viewport resized to 1190x664, mode Windowed.
+[2023.05.07-23.51.06:588][858]LogViewport: Scene viewport resized to 1063x598, mode Windowed.
+[2023.05.07-23.51.06:648][859]LogViewport: Scene viewport resized to 1038x585, mode Windowed.
+[2023.05.07-23.51.16:347][357]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Core/Assets/Widgets/WDGT_Startmenu.WDGT_Startmenu
+[2023.05.07-23.51.16:348][357]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.07-23.51.16:366][357]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.07-23.51.16:985][357]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.07-23.51.16:985][357]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.07-23.51.46:448][754]BlueprintLog: New page: Compile WDGT_Startmenu
+[2023.05.07-23.51.46:515][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.07-23.51.47:758][815]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.07-23.51.47:766][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.07-23.51.47:766][815]PIE: New page: PIE session: LVL_MainMenu (May 7, 2023, 11:51:47 PM)
+[2023.05.07-23.51.47:766][815]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.07-23.51.47:776][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010600s)
+[2023.05.07-23.51.47:776][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.010635s)
+[2023.05.07-23.51.47:777][815]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.07-23.51.47:777][815]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.07-23.51.47:777][815]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2023.05.07-23.51.47:815][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.07-23.51.47:817][815]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2023.05.07-23.51.47:817][815]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.07-23.51.47:817][815]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.07-23.51.47:817][815]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.07-23.51.47:817][815]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.07-23.51.47:817][815]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.07-23.51.47:817][815]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.07-23.51.47:817][815]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.07-23.51.47:817][815]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.07-23.51.47:818][815]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.07-23.51.47:818][815]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.07-23.51.47:818][815]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.07-23.51.47:819][815]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.07-23.51.47:833][815]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.07-23.51.47:833][815]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.07-23.51.47:833][815]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.07-23.51.47:833][815]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.07-23.51.47:833][815]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2023.05.07-23.51.47:833][815]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2023.05.07-23.51.47:835][815]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2023.05.07-23.51.47:835][815]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2023.05.07-23.51.47:835][815]LogInit: FAudioDevice initialized.
+[2023.05.07-23.51.47:835][815]LogAudio: Display: Audio Device (ID: 31) registered with world 'LVL_MainMenu'.
+[2023.05.07-23.51.47:838][815]LogLoad: Game class is 'GameMode'
+[2023.05.07-23.51.47:841][815]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.07-23.51.47
+[2023.05.07-23.51.47:842][815]LogWorld: Bringing up level for play took: 0.003432
+[2023.05.07-23.51.47:844][815]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.05.07-23.51.47:844][815]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.07-23.51.47:844][815]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.07-23.51.47:844][815]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.07-23.51.47:845][815]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.07-23.51.47:845][815]PIE: Server logged in
+[2023.05.07-23.51.47:846][815]PIE: Play in editor total start time 0.081 seconds.
+[2023.05.07-23.51.56:644][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.07-23.51.56:645][257]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.07-23.51.56:645][257]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.07-23.51.56:645][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-23.51.56:649][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.07-23.51.56:654][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-23.51.56:689][257]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.07-23.51.56:689][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.05.07-23.51.56:691][257]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2023.05.07-23.51.56:694][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.07-23.51.56:698][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.05.07-23.51.56:741][258]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.05.07-23.52.00:044][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.05.07-23.52.00:265][416]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-23.52.00:353][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.07-23.52.00:406][416]LogSavePackage: Moving output files for package: /Game/Core/Levels/Other/LVL_MainMenu
+[2023.05.07-23.52.00:406][416]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_MainMenuB681F7EF4729E934ADAC0BBAA5EDCD9D.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/Other/LVL_MainMenu.umap'
+[2023.05.07-23.52.00:420][416]LogFileHelpers: Saving map 'LVL_MainMenu' took 0.102
+[2023.05.07-23.52.00:422][416]LogSavePackage: Moving output files for package: /Game/Core/Assets/PostProcessing/SharpenMaterial_Inst
+[2023.05.07-23.52.00:422][416]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SharpenMaterial_Inst46D543FE4B899DFB18BCECA1C9FD65F0.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/PostProcessing/SharpenMaterial_Inst.uasset'
+[2023.05.07-23.52.00:438][416]LogSavePackage: Moving output files for package: /Game/Core/Assets/Widgets/WDGT_Startmenu
+[2023.05.07-23.52.00:439][416]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/WDGT_Startmenu345DECBF488B2DA86D1DF48365567169.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Widgets/WDGT_Startmenu.uasset'
+[2023.05.07-23.52.00:547][416]LogSavePackage: Moving output files for package: /Game/Core/Assets/Widgets/Textures/Startmenu/t_NEW-startmenu-backdrop
+[2023.05.07-23.52.00:547][416]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/t_NEW-startmenu-backdrop9CA0347A4F15007AFB0FF1BA6861D6F2.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Widgets/Textures/Startmenu/t_NEW-startmenu-backdrop.uasset'
+[2023.05.07-23.52.00:777][416]LogFileHelpers: InternalPromptForCheckoutAndSave took 512 ms
+[2023.05.07-23.52.00:788][416]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.07-23.52.00:788][416]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Core/Assets/PostProcessing/SharpenMaterial_Inst.SharpenMaterial_Inst
+[2023.05.07-23.52.00:788][416]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Core/Assets/Widgets/WDGT_Startmenu.WDGT_Startmenu
+[2023.05.07-23.52.00:788][416]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu
+[2023.05.07-23.52.00:788][416]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Widgets/Textures/Startmenu/t_NEW-startmenu-backdrop.t_NEW-startmenu-backdrop
