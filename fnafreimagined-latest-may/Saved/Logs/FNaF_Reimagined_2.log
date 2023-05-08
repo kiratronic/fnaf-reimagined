@@ -3631,3 +3631,293 @@ Script Stack (0 frames) :
 [2023.05.08-18.02.10:741][327]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Core/Assets/Characters/Freddy/Blueprint/FreddyBP.FreddyBP
 [2023.05.08-18.02.10:741][327]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Core/Assets/Building/Textures/CeilingTile/Materials/MI_CeilingTiles.MI_CeilingTiles
 [2023.05.08-18.02.10:741][327]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.08-18.02.31:601][455]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-18.02.31:610][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-18.02.31:610][455]PIE: New page: PIE session: LVL_NightTemplate (May 8, 2023, 6:02:31 PM)
+[2023.05.08-18.02.31:610][455]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.08-18.02.31:924][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.314152s)
+[2023.05.08-18.02.31:924][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.314190s)
+[2023.05.08-18.02.31:924][455]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-18.02.31:925][455]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.08-18.02.31:927][455]LogPlayLevel: PIE: World Init took: (0.002211s)
+[2023.05.08-18.02.32:000][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.05.08-18.02.32:002][455]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2023.05.08-18.02.32:002][455]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-18.02.32:002][455]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-18.02.32:002][455]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-18.02.32:002][455]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-18.02.32:002][455]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-18.02.32:002][455]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-18.02.32:002][455]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-18.02.32:002][455]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-18.02.32:003][455]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-18.02.32:003][455]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-18.02.32:003][455]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-18.02.32:005][455]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-18.02.32:020][455]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-18.02.32:020][455]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-18.02.32:020][455]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-18.02.32:020][455]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-18.02.32:021][455]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2023.05.08-18.02.32:021][455]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2023.05.08-18.02.32:023][455]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2023.05.08-18.02.32:023][455]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2023.05.08-18.02.32:023][455]LogInit: FAudioDevice initialized.
+[2023.05.08-18.02.32:023][455]LogAudio: Display: Audio Device (ID: 28) registered with world 'LVL_NightTemplate'.
+[2023.05.08-18.02.32:026][455]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.08-18.02.32:123][455]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.08-18.02.32
+[2023.05.08-18.02.32:128][455]LogWorld: Bringing up level for play took: 0.102043
+[2023.05.08-18.02.32:130][455]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.05.08-18.02.32:136][455]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night1
+[2023.05.08-18.02.32:137][455]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.08-18.02.32:137][455]r.HDR.Display.OutputDevice = "1"
+[2023.05.08-18.02.32:137][455]PIE: Server logged in
+[2023.05.08-18.02.32:138][455]PIE: Play in editor total start time 0.527 seconds.
+[2023.05.08-18.02.33:541][484]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.08-18.02.33:541][484]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.08-18.02.33:809][492]LogBlueprintUserMessages: [BonnieBP_C_1] 420 mode
+[2023.05.08-18.02.34:234][510]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.08-18.02.34:234][510]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.08-18.02.35:018][533]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.08-18.02.35:018][533]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.08-18.02.48:679][  6]LogBlueprintUserMessages: [BonnieBP_C_1] InOffice
+[2023.05.08-18.02.50:210][ 57]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.08-18.02.50:210][ 57]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.08-18.02.50:244][ 58]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Bonnie
+[2023.05.08-18.03.58:164][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-18.03.58:164][714]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.08-18.03.58:166][714]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.03.58:178][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.03.58:194][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-18.03.58:206][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.03.58:282][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-18.03.58:289][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.05.08-18.03.58:291][714]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2023.05.08-18.03.58:333][714]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2023.05.08-18.03.58:430][715]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.05.08-18.04.06:634][971]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Core/Assets/Widgets/GameOverUI.GameOverUI
+[2023.05.08-18.04.06:635][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-18.04.06:663][971]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-18.04.06:666][971]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.05.08-18.04.07:361][971]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.08-18.04.07:361][971]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.08-18.04.08:119][971]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.05.08-18.04.08:120][971]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.05.08-18.04.50:853][142]BlueprintLog: New page: Compile GameOverUI
+[2023.05.08-18.04.51:045][142]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2023.05.08-18.05.10:640][723]BlueprintLog: New page: Compile GameOverUI
+[2023.05.08-18.05.10:811][723]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2023.05.08-18.05.11:204][730]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-18.05.11:263][730]LogSavePackage: Moving output files for package: /Game/Core/Assets/Widgets/GameOverUI
+[2023.05.08-18.05.11:264][730]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/GameOverUIFCED6111404FEDE5E256A38F8C7047AC.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Widgets/GameOverUI.uasset'
+[2023.05.08-18.05.11:272][730]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 3.53 sec)
+[2023.05.08-18.05.11:282][730]AssetCheck: New page: Asset Save: GameOverUI
+[2023.05.08-18.05.11:283][730]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Core/Assets/Widgets/GameOverUI.GameOverUI
+[2023.05.08-18.05.13:226][791]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-18.05.13:237][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-18.05.13:237][791]PIE: New page: PIE session: LVL_NightTemplate (May 8, 2023, 6:05:13 PM)
+[2023.05.08-18.05.13:237][791]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.08-18.05.13:608][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.370972s)
+[2023.05.08-18.05.13:609][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.371014s)
+[2023.05.08-18.05.13:609][791]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-18.05.13:609][791]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.08-18.05.13:611][791]LogPlayLevel: PIE: World Init took: (0.002181s)
+[2023.05.08-18.05.13:713][791]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2023.05.08-18.05.13:717][791]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2023.05.08-18.05.13:717][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-18.05.13:717][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-18.05.13:717][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-18.05.13:717][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-18.05.13:717][791]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-18.05.13:717][791]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-18.05.13:717][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-18.05.13:717][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-18.05.13:718][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-18.05.13:718][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-18.05.13:718][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-18.05.13:720][791]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-18.05.13:738][791]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-18.05.13:738][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-18.05.13:738][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-18.05.13:738][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-18.05.13:739][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2023.05.08-18.05.13:739][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2023.05.08-18.05.13:741][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2023.05.08-18.05.13:741][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2023.05.08-18.05.13:741][791]LogInit: FAudioDevice initialized.
+[2023.05.08-18.05.13:741][791]LogAudio: Display: Audio Device (ID: 29) registered with world 'LVL_NightTemplate'.
+[2023.05.08-18.05.13:745][791]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.08-18.05.13:850][791]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.08-18.05.13
+[2023.05.08-18.05.13:855][791]LogWorld: Bringing up level for play took: 0.110153
+[2023.05.08-18.05.13:858][791]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.05.08-18.05.13:864][791]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night1
+[2023.05.08-18.05.13:865][791]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.08-18.05.13:865][791]r.HDR.Display.OutputDevice = "1"
+[2023.05.08-18.05.13:865][791]PIE: Server logged in
+[2023.05.08-18.05.13:866][791]PIE: Play in editor total start time 0.629 seconds.
+[2023.05.08-18.05.15:523][826]LogBlueprintUserMessages: [BonnieBP_C_1] 420 mode
+[2023.05.08-18.05.17:522][882]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.08-18.05.17:522][882]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.08-18.05.32:653][351]LogBlueprintUserMessages: [ChicaBP_C_2] ChicaTryAgain
+[2023.05.08-18.05.32:653][351]LogBlueprintUserMessages: [ChicaBP_C_2] ChicaTryAgain
+[2023.05.08-18.05.32:653][351]LogBlueprintUserMessages: [ChicaBP_C_2] ChicaTryAgain
+[2023.05.08-18.05.33:204][370]LogBlueprintUserMessages: [BonnieBP_C_1] InOffice
+[2023.05.08-18.05.35:280][441]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.08-18.05.35:280][441]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.08-18.05.35:315][442]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Bonnie
+[2023.05.08-18.05.42:911][715]LogNet: Browse: /Game/Core/Levels/Other/LVL_MainMenu
+[2023.05.08-18.05.42:911][715]LogLoad: LoadMap: /Game/Core/Levels/Other/LVL_MainMenu
+[2023.05.08-18.05.42:911][715]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.08-18.05.42:913][715]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.05.42:923][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.05.43:054][715]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.08-18.05.43:076][715]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2023.05.08-18.05.43:256][715]LogLinker: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: Failed to load '/Game/Core/SaveSettingObject': Can't find file.
+[2023.05.08-18.05.43:256][715]LogLinker: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: VerifyImport: Failed to load package for import object 'Package /Game/Core/SaveSettingObject'
+[2023.05.08-18.05.43:374][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultShadowSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Get DefaultShadowSetting
+[2023.05.08-18.05.43:375][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultShadowSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultShadowSetting
+[2023.05.08-18.05.43:375][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:376][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultShadowSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultShadowSetting
+[2023.05.08-18.05.43:376][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:376][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultShadowSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultShadowSetting
+[2023.05.08-18.05.43:376][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:376][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultShadowSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultShadowSetting
+[2023.05.08-18.05.43:377][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:377][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultTextureSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultTextureSetting
+[2023.05.08-18.05.43:377][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultTextureSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultTextureSetting
+[2023.05.08-18.05.43:377][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultTextureSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultTextureSetting
+[2023.05.08-18.05.43:377][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultTextureSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultTextureSetting
+[2023.05.08-18.05.43:377][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:378][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:378][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:378][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:378][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultAASetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultAASetting
+[2023.05.08-18.05.43:378][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultAASetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultAASetting
+[2023.05.08-18.05.43:378][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultAASetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultAASetting
+[2023.05.08-18.05.43:378][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultAASetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Set DefaultAASetting
+[2023.05.08-18.05.43:379][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultAASetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Get DefaultAASetting
+[2023.05.08-18.05.43:379][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Could not find a variable named "DefaultTextureSetting" in 'OptionsUI'.
+Make sure 'OptionsUI' has been compiled for  Get DefaultTextureSetting
+[2023.05.08-18.05.43:379][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:379][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:379][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:379][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:380][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:380][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:380][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:380][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' As Save Setting Object '. You may have changed the type after the connections were made.
+[2023.05.08-18.05.43:381][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2023.05.08-18.05.43:381][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] In use pin  As Save Setting Object  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2023.05.08-18.05.43:381][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2023.05.08-18.05.43:398][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Shadow Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:398][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default AASetting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:398][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Texture Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:399][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Shadow Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:399][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default AASetting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:399][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default AASetting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:399][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Shadow Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:399][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default AASetting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:400][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default AASetting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:400][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Texture Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:400][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Shadow Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:400][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Texture Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:400][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Texture Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:400][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Texture Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:400][715]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Assets\Widgets\OptionsUI.uasset: [Compiler] The property associated with  Default Shadow Setting  could not be found in '/Game/Core/Assets/Widgets/OptionsUI.OptionsUI_C'
+[2023.05.08-18.05.43:468][715]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Levels\Other\LVL_MainMenu.umap: [Compiler] Node  Unknown  is not referencing a valid level actor
+[2023.05.08-18.05.43:643][715]LogAudio: Display: Audio Device (ID: 29) registered with world 'LVL_MainMenu'.
+[2023.05.08-18.05.43:644][715]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-18.05.43:644][715]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-18.05.43:644][715]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2023.05.08-18.05.43:644][715]LogLoad: Game class is 'GameMode'
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cube_003.SM_TapeRecorder-output02_Cube_003 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cube_006.SM_TapeRecorder-output02_Cube_006 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cylinder.SM_TapeRecorder-output02_Cylinder being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/desk/desk_handle1_lp_001.desk_handle1_lp_001 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/desk/desk_handle1_lp_003.desk_handle1_lp_003 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/desk/desk_handle2_lp_001.desk_handle2_lp_001 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/desk/desk_handle2_lp_002.desk_handle2_lp_002 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/desk/desk_handle2_lp_003.desk_handle2_lp_003 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/desk/desk_handle2_lp_004.desk_handle2_lp_004 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/desk/desk_plane_lp_001.desk_plane_lp_001 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/beer/Beer_Bottle.Beer_Bottle being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_003.cobwebs_cobweb_003 being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/menupaper/SM_menupaper.SM_menupaper being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/pen/Pencil.Pencil being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/tape/SM_Tape.SM_Tape being ready before playing
+[2023.05.08-18.05.43:699][715]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Assets/Props/NewsPaper/SM_NewsPaperV1.SM_NewsPaperV1 being ready before playing
+[2023.05.08-18.05.43:715][715]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-18.05.43
+[2023.05.08-18.05.43:716][715]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.08-18.05.43:716][715]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.08-18.05.43:716][715]LogWorld: Bringing up level for play took: 0.012416
+[2023.05.08-18.05.43:717][715]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.05.08-18.05.43:717][715]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-18.05.43:717][715]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-18.05.43:717][715]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-18.05.43:720][715]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-18.05.43:721][715]LogLoad: Took 0.809123 seconds to LoadMap(/Game/Core/Levels/Other/LVL_MainMenu)
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: ================================================
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: Total job queries 737, among them cache hits 40 (5.43%)
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: Tracking 693 distinct input hashes that result in 269 distinct outputs (38.82%)
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: RAM used: 1.52 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.19%
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: Jobs assigned 4, completed 0 (0.00%)
+[2023.05.08-18.05.44:033][717]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.08 s
+[2023.05.08-18.05.44:034][717]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.08-18.05.44:034][717]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.08-18.05.44:034][717]LogShaderCompilers: Display: ================================================
+[2023.05.08-18.06.00:818][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-18.06.00:818][458]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-18.06.00:818][458]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.00:818][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.00:822][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-18.06.00:833][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.00:929][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-18.06.00:931][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.05.08-18.06.00:933][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2023.05.08-18.06.00:945][458]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.08-18.06.00:945][458]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.08-18.06.00:950][458]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2023.05.08-18.06.01:035][459]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.05.08-18.06.35:060][178]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.05.08-18.06.38:472][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.05.08-18.06.40:439][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.08-18.06.41:672][414]LogSlate: Window 'GameOverUI' being destroyed
+[2023.05.08-18.06.41:676][414]LogSlate: Window 'GameOverUI' being destroyed
+[2023.05.08-18.06.41:683][414]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.41:683][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.41:743][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.08-18.06.41:743][414]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.41:743][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.41:808][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.08-18.06.41:808][414]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.41:808][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.41:882][414]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.41:882][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.41:901][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.08-18.06.41:901][414]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.41:901][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.41:961][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.08-18.06.41:961][414]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.41:961][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.42:027][414]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.42:028][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.42:039][414]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-18.06.42:039][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-18.06.43:093][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
