@@ -3433,3 +3433,669 @@ Make sure 'OptionsUI' has been compiled for  Get DefaultTextureSetting
 [2023.05.08-21.31.20:714][338]LogGameState: Match State Changed from WaitingToStart to InProgress
 [2023.05.08-21.31.20:714][338]PIE: Server logged in
 [2023.05.08-21.31.20:714][338]PIE: Play in editor total start time 0.148 seconds.
+[2023.05.08-21.32.10:802][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.32.10:803][254]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.32.10:803][254]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.32.10:803][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.32.10:807][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.32.10:811][254]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.32.10:823][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.32.10:824][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.05.08-21.32.10:826][254]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.05.08-21.32.10:833][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.05.08-21.32.10:874][255]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.05.08-21.32.20:967][754]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193949__soundslikewillem__h...
+[2023.05.08-21.32.20:970][754]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193949__soundslikewillem__h.193949__soundslikewillem__h: 262144
+[2023.05.08-21.32.21:689][789]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193950__soundslikewillem__g...
+[2023.05.08-21.32.21:692][789]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193950__soundslikewillem__g.193950__soundslikewillem__g: 262144
+[2023.05.08-21.32.22:834][844]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193951__soundslikewillem__f...
+[2023.05.08-21.32.22:838][844]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193951__soundslikewillem__f.193951__soundslikewillem__f: 262144
+[2023.05.08-21.32.23:674][884]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193953__soundslikewillem__j...
+[2023.05.08-21.32.23:677][884]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193953__soundslikewillem__j.193953__soundslikewillem__j: 262144
+[2023.05.08-21.32.24:452][921]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193954__soundslikewillem__i...
+[2023.05.08-21.32.24:455][921]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193954__soundslikewillem__i.193954__soundslikewillem__i: 262144
+[2023.05.08-21.32.25:192][956]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193959__soundslikewillem__y...
+[2023.05.08-21.32.25:195][956]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193959__soundslikewillem__y.193959__soundslikewillem__y: 262144
+[2023.05.08-21.32.25:870][989]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193960__soundslikewillem__z...
+[2023.05.08-21.32.25:886][989]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193960__soundslikewillem__z.193960__soundslikewillem__z: 262144
+[2023.05.08-21.32.26:496][ 19]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193961__soundslikewillem__n...
+[2023.05.08-21.32.26:499][ 19]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193961__soundslikewillem__n.193961__soundslikewillem__n: 262144
+[2023.05.08-21.32.27:968][ 91]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193972__soundslikewillem__single-typewriter-hits...
+[2023.05.08-21.32.28:079][ 91]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193972__soundslikewillem__single-typewriter-hits.193972__soundslikewillem__single-typewriter-hits: 262144
+[2023.05.08-21.32.29:601][167]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193971__soundslikewillem__typing-5-lines...
+[2023.05.08-21.32.30:325][167]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193971__soundslikewillem__typing-5-lines.193971__soundslikewillem__typing-5-lines: 262144
+[2023.05.08-21.32.32:315][257]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193970__soundslikewillem__s...
+[2023.05.08-21.32.32:318][257]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193970__soundslikewillem__s.193970__soundslikewillem__s: 262144
+[2023.05.08-21.32.34:273][345]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193969__soundslikewillem__t...
+[2023.05.08-21.32.34:276][345]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193969__soundslikewillem__t.193969__soundslikewillem__t: 262144
+[2023.05.08-21.32.35:440][398]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193968__soundslikewillem__o...
+[2023.05.08-21.32.35:443][398]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193968__soundslikewillem__o.193968__soundslikewillem__o: 262144
+[2023.05.08-21.32.37:154][482]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193966__soundslikewillem__q...
+[2023.05.08-21.32.37:157][482]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193966__soundslikewillem__q.193966__soundslikewillem__q: 262144
+[2023.05.08-21.32.38:013][521]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 193965__soundslikewillem__r...
+[2023.05.08-21.32.38:017][521]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/193965__soundslikewillem__r.193965__soundslikewillem__r: 262144
+[2023.05.08-21.33.04:622][718]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-21.33.04:631][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-21.33.04:631][718]PIE: New page: PIE session: LVL_MainMenu (May 8, 2023, 9:33:04 PM)
+[2023.05.08-21.33.04:631][718]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.33.04:644][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013353s)
+[2023.05.08-21.33.04:644][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.013389s)
+[2023.05.08-21.33.04:644][718]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-21.33.04:644][718]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-21.33.04:645][718]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2023.05.08-21.33.04:658][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.05.08-21.33.04:660][718]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.05.08-21.33.04:660][718]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-21.33.04:660][718]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-21.33.04:660][718]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-21.33.04:660][718]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-21.33.04:660][718]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-21.33.04:660][718]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-21.33.04:660][718]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-21.33.04:660][718]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-21.33.04:661][718]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-21.33.04:661][718]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-21.33.04:661][718]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-21.33.04:663][718]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-21.33.04:762][718]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-21.33.04:762][718]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-21.33.04:762][718]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-21.33.04:762][718]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-21.33.04:762][718]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.05.08-21.33.04:762][718]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.05.08-21.33.04:765][718]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.05.08-21.33.04:765][718]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.05.08-21.33.04:765][718]LogInit: FAudioDevice initialized.
+[2023.05.08-21.33.04:765][718]LogAudio: Display: Audio Device (ID: 14) registered with world 'LVL_MainMenu'.
+[2023.05.08-21.33.04:766][718]LogLoad: Game class is 'GameMode'
+[2023.05.08-21.33.04:769][718]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-21.33.04
+[2023.05.08-21.33.04:770][718]LogWorld: Bringing up level for play took: 0.003356
+[2023.05.08-21.33.04:772][718]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.05.08-21.33.04:772][718]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.33.04:772][718]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.33.04:772][718]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.33.04:773][718]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.33.04:773][718]PIE: Server logged in
+[2023.05.08-21.33.04:774][718]PIE: Play in editor total start time 0.144 seconds.
+[2023.05.08-21.33.09:782][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.33.09:782][957]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.33.09:782][957]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.33.09:782][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.33.09:786][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.33.09:789][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.33.09:800][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.33.09:801][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.05.08-21.33.09:803][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.05.08-21.33.09:810][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.05.08-21.33.09:852][958]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.05.08-21.33.28:588][757]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave COMPUTER_DIGITAL_L2076505...
+[2023.05.08-21.33.28:607][757]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/COMPUTER_DIGITAL_L2076505.COMPUTER_DIGITAL_L2076505: 262144
+[2023.05.08-21.33.29:865][812]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave ColdPresc_B...
+[2023.05.08-21.33.30:967][812]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/ColdPresc_B.ColdPresc_B: 262144
+[2023.05.08-21.33.37:194][ 72]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave flicker01...
+[2023.05.08-21.33.37:197][ 72]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/flicker01.flicker01: 262144
+[2023.05.08-21.33.38:878][141]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave FemurBreaker...
+[2023.05.08-21.33.39:185][141]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/FemurBreaker.FemurBreaker: 262144
+[2023.05.08-21.33.42:690][269]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave fnaf_rmenu...
+[2023.05.08-21.33.43:787][269]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/fnaf_rmenu.fnaf_rmenu: 262144
+[2023.05.08-21.33.45:144][333]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave flicker04...
+[2023.05.08-21.33.45:147][333]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/flicker04.flicker04: 262144
+[2023.05.08-21.33.56:674][833]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Light_-_Bulb_1...
+[2023.05.08-21.33.56:681][833]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Light_-_Bulb_1.Light_-_Bulb_1: 262144
+[2023.05.08-21.34.12:418][539]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave voiceover5...
+[2023.05.08-21.34.12:830][539]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/voiceover5.voiceover5: 262144
+[2023.05.08-21.35.42:440][ 86]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_gamerips\_fnaf rips\FNAC1 ripped\sounds\Ambience_MusicBox.ogg)
+[2023.05.08-21.35.59:748][ 86]LogSlate: Window 'Message' being destroyed
+[2023.05.08-21.35.59:752][ 86]Message dialog closed, result: Yes, title: Message, text: Use the selected Sound Wave 'ASquareWave' in the Content Browser as a template for sound(s) being imported?
+[2023.05.08-21.35.59:766][ 86]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Ambience_MusicBox...
+[2023.05.08-21.36.00:149][ 86]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Ambience_MusicBox.Ambience_MusicBox: 262144
+[2023.05.08-21.36.00:157][ 86]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Ambience_MusicBox...
+[2023.05.08-21.36.00:548][ 93]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Ambience_MusicBox.Ambience_MusicBox: 262144
+[2023.05.08-21.36.10:261][606]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
+[2023.05.08-21.36.43:542][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-21.36.43:599][881]LogSavePackage: Moving output files for package: /Game/Core/Assets/Sounds/fnaf_rmenu_Cue
+[2023.05.08-21.36.43:600][881]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/fnaf_rmenu_CueE1E00A564B26031B1860BBA87DBC4163.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Sounds/fnaf_rmenu_Cue.uasset'
+[2023.05.08-21.36.43:603][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 15.4 sec)
+[2023.05.08-21.36.43:608][881]AssetCheck: New page: Asset Save: fnaf_rmenu_Cue
+[2023.05.08-21.36.43:608][881]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
+[2023.05.08-21.36.57:239][ 40]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-21.36.57:247][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-21.36.57:247][ 40]PIE: New page: PIE session: LVL_MainMenu (May 8, 2023, 9:36:57 PM)
+[2023.05.08-21.36.57:247][ 40]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.36.57:259][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011799s)
+[2023.05.08-21.36.57:259][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.011830s)
+[2023.05.08-21.36.57:259][ 40]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-21.36.57:260][ 40]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-21.36.57:260][ 40]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2023.05.08-21.36.57:272][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.05.08-21.36.57:273][ 40]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.05.08-21.36.57:273][ 40]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-21.36.57:273][ 40]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-21.36.57:273][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-21.36.57:273][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-21.36.57:273][ 40]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-21.36.57:273][ 40]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-21.36.57:273][ 40]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-21.36.57:273][ 40]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-21.36.57:274][ 40]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-21.36.57:274][ 40]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-21.36.57:274][ 40]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-21.36.57:276][ 40]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-21.36.57:291][ 40]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-21.36.57:292][ 40]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-21.36.57:292][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-21.36.57:292][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-21.36.57:294][ 40]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.05.08-21.36.57:294][ 40]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.05.08-21.36.57:295][ 40]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.05.08-21.36.57:295][ 40]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.05.08-21.36.57:295][ 40]LogInit: FAudioDevice initialized.
+[2023.05.08-21.36.57:295][ 40]LogAudio: Display: Audio Device (ID: 15) registered with world 'LVL_MainMenu'.
+[2023.05.08-21.36.57:297][ 40]LogLoad: Game class is 'GameMode'
+[2023.05.08-21.36.57:301][ 40]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-21.36.57
+[2023.05.08-21.36.57:301][ 40]LogWorld: Bringing up level for play took: 0.003742
+[2023.05.08-21.36.57:303][ 40]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.05.08-21.36.57:304][ 40]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.36.57:304][ 40]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.36.57:304][ 40]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.36.57:305][ 40]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.36.57:305][ 40]PIE: Server logged in
+[2023.05.08-21.36.57:306][ 40]PIE: Play in editor total start time 0.059 seconds.
+[2023.05.08-21.37.02:462][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.37.02:462][333]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.37.02:462][333]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.37.02:463][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.37.02:465][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.37.02:468][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.37.02:478][333]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.08-21.37.02:478][333]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.05.08-21.37.02:480][333]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.05.08-21.37.02:483][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.37.02:486][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.05.08-21.37.02:537][334]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.05.08-21.37.09:182][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-21.37.09:225][584]LogSavePackage: Moving output files for package: /Game/Core/Assets/Sounds/fnaf_rmenu_Cue
+[2023.05.08-21.37.09:225][584]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/fnaf_rmenu_Cue94AC06454D88EBF7E6928BA52053BEFB.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Sounds/fnaf_rmenu_Cue.uasset'
+[2023.05.08-21.37.09:229][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 15.5 sec)
+[2023.05.08-21.37.09:233][584]AssetCheck: New page: Asset Save: fnaf_rmenu_Cue
+[2023.05.08-21.37.09:233][584]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
+[2023.05.08-21.37.11:288][698]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-21.37.11:296][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-21.37.11:296][698]PIE: New page: PIE session: LVL_MainMenu (May 8, 2023, 9:37:11 PM)
+[2023.05.08-21.37.11:296][698]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.37.11:309][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012626s)
+[2023.05.08-21.37.11:309][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.012659s)
+[2023.05.08-21.37.11:309][698]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-21.37.11:309][698]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-21.37.11:310][698]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2023.05.08-21.37.11:322][698]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.05.08-21.37.11:324][698]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.05.08-21.37.11:324][698]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-21.37.11:324][698]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-21.37.11:324][698]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-21.37.11:324][698]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-21.37.11:324][698]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-21.37.11:324][698]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-21.37.11:324][698]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-21.37.11:324][698]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-21.37.11:324][698]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-21.37.11:324][698]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-21.37.11:325][698]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-21.37.11:327][698]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-21.37.11:342][698]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-21.37.11:342][698]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-21.37.11:342][698]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-21.37.11:342][698]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-21.37.11:344][698]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.05.08-21.37.11:344][698]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.05.08-21.37.11:345][698]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.05.08-21.37.11:345][698]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.05.08-21.37.11:345][698]LogInit: FAudioDevice initialized.
+[2023.05.08-21.37.11:345][698]LogAudio: Display: Audio Device (ID: 16) registered with world 'LVL_MainMenu'.
+[2023.05.08-21.37.11:347][698]LogLoad: Game class is 'GameMode'
+[2023.05.08-21.37.11:351][698]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-21.37.11
+[2023.05.08-21.37.11:351][698]LogWorld: Bringing up level for play took: 0.004027
+[2023.05.08-21.37.11:353][698]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.05.08-21.37.11:354][698]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.37.11:354][698]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.37.11:354][698]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.37.11:355][698]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.37.11:355][698]PIE: Server logged in
+[2023.05.08-21.37.11:356][698]PIE: Play in editor total start time 0.059 seconds.
+[2023.05.08-21.37.25:609][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.37.25:609][548]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.37.25:610][548]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.37.25:610][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.37.25:613][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.37.25:616][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.37.25:627][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.37.25:628][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.05.08-21.37.25:629][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.05.08-21.37.25:635][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.05.08-21.37.25:684][549]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.05.08-21.38.11:736][726]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_gamerips\Wick\Assets\AudioClip\WickTheme_pt1.wav)
+[2023.05.08-21.38.33:853][726]LogSlate: Window 'Message' being destroyed
+[2023.05.08-21.38.33:858][726]Message dialog closed, result: Yes, title: Message, text: Use the selected Sound Wave 'Ambience_MusicBox' in the Content Browser as a template for sound(s) being imported?
+[2023.05.08-21.38.33:895][726]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave WickTheme_pt1...
+[2023.05.08-21.38.34:404][726]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/WickTheme_pt1.WickTheme_pt1: 262144
+[2023.05.08-21.38.34:412][726]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave WickTheme_pt1...
+[2023.05.08-21.38.35:008][749]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/WickTheme_pt1.WickTheme_pt1: 262144
+[2023.05.08-21.38.45:913][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-21.38.45:967][239]LogSavePackage: Moving output files for package: /Game/Core/Assets/Sounds/fnaf_rmenu_Cue
+[2023.05.08-21.38.45:967][239]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/fnaf_rmenu_Cue44C7BA3544143A2F922FB692A7328E81.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Sounds/fnaf_rmenu_Cue.uasset'
+[2023.05.08-21.38.45:970][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 15.5 sec)
+[2023.05.08-21.38.45:974][239]AssetCheck: New page: Asset Save: fnaf_rmenu_Cue
+[2023.05.08-21.38.45:974][239]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
+[2023.05.08-21.38.47:837][342]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-21.38.47:845][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-21.38.47:845][342]PIE: New page: PIE session: LVL_MainMenu (May 8, 2023, 9:38:47 PM)
+[2023.05.08-21.38.47:858][342]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.38.47:869][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010953s)
+[2023.05.08-21.38.47:869][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.010988s)
+[2023.05.08-21.38.47:869][342]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-21.38.47:869][342]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-21.38.47:869][342]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2023.05.08-21.38.47:880][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.08-21.38.47:881][342]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.05.08-21.38.47:881][342]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-21.38.47:881][342]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-21.38.47:882][342]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-21.38.47:882][342]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-21.38.47:882][342]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-21.38.47:882][342]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-21.38.47:882][342]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-21.38.47:882][342]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-21.38.47:882][342]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-21.38.47:882][342]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-21.38.47:882][342]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-21.38.47:884][342]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-21.38.47:899][342]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-21.38.47:899][342]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-21.38.47:899][342]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-21.38.47:899][342]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-21.38.47:900][342]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.05.08-21.38.47:900][342]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.05.08-21.38.47:902][342]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.05.08-21.38.47:902][342]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.05.08-21.38.47:902][342]LogInit: FAudioDevice initialized.
+[2023.05.08-21.38.47:902][342]LogAudio: Display: Audio Device (ID: 17) registered with world 'LVL_MainMenu'.
+[2023.05.08-21.38.47:904][342]LogLoad: Game class is 'GameMode'
+[2023.05.08-21.38.47:907][342]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-21.38.47
+[2023.05.08-21.38.47:907][342]LogWorld: Bringing up level for play took: 0.003391
+[2023.05.08-21.38.47:909][342]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.05.08-21.38.47:910][342]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.38.47:910][342]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.38.47:910][342]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.38.47:911][342]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.38.47:911][342]PIE: Server logged in
+[2023.05.08-21.38.47:911][342]PIE: Play in editor total start time 0.067 seconds.
+[2023.05.08-21.39.44:342][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.39.44:342][638]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.39.44:342][638]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.39.44:342][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.39.44:358][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.39.44:361][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.39.44:374][638]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.08-21.39.44:374][638]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.05.08-21.39.44:376][638]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.05.08-21.39.44:380][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.39.44:382][638]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.05.08-21.39.44:430][639]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.05.08-21.40.13:641][801]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_gamerips\Wick\Assets\AudioClip\Wick_ambience_3_prequel.wav)
+[2023.05.08-21.40.19:077][801]LogSlate: Window 'Message' being destroyed
+[2023.05.08-21.40.19:080][801]Message dialog closed, result: Yes, title: Message, text: Use the selected Sound Wave 'WickTheme_pt1' in the Content Browser as a template for sound(s) being imported?
+[2023.05.08-21.40.19:124][801]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Wick_ambience_3_prequel...
+[2023.05.08-21.40.19:671][801]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Wick_ambience_3_prequel.Wick_ambience_3_prequel: 262144
+[2023.05.08-21.40.19:677][801]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Wick_ambience_3_prequel...
+[2023.05.08-21.40.20:305][830]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Wick_ambience_3_prequel.Wick_ambience_3_prequel: 262144
+[2023.05.08-21.41.18:204][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.05.08-21.41.18:259][ 63]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/Other/LVL_MainMenu_Auto1
+[2023.05.08-21.41.18:260][ 63]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_MainMenu_Auto11000B04747229DC650EE5BB720C0CE65.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/Other/LVL_MainMenu_Auto1.umap'
+[2023.05.08-21.41.18:263][ 63]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/Other/LVL_MainMenu' took 0.069
+[2023.05.08-21.41.18:263][ 63]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.069
+[2023.05.08-21.41.18:263][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Core/Assets/Props/MAINMENU/takerecorder/M_Tape-Screen_Inst] ([1] browsable assets)...
+[2023.05.08-21.41.18:263][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/MAINMENU/takerecorder/M_Tape-Screen_Inst]
+[2023.05.08-21.41.18:264][ 63]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/MAINMENU/takerecorder/M_Tape-Screen_Inst_Auto1
+[2023.05.08-21.41.18:265][ 63]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_Tape-Screen_Inst_Auto13B6C893742561C2B49D9A2BBF5052A03.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Props/MAINMENU/takerecorder/M_Tape-Screen_Inst_Auto1.uasset'
+[2023.05.08-21.41.18:265][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Core/Assets/Widgets/Textures/Menu/T_ACH_NightmareMode_Mat_Inst] ([1] browsable assets)...
+[2023.05.08-21.41.18:265][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Widgets/Textures/Menu/T_ACH_NightmareMode_Mat_Inst]
+[2023.05.08-21.41.18:266][ 63]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Widgets/Textures/Menu/T_ACH_NightmareMode_Mat_Inst_Auto1
+[2023.05.08-21.41.18:266][ 63]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/T_ACH_NightmareMode_Mat_Inst_Aut4AC85102492714F7CDD78C9DF8E79AC2.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Widgets/Textures/Menu/T_ACH_NightmareMode_Mat_Inst_Auto1.uasset'
+[2023.05.08-21.41.18:267][ 63]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Core/Assets/Widgets/Textures/Menu/T_ACH_NightmareMode_Mat_Inst1] ([1] browsable assets)...
+[2023.05.08-21.41.18:267][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Widgets/Textures/Menu/T_ACH_NightmareMode_Mat_Inst1]
+[2023.05.08-21.41.18:268][ 63]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Widgets/Textures/Menu/T_ACH_NightmareMode_Mat_Inst1_Auto1
+[2023.05.08-21.41.18:268][ 63]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/T_ACH_NightmareMode_Mat_Inst1_Au17A134C34DC67DC7226EAE914387421D.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Widgets/Textures/Menu/T_ACH_NightmareMode_Mat_Inst1_Auto1.uasset'
+[2023.05.08-21.41.18:269][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/Ambience_MusicBox] ([1] browsable assets)...
+[2023.05.08-21.41.18:278][ 63]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/Ambience_MusicBox.Ambience_MusicBox]
+[2023.05.08-21.41.18:278][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/Ambience_MusicBox]
+[2023.05.08-21.41.18:330][ 63]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/Ambience_MusicBox_Auto1
+[2023.05.08-21.41.18:330][ 63]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Ambience_MusicBox_Auto108C20FF441452F4521D59DB8881C5EEC.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/Ambience_MusicBox_Auto1.uasset'
+[2023.05.08-21.41.18:331][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/WickTheme_pt1] ([1] browsable assets)...
+[2023.05.08-21.41.18:342][ 63]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/WickTheme_pt1.WickTheme_pt1]
+[2023.05.08-21.41.18:343][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/WickTheme_pt1]
+[2023.05.08-21.41.18:404][ 63]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/WickTheme_pt1_Auto1
+[2023.05.08-21.41.18:404][ 63]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/WickTheme_pt1_Auto1FF19FE2248E6F16C132203B4CC0D8B6C.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/WickTheme_pt1_Auto1.uasset'
+[2023.05.08-21.41.18:405][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/Wick_ambience_3_prequel] ([1] browsable assets)...
+[2023.05.08-21.41.18:417][ 63]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/Wick_ambience_3_prequel.Wick_ambience_3_prequel]
+[2023.05.08-21.41.18:417][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/Wick_ambience_3_prequel]
+[2023.05.08-21.41.18:485][ 63]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/Wick_ambience_3_prequel_Auto1
+[2023.05.08-21.41.18:485][ 63]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Wick_ambience_3_prequel_Auto194266E45407FD9CD8EFAACA598198B57.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/Wick_ambience_3_prequel_Auto1.uasset'
+[2023.05.08-21.41.18:486][ 63]LogFileHelpers: Auto-saving content packages took 0.223
+[2023.05.08-21.41.52:308][170]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_gamerips\_fnaf rips\Chipper&Sons ripped\sounds\Digital_Smile_Loop_BB.wav)
+[2023.05.08-21.41.52:320][170]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Digital_Smile_Loop_BB...
+[2023.05.08-21.41.52:406][170]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Digital_Smile_Loop_BB.Digital_Smile_Loop_BB: 262144
+[2023.05.08-21.41.52:407][170]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Digital_Smile_Loop_BB...
+[2023.05.08-21.41.52:501][171]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Digital_Smile_Loop_BB.Digital_Smile_Loop_BB: 262144
+[2023.05.08-21.42.02:943][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-21.42.03:000][597]LogSavePackage: Moving output files for package: /Game/Core/Assets/Sounds/fnaf_rmenu_Cue
+[2023.05.08-21.42.03:000][597]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/fnaf_rmenu_Cue6793CE4B4EC62A53762552B10862BE98.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Sounds/fnaf_rmenu_Cue.uasset'
+[2023.05.08-21.42.03:004][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 15.6 sec)
+[2023.05.08-21.42.03:009][597]AssetCheck: New page: Asset Save: fnaf_rmenu_Cue
+[2023.05.08-21.42.03:009][597]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
+[2023.05.08-21.42.05:216][716]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-21.42.05:224][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-21.42.05:224][716]PIE: New page: PIE session: LVL_MainMenu (May 8, 2023, 9:42:05 PM)
+[2023.05.08-21.42.05:225][716]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.42.05:236][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011685s)
+[2023.05.08-21.42.05:236][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.011720s)
+[2023.05.08-21.42.05:237][716]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-21.42.05:237][716]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-21.42.05:237][716]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2023.05.08-21.42.05:249][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.05.08-21.42.05:250][716]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.05.08-21.42.05:250][716]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-21.42.05:250][716]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-21.42.05:250][716]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-21.42.05:250][716]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-21.42.05:250][716]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-21.42.05:250][716]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-21.42.05:250][716]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-21.42.05:250][716]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-21.42.05:251][716]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-21.42.05:251][716]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-21.42.05:251][716]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-21.42.05:254][716]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-21.42.05:268][716]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-21.42.05:269][716]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-21.42.05:269][716]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-21.42.05:269][716]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-21.42.05:270][716]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.05.08-21.42.05:270][716]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.05.08-21.42.05:271][716]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.05.08-21.42.05:272][716]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.05.08-21.42.05:272][716]LogInit: FAudioDevice initialized.
+[2023.05.08-21.42.05:272][716]LogAudio: Display: Audio Device (ID: 18) registered with world 'LVL_MainMenu'.
+[2023.05.08-21.42.05:274][716]LogLoad: Game class is 'GameMode'
+[2023.05.08-21.42.05:277][716]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-21.42.05
+[2023.05.08-21.42.05:278][716]LogWorld: Bringing up level for play took: 0.003635
+[2023.05.08-21.42.05:279][716]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.05.08-21.42.05:280][716]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.42.05:280][716]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.42.05:280][716]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.42.05:281][716]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.42.05:281][716]PIE: Server logged in
+[2023.05.08-21.42.05:282][716]PIE: Play in editor total start time 0.057 seconds.
+[2023.05.08-21.42.09:026][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.42.09:026][932]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.42.09:026][932]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.42.09:027][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.42.09:036][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.42.09:039][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.42.09:049][932]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.08-21.42.09:050][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.05.08-21.42.09:051][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.05.08-21.42.09:055][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.42.09:057][932]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.05.08-21.42.09:142][934]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.05.08-21.42.47:951][576]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-21.42.48:006][576]LogSavePackage: Moving output files for package: /Game/Core/Assets/Sounds/fnaf_rmenu_Cue
+[2023.05.08-21.42.48:007][576]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/fnaf_rmenu_CueF7EE861D4A88717D072529B4A1C83875.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Sounds/fnaf_rmenu_Cue.uasset'
+[2023.05.08-21.42.48:010][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 15.7 sec)
+[2023.05.08-21.42.48:014][576]AssetCheck: New page: Asset Save: fnaf_rmenu_Cue
+[2023.05.08-21.42.48:014][576]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
+[2023.05.08-21.42.50:164][696]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-21.42.50:172][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-21.42.50:172][696]PIE: New page: PIE session: LVL_MainMenu (May 8, 2023, 9:42:50 PM)
+[2023.05.08-21.42.50:185][696]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.42.50:196][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010678s)
+[2023.05.08-21.42.50:196][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.010711s)
+[2023.05.08-21.42.50:196][696]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-21.42.50:196][696]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-21.42.50:197][696]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2023.05.08-21.42.50:207][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.08-21.42.50:208][696]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.05.08-21.42.50:208][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-21.42.50:208][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-21.42.50:208][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-21.42.50:208][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-21.42.50:208][696]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-21.42.50:208][696]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-21.42.50:208][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-21.42.50:208][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-21.42.50:209][696]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-21.42.50:209][696]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-21.42.50:209][696]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-21.42.50:211][696]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-21.42.50:225][696]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-21.42.50:226][696]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-21.42.50:226][696]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-21.42.50:226][696]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-21.42.50:226][696]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.05.08-21.42.50:226][696]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.05.08-21.42.50:228][696]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.05.08-21.42.50:228][696]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.05.08-21.42.50:228][696]LogInit: FAudioDevice initialized.
+[2023.05.08-21.42.50:228][696]LogAudio: Display: Audio Device (ID: 19) registered with world 'LVL_MainMenu'.
+[2023.05.08-21.42.50:230][696]LogLoad: Game class is 'GameMode'
+[2023.05.08-21.42.50:233][696]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-21.42.50
+[2023.05.08-21.42.50:233][696]LogWorld: Bringing up level for play took: 0.003508
+[2023.05.08-21.42.50:235][696]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.05.08-21.42.50:236][696]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.42.50:236][696]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.42.50:236][696]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.42.50:237][696]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.42.50:237][696]PIE: Server logged in
+[2023.05.08-21.42.50:237][696]PIE: Play in editor total start time 0.066 seconds.
+[2023.05.08-21.43.11:810][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.43.11:810][920]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.43.11:810][920]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.43.11:811][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.43.11:822][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.43.11:826][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.43.11:837][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.43.11:838][920]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.05.08-21.43.11:840][920]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.05.08-21.43.11:848][920]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.05.08-21.43.11:900][921]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.05.08-21.44.15:703][648]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave put_down...
+[2023.05.08-21.44.15:705][648]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/put_down.put_down: 262144
+[2023.05.08-21.44.24:858][ 90]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave voiceover1c...
+[2023.05.08-21.44.25:898][ 90]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/voiceover1c.voiceover1c: 262144
+[2023.05.08-21.45.41:402][248]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_Audio\Kevin Macleod ~ Aftermath.wav)
+[2023.05.08-21.45.41:523][248]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Kevin_Macleod___Aftermath...
+[2023.05.08-21.45.43:057][248]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/Kevin_Macleod___Aftermath.Kevin_Macleod___Aftermath: 262144
+[2023.05.08-21.45.43:081][248]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Kevin_Macleod___Aftermath...
+[2023.05.08-21.45.44:687][254]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/Kevin_Macleod___Aftermath.Kevin_Macleod___Aftermath: 262144
+[2023.05.08-21.46.29:459][398]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_Audio\202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom.wav)
+[2023.05.08-21.46.29:490][398]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom...
+[2023.05.08-21.46.29:779][398]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom.202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom: 262144
+[2023.05.08-21.46.29:783][398]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave 202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom...
+[2023.05.08-21.46.30:057][400]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom.202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom: 262144
+[2023.05.08-21.46.47:088][459]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_Audio\FNAF 4 MENU THEME REMAKE v2_.wav)
+[2023.05.08-21.46.47:155][459]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave FNAF_4_MENU_THEME_REMAKE_v2_...
+[2023.05.08-21.46.47:997][459]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/FNAF_4_MENU_THEME_REMAKE_v2_.FNAF_4_MENU_THEME_REMAKE_v2_: 262144
+[2023.05.08-21.46.48:006][459]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave FNAF_4_MENU_THEME_REMAKE_v2_...
+[2023.05.08-21.46.48:878][463]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/FNAF_4_MENU_THEME_REMAKE_v2_.FNAF_4_MENU_THEME_REMAKE_v2_: 262144
+[2023.05.08-21.46.58:585][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-21.46.58:638][876]LogSavePackage: Moving output files for package: /Game/Core/Assets/Sounds/fnaf_rmenu_Cue
+[2023.05.08-21.46.58:638][876]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/fnaf_rmenu_Cue0C98CDCF4CD858BD35E206A7E8F93405.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Sounds/fnaf_rmenu_Cue.uasset'
+[2023.05.08-21.46.58:642][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 15.7 sec)
+[2023.05.08-21.46.58:646][876]AssetCheck: New page: Asset Save: fnaf_rmenu_Cue
+[2023.05.08-21.46.58:646][876]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
+[2023.05.08-21.47.00:777][988]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-21.47.00:785][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-21.47.00:785][988]PIE: New page: PIE session: LVL_MainMenu (May 8, 2023, 9:47:00 PM)
+[2023.05.08-21.47.00:785][988]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.47.00:797][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012093s)
+[2023.05.08-21.47.00:798][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.012125s)
+[2023.05.08-21.47.00:798][988]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-21.47.00:798][988]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-21.47.00:798][988]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2023.05.08-21.47.00:810][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.05.08-21.47.00:811][988]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.05.08-21.47.00:811][988]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-21.47.00:811][988]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-21.47.00:811][988]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-21.47.00:811][988]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-21.47.00:811][988]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-21.47.00:811][988]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-21.47.00:811][988]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-21.47.00:811][988]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-21.47.00:812][988]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-21.47.00:812][988]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-21.47.00:812][988]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-21.47.00:815][988]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-21.47.00:846][988]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-21.47.00:846][988]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-21.47.00:846][988]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-21.47.00:846][988]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-21.47.00:847][988]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.05.08-21.47.00:847][988]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.05.08-21.47.00:849][988]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.05.08-21.47.00:849][988]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.05.08-21.47.00:849][988]LogInit: FAudioDevice initialized.
+[2023.05.08-21.47.00:849][988]LogAudio: Display: Audio Device (ID: 20) registered with world 'LVL_MainMenu'.
+[2023.05.08-21.47.00:851][988]LogLoad: Game class is 'GameMode'
+[2023.05.08-21.47.00:855][988]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-21.47.00
+[2023.05.08-21.47.00:855][988]LogWorld: Bringing up level for play took: 0.003600
+[2023.05.08-21.47.00:857][988]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.05.08-21.47.00:858][988]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.47.00:858][988]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.47.00:858][988]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.47.00:859][988]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.47.00:859][988]PIE: Server logged in
+[2023.05.08-21.47.00:860][988]PIE: Play in editor total start time 0.074 seconds.
+[2023.05.08-21.47.53:641][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.47.53:642][122]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.47.53:642][122]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.47.53:643][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.47.53:649][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.47.53:652][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.47.53:664][122]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.08-21.47.53:664][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.05.08-21.47.53:667][122]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.05.08-21.47.53:672][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.47.53:674][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.05.08-21.47.53:726][123]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.05.08-21.48.38:178][306]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_Audio\Misery Loves.wav)
+[2023.05.08-21.48.46:404][306]LogSlate: Window 'Message' being destroyed
+[2023.05.08-21.48.46:409][306]Message dialog closed, result: Yes, title: Message, text: Use the selected Sound Wave 'FNAF_4_MENU_THEME_REMAKE_v2_' in the Content Browser as a template for sound(s) being imported?
+[2023.05.08-21.48.46:479][306]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Misery_Loves...
+[2023.05.08-21.48.47:588][306]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/Misery_Loves.Misery_Loves: 262144
+[2023.05.08-21.48.47:609][306]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave Misery_Loves...
+[2023.05.08-21.48.48:789][317]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/Misery_Loves.Misery_Loves: 262144
+[2023.05.08-21.49.23:507][466]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 D:\_Audio\breakingbad.wav)
+[2023.05.08-21.49.23:603][466]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave breakingbad...
+[2023.05.08-21.49.24:825][466]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/breakingbad.breakingbad: 262144
+[2023.05.08-21.49.24:844][466]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave breakingbad...
+[2023.05.08-21.49.26:096][471]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/Type/breakingbad.breakingbad: 262144
+[2023.05.08-21.49.40:981][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-21.49.41:036][923]LogSavePackage: Moving output files for package: /Game/Core/Assets/Sounds/fnaf_rmenu_Cue
+[2023.05.08-21.49.41:036][923]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/fnaf_rmenu_Cue92E4E9F946CE8058526603AF2F52B448.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Sounds/fnaf_rmenu_Cue.uasset'
+[2023.05.08-21.49.41:039][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 15.8 sec)
+[2023.05.08-21.49.41:043][923]AssetCheck: New page: Asset Save: fnaf_rmenu_Cue
+[2023.05.08-21.49.41:043][923]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
+[2023.05.08-21.49.43:482][ 56]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.08-21.49.43:490][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.08-21.49.43:490][ 56]PIE: New page: PIE session: LVL_MainMenu (May 8, 2023, 9:49:43 PM)
+[2023.05.08-21.49.43:490][ 56]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.49.43:502][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012571s)
+[2023.05.08-21.49.43:502][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.012604s)
+[2023.05.08-21.49.43:503][ 56]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.08-21.49.43:503][ 56]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.08-21.49.43:503][ 56]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2023.05.08-21.49.43:514][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.05.08-21.49.43:516][ 56]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.05.08-21.49.43:516][ 56]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.08-21.49.43:516][ 56]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.08-21.49.43:516][ 56]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.08-21.49.43:516][ 56]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.08-21.49.43:516][ 56]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.08-21.49.43:516][ 56]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.08-21.49.43:516][ 56]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.08-21.49.43:516][ 56]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.08-21.49.43:517][ 56]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.08-21.49.43:517][ 56]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.08-21.49.43:517][ 56]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.08-21.49.43:519][ 56]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.08-21.49.43:533][ 56]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.08-21.49.43:533][ 56]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.08-21.49.43:533][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.08-21.49.43:533][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.08-21.49.43:534][ 56]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.05.08-21.49.43:534][ 56]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.05.08-21.49.43:536][ 56]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.05.08-21.49.43:536][ 56]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.05.08-21.49.43:536][ 56]LogInit: FAudioDevice initialized.
+[2023.05.08-21.49.43:536][ 56]LogAudio: Display: Audio Device (ID: 21) registered with world 'LVL_MainMenu'.
+[2023.05.08-21.49.43:538][ 56]LogLoad: Game class is 'GameMode'
+[2023.05.08-21.49.43:541][ 56]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.08-21.49.43
+[2023.05.08-21.49.43:542][ 56]LogWorld: Bringing up level for play took: 0.003791
+[2023.05.08-21.49.43:544][ 56]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.05.08-21.49.43:545][ 56]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.49.43:545][ 56]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.08-21.49.43:545][ 56]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.49.43:546][ 56]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.08-21.49.43:546][ 56]PIE: Server logged in
+[2023.05.08-21.49.43:547][ 56]PIE: Play in editor total start time 0.057 seconds.
+[2023.05.08-21.50.08:221][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.50.08:221][181]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.08-21.50.08:221][181]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.08-21.50.08:222][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.50.08:224][181]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.08-21.50.08:227][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.08-21.50.08:238][181]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.08-21.50.08:238][181]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.05.08-21.50.08:240][181]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.05.08-21.50.08:244][181]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.08-21.50.08:246][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.05.08-21.50.08:295][182]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.05.08-21.53.01:708][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.05.08-21.53.01:710][658]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/Other/LVL_MainMenu' took 0.012
+[2023.05.08-21.53.01:710][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/Digital_Smile_Loop_BB] ([1] browsable assets)...
+[2023.05.08-21.53.01:713][658]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/Digital_Smile_Loop_BB.Digital_Smile_Loop_BB]
+[2023.05.08-21.53.01:713][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/Digital_Smile_Loop_BB]
+[2023.05.08-21.53.01:722][658]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/Digital_Smile_Loop_BB_Auto2
+[2023.05.08-21.53.01:722][658]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Digital_Smile_Loop_BB_Auto2838D5BA2484D0438A58D8F9AA92C42C4.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/Digital_Smile_Loop_BB_Auto2.uasset'
+[2023.05.08-21.53.01:723][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/Type/Kevin_Macleod___Aftermath] ([1] browsable assets)...
+[2023.05.08-21.53.01:746][658]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/Type/Kevin_Macleod___Aftermath.Kevin_Macleod___Aftermath]
+[2023.05.08-21.53.01:746][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/Type/Kevin_Macleod___Aftermath]
+[2023.05.08-21.53.01:904][658]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/Type/Kevin_Macleod___Aftermath_Auto2
+[2023.05.08-21.53.01:904][658]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Kevin_Macleod___Aftermath_Auto273B5C3E24832302A1D9EB3A15C7C7BD5.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/Type/Kevin_Macleod___Aftermath_Auto2.uasset'
+[2023.05.08-21.53.01:905][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/Type/202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom] ([1] browsable assets)...
+[2023.05.08-21.53.01:913][658]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/Type/202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom.202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom]
+[2023.05.08-21.53.01:913][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/Type/202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom]
+[2023.05.08-21.53.01:941][658]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/Type/202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom_Auto2
+[2023.05.08-21.53.01:941][658]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/202612__ludwigmueller__fxlm-neon99282E6C42021D0A09706A9C65C34569.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/Type/202612__ludwigmueller__fxlm-neon-lights-flicker-bathroom_Auto2.uasset'
+[2023.05.08-21.53.01:942][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/Type/FNAF_4_MENU_THEME_REMAKE_v2_] ([1] browsable assets)...
+[2023.05.08-21.53.01:961][658]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/Type/FNAF_4_MENU_THEME_REMAKE_v2_.FNAF_4_MENU_THEME_REMAKE_v2_]
+[2023.05.08-21.53.01:961][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/Type/FNAF_4_MENU_THEME_REMAKE_v2_]
+[2023.05.08-21.53.02:046][658]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/Type/FNAF_4_MENU_THEME_REMAKE_v2__Auto2
+[2023.05.08-21.53.02:046][658]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/FNAF_4_MENU_THEME_REMAKE_v2__Aut28ECD62142A1E9FC011D0A85E4EF962F.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/Type/FNAF_4_MENU_THEME_REMAKE_v2__Auto2.uasset'
+[2023.05.08-21.53.02:046][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/Type/Misery_Loves] ([1] browsable assets)...
+[2023.05.08-21.53.02:065][658]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/Type/Misery_Loves.Misery_Loves]
+[2023.05.08-21.53.02:065][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/Type/Misery_Loves]
+[2023.05.08-21.53.02:161][658]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/Type/Misery_Loves_Auto2
+[2023.05.08-21.53.02:161][658]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Misery_Loves_Auto213CBA6A14A0AC9008E0234B38F5E87E9.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/Type/Misery_Loves_Auto2.uasset'
+[2023.05.08-21.53.02:162][658]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Sounds/Type/breakingbad] ([1] browsable assets)...
+[2023.05.08-21.53.02:185][658]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Core/Assets/Sounds/Type/breakingbad.breakingbad]
+[2023.05.08-21.53.02:185][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Sounds/Type/breakingbad]
+[2023.05.08-21.53.02:301][658]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Sounds/Type/breakingbad_Auto2
+[2023.05.08-21.53.02:301][658]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/breakingbad_Auto20185D3504AEFECD6F1F32E98A9B14A0D.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Sounds/Type/breakingbad_Auto2.uasset'
+[2023.05.08-21.53.02:301][658]LogFileHelpers: Auto-saving content packages took 0.592
+[2023.05.08-21.53.59:188][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.08-21.53.59:244][225]LogSavePackage: Moving output files for package: /Game/Core/Assets/Sounds/fnaf_rmenu_Cue
+[2023.05.08-21.53.59:244][225]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/fnaf_rmenu_Cue2F941C3A491D01A572045FA4B17A8145.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Sounds/fnaf_rmenu_Cue.uasset'
+[2023.05.08-21.53.59:248][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 15.8 sec)
+[2023.05.08-21.53.59:252][225]AssetCheck: New page: Asset Save: fnaf_rmenu_Cue
+[2023.05.08-21.53.59:252][225]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Core/Assets/Sounds/fnaf_rmenu_Cue.fnaf_rmenu_Cue
