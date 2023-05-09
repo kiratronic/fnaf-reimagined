@@ -3503,3 +3503,1153 @@ Script Stack (0 frames) :
 [2023.05.09-15.57.34:405][509]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
 [2023.05.09-15.57.34:405][509]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Core/Player/final_scream.final_scream
 [2023.05.09-15.57.34:405][509]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Core/Player/scream_op5-7.scream_op5-7
+[2023.05.09-15.59.59:947][978]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.09-15.59.59:958][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.09-15.59.59:958][978]PIE: New page: PIE session: LVL_NightTemplate (May 9, 2023, 3:59:59 PM)
+[2023.05.09-15.59.59:958][978]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.09-16.00.00:221][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.262493s)
+[2023.05.09-16.00.00:221][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.262558s)
+[2023.05.09-16.00.00:221][978]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.09-16.00.00:222][978]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.09-16.00.00:223][978]LogPlayLevel: PIE: World Init took: (0.001825s)
+[2023.05.09-16.00.00:296][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.05.09-16.00.00:298][978]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.05.09-16.00.00:298][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.09-16.00.00:298][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.09-16.00.00:298][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.09-16.00.00:298][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.09-16.00.00:298][978]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.09-16.00.00:298][978]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.09-16.00.00:298][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.09-16.00.00:298][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.09-16.00.00:298][978]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.09-16.00.00:298][978]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.09-16.00.00:298][978]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.09-16.00.00:301][978]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.09-16.00.00:314][978]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.09-16.00.00:315][978]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.09-16.00.00:315][978]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.09-16.00.00:315][978]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.09-16.00.00:315][978]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.05.09-16.00.00:315][978]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.05.09-16.00.00:317][978]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.05.09-16.00.00:317][978]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.05.09-16.00.00:317][978]LogInit: FAudioDevice initialized.
+[2023.05.09-16.00.00:317][978]LogAudio: Display: Audio Device (ID: 17) registered with world 'LVL_NightTemplate'.
+[2023.05.09-16.00.00:320][978]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.09-16.00.00:394][978]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.09-16.00.00
+[2023.05.09-16.00.00:398][978]LogWorld: Bringing up level for play took: 0.077956
+[2023.05.09-16.00.00:400][978]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2023.05.09-16.00.00:405][978]LogBlueprintUserMessages: [LVL_NightTemplate_C_1] Night1
+[2023.05.09-16.00.00:406][978]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.09-16.00.00:406][978]r.HDR.Display.OutputDevice = "1"
+[2023.05.09-16.00.00:406][978]PIE: Server logged in
+[2023.05.09-16.00.00:406][978]PIE: Play in editor total start time 0.448 seconds.
+[2023.05.09-16.00.03:214][ 75]LogBlueprintUserMessages: [BP_VentCover_C_3] HIT
+[2023.05.09-16.00.03:366][ 81]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.03:366][ 81]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.09-16.00.03:761][ 98]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.03:761][ 98]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.04:324][119]LogBlueprintUserMessages: [BP_VentCover_C_3] HIT
+[2023.05.09-16.00.21:386][807]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.21:386][807]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.24:871][947]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.24:871][947]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.26:345][  3]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.26:345][  3]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.26:893][ 26]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.26:893][ 26]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.27:721][ 56]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.00.30:197][146]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.30:197][146]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.30:676][166]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.30:676][166]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.31:584][199]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.31:584][199]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.31:946][214]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.31:946][214]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.32:961][251]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.32:961][251]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.33:413][269]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.33:413][269]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.34:639][314]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.34:639][314]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.35:279][341]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.35:279][341]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.36:258][376]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.36:258][376]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.36:838][400]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.36:838][400]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.37:725][433]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.37:725][433]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.38:414][462]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.38:414][462]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.40:482][539]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.00.40:482][539]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.00.44:796][699]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.44:797][699]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.45:605][733]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.45:605][733]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.47:995][823]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.47:995][823]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.48:710][853]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.48:710][853]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.54:213][ 59]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.54:213][ 59]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.54:881][ 87]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.54:881][ 87]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.56:403][141]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.56:403][141]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.56:862][160]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.56:862][160]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.00.58:219][210]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.00.58:219][210]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.00.58:662][228]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.00.58:662][228]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.00:185][283]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.00:185][283]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.00:555][298]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.00:555][298]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.01:870][346]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.01:870][346]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.02:308][364]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.02:308][364]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.03:678][414]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.03:678][414]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.04:411][444]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.04:411][444]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.05:661][490]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.05:661][490]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.06:272][515]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.06:272][515]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.07:996][577]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.07:996][577]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.08:634][603]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.08:634][603]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.13:316][776]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.13:316][776]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.14:035][806]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.14:035][806]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.19:141][987]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.19:141][987]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.20:084][ 24]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.20:084][ 24]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.24:749][183]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.24:749][183]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.25:339][206]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.25:339][206]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.27:121][267]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.27:121][267]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.27:736][291]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.27:736][291]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.29:051][336]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.29:051][336]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.29:778][364]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.29:778][364]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.30:916][403]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.30:916][403]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.31:358][420]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.31:358][420]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.34:367][523]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.34:368][523]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.34:775][538]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.34:776][538]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.36:238][588]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.36:239][588]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.36:721][606]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.36:721][606]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.39:875][713]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.39:876][713]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.40:097][721]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.40:097][721]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.41:594][772]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.41:594][772]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.42:096][791]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.42:096][791]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.45:222][893]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.45:222][893]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.45:974][921]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.45:975][921]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.48:924][ 17]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.48:924][ 17]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.50:739][ 81]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.50:739][ 81]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.52:244][128]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.52:244][128]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.53:486][169]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.53:486][169]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.53:930][183]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.01.53:930][183]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.01.54:580][204]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.54:581][204]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.55:925][253]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.55:925][253]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.01.57:598][305]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.01.57:598][305]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.01.58:298][331]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.01.58:298][331]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.02:520][468]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.02:521][468]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.03:096][489]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.03:096][489]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.06:751][600]LogBlueprintUserMessages: [BonnieBP_C_1] InOffice
+[2023.05.09-16.02.09:366][681]LogBlueprintUserMessages: [BonnieBP_C_1] InOffice
+[2023.05.09-16.02.14:425][844]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.14:425][844]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.16:271][910]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.16:271][910]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.22:472][148]LogNet: Browse: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.09-16.02.22:472][148]LogLoad: LoadMap: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.09-16.02.22:472][148]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.09-16.02.22:475][148]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.02.22:483][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.02.22:616][148]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.09-16.02.22:638][148]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.05.09-16.02.22:647][148]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.09-16.02.22:976][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.328723s)
+[2023.05.09-16.02.22:976][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.328775s)
+[2023.05.09-16.02.22:976][148]LogAudio: Display: Audio Device (ID: 17) registered with world 'LVL_NightTemplate'.
+[2023.05.09-16.02.22:976][148]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.09-16.02.22:977][148]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.09-16.02.22:978][148]LogPlayLevel: PIE: World Init took: (0.001902s)
+[2023.05.09-16.02.22:978][148]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.09-16.02.23:052][148]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.09-16.02.23
+[2023.05.09-16.02.23:057][148]LogWorld: Bringing up level for play took: 0.079180
+[2023.05.09-16.02.23:063][148]LogBlueprintUserMessages: [LVL_NightTemplate_C_1] Night1
+[2023.05.09-16.02.23:063][148]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.09-16.02.23:063][148]r.HDR.Display.OutputDevice = "1"
+[2023.05.09-16.02.23:064][148]LogLoad: Took 0.592418 seconds to LoadMap(/Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate)
+[2023.05.09-16.02.24:820][190]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.24:820][190]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.25:446][213]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.25:446][213]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.25:779][222]LogBlueprintUserMessages: [BP_VentCover_C_3] HIT
+[2023.05.09-16.02.26:282][238]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.26:282][238]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.26:832][257]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.26:832][257]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.27:104][264]LogBlueprintUserMessages: [BP_VentCover_C_3] HIT
+[2023.05.09-16.02.29:221][330]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.29:221][330]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.29:572][341]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.29:572][341]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.37:013][565]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.37:013][565]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.37:815][595]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.37:815][595]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.38:887][627]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.38:887][627]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.40:413][682]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.40:413][682]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.41:546][717]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.41:547][717]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.42:090][735]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.42:090][735]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.44:284][793]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.44:284][793]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.44:936][813]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.44:936][813]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.48:745][915]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.48:746][915]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.49:270][931]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.49:270][931]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.50:683][969]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.50:684][969]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.51:175][984]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.51:176][984]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.52:242][ 13]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.52:242][ 13]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.53:107][ 40]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.53:107][ 40]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.54:590][ 80]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.54:590][ 80]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.55:305][105]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.55:305][105]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.02.57:395][168]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.02.57:395][168]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.02.58:219][194]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.02.58:219][194]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.00:925][273]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.00:925][273]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.01:435][290]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.01:435][290]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.03:740][358]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.03:740][358]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.04:255][375]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.04:255][375]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.09:574][535]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.09:574][535]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.10:202][556]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.10:202][556]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.11:313][589]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.11:313][589]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.11:764][604]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.11:764][604]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.12:820][635]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.12:820][635]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.13:365][653]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.13:365][653]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.14:384][683]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.14:384][683]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.14:875][699]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.14:875][699]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.15:838][727]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.15:838][727]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.16:291][742]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.16:291][742]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.17:246][770]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.17:246][770]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.17:672][784]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.17:672][784]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.18:691][814]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.18:691][814]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.19:116][828]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.19:117][828]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.20:127][858]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.20:127][858]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.20:614][874]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.20:614][874]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.21:572][902]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.21:572][902]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.21:913][913]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.21:913][913]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.23:063][947]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.23:063][947]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.23:725][969]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.23:725][969]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.24:678][997]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.24:678][997]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.25:242][ 16]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.25:242][ 16]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.32:124][220]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.32:124][220]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.32:843][244]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.32:843][244]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.36:278][344]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.36:278][344]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.36:787][361]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.36:787][361]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.39:007][426]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.39:007][426]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.39:434][440]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.39:434][440]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.42:644][534]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.03.44:015][568]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.44:015][568]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.44:361][578]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.44:361][578]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.45:425][606]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.03.45:425][606]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.03.45:841][617]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.45:841][617]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.46:379][633]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.46:379][633]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.50:236][736]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.50:236][736]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.50:710][750]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.50:710][750]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.52:826][806]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.52:826][806]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.53:203][817]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.53:203][817]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.53:772][832]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.03.54:672][856]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.54:672][856]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.55:214][872]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.55:214][872]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.56:324][901]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.56:324][901]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.57:029][922]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.57:029][922]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.03.58:273][955]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.03.58:273][955]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.03.59:008][977]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.03.59:008][977]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.00:520][ 16]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.00:521][ 16]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.01:279][ 39]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.01:279][ 39]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.02:718][ 77]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.02:719][ 77]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.03:064][ 87]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.03:064][ 87]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.05:188][144]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.05:188][144]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.05:950][167]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.05:950][167]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.07:026][195]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.07:026][195]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.07:600][212]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.07:600][212]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.08:516][236]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.08:517][236]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.09:142][255]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.09:142][255]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.10:421][289]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.10:421][289]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.10:865][302]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.10:865][302]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.13:561][379]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.13:561][379]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.14:202][400]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.14:202][400]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.15:379][430]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.15:379][430]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.15:884][446]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.15:884][446]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.17:120][481]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.17:120][481]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.17:385][489]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.17:385][489]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.18:684][526]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.18:684][526]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.19:300][546]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.19:300][546]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.24:130][685]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.24:130][685]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.24:837][708]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.24:837][708]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.26:327][750]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.26:327][750]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.26:944][770]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.26:944][770]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.28:355][810]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.28:355][810]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.28:944][829]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.28:944][829]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.30:422][871]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.30:422][871]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.30:983][889]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.30:983][889]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.34:633][993]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.34:633][993]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.35:560][ 23]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.35:560][ 23]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.44:555][278]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.44:555][278]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.45:593][312]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.45:593][312]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.46:626][341]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.04.46:626][341]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.04.46:626][341]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.04.47:075][354]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.47:075][354]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.47:602][371]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.47:602][371]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.48:950][409]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.48:950][409]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.49:306][420]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.49:306][420]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.50:749][461]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.50:749][461]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.51:068][471]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.51:069][471]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.52:343][507]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.52:343][507]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.53:112][532]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.53:112][532]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.04.55:686][605]LogBlueprintUserMessages: [ChicaBP_C_2] ChicaTryAgain
+[2023.05.09-16.04.58:734][690]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.04.58:734][690]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.04.59:755][723]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.04.59:755][723]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.07:639][949]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.07:639][949]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.13:245][125]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.13:245][125]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.20:284][292]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.20:284][292]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.21:053][313]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.21:053][313]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.22:457][348]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.22:457][348]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.22:980][362]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.22:980][362]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.26:105][437]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.26:105][437]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.26:662][452]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.26:662][452]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.31:718][581]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.31:718][581]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.33:649][646]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.33:649][646]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.39:876][810]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.39:877][810]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.40:582][831]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.40:582][831]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.44:824][940]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.44:824][940]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.45:847][971]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.45:847][971]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.50:118][ 82]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.50:118][ 82]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.50:762][101]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.50:762][101]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.53:500][172]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.05.53:500][172]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.05.53:500][172]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.09-16.05.54:675][203]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.54:675][203]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.05.55:155][217]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.05.55:155][217]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.05.59:662][332]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.05.59:662][332]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.00:633][361]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.00:633][361]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.04:229][456]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.06.04:229][456]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.04:801][473]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.04:801][473]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.07:971][556]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.06.07:971][556]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.08:835][582]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.08:835][582]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.13:090][693]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.06.13:090][693]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.13:955][719]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.13:955][719]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.15:700][765]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.06.15:700][765]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.16:303][783]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.16:303][783]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.19:082][854]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.06.19:082][854]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.19:763][874]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.19:763][874]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.31:351][172]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.06.31:351][172]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.31:803][185]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.31:803][185]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.36:677][315]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.06.36:677][315]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.37:287][333]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.37:287][333]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.43:176][489]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.09-16.06.43:176][489]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.09-16.06.44:105][521]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.09-16.06.44:105][521]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.09-16.06.48:837][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.09-16.06.48:837][671]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.09-16.06.48:839][671]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.06.48:849][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.06.48:863][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.09-16.06.48:877][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.06.48:959][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.09-16.06.48:960][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.05.09-16.06.48:962][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.05.09-16.06.49:007][671]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.05.09-16.06.49:062][672]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.05.09-16.06.49:074][672]LogViewport: Scene viewport resized to 327x185, mode Windowed.
+[2023.05.09-16.14.10:905][  2]LogDerivedDataCache: C:/Users/kira meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:44.056 and deleted 0 files with total size 0 MiB. Scanned 23427 files in 21573 folders with total size 1116 MiB.
+[2023.05.09-16.51.30:033][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.09-16.51.30:038][886]LogStall: Shutdown...
+[2023.05.09-16.51.30:043][886]LogStall: Shutdown complete.
+[2023.05.09-16.51.30:064][886]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.30:064][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.51.30:120][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.09-16.51.30:120][886]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.30:120][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.51.30:245][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.09-16.51.30:245][886]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.30:245][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.51.30:313][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.09-16.51.30:313][886]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.30:313][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.51.30:389][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.09-16.51.30:389][886]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.30:389][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.51.30:435][886]LogSlate: Window 'FoxyStageBP' being destroyed
+[2023.05.09-16.51.30:446][886]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.05.09-16.51.30:446][886]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.30:446][886]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.51.30:506][886]LogSlate: Window 'FNaF_Reimagined - Unreal Editor' being destroyed
+[2023.05.09-16.51.30:567][887]Cmd: QUIT_EDITOR
+[2023.05.09-16.51.30:567][887]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.05.09-16.51.30:575][887]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.05.09-16.51.30:575][887]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.05.09-16.51.30:575][887]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.05.09-16.51.30:593][887]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.30:594][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.09-16.51.30:595][887]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.05.09-16.51.31:154][887]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.05.09-16.51.31:154][887]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.05.09-16.51.31:154][887]LogAudio: Display: Audio Device unregistered from world 'LVL_NightTemplate'.
+[2023.05.09-16.51.31:168][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.05.09-16.51.31:170][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.05.09-16.51.31:177][887]LogAudio: Display: Audio Device Manager Shutdown
+[2023.05.09-16.51.31:177][887]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.05.09-16.51.31:181][887]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.05.09-16.51.31:181][887]LogExit: Preparing to exit.
+[2023.05.09-16.51.31:232][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:263][887]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.05.09-16.51.31:464][887]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:465][887]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:467][887]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:468][887]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:469][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:469][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:469][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:469][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:469][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:469][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:469][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:469][887]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:470][887]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:471][887]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:473][887]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:474][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:474][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:474][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:474][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:474][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:474][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:474][887]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2023.05.09-16.51.31:474][887]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:476][887]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.05.09-16.51.31:544][887]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.05.09-16.51.31:593][887]LogExit: Editor shut down
+[2023.05.09-16.51.31:596][887]LogExit: Transaction tracking system shut down
+[2023.05.09-16.51.31:855][887]LogExit: Object subsystem successfully closed.
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: ================================================
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: Total job queries 861, among them cache hits 164 (19.05%)
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: Tracking 697 distinct input hashes that result in 262 distinct outputs (37.59%)
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: RAM used: 1.52 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.19%
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.09-16.51.31:862][887]LogShaderCompilers: Display: ================================================
+[2023.05.09-16.51.31:918][887]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.05.09-16.51.31:939][887]LogVirtualization: UE::Virtualization was shutdown
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (983)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module Voice (981)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module SequencerWidgets (979)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module BlueprintGraph (977)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (975)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (973)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module SubobjectEditor (971)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module SceneOutliner (969)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module AddContentDialog (967)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module WidgetCarousel (966)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module StatusBar (963)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (961)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module StatsViewer (959)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (957)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module AutomationWorker (955)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module TextureAlignMode (953)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module BspMode (951)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module GeometryMode (949)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module SmartSnapping (947)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module PlanarCut (945)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module CharacterAI (943)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (941)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (939)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (937)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module WebMMedia (935)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (933)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (931)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (929)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (927)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (925)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (923)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (921)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (919)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (917)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (915)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (913)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (911)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (909)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (907)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module WaveTableEditor (905)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (903)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module GooglePADEditor (901)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (899)
+[2023.05.09-16.51.31:969][887]LogModuleManager: Shutting down and abandoning module SequenceRecorder (898)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (895)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module IKRigEditor (893)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module ControlRigEditor (891)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module SessionServices (889)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module MeshPaint (887)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (885)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module PlacementMode (884)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module FoliageEdit (881)
+[2023.05.09-16.51.31:970][887]LogModuleManager: Shutting down and abandoning module LandscapeEditor (879)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (877)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module ActorPickerMode (875)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module ViewportSnapping (873)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module ViewportInteraction (871)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module ClothPainter (869)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (868)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module LogVisualizer (865)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (863)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (861)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (860)
+[2023.05.09-16.51.31:971][887]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (858)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (855)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (853)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (851)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (849)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module AnimationSettings (847)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (845)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module CSVtoSVG (843)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (841)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module EditorConfig (839)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (837)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module EditorFramework (835)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (833)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module TraceInsights (831)
+[2023.05.09-16.51.32:626][887]MemoryProfiler: Shutdown
+[2023.05.09-16.51.32:626][887]NetworkingProfiler: Shutdown
+[2023.05.09-16.51.32:626][887]LoadingProfiler: Shutdown
+[2023.05.09-16.51.32:626][887]TimingProfiler: Shutdown
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module TraceServices (830)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (827)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (826)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module InputBindingEditor (823)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module MergeActors (821)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (819)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module LocalizationService (818)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module HardwareTargeting (815)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (813)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module UndoHistory (811)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module XmlParser (809)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module Blutility (807)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (805)
+[2023.05.09-16.51.32:626][887]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (804)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (801)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (800)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module SettingsEditor (797)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module ProjectLauncher (795)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module SessionFrontend (793)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module ProfilerClient (791)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module DeviceManager (789)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module AutomationController (787)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module AutomationWindow (785)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module Layers (783)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (781)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module DetailCustomizations (779)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module PackagesDialog (777)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (775)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module Persona (773)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (772)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module AnimGraph (770)
+[2023.05.09-16.51.32:627][887]LogModuleManager: Shutting down and abandoning module Kismet (767)
+[2023.05.09-16.51.32:637][887]LogModuleManager: Shutting down and abandoning module KismetWidgets (766)
+[2023.05.09-16.51.32:637][887]LogModuleManager: Shutting down and abandoning module GraphEditor (763)
+[2023.05.09-16.51.32:637][887]LogModuleManager: Shutting down and abandoning module StructViewer (761)
+[2023.05.09-16.51.32:637][887]LogModuleManager: Shutting down and abandoning module ClassViewer (759)
+[2023.05.09-16.51.32:637][887]LogModuleManager: Shutting down and abandoning module NaniteTools (757)
+[2023.05.09-16.51.32:637][887]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (755)
+[2023.05.09-16.51.32:638][887]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (753)
+[2023.05.09-16.51.32:638][887]LogModuleManager: Shutting down and abandoning module SourceControlWindows (751)
+[2023.05.09-16.51.32:638][887]LogModuleManager: Shutting down and abandoning module OutputLog (749)
+[2023.05.09-16.51.32:638][887]LogModuleManager: Shutting down and abandoning module Documentation (747)
+[2023.05.09-16.51.32:638][887]LogModuleManager: Shutting down and abandoning module LiveCoding (745)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (743)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module MovieScene (741)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (739)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (737)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (735)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module AudioMixer (734)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module AudioMixerCore (733)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module LauncherPlatform (729)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module AnalyticsET (727)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module PortalServices (725)
+[2023.05.09-16.51.32:642][887]LogModuleManager: Shutting down and abandoning module PortalRpc (723)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module MessagingRpc (721)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module AIModule (719)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module GameplayDebugger (718)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module AITestSuite (716)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module NavigationSystem (714)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module DataLayerEditor (711)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module EditorWidgets (710)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (707)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (705)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module TypedElementFramework (703)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (701)
+[2023.05.09-16.51.32:643][887]LogModuleManager: Shutting down and abandoning module ProfilerService (699)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module TaskGraph (697)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (695)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (693)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (691)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module TakesCore (689)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module MegascansPlugin (687)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module Bridge (685)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (683)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (681)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (679)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module CollectionManager (678)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (675)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module LightMixer (673)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (671)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (669)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (667)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module PluginBrowser (665)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (663)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (661)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GLTFImporter (659)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GLTFCore (657)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (655)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module EditorDebugTools (653)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module CurveEditorTools (651)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (649)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module CryptoKeys (647)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (645)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (643)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (641)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module Paper2DEditor (639)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (637)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (635)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (633)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module UObjectPlugin (631)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (629)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module PluginUtils (627)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (625)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (623)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GitSourceControl (621)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module DumpGPUServices (619)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (617)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (615)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module VariantManager (613)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (612)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GLTFMaterialBaking (609)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GLTFMaterialAnalyzer (607)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (605)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (601)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module UVEditorTools (599)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module UVEditor (597)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (595)
+[2023.05.09-16.51.32:820][887]LogOpenImageDenoise: OIDN shutting down
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (593)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (591)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (589)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (587)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module Iris (585)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (583)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (581)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (580)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (578)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (575)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module DataflowNodes (573)
+[2023.05.09-16.51.32:820][887]LogModuleManager: Shutting down and abandoning module DataflowEditor (571)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (569)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (567)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module FractureEditor (565)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ChaosNiagara (563)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (561)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (559)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AutomationUtils (557)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module BackChannel (555)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (553)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeTests (551)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module TemplateSequence (549)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (547)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module SequencerScripting (545)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (543)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (541)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module MediaPlate (539)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module MediaCompositing (537)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ImgMedia (535)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module SynthesisEditor (533)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ResonanceAudio (531)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (529)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (527)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (525)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ModelingOperators (523)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (521)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ModelingComponents (519)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GeometryFramework (518)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (515)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module MeshModelingTools (513)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InputDebugging (511)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (509)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (507)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (505)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GooglePAD (503)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module DynamicMesh (501)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (499)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (497)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AudioCapture (495)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (494)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AssetTags (491)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (489)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AppleImageUtils (487)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AndroidPermission (485)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (483)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (481)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (479)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (477)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (475)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangePipelines (473)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeExport (471)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeMessages (469)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeImport (467)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (465)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeNodes (463)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (461)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (459)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (457)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InterchangeEditor (455)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ControlRigSpline (453)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (451)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (449)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module TakeSequencer (447)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module TakeMovieScene (445)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AlembicImporter (443)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AlembicLibrary (442)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GeometryCache (441)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (440)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (435)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module TraceUtilities (433)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (431)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (429)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module InputEditor (427)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (425)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (423)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module FacialAnimation (421)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (419)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module DataValidation (417)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (415)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module TreeMap (414)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module Paper2D (411)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (409)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (407)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module AnimationSharing (405)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (403)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module PBIK (401)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module FullBodyIK (399)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (397)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module TakeRecorder (396)
+[2023.05.09-16.51.32:821][887]LogModuleManager: Shutting down and abandoning module LevelEditor (394)
+[2023.05.09-16.51.32:825][887]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (393)
+[2023.05.09-16.51.32:825][887]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (391)
+[2023.05.09-16.51.32:825][887]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (389)
+[2023.05.09-16.51.32:825][887]LogModuleManager: Shutting down and abandoning module MainFrame (387)
+[2023.05.09-16.51.32:825][887]LogModuleManager: Shutting down and abandoning module HotReload (386)
+[2023.05.09-16.51.32:825][887]LogModuleManager: Shutting down and abandoning module ChaosCaching (381)
+[2023.05.09-16.51.32:825][887]LogModuleManager: Shutting down and abandoning module GameplayCameras (379)
+[2023.05.09-16.51.32:825][887]LogModuleManager: Shutting down and abandoning module UdpMessaging (377)
+[2023.05.09-16.51.32:926][887]LogModuleManager: Shutting down and abandoning module TcpMessaging (375)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ActorSequence (373)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (371)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module Niagara (369)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module NiagaraEditor (368)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ContentBrowser (367)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ContentBrowserData (366)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module NiagaraCore (361)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (359)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (357)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module Synthesis (355)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module SoundFields (353)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module SignificanceManager (351)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (349)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module MetasoundEditor (347)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ToolMenus (346)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module AudioWidgets (344)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (343)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (339)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module MetasoundEngine (337)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module WaveTable (336)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (334)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (331)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (329)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (327)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (325)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (323)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (321)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module CableComponent (319)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (317)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (316)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (313)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module SignalProcessing (312)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (309)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module IKRig (307)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (305)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ControlRig (303)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module LevelSequence (302)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (299)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module EnhancedInput (297)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (295)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (293)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module AndroidFileServer (291)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (289)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module PacketHandler (287)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module TimeManagement (285)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module AnimationDataController (283)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (281)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (279)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module MediaAssets (277)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module Overlay (275)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module OverlayEditor (274)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module VREditor (271)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module StringTableEditor (269)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (267)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (265)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module FunctionalTesting (263)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (261)
+[2023.05.09-16.51.33:026][887]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (260)
+[2023.05.09-16.51.33:027][887]LogModuleManager: Shutting down and abandoning module UMG (257)
+[2023.05.09-16.51.33:027][887]LogModuleManager: Shutting down and abandoning module UMGEditor (256)
+[2023.05.09-16.51.33:027][887]LogModuleManager: Shutting down and abandoning module EditorStyle (251)
+[2023.05.09-16.51.33:027][887]LogModuleManager: Shutting down and abandoning module SlateReflector (249)
+[2023.05.09-16.51.33:027][887]LogModuleManager: Shutting down and abandoning module Slate (247)
+[2023.05.09-16.51.33:027][887]LogModuleManager: Shutting down and abandoning module SlateCore (245)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (243)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (241)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module UnrealEd (239)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MRMesh (237)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module Messaging (235)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (233)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (231)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module Networking (229)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module Core (227)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MaterialEditor (225)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MovieSceneTools (223)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module CurveEditor (222)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module Sequencer (220)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module KismetCompiler (217)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MeshBuilder (215)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module NaniteBuilder (213)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MeshUtilities (211)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (210)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (209)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (208)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (206)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (204)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (202)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module MaterialBaking (198)
+[2023.05.09-16.51.33:028][887]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (195)
+[2023.05.09-16.51.33:040][887]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (191)
+[2023.05.09-16.51.33:040][887]LogModuleManager: Shutting down and abandoning module DerivedDataCache (189)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TargetPlatform (187)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (186)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (184)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (182)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (180)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (178)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module AudioFormatBink (176)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (173)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (171)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (169)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (167)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (165)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (163)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (161)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (159)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (157)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (155)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TextureFormat (153)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module ImageWrapper (152)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (150)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (148)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (146)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (144)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (142)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (140)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module TurnkeySupport (137)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module InputCore (134)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module Settings (132)
+[2023.05.09-16.51.33:043][887]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (130)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (128)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (127)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module Chaos (124)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module GeometryCore (123)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (120)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (119)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module AVEncoder (118)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module D3D11RHI (114)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module AISupportModule (112)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module PixWinPlugin (110)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module VariantManagerContent (108)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module GLTFExporter (106)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module DatasmithContent (104)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (102)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (100)
+[2023.05.09-16.51.33:044][887]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (98)
+[2023.05.09-16.51.33:045][887]LogModuleManager: Shutting down and abandoning module XMPP (93)
+[2023.05.09-16.51.33:045][887]LogModuleManager: Shutting down and abandoning module WebSockets (92)
+[2023.05.09-16.51.33:074][887]LogModuleManager: Shutting down and abandoning module HTTP (89)
+[2023.05.09-16.51.33:074][887]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2023.05.09-16.51.33:074][887]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7D68CF30-4ABF-5F80-2514-F7A0627504AC%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=fac76f254c918e79742d1dbe2d0035c0%7C4143fda26d7143a5ab2934802ddf19ce%7C6be0c6ee-7dd8-4701-97cf-eae4d24f8a70&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.05.09-16.51.33:076][887]LogModuleManager: Shutting down and abandoning module SSL (88)
+[2023.05.09-16.51.33:077][887]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (84)
+[2023.05.09-16.51.33:077][887]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (82)
+[2023.05.09-16.51.33:077][887]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (80)
+[2023.05.09-16.51.33:077][887]LogModuleManager: Shutting down and abandoning module ChaosCloth (78)
+[2023.05.09-16.51.33:077][887]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2023.05.09-16.51.33:077][887]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (74)
+[2023.05.09-16.51.33:077][887]LogModuleManager: Shutting down and abandoning module NiagaraShader (72)
+[2023.05.09-16.51.33:077][887]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2023.05.09-16.51.33:079][887]LogModuleManager: Shutting down and abandoning module Media (69)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (64)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (62)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module ChunkDownloader (60)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module DesktopPlatform (58)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (56)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module SourceControl (55)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (52)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (50)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (48)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module PlatformCrypto (46)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2023.05.09-16.51.33:081][887]LogXGEController: Cleaning working directory: C:/Users/kira meyer/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2023.05.09-16.51.33:081][887]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.05.09-16.51.33:082][887]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2023.05.09-16.51.33:082][887]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2023.05.09-16.51.33:082][887]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.05.09-16.51.33:082][887]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.05.09-16.51.33:082][887]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.05.09-16.51.33:082][887]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.05.09-16.51.33:084][887]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.05.09-16.51.33:088][887]LogD3D11RHI: Shutdown
+[2023.05.09-16.51.33:088][887]LogD3D11RHI: CleanupD3DDevice
+[2023.05.09-16.51.33:121][887]LogExit: Exiting.
+[2023.05.09-16.51.33:130][887]Log file closed, 05/09/23 16:51:33
