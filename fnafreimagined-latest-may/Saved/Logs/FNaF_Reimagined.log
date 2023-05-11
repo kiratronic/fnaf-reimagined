@@ -7697,3 +7697,1135 @@ LVL_NightTemplate0 (Other Actor)
 [2023.05.11-19.56.03:205][207]AssetCheck: New page: Asset Save: multiple assets
 [2023.05.11-19.56.03:205][207]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
 [2023.05.11-19.56.03:205][207]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/Core/Levels/NightTemplate/LVL_NightTemplate_BuiltData.LVL_NightTemplate_BuiltData
+[2023.05.11-19.56.48:906][424]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.11-19.56.48:914][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.11-19.56.48:915][424]PIE: New page: PIE session: LVL_NightTemplate (May 11, 2023, 7:56:48 PM)
+[2023.05.11-19.56.48:915][424]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-19.56.49:152][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.238018s)
+[2023.05.11-19.56.49:152][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.238066s)
+[2023.05.11-19.56.49:152][424]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-19.56.49:153][424]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.11-19.56.49:298][424]LogPlayLevel: PIE: World Init took: (0.144561s)
+[2023.05.11-19.56.49:615][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.05.11-19.56.49:618][424]LogAudio: Display: Creating Audio Device:                 Id: 89, Scope: Unique, Realtime: True
+[2023.05.11-19.56.49:618][424]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.11-19.56.49:618][424]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.11-19.56.49:618][424]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.11-19.56.49:618][424]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.11-19.56.49:619][424]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.11-19.56.49:619][424]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.11-19.56.49:619][424]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.11-19.56.49:619][424]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.11-19.56.49:619][424]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.11-19.56.49:619][424]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.11-19.56.49:619][424]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.11-19.56.49:621][424]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.11-19.56.49:637][424]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.11-19.56.49:637][424]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.11-19.56.49:637][424]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.11-19.56.49:637][424]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.11-19.56.49:638][424]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=89
+[2023.05.11-19.56.49:638][424]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=89
+[2023.05.11-19.56.49:639][424]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=89
+[2023.05.11-19.56.49:639][424]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=89
+[2023.05.11-19.56.49:639][424]LogInit: FAudioDevice initialized.
+[2023.05.11-19.56.49:639][424]LogAudio: Display: Audio Device (ID: 89) registered with world 'LVL_NightTemplate'.
+[2023.05.11-19.56.49:661][424]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.11-19.56.49:743][424]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.11-19.56.49
+[2023.05.11-19.56.49:747][424]LogWorld: Bringing up level for play took: 0.085368
+[2023.05.11-19.56.49:749][424]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2023.05.11-19.56.49:754][424]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] Night1
+[2023.05.11-19.56.49:754][424]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.11-19.56.49:755][424]r.HDR.Display.OutputDevice = "1"
+[2023.05.11-19.56.49:755][424]PIE: Server logged in
+[2023.05.11-19.56.49:755][424]PIE: Play in editor total start time 0.842 seconds.
+[2023.05.11-19.56.59:705][620]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.11-19.56.59:758][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-19.56.59:758][621]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-19.56.59:760][621]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-19.56.59:768][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-19.56.59:794][621]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.11-19.56.59:807][621]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-19.56.59:861][621]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.11-19.56.59:865][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2023.05.11-19.56.59:867][621]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=89
+[2023.05.11-19.56.59:870][621]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-19.56.59:901][621]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2023.05.11-19.56.59:971][622]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2023.05.11-19.58.32:052][  2]Cmd: EDIT COPY
+[2023.05.11-19.58.32:315][ 12]Cmd: EDIT PASTE
+[2023.05.11-19.58.35:360][121]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.58.37:742][192]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.58.38:353][218]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.58.38:406][220]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.58.38:621][228]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.58.38:840][233]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.58.39:902][274]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.58.40:324][292]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.59.12:361][406]Cmd: TRANSACTION UNDO
+[2023.05.11-19.59.12:361][406]LogEditorTransaction: Undo Move Elements
+[2023.05.11-19.59.34:448][205]Cmd: EDIT COPY
+[2023.05.11-19.59.34:704][213]Cmd: EDIT PASTE
+[2023.05.11-19.59.41:765][453]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.59.41:985][461]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-19.59.46:357][618]Cmd: TRANSACTION UNDO
+[2023.05.11-19.59.46:357][618]LogEditorTransaction: Undo Rotate Elements
+[2023.05.11-19.59.55:513][940]Cmd: EDIT COPY
+[2023.05.11-19.59.55:807][950]Cmd: EDIT PASTE
+[2023.05.11-20.00.03:038][208]Cmd: EDIT COPY
+[2023.05.11-20.00.03:255][214]Cmd: EDIT PASTE
+[2023.05.11-20.01.05:569][472]Cmd: EDIT COPY
+[2023.05.11-20.01.05:880][478]Cmd: EDIT PASTE
+[2023.05.11-20.01.07:204][523]Cmd: MODE ROTGRID=1
+[2023.05.11-20.01.51:127][928]Cmd: MODE ROTGRID=0
+[2023.05.11-20.01.52:738][986]Cmd: EDIT COPY
+[2023.05.11-20.01.52:995][996]Cmd: EDIT PASTE
+[2023.05.11-20.02.09:120][567]Cmd: EDIT COPY
+[2023.05.11-20.02.09:421][577]Cmd: EDIT PASTE
+[2023.05.11-20.04.09:638][942]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.05.11-20.04.09:725][942]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-20.04.09:833][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.05.11-20.04.10:582][942]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.11-20.04.10:582][942]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate262608354CD1ACC7C28360860CCA770A.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.11-20.04.10:607][942]LogFileHelpers: No new changes to save!
+[2023.05.11-20.04.10:607][942]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.829
+[2023.05.11-20.04.10:611][942]LogFileHelpers: InternalPromptForCheckoutAndSave took 886 ms (total: 13.4 sec)
+[2023.05.11-20.04.10:632][942]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2023.05.11-20.04.10:632][942]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.11-20.11.03:089][462]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.11-20.11.03:153][462]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.11-20.11.03:172][463]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.11-20.11.06:266][589]LogContentBrowser: Attempting asset rename: NewFolder -> PartyHatnew
+[2023.05.11-20.11.06:267][589]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.11-20.11.36:813][749]LogInterchangeEngine: [Pending] Importing
+[2023.05.11-20.11.36:814][749]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.05.11-20.11.36:814][749]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.05.11-20.11.36:814][749]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.05.11-20.11.36:814][749]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.05.11-20.11.36:841][750]LogInterchangeEngine: [Pending] Importing -  (5)
+[2023.05.11-20.11.36:845][750]LogTexture: Display: Building textures: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO.M_PartyHat_Mixed_AO (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.05.11-20.11.36:872][750]LogTexture: Display: Building textures: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic.M_PartyHat_Metallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.05.11-20.11.36:900][751]LogInterchangeEngine: [Pending] Importing -  (4)
+[2023.05.11-20.11.36:900][751]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.05.11-20.11.36:909][751]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.05.11-20.11.36:919][751]LogTexture: Display: Building textures: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness.M_PartyHat_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2023.05.11-20.11.37:088][753]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.05.11-20.11.37:160][753]LogTexture: Display: Building textures: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color.M_PartyHat_Base_color (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.05.11-20.11.37:324][754]LogTexture: Display: Building textures: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX.M_PartyHat_Normal_DirectX (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 304.062484 MB), EncodeSpeed: Fast
+[2023.05.11-20.11.37:332][754]LogInterchangeEngine: [Success] Import Done
+[2023.05.11-20.11.37:440][755]LogInterchangeEngine: [Success] Import Done
+[2023.05.11-20.11.37:556][756]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.05.11-20.11.37:573][756]LogTexture: Display: Building textures: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX.M_PartyHat_Normal_DirectX (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 352.562488 MB), EncodeSpeed: Fast
+[2023.05.11-20.11.41:222][768]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/kira meyer/Downloads/party-hat/source/SM_PartyHat.fbx)
+[2023.05.11-20.11.41:254][768]LogFbx: Loading FBX Scene from ../../../../../../Users/kira meyer/Downloads/party-hat/source/SM_PartyHat.fbx
+[2023.05.11-20.11.41:263][768]LogFbx: FBX Scene Loaded Succesfully
+[2023.05.11-20.11.42:424][768]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.05.11-20.11.42:641][768]LogFbx: Display: Triangulating static mesh NurbsPath
+[2023.05.11-20.11.43:048][768]LogStaticMesh: Display: Building static mesh SM_PartyHat...
+[2023.05.11-20.11.43:062][768]LogStaticMesh: Built static mesh [0.01s] /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Total job queries 4604, among them cache hits 151 (3.28%)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Tracking 4450 distinct input hashes that result in 1357 distinct outputs (30.49%)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: RAM used: 20.62 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.52%
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Shaders Compiled: 484
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Jobs assigned 487, completed 484 (99.38%)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Average time worker was idle: 14.38 s
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Time job spent in pending queue: average 52.73 s, longest 103.31 s
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Job execution time: average 1.89 s, max 4.47 s
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Job life time (pending + execution): average 54.94 s, max 106.34
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 118.51 s
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Jobs were issued in 487 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Average processing rate: 4.08 jobs/sec
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Total thread time: 865.53 s
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Total thread preprocess time: 29.29 s
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Percentage time preprocessing: 3.38%
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Effective parallelization: 7.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    4 times, average 2.78 sec, max 4.37 sec, min 1.39 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled   53 times, average 2.08 sec, max 2.66 sec, min 1.97 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 2.08 sec, max 2.08 sec, min 2.08 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 16.62% of total time (compiled   71 times, average 2.03 sec, max 2.57 sec, min 1.77 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 16.42% of total time (compiled   69 times, average 2.06 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 13.45% of total time (compiled   72 times, average 1.62 sec, max 2.04 sec, min 1.45 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ - 13.08% of total time (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ - 13.06% of total time (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.11.43:959][784]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.11.44:671][807]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/PartyHatnew/M_PartyHat.M_PartyHat
+[2023.05.11-20.11.44:675][807]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-20.11.44:840][807]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.11.44:840][807]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.44:840][807]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.11.44:853][807]LogViewport: Scene viewport resized to 362x183, mode Windowed.
+[2023.05.11-20.11.44:978][809]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.05.11-20.11.44:978][809]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.11.44:978][809]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.11.44:978][809]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.44:978][809]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.11.46:950][862]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.11.46:950][862]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.46:950][862]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.11.47:856][883]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.11.47:856][883]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.11.47:856][883]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.47:856][883]MaterialEditorStats: Shader Count: 3
+[2023.05.11-20.11.47:939][886]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.11.47:939][886]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.11.47:939][886]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.11.47:939][886]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.47:939][886]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.11.48:663][902]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.11.48:664][902]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.48:664][902]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.11.48:721][903]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.11.48:721][903]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.11.48:721][903]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.11.48:721][903]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.48:721][903]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.11.51:917][996]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.11.51:917][996]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.51:917][996]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.11.51:973][997]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.11.51:973][997]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.11.51:973][997]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.11.51:973][997]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.51:973][997]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.11.54:038][ 66]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.11.54:038][ 66]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.54:038][ 66]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.11.54:102][ 67]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.11.54:102][ 67]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.11.54:102][ 67]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.11.54:103][ 67]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.54:103][ 67]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.11.56:365][151]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.11.56:365][151]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.56:365][151]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.11.56:425][152]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.11.56:425][152]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.11.56:426][152]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.11.56:426][152]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.56:426][152]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.11.57:643][194]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.11.57:643][194]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.57:643][194]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.11.57:705][195]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.11.57:705][195]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.11.57:705][195]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.11.57:705][195]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.11.57:705][195]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.11.58:504][218]LogViewport: Scene viewport resized to 671x449, mode Windowed.
+[2023.05.11-20.12.03:215][385]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.12.03:215][385]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.12.03:215][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.03:215][385]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.12.03:720][399]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.11-20.12.03:720][399]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.12.03:721][399]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.03:721][399]MaterialEditorStats: Shader Count: 1
+[2023.05.11-20.12.04:223][415]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.04:223][415]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.11-20.12.04:223][415]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.12.04:223][415]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.04:223][415]MaterialEditorStats: Shader Count: 3
+[2023.05.11-20.12.04:318][418]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.05.11-20.12.04:318][418]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.04:318][418]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.11-20.12.04:318][418]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.12.04:318][418]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.04:318][418]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.12.13:996][783]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.12.13:996][783]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.11-20.12.13:996][783]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.13:996][783]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.12.14:516][799]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.12.14:516][799]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.11-20.12.14:516][799]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.14:516][799]MaterialEditorStats: Shader Count: 1
+[2023.05.11-20.12.15:011][816]MaterialEditorStats: Base pass shader: 166 instructions
+[2023.05.11-20.12.15:011][816]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.15:011][816]MaterialEditorStats: Texture samplers: 4/16
+[2023.05.11-20.12.15:011][816]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.11-20.12.15:011][816]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.15:011][816]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.12.17:586][909]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.12.17:586][909]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.11-20.12.17:586][909]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.17:586][909]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.12.18:118][924]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.12.18:118][924]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.11-20.12.18:118][924]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.18:118][924]MaterialEditorStats: Shader Count: 1
+[2023.05.11-20.12.18:606][940]MaterialEditorStats: Base pass shader: 168 instructions
+[2023.05.11-20.12.18:606][940]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.18:606][940]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.11-20.12.18:606][940]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.11-20.12.18:606][940]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.18:606][940]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.12.28:817][320]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.12.28:817][320]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.11-20.12.28:817][320]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.28:817][320]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.12.29:463][339]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.11-20.12.29:463][339]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.11-20.12.29:463][339]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.29:463][339]MaterialEditorStats: Shader Count: 1
+[2023.05.11-20.12.29:856][352]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.29:856][352]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.11-20.12.29:857][352]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.11-20.12.29:857][352]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.29:857][352]MaterialEditorStats: Shader Count: 3
+[2023.05.11-20.12.29:956][355]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.05.11-20.12.29:956][355]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.29:956][355]MaterialEditorStats: Texture samplers: 6/16
+[2023.05.11-20.12.29:956][355]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.05.11-20.12.29:956][355]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.29:956][355]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.12.32:213][437]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.12.32:213][437]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.11-20.12.32:213][437]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.32:213][437]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.12.32:716][452]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.11-20.12.32:716][452]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.11-20.12.32:717][452]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.32:717][452]MaterialEditorStats: Shader Count: 1
+[2023.05.11-20.12.33:211][469]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.05.11-20.12.33:211][469]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.33:211][469]MaterialEditorStats: Texture samplers: 6/16
+[2023.05.11-20.12.33:211][469]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.11-20.12.33:211][469]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.33:211][469]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.12.34:255][506]LogMaterialEditor: Applying material M_PartyHat
+[2023.05.11-20.12.35:479][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.05.11-20.12.36:549][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.05.11-20.12.36:557][506]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.11-20.12.36:557][506]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.11-20.12.36:557][506]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.36:557][506]MaterialEditorStats: Shader Count: 2
+[2023.05.11-20.12.36:668][508]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.05.11-20.12.36:668][508]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.36:668][508]MaterialEditorStats: Texture samplers: 6/16
+[2023.05.11-20.12.36:668][508]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.11-20.12.36:668][508]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.36:668][508]MaterialEditorStats: Shader Count: 6
+[2023.05.11-20.12.39:351][603]LogMaterialEditor: Saving and Compiling material M_PartyHat
+[2023.05.11-20.12.39:482][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-20.12.41:603][603]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.05.11-20.12.42:631][603]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001039s (1.031458s overbudget)
+[2023.05.11-20.12.42:675][603]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat
+[2023.05.11-20.12.42:675][603]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat019754944099C8B2B214F5BCB94A5033.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/PartyHatnew/M_PartyHat.uasset'
+[2023.05.11-20.12.42:835][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.35 sec (total: 16.8 sec)
+[2023.05.11-20.12.42:870][603]AssetCheck: New page: Asset Save: M_PartyHat
+[2023.05.11-20.12.42:870][603]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Core/Assets/Props/PartyHatnew/M_PartyHat.M_PartyHat
+[2023.05.11-20.12.42:872][603]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.05.11-20.12.42:872][603]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.12.42:872][603]MaterialEditorStats: MaxSampler: 227 instructions
+[2023.05.11-20.12.42:872][603]MaterialEditorStats: Texture samplers: 8/16
+[2023.05.11-20.12.42:872][603]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.11-20.12.42:872][603]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.12.42:872][603]MaterialEditorStats: Shader Count: 20
+[2023.05.11-20.12.56:455][108]Cmd: DELETE
+[2023.05.11-20.12.56:455][108]Cmd: ACTOR DELETE
+[2023.05.11-20.12.56:504][108]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-20.12.56:561][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.05.11-20.12.56:563][108]LogEditorActor: Deleted 1 Actors (0.108 secs)
+[2023.05.11-20.12.58:011][151]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat
+[2023.05.11-20.12.58:011][151]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat
+[2023.05.11-20.12.58:013][151]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_569
+[2023.05.11-20.12.59:161][185]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat
+[2023.05.11-20.12.59:161][185]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat
+[2023.05.11-20.12.59:171][185]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_570
+[2023.05.11-20.13.04:864][374]Cmd: TRANSACTION UNDO
+[2023.05.11-20.13.04:864][374]LogEditorTransaction: Undo Scale Elements
+[2023.05.11-20.14.10:398][115]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2023.05.11-20.14.11:188][115]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto1
+[2023.05.11-20.14.11:188][115]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate_Auto1F75B262840E51F5494A262A6D6FA6B4D.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto1.umap'
+[2023.05.11-20.14.11:252][115]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.909
+[2023.05.11-20.14.11:252][115]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.909
+[2023.05.11-20.14.11:253][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness] ([1] browsable assets)...
+[2023.05.11-20.14.11:254][115]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness.M_PartyHat_Roughness]
+[2023.05.11-20.14.11:254][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness]
+[2023.05.11-20.14.11:258][115]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness_Auto1
+[2023.05.11-20.14.11:258][115]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Roughness_Auto17FE50D714D2E552446750EA1138017C5.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness_Auto1.uasset'
+[2023.05.11-20.14.11:258][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO] ([1] browsable assets)...
+[2023.05.11-20.14.11:259][115]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO.M_PartyHat_Mixed_AO]
+[2023.05.11-20.14.11:259][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO]
+[2023.05.11-20.14.11:263][115]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO_Auto1
+[2023.05.11-20.14.11:263][115]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Mixed_AO_Auto1482082384FB006F8D322B6BA32C8E0F9.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO_Auto1.uasset'
+[2023.05.11-20.14.11:264][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color] ([1] browsable assets)...
+[2023.05.11-20.14.11:265][115]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color.M_PartyHat_Base_color]
+[2023.05.11-20.14.11:265][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color]
+[2023.05.11-20.14.11:275][115]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color_Auto1
+[2023.05.11-20.14.11:275][115]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Base_color_Auto18A6B84DE4423174D57CC148478BFC948.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color_Auto1.uasset'
+[2023.05.11-20.14.11:275][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic] ([1] browsable assets)...
+[2023.05.11-20.14.11:276][115]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic.M_PartyHat_Metallic]
+[2023.05.11-20.14.11:276][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic]
+[2023.05.11-20.14.11:280][115]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic_Auto1
+[2023.05.11-20.14.11:280][115]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Metallic_Auto14F6B1E0A4C0A138B2AAB81B7D2445187.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic_Auto1.uasset'
+[2023.05.11-20.14.11:281][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX] ([1] browsable assets)...
+[2023.05.11-20.14.11:282][115]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX.M_PartyHat_Normal_DirectX]
+[2023.05.11-20.14.11:282][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX]
+[2023.05.11-20.14.11:311][115]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX_Auto1
+[2023.05.11-20.14.11:311][115]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Normal_DirectX_Auto1B5F787C144151947F97C36BF0772D941.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX_Auto1.uasset'
+[2023.05.11-20.14.11:312][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat] ([1] browsable assets)...
+[2023.05.11-20.14.11:331][115]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat]
+[2023.05.11-20.14.11:331][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat]
+[2023.05.11-20.14.11:381][115]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat_Auto1
+[2023.05.11-20.14.11:381][115]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_PartyHat_Auto1FAD9B2F040093E8E951234941FB90BD4.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat_Auto1.uasset'
+[2023.05.11-20.14.11:382][115]LogFileHelpers: Auto-saving content packages took 0.130
+[2023.05.11-20.14.57:662][966]Cmd: TRANSACTION UNDO
+[2023.05.11-20.14.57:662][966]LogEditorTransaction: Undo Move Elements
+[2023.05.11-20.15.18:599][766]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_003.cobwebs_cobweb_003
+[2023.05.11-20.15.18:599][766]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_003.cobwebs_cobweb_003
+[2023.05.11-20.15.18:600][766]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_003.cobwebs_cobweb_003 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_571
+[2023.05.11-20.15.19:302][790]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_003.cobwebs_cobweb_003
+[2023.05.11-20.15.19:302][790]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_003.cobwebs_cobweb_003
+[2023.05.11-20.15.19:311][790]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_003.cobwebs_cobweb_003 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_572
+[2023.05.11-20.15.22:485][894]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.15.56:235][ 92]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_005.cobwebs_cobweb_005
+[2023.05.11-20.15.56:235][ 92]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_005.cobwebs_cobweb_005
+[2023.05.11-20.15.56:236][ 92]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_005.cobwebs_cobweb_005 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_573
+[2023.05.11-20.15.56:872][112]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_005.cobwebs_cobweb_005
+[2023.05.11-20.15.56:872][112]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_005.cobwebs_cobweb_005
+[2023.05.11-20.15.56:881][112]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/MAINMENU/cobwebs/cobwebs_cobweb_005.cobwebs_cobweb_005 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_574
+[2023.05.11-20.16.19:151][911]Cmd: TRANSACTION UNDO
+[2023.05.11-20.16.19:151][911]LogEditorTransaction: Undo Move Elements
+[2023.05.11-20.16.43:930][783]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.11-20.16.43:940][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.11-20.16.43:940][783]PIE: New page: PIE session: LVL_NightTemplate (May 11, 2023, 8:16:43 PM)
+[2023.05.11-20.16.43:940][783]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-20.16.44:193][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.253113s)
+[2023.05.11-20.16.44:193][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.253148s)
+[2023.05.11-20.16.44:193][783]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-20.16.44:194][783]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.11-20.16.44:336][783]LogPlayLevel: PIE: World Init took: (0.142793s)
+[2023.05.11-20.16.44:702][783]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.05.11-20.16.44:706][783]LogAudio: Display: Creating Audio Device:                 Id: 90, Scope: Unique, Realtime: True
+[2023.05.11-20.16.44:706][783]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.11-20.16.44:706][783]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.11-20.16.44:706][783]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.11-20.16.44:706][783]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.11-20.16.44:706][783]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.11-20.16.44:706][783]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.11-20.16.44:706][783]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.11-20.16.44:706][783]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.11-20.16.44:708][783]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.11-20.16.44:708][783]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.11-20.16.44:708][783]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.11-20.16.44:709][783]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.11-20.16.44:726][783]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.11-20.16.44:727][783]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.11-20.16.44:727][783]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.11-20.16.44:727][783]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.11-20.16.44:728][783]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=90
+[2023.05.11-20.16.44:728][783]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=90
+[2023.05.11-20.16.44:729][783]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=90
+[2023.05.11-20.16.44:729][783]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=90
+[2023.05.11-20.16.44:729][783]LogInit: FAudioDevice initialized.
+[2023.05.11-20.16.44:729][783]LogAudio: Display: Audio Device (ID: 90) registered with world 'LVL_NightTemplate'.
+[2023.05.11-20.16.44:752][783]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.11-20.16.44:846][783]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.11-20.16.44
+[2023.05.11-20.16.44:850][783]LogWorld: Bringing up level for play took: 0.097797
+[2023.05.11-20.16.44:852][783]LogOnline: OSS: Created online subsystem instance for: :Context_106
+[2023.05.11-20.16.44:858][783]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] Night1
+[2023.05.11-20.16.44:858][783]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.11-20.16.44:858][783]r.HDR.Display.OutputDevice = "1"
+[2023.05.11-20.16.44:858][783]PIE: Server logged in
+[2023.05.11-20.16.44:859][783]PIE: Play in editor total start time 0.919 seconds.
+[2023.05.11-20.16.48:617][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-20.16.48:617][892]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-20.16.48:618][892]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-20.16.48:628][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-20.16.48:635][892]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.11-20.16.48:649][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-20.16.48:713][892]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.11-20.16.48:713][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2023.05.11-20.16.48:715][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=90
+[2023.05.11-20.16.48:719][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-20.16.48:740][892]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2023.05.11-20.16.48:818][893]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2023.05.11-20.17.14:054][840]Cmd: EDIT COPY
+[2023.05.11-20.17.14:309][849]Cmd: EDIT PASTE
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Total job queries 4749, among them cache hits 242 (5.10%)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Tracking 4507 distinct input hashes that result in 1379 distinct outputs (30.60%)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: RAM used: 20.80 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.54%
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Shaders Compiled: 529
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Jobs assigned 529, completed 529 (100.00%)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Average time worker was idle: 24.33 s
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Time job spent in pending queue: average 48.56 s, longest 103.31 s
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Job execution time: average 1.81 s, max 4.47 s
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Job life time (pending + execution): average 50.37 s, max 106.34
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 129.60 s
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Jobs were issued in 529 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Average processing rate: 4.08 jobs/sec
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Total thread time: 904.76 s
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Total thread preprocess time: 31.46 s
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Percentage time preprocessing: 3.48%
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Effective parallelization: 6.98 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    5 times, average 2.37 sec, max 4.37 sec, min 0.75 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled   53 times, average 2.08 sec, max 2.66 sec, min 1.97 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled   70 times, average 2.06 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 16.15% of total time (compiled   72 times, average 2.03 sec, max 2.57 sec, min 1.77 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 15.96% of total time (compiled   70 times, average 2.06 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 13.00% of total time (compiled   73 times, average 1.61 sec, max 2.04 sec, min 1.19 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ - 12.51% of total time (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ - 12.50% of total time (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.17.21:623][ 41]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.17.25:194][174]Cmd: DELETE
+[2023.05.11-20.17.25:194][174]Cmd: ACTOR DELETE
+[2023.05.11-20.17.25:822][174]LogLinker: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Saved\Autosaves\Game\Core\Levels\NightTemplate\LVL_NightTemplate_Auto1.umap: Failed to load '/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat': Can't find file.
+[2023.05.11-20.17.25:822][174]LoadErrors: Error: /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat : [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Saved\Autosaves\Game\Core\Levels\NightTemplate\LVL_NightTemplate_Auto1.umap: Failed to load '/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat': Can't find file. /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat
+[2023.05.11-20.17.25:870][174]LogLinker: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Saved\Autosaves\Game\Core\Levels\NightTemplate\LVL_NightTemplate_Auto1.umap: Failed to load '/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat': Can't find file.
+[2023.05.11-20.17.25:923][174]LogLinker: Warning: Failed to load '/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat': Can't find file.
+[2023.05.11-20.17.25:923][174]LoadErrors: Error: /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat : Failed to load '/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat': Can't find file. /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat
+[2023.05.11-20.17.25:923][174]LogLinker: Warning: Failed to load '/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat': Can't find file.
+[2023.05.11-20.17.26:674][174]LogLinker: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Saved\Autosaves\Game\Core\Levels\NightTemplate\LVL_NightTemplate_Auto1.umap: Failed to load '/Game/Core/Assets/Props/PartyHatnew/SM_PartyHat': Can't find file.
+[2023.05.11-20.17.26:674][174]LoadErrors: Failed to load /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat Referenced by StaticMeshActor_570
+[2023.05.11-20.17.27:486][174]LogEditorActor: Deleted Actor: DecalActor
+[2023.05.11-20.17.27:570][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.05.11-20.17.27:574][174]LogEditorActor: Deleted 1 Actors (2.381 secs)
+[2023.05.11-20.17.29:082][214]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/menupaper/SM_menupaper.SM_menupaper
+[2023.05.11-20.17.29:082][214]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/menupaper/SM_menupaper.SM_menupaper
+[2023.05.11-20.17.29:083][214]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/MAINMENU/menupaper/SM_menupaper.SM_menupaper as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_575
+[2023.05.11-20.17.29:654][234]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/menupaper/SM_menupaper.SM_menupaper
+[2023.05.11-20.17.29:654][234]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/MAINMENU/menupaper/SM_menupaper.SM_menupaper
+[2023.05.11-20.17.29:663][234]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/MAINMENU/menupaper/SM_menupaper.SM_menupaper as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_576
+[2023.05.11-20.17.33:091][358]Cmd: TRANSACTION UNDO
+[2023.05.11-20.17.33:091][358]LogEditorTransaction: Undo Scale Elements
+[2023.05.11-20.17.44:170][725]Cmd: EDIT COPY
+[2023.05.11-20.17.44:432][734]Cmd: EDIT PASTE
+[2023.05.11-20.20.47:662][908]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.05.11-20.21.14:763][398]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.11-20.21.14:781][398]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.11-20.21.14:798][399]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.11-20.21.17:767][518]LogContentBrowser: Attempting asset rename: NewFolder -> ceilinglamp
+[2023.05.11-20.21.17:767][518]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.11-20.21.48:344][598]LogInterchangeEngine: [Pending] Importing
+[2023.05.11-20.21.48:350][598]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.05.11-20.21.48:350][598]LogInterchangeEngine: [Pending] Importing -  (3)
+[2023.05.11-20.21.50:023][598]LogTexture: Display: Building textures: /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_BaseColor.CellingLap_MAT_CellingLamp_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.05.11-20.21.50:026][598]LogInterchangeEngine: [Pending] Importing -  (2)
+[2023.05.11-20.21.50:026][598]LogInterchangeEngine: [Pending] Importing -  (1)
+[2023.05.11-20.21.50:055][598]LogTexture: Display: Building textures: /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_Normal.CellingLap_MAT_CellingLamp_Normal (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.05.11-20.21.50:260][598]LogTexture: Display: Building textures: /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_OcclusionRoughnessMetallic.CellingLap_MAT_CellingLamp_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2023.05.11-20.21.50:275][598]LogInterchangeEngine: [Success] Import Done
+[2023.05.11-20.21.51:734][598]LogSlate: Window 'Interchange Pipeline Configuration (Import Content)' being destroyed
+[2023.05.11-20.21.51:743][598]LogInterchangeEngine: [Pending] Importing
+[2023.05.11-20.21.51:854][598]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.05.11-20.21.51:860][598]LogTexture: Display: Building textures: /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_OcclusionRoughnessMetallic.CellingLap_MAT_CellingLamp_OcclusionRoughnessMetallic (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2023.05.11-20.21.51:879][598]LogInterchangePipeline: Display: Auto-detected normal map
+[2023.05.11-20.21.52:015][599]LogInterchangeEngine: [Success] Import Done
+[2023.05.11-20.21.52:031][599]LogInterchangeEngine: [Pending] Importing
+[2023.05.11-20.21.52:120][599]LogTexture: Display: Building textures: /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_Normal.CellingLap_MAT_CellingLamp_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2023.05.11-20.21.52:547][600]LogStaticMesh: Display: Building static mesh Lamp...
+[2023.05.11-20.21.52:568][600]LogInterchangeEngine: [Success] Import Done
+[2023.05.11-20.21.52:626][600]LogStaticMesh: Built static mesh [0.08s] /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp
+[2023.05.11-20.21.54:130][601]LogInterchangeEngine: [Success] Import Done
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Total job queries 4765, among them cache hits 248 (5.20%)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Tracking 4514 distinct input hashes that result in 1386 distinct outputs (30.70%)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: RAM used: 20.81 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.54%
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Shaders Compiled: 530
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Jobs assigned 533, completed 530 (99.44%)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Average time worker was idle: 28.35 s
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Time job spent in pending queue: average 48.20 s, longest 103.31 s
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Job execution time: average 1.81 s, max 4.47 s
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Job life time (pending + execution): average 50.28 s, max 106.34
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 130.57 s
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Jobs were issued in 533 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Average processing rate: 4.06 jobs/sec
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Total thread time: 905.27 s
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Total thread preprocess time: 31.52 s
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Percentage time preprocessing: 3.48%
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Effective parallelization: 6.93 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    5 times, average 2.37 sec, max 4.37 sec, min 0.75 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled   53 times, average 2.08 sec, max 2.66 sec, min 1.97 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled   70 times, average 2.06 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 16.14% of total time (compiled   72 times, average 2.03 sec, max 2.57 sec, min 1.77 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 15.96% of total time (compiled   70 times, average 2.06 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.99% of total time (compiled   73 times, average 1.61 sec, max 2.04 sec, min 1.19 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ - 12.51% of total time (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ - 12.49% of total time (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.21.55:195][613]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.21.55:931][623]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/ceilinglamp/MAT_CellingLamp.MAT_CellingLamp
+[2023.05.11-20.21.55:973][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-20.21.57:272][623]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.21.57:273][623]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.21.57:273][623]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.21.57:287][623]LogViewport: Scene viewport resized to 671x449, mode Windowed.
+[2023.05.11-20.21.57:691][624]LogViewport: Scene viewport resized to 362x183, mode Windowed.
+[2023.05.11-20.21.58:695][625]MaterialEditorStats: Base pass shader: 164 instructions
+[2023.05.11-20.21.58:695][625]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.21.58:695][625]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.21.58:695][625]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.21.58:695][625]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.01:305][682]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.01:305][682]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.01:305][682]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.02:297][701]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.22.02:298][701]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.02:298][701]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.02:298][701]MaterialEditorStats: Shader Count: 3
+[2023.05.11-20.22.02:381][703]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.22.02:382][703]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.22.02:382][703]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.22.02:382][703]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.02:382][703]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.03:149][718]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.03:149][718]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.03:149][718]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.03:206][719]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.22.03:206][719]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.22.03:206][719]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.22.03:206][719]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.03:206][719]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.04:381][745]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.04:381][745]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.04:381][745]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.04:464][746]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.22.04:464][746]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.22.04:464][746]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.22.04:464][746]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.04:464][746]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.05:467][767]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.05:467][767]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.05:467][767]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.05:525][768]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.22.05:525][768]MaterialEditorStats: Base pass vertex shader: 262 instructions
+[2023.05.11-20.22.05:525][768]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.22.05:525][768]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.05.11-20.22.05:525][768]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.06:450][790]LogViewport: Scene viewport resized to 671x449, mode Windowed.
+[2023.05.11-20.22.14:933][ 67]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.14:933][ 67]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.22.14:933][ 67]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.14:933][ 67]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.15:961][ 94]MaterialEditorStats: Base pass shader: 161 instructions
+[2023.05.11-20.22.15:961][ 94]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.22.15:961][ 94]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.22.15:961][ 94]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.22.15:961][ 94]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.15:961][ 94]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.17:537][137]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.17:537][137]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.22.17:537][137]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.17:537][137]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.18:567][169]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.05.11-20.22.18:567][169]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.22.18:567][169]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.11-20.22.18:567][169]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.22.18:567][169]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.18:567][169]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.19:743][208]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.19:743][208]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.22.19:743][208]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.19:743][208]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.20:306][225]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.11-20.22.20:306][225]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.22.20:306][225]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.20:306][225]MaterialEditorStats: Shader Count: 1
+[2023.05.11-20.22.20:800][242]MaterialEditorStats: Base pass shader: 168 instructions
+[2023.05.11-20.22.20:800][242]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.22.20:800][242]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.11-20.22.20:800][242]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.11-20.22.20:800][242]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.20:800][242]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.21:720][270]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.21:720][270]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.11-20.22.21:720][270]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.21:720][270]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.22:319][286]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.22.22:319][286]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.11-20.22.22:319][286]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.22:319][286]MaterialEditorStats: Shader Count: 1
+[2023.05.11-20.22.22:731][298]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.22.22:731][298]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.11-20.22.22:731][298]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.11-20.22.22:731][298]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.22:731][298]MaterialEditorStats: Shader Count: 3
+[2023.05.11-20.22.22:809][300]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.05.11-20.22.22:809][300]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.22.22:809][300]MaterialEditorStats: Texture samplers: 4/16
+[2023.05.11-20.22.22:809][300]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.11-20.22.22:809][300]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.22:809][300]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.23:406][320]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.11-20.22.23:406][320]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.11-20.22.23:406][320]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.23:406][320]MaterialEditorStats: Shader Count: 0
+[2023.05.11-20.22.23:965][334]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.11-20.22.23:965][334]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.11-20.22.23:965][334]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.23:965][334]MaterialEditorStats: Shader Count: 1
+[2023.05.11-20.22.24:267][344]LogMaterialEditor: Applying material MAT_CellingLamp
+[2023.05.11-20.22.26:093][344]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.05.11-20.22.27:254][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.05.11-20.22.27:327][345]MaterialEditorStats: Base pass shader: 177 instructions
+[2023.05.11-20.22.27:327][345]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.22.27:327][345]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.11-20.22.27:327][345]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.11-20.22.27:327][345]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.27:327][345]MaterialEditorStats: Shader Count: 4
+[2023.05.11-20.22.28:995][375]LogMaterialEditor: Saving and Compiling material MAT_CellingLamp
+[2023.05.11-20.22.29:132][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-20.22.31:327][375]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.05.11-20.22.32:300][375]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001533s (0.979115s overbudget)
+[2023.05.11-20.22.32:431][375]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/ceilinglamp/MAT_CellingLamp
+[2023.05.11-20.22.32:431][375]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/MAT_CellingLampA73CCB88407F5F41638804B69E6F0342.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/ceilinglamp/MAT_CellingLamp.uasset'
+[2023.05.11-20.22.32:583][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.45 sec (total: 20.2 sec)
+[2023.05.11-20.22.32:623][375]AssetCheck: New page: Asset Save: MAT_CellingLamp
+[2023.05.11-20.22.32:623][375]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Core/Assets/Props/ceilinglamp/MAT_CellingLamp.MAT_CellingLamp
+[2023.05.11-20.22.32:625][375]MaterialEditorStats: Base pass shader: 177 instructions
+[2023.05.11-20.22.32:625][375]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.11-20.22.32:625][375]MaterialEditorStats: MaxSampler: 228 instructions
+[2023.05.11-20.22.32:625][375]MaterialEditorStats: Texture samplers: 6/16
+[2023.05.11-20.22.32:625][375]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.11-20.22.32:625][375]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.11-20.22.32:625][375]MaterialEditorStats: Shader Count: 20
+[2023.05.11-20.22.35:884][484]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp
+[2023.05.11-20.22.35:884][484]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp
+[2023.05.11-20.22.35:907][484]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_578
+[2023.05.11-20.22.41:015][557]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp
+[2023.05.11-20.22.41:015][557]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp
+[2023.05.11-20.22.41:016][557]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_579
+[2023.05.11-20.22.44:608][680]Cmd: EDIT COPY
+[2023.05.11-20.22.44:898][691]Cmd: EDIT PASTE
+[2023.05.11-20.22.48:031][781]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.53:263][953]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.53:730][966]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.54:061][977]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.54:120][979]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.54:180][981]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.54:554][993]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.54:662][997]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.54:815][  2]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.55:299][ 18]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.55:962][ 40]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.56:085][ 44]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.56:146][ 46]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.56:211][ 48]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.56:423][ 55]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.56:486][ 57]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.56:548][ 59]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.56:673][ 63]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.57:193][ 80]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.57:703][ 97]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.57:823][101]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.22.58:094][107]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.00:920][199]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.01:101][203]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.01:422][210]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.01:479][213]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.01:656][219]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.01:893][227]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.02:043][232]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.04:626][320]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.05:208][337]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.06:582][386]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.07:370][409]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.07:455][412]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.07:595][417]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.08:125][436]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.08:577][452]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.09:029][468]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.09:168][473]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.09:999][502]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.23.17:295][769]LogDerivedDataCache: C:/Users/kira meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:00.328 and deleted 0 files with total size 0 MiB. Scanned 31897 files in 28989 folders with total size 1922 MiB.
+[2023.05.11-20.25.01:750][290]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.11-20.25.01:758][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.11-20.25.01:758][290]PIE: New page: PIE session: LVL_NightTemplate (May 11, 2023, 8:25:01 PM)
+[2023.05.11-20.25.01:808][290]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-20.25.02:471][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.663242s)
+[2023.05.11-20.25.02:471][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.663281s)
+[2023.05.11-20.25.02:471][290]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-20.25.02:472][290]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.11-20.25.02:712][290]LogPlayLevel: PIE: World Init took: (0.240377s)
+[2023.05.11-20.25.03:173][290]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.05.11-20.25.03:187][290]LogAudio: Display: Creating Audio Device:                 Id: 91, Scope: Unique, Realtime: True
+[2023.05.11-20.25.03:187][290]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.11-20.25.03:187][290]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.11-20.25.03:187][290]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.11-20.25.03:187][290]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.11-20.25.03:187][290]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.11-20.25.03:187][290]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.11-20.25.03:187][290]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.11-20.25.03:187][290]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.11-20.25.03:188][290]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.11-20.25.03:188][290]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.11-20.25.03:188][290]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.11-20.25.03:208][290]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.11-20.25.03:228][290]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.11-20.25.03:240][290]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.11-20.25.03:240][290]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.11-20.25.03:240][290]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.11-20.25.03:258][290]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=91
+[2023.05.11-20.25.03:258][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=91
+[2023.05.11-20.25.03:260][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=91
+[2023.05.11-20.25.03:260][290]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=91
+[2023.05.11-20.25.03:279][290]LogInit: FAudioDevice initialized.
+[2023.05.11-20.25.03:279][290]LogAudio: Display: Audio Device (ID: 91) registered with world 'LVL_NightTemplate'.
+[2023.05.11-20.25.03:306][290]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.11-20.25.03:625][290]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.11-20.25.03
+[2023.05.11-20.25.03:629][290]LogWorld: Bringing up level for play took: 0.322931
+[2023.05.11-20.25.03:642][290]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2023.05.11-20.25.03:648][290]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] Night1
+[2023.05.11-20.25.03:648][290]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.11-20.25.03:648][290]r.HDR.Display.OutputDevice = "1"
+[2023.05.11-20.25.03:649][290]PIE: Server logged in
+[2023.05.11-20.25.03:649][290]PIE: Play in editor total start time 1.891 seconds.
+[2023.05.11-20.25.04:082][293]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 34.818501 milleseconds to execute
+[2023.05.11-20.25.04:140][293]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 73.627296 milleseconds to execute
+[2023.05.11-20.25.04:159][293]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 18.900900 milleseconds to execute
+[2023.05.11-20.25.04:180][293]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 20.820101 milleseconds to execute
+[2023.05.11-20.25.04:185][293]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.05.11-20.25.04:204][293]LogAudioMixer: Warning: Audio Thread Command from InitSource() took 24.269800 milleseconds to execute
+[2023.05.11-20.25.04:446][293]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2023.05.11-20.25.11:485][498]LogAudioMixer: Warning: Audio Thread Command from ReleaseSourceId() took 29.518000 milleseconds to execute
+[2023.05.11-20.25.11:516][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-20.25.11:531][498]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-20.25.11:531][498]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-20.25.11:549][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-20.25.11:557][498]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.11-20.25.11:579][498]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-20.25.11:642][498]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.11-20.25.11:643][498]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2023.05.11-20.25.11:645][498]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=91
+[2023.05.11-20.25.11:649][498]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-20.25.11:749][498]LogUObjectHash: Compacting FUObjectHashTables data took  24.52ms
+[2023.05.11-20.25.11:804][499]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2023.05.11-20.25.12:824][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2023.05.11-20.25.13:060][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-20.25.13:252][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.05.11-20.25.14:306][507]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.11-20.25.14:306][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate2C3E7FBB45DBFC7A611932BF2F62ADBA.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.11-20.25.14:406][507]LogFileHelpers: No new changes to save!
+[2023.05.11-20.25.14:408][507]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.294
+[2023.05.11-20.25.15:362][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness
+[2023.05.11-20.25.15:362][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_RoughnessC1B7729048028230D2A1AB91DDBEA9B2.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness.uasset'
+[2023.05.11-20.25.15:492][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO
+[2023.05.11-20.25.15:492][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Mixed_AO9F903F0745661EEC54045FA5A9D5D239.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO.uasset'
+[2023.05.11-20.25.16:067][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color
+[2023.05.11-20.25.16:067][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Base_colorA9816DF04F0B78040CB7E18A0EA7BF08.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color.uasset'
+[2023.05.11-20.25.16:096][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic
+[2023.05.11-20.25.16:096][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Metallic15F73A6E43632C8AB15B56A3DFE10C3D.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic.uasset'
+[2023.05.11-20.25.16:361][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX
+[2023.05.11-20.25.16:361][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_PartyHat_Normal_DirectX92D41268497C2A6C268DEB8F10DC6464.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX.uasset'
+[2023.05.11-20.25.16:365][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat
+[2023.05.11-20.25.16:365][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_PartyHat23C990C44458C0558F4EC684D3392E8D.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/PartyHatnew/SM_PartyHat.uasset'
+[2023.05.11-20.25.16:466][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_BaseColor
+[2023.05.11-20.25.16:466][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/CellingLap_MAT_CellingLamp_BaseC83A8F67B4287E0045D5B168827DE1B25.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_BaseColor.uasset'
+[2023.05.11-20.25.16:589][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_Normal
+[2023.05.11-20.25.16:589][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/CellingLap_MAT_CellingLamp_Norma02ED5CB743D42ED3E16F0F942831F46E.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_Normal.uasset'
+[2023.05.11-20.25.16:685][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_OcclusionRoughnessMetallic
+[2023.05.11-20.25.16:685][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/CellingLap_MAT_CellingLamp_OccluB715B74E493FE9ADB7D1C682C20E3A26.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_OcclusionRoughnessMetallic.uasset'
+[2023.05.11-20.25.16:890][507]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/ceilinglamp/Lamp
+[2023.05.11-20.25.16:890][507]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LampAE02A4CB4EA4E8928988C993E4CBDA1D.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/ceilinglamp/Lamp.uasset'
+[2023.05.11-20.25.18:160][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.10 sec (total: 25.3 sec)
+[2023.05.11-20.25.18:544][507]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_OcclusionRoughnessMetallic.CellingLap_MAT_CellingLamp_OcclusionRoughnessMetallic
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_Normal.CellingLap_MAT_CellingLamp_Normal
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/ceilinglamp/CellingLap_MAT_CellingLamp_BaseColor.CellingLap_MAT_CellingLamp_BaseColor
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/PartyHatnew/SM_PartyHat.SM_PartyHat
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Normal_DirectX.M_PartyHat_Normal_DirectX
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Metallic.M_PartyHat_Metallic
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Base_color.M_PartyHat_Base_color
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Mixed_AO.M_PartyHat_Mixed_AO
+[2023.05.11-20.25.18:544][507]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/PartyHatnew/M_PartyHat_Roughness.M_PartyHat_Roughness
+[2023.05.11-20.26.14:313][664]Cmd: EDIT COPY
+[2023.05.11-20.26.14:576][673]Cmd: EDIT PASTE
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Total job queries 4879, among them cache hits 316 (6.48%)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Tracking 4563 distinct input hashes that result in 1409 distinct outputs (30.88%)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: RAM used: 20.95 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.56%
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Shaders Compiled: 573
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Jobs assigned 573, completed 573 (100.00%)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Average time worker was idle: 30.70 s
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Time job spent in pending queue: average 44.85 s, longest 103.31 s
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Job execution time: average 1.75 s, max 4.47 s
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Job life time (pending + execution): average 46.60 s, max 106.34
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 140.83 s
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Jobs were issued in 573 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Average processing rate: 4.07 jobs/sec
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Total thread time: 943.82 s
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Total thread preprocess time: 33.58 s
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Percentage time preprocessing: 3.56%
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Effective parallelization: 6.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    6 times, average 2.09 sec, max 4.37 sec, min 0.69 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled   53 times, average 2.08 sec, max 2.66 sec, min 1.97 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled   71 times, average 2.07 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.73% of total time (compiled   73 times, average 2.03 sec, max 2.57 sec, min 1.77 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 15.55% of total time (compiled   71 times, average 2.07 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.59% of total time (compiled   74 times, average 1.61 sec, max 2.04 sec, min 1.18 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ - 11.99% of total time (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ - 11.98% of total time (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.26.17:462][724]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.26.21:158][852]Cmd: EDIT COPY
+[2023.05.11-20.26.21:400][860]Cmd: EDIT PASTE
+[2023.05.11-20.26.36:215][379]Cmd: TRANSACTION UNDO
+[2023.05.11-20.26.36:215][379]LogEditorTransaction: Undo Move Elements
+[2023.05.11-20.26.48:557][789]Cmd: EDIT COPY
+[2023.05.11-20.26.48:798][794]Cmd: EDIT PASTE
+[2023.05.11-20.27.02:529][284]Cmd: EDIT COPY
+[2023.05.11-20.27.02:794][293]Cmd: EDIT PASTE
+[2023.05.11-20.27.14:702][729]Cmd: TRANSACTION UNDO
+[2023.05.11-20.27.14:702][729]LogEditorTransaction: Undo Rotate Elements
+[2023.05.11-20.27.25:438][101]Cmd: EDIT COPY
+[2023.05.11-20.27.25:632][110]Cmd: EDIT PASTE
+[2023.05.11-20.27.43:872][780]Cmd: TRANSACTION UNDO
+[2023.05.11-20.27.43:872][780]LogEditorTransaction: Undo Move Elements
+[2023.05.11-20.27.45:341][821]Cmd: EDIT COPY
+[2023.05.11-20.27.45:585][829]Cmd: EDIT PASTE
+[2023.05.11-20.27.47:282][884]Cmd: TRANSACTION UNDO
+[2023.05.11-20.27.47:282][884]LogEditorTransaction: Undo Move Elements
+[2023.05.11-20.28.23:415][205]Cmd: EDIT COPY
+[2023.05.11-20.28.23:642][214]Cmd: EDIT PASTE
+[2023.05.11-20.28.25:319][272]Cmd: TRANSACTION UNDO
+[2023.05.11-20.28.25:319][272]LogEditorTransaction: Undo Rotate Elements
+[2023.05.11-20.28.26:018][287]Cmd: MODE ROTGRID=1
+[2023.05.11-20.29.00:190][518]Cmd: EDIT COPY
+[2023.05.11-20.29.00:803][540]Cmd: EDIT COPY
+[2023.05.11-20.29.01:065][549]Cmd: EDIT PASTE
+[2023.05.11-20.29.07:540][777]Cmd: TRANSACTION UNDO
+[2023.05.11-20.29.07:540][777]LogEditorTransaction: Undo Move Elements
+[2023.05.11-20.29.12:623][940]Cmd: EDIT COPY
+[2023.05.11-20.29.12:839][948]Cmd: EDIT PASTE
+[2023.05.11-20.29.14:195][994]Cmd: EDIT COPY
+[2023.05.11-20.29.14:463][  4]Cmd: EDIT PASTE
+[2023.05.11-20.29.15:717][ 44]Cmd: EDIT COPY
+[2023.05.11-20.29.16:003][ 55]Cmd: EDIT PASTE
+[2023.05.11-20.31.32:417][481]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.11-20.31.48:266][109]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.11-20.32.19:503][269]Cmd: TRANSACTION UNDO
+[2023.05.11-20.32.19:504][269]LogEditorTransaction: Undo Edit Intensity
+[2023.05.11-20.32.22:558][371]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.11-20.32.22:566][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.11-20.32.22:566][371]PIE: New page: PIE session: LVL_NightTemplate (May 11, 2023, 8:32:22 PM)
+[2023.05.11-20.32.22:566][371]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-20.32.22:866][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.299608s)
+[2023.05.11-20.32.22:866][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.299639s)
+[2023.05.11-20.32.22:866][371]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-20.32.22:866][371]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.11-20.32.23:049][371]LogPlayLevel: PIE: World Init took: (0.183987s)
+[2023.05.11-20.32.23:568][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.05.11-20.32.23:575][371]LogAudio: Display: Creating Audio Device:                 Id: 92, Scope: Unique, Realtime: True
+[2023.05.11-20.32.23:575][371]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.11-20.32.23:575][371]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.11-20.32.23:575][371]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.11-20.32.23:575][371]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.11-20.32.23:575][371]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.11-20.32.23:575][371]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.11-20.32.23:575][371]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.11-20.32.23:575][371]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.11-20.32.23:575][371]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.11-20.32.23:575][371]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.11-20.32.23:575][371]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.11-20.32.23:577][371]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.11-20.32.23:598][371]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.11-20.32.23:642][371]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.11-20.32.23:642][371]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.11-20.32.23:642][371]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.11-20.32.23:651][371]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=92
+[2023.05.11-20.32.23:651][371]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=92
+[2023.05.11-20.32.23:652][371]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=92
+[2023.05.11-20.32.23:652][371]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=92
+[2023.05.11-20.32.23:652][371]LogInit: FAudioDevice initialized.
+[2023.05.11-20.32.23:652][371]LogAudio: Display: Audio Device (ID: 92) registered with world 'LVL_NightTemplate'.
+[2023.05.11-20.32.23:698][371]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.11-20.32.23:842][371]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.11-20.32.23
+[2023.05.11-20.32.23:857][371]LogWorld: Bringing up level for play took: 0.158582
+[2023.05.11-20.32.23:859][371]LogOnline: OSS: Created online subsystem instance for: :Context_109
+[2023.05.11-20.32.23:870][371]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] Night1
+[2023.05.11-20.32.23:870][371]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.11-20.32.23:870][371]r.HDR.Display.OutputDevice = "1"
+[2023.05.11-20.32.23:870][371]PIE: Server logged in
+[2023.05.11-20.32.23:871][371]PIE: Play in editor total start time 1.306 seconds.
+[2023.05.11-20.32.30:887][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-20.32.30:887][561]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-20.32.30:889][561]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-20.32.30:899][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-20.32.30:905][561]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.11-20.32.30:920][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-20.32.30:986][561]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.11-20.32.30:987][561]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
+[2023.05.11-20.32.30:988][561]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=92
+[2023.05.11-20.32.30:991][561]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-20.32.31:019][561]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.05.11-20.32.31:098][562]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2023.05.11-20.33.00:116][682]Cmd: TRANSACTION UNDO
+[2023.05.11-20.33.00:116][682]LogEditorTransaction: Undo Edit Volumetric Scattering Intensity
+[2023.05.11-20.33.30:756][484]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.11-20.34.39:458][696]LogClient: High resolution screenshot saved as C:/Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Screenshots/WindowsEditor/HighresScreenshot00087.png
+[2023.05.11-20.35.01:651][756]Cmd: r.ResetRenderTargetsExtent
+[2023.05.11-20.35.01:651][756]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2023.05.11-20.35.01:651][756]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2023.05.11-20.35.32:221][611]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/ceilinglamp/Lamp.Lamp
+[2023.05.11-20.35.33:033][611]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-20.35.34:224][611]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.05.11-20.35.39:355][611]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049695s
+[2023.05.11-20.35.40:479][611]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002779s (1.170605s overbudget)
+[2023.05.11-20.35.40:735][611]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2023.05.11-20.36.03:685][995]Cmd: EDIT COPY
+[2023.05.11-20.36.03:944][  8]Cmd: EDIT PASTE
+[2023.05.11-20.36.05:486][ 66]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-20.37.08:054][562]Cmd: EDIT COPY
+[2023.05.11-20.37.08:282][569]Cmd: EDIT PASTE
+[2023.05.11-20.37.30:653][299]LogContentBrowser: Deferred new asset file creation: MI_LightBulb_Inst1
+[2023.05.11-20.37.30:661][299]LogContentBrowser: Creating deferred item: MI_LightBulb_Inst1
+[2023.05.11-20.37.30:672][300]LogContentBrowser: Renaming the item being created (Deferred Item: MI_LightBulb_Inst1).
+[2023.05.11-20.37.31:768][339]LogContentBrowser: Attempting asset rename: MI_LightBulb_Inst1 -> MI_LightBulb_Inst1
+[2023.05.11-20.37.31:868][339]LogContentBrowser: End creating deferred item MI_LightBulb_Inst1
+[2023.05.11-20.37.32:657][367]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Props/Closet/Lightbulb/MI_LightBulb_Inst1.MI_LightBulb_Inst1
+[2023.05.11-20.37.32:660][367]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-20.37.34:661][367]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s
+[2023.05.11-20.37.35:302][367]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.002789s (0.645258s overbudget)
+[2023.05.11-20.37.35:389][367]LogViewport: Scene viewport resized to 540x902, mode Windowed.
+[2023.05.11-20.37.35:515][367]LogSlate: Took 0.001356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.11-20.38.45:885][396]Cmd: EDIT COPY
+[2023.05.11-20.38.46:203][405]Cmd: EDIT PASTE
+[2023.05.11-20.38.48:288][470]Cmd: DELETE
+[2023.05.11-20.38.48:288][470]Cmd: ACTOR DELETE
+[2023.05.11-20.38.48:358][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-20.38.48:425][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.05.11-20.38.48:431][470]LogEditorActor: Deleted 1 Actors (0.142 secs)
+[2023.05.11-20.39.18:283][410]LogClient: High resolution screenshot saved as C:/Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Screenshots/WindowsEditor/HighresScreenshot00088.png
+[2023.05.11-20.39.44:965][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.05.11-20.39.45:934][537]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto2
+[2023.05.11-20.39.45:934][537]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate_Auto2BEED0AA84A16FEAA910B5E9F4BAD3E85.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto2.umap'
+[2023.05.11-20.39.46:020][537]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 1.105
+[2023.05.11-20.39.46:020][537]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.105
+[2023.05.11-20.40.20:196][645]Cmd: r.ResetRenderTargetsExtent
+[2023.05.11-20.40.20:196][645]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2023.05.11-20.40.20:196][645]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2023.05.11-20.40.25:657][787]Cmd: EDIT COPY
+[2023.05.11-20.40.25:900][793]Cmd: EDIT PASTE
+[2023.05.11-20.41.05:708][124]Cmd: MODE ROTGRID=0
+[2023.05.11-20.41.20:096][601]Cmd: EDIT COPY
+[2023.05.11-20.41.20:336][610]Cmd: EDIT PASTE
+[2023.05.11-20.41.21:332][639]Cmd: TRANSACTION UNDO
+[2023.05.11-20.41.21:332][639]LogEditorTransaction: Undo Paste
+[2023.05.11-20.41.38:000][ 92]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.11-20.41.38:023][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.11-20.41.38:023][ 92]PIE: New page: PIE session: LVL_NightTemplate (May 11, 2023, 8:41:38 PM)
+[2023.05.11-20.41.38:023][ 92]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-20.41.38:642][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.618579s)
+[2023.05.11-20.41.38:642][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.618614s)
+[2023.05.11-20.41.38:642][ 92]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-20.41.38:643][ 92]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.11-20.41.38:929][ 92]LogPlayLevel: PIE: World Init took: (0.286025s)
+[2023.05.11-20.41.39:465][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.05.11-20.41.39:469][ 92]LogAudio: Display: Creating Audio Device:                 Id: 93, Scope: Unique, Realtime: True
+[2023.05.11-20.41.39:469][ 92]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.11-20.41.39:469][ 92]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.11-20.41.39:469][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.11-20.41.39:469][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.11-20.41.39:469][ 92]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.11-20.41.39:469][ 92]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.11-20.41.39:469][ 92]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.11-20.41.39:469][ 92]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.11-20.41.39:470][ 92]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.11-20.41.39:470][ 92]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.11-20.41.39:470][ 92]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.11-20.41.39:472][ 92]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.11-20.41.39:510][ 92]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.11-20.41.39:518][ 92]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.11-20.41.39:518][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.11-20.41.39:518][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.11-20.41.39:526][ 92]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=93
+[2023.05.11-20.41.39:537][ 92]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=93
+[2023.05.11-20.41.39:546][ 92]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=93
+[2023.05.11-20.41.39:546][ 92]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=93
+[2023.05.11-20.41.39:546][ 92]LogInit: FAudioDevice initialized.
+[2023.05.11-20.41.39:546][ 92]LogAudio: Display: Audio Device (ID: 93) registered with world 'LVL_NightTemplate'.
+[2023.05.11-20.41.39:575][ 92]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.11-20.41.39:823][ 92]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.11-20.41.39
+[2023.05.11-20.41.39:827][ 92]LogWorld: Bringing up level for play took: 0.252182
+[2023.05.11-20.41.39:840][ 92]LogOnline: OSS: Created online subsystem instance for: :Context_112
+[2023.05.11-20.41.39:866][ 92]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] Night1
+[2023.05.11-20.41.39:877][ 92]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.11-20.41.39:877][ 92]r.HDR.Display.OutputDevice = "1"
+[2023.05.11-20.41.39:878][ 92]PIE: Server logged in
+[2023.05.11-20.41.39:878][ 92]PIE: Play in editor total start time 1.854 seconds.
+[2023.05.11-20.41.54:547][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-20.41.54:547][481]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.11-20.41.54:549][481]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-20.41.54:640][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-20.41.54:648][481]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.11-20.41.54:662][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-20.41.54:745][481]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.11-20.41.54:745][481]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=93
+[2023.05.11-20.41.54:747][481]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=93
+[2023.05.11-20.41.54:752][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-20.41.54:861][481]LogUObjectHash: Compacting FUObjectHashTables data took  40.41ms
+[2023.05.11-20.41.54:922][482]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2023.05.11-20.42.10:562][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2023.05.11-20.42.10:734][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-20.42.10:828][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.05.11-20.42.11:811][987]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.11-20.42.11:828][987]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate2CF2755448AD8CB4006A41B77BB53D0A.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.11-20.42.11:880][987]LogFileHelpers: No new changes to save!
+[2023.05.11-20.42.11:880][987]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.121
+[2023.05.11-20.42.11:948][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2023.05.11-20.42.12:242][987]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Total job queries 4884, among them cache hits 318 (6.51%)
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Tracking 4566 distinct input hashes that result in 1412 distinct outputs (30.92%)
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: RAM used: 20.96 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.56%
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Shaders Compiled: 573
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Jobs assigned 573, completed 573 (100.00%)
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Average time worker was idle: 30.70 s
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Time job spent in pending queue: average 44.85 s, longest 103.31 s
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Job execution time: average 1.75 s, max 4.47 s
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Job life time (pending + execution): average 46.60 s, max 106.34
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 140.83 s
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Jobs were issued in 573 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Average processing rate: 4.07 jobs/sec
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Total thread time: 943.82 s
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Total thread preprocess time: 33.58 s
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Percentage time preprocessing: 3.56%
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Effective parallelization: 6.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    6 times, average 2.09 sec, max 4.37 sec, min 0.69 sec)
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled   53 times, average 2.08 sec, max 2.66 sec, min 1.97 sec)
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled   71 times, average 2.07 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-20.42.12:243][987]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.73% of total time (compiled   73 times, average 2.03 sec, max 2.57 sec, min 1.77 sec)
+[2023.05.11-20.42.12:265][987]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 15.55% of total time (compiled   71 times, average 2.07 sec, max 2.62 sec, min 1.75 sec)
+[2023.05.11-20.42.12:265][987]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.59% of total time (compiled   74 times, average 1.61 sec, max 2.04 sec, min 1.18 sec)
+[2023.05.11-20.42.12:265][987]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ - 11.99% of total time (compiled   53 times, average 2.14 sec, max 2.67 sec, min 1.99 sec)
+[2023.05.11-20.42.12:265][987]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ - 11.98% of total time (compiled   53 times, average 2.13 sec, max 2.60 sec, min 1.98 sec)
+[2023.05.11-20.42.12:265][987]LogShaderCompilers: Display: ================================================
+[2023.05.11-20.42.12:399][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.11-20.42.12:451][987]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Closet/Lightbulb/MI_LightBulb_Inst1
+[2023.05.11-20.42.12:451][987]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/MI_LightBulb_Inst18436A73B403ED5C965FE86B26F46C63D.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Closet/Lightbulb/MI_LightBulb_Inst1.uasset'
+[2023.05.11-20.42.12:630][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.89 sec (total: 27.2 sec)
+[2023.05.11-20.42.12:792][987]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.11-20.42.12:792][987]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.11-20.42.12:792][987]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Core/Assets/Props/Closet/Lightbulb/MI_LightBulb_Inst1.MI_LightBulb_Inst1
