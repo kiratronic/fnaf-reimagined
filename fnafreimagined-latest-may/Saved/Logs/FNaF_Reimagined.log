@@ -4520,3 +4520,632 @@ Script Stack (0 frames) :
 [2023.05.12-19.38.59:554][567]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Core/Assets/Props/HallLight/HallLightBP.HallLightBP
 [2023.05.12-19.38.59:554][567]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
 [2023.05.12-19.38.59:554][567]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/Untitled.Untitled
+[2023.05.12-19.41.14:123][ 35]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.41.14:132][ 35]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.41.14:132][ 35]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:41:14 PM)
+[2023.05.12-19.41.14:132][ 35]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.41.14:439][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.305810s)
+[2023.05.12-19.41.14:439][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.305846s)
+[2023.05.12-19.41.14:439][ 35]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.41.14:439][ 35]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.41.14:612][ 35]LogPlayLevel: PIE: World Init took: (0.173679s)
+[2023.05.12-19.41.14:994][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.05.12-19.41.14:997][ 35]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.05.12-19.41.14:997][ 35]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.41.14:997][ 35]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.41.14:997][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.41.14:997][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.41.14:997][ 35]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.41.14:997][ 35]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.41.14:997][ 35]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.41.14:997][ 35]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.41.14:998][ 35]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.41.14:998][ 35]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.41.14:998][ 35]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.41.15:000][ 35]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.41.15:016][ 35]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.41.15:019][ 35]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.41.15:019][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.41.15:019][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.41.15:020][ 35]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.05.12-19.41.15:020][ 35]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.05.12-19.41.15:022][ 35]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.05.12-19.41.15:022][ 35]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.05.12-19.41.15:022][ 35]LogInit: FAudioDevice initialized.
+[2023.05.12-19.41.15:022][ 35]LogAudio: Display: Audio Device (ID: 37) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.41.15:054][ 35]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.41.15:153][ 35]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.41.15
+[2023.05.12-19.41.15:159][ 35]LogWorld: Bringing up level for play took: 0.104466
+[2023.05.12-19.41.15:161][ 35]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2023.05.12-19.41.15:166][ 35]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.41.15:167][ 35]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.41.15:167][ 35]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.41.15:167][ 35]PIE: Server logged in
+[2023.05.12-19.41.15:168][ 35]PIE: Play in editor total start time 1.035 seconds.
+[2023.05.12-19.41.20:006][165]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.41.20:006][165]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.41.21:798][226]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-19.41.21:798][226]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-19.41.22:652][250]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.41.22:652][250]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-19.41.26:205][367]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-19.41.26:205][367]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-19.41.29:186][451]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.41.29:186][451]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-19.41.30:328][489]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-19.41.30:328][489]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-19.41.32:291][544]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.41.32:291][544]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-19.41.33:635][589]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-19.41.33:635][589]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-19.41.35:278][636]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.41.35:278][636]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-19.42.20:576][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.42.20:576][773]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.42.20:578][773]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.42.20:587][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.42.20:596][773]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.42.20:610][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.42.20:691][773]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-19.42.20:697][773]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.05.12-19.42.20:699][773]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.05.12-19.42.20:703][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.42.20:741][773]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2023.05.12-19.42.20:801][774]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2023.05.12-19.46.39:271][216]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.46.39:287][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.46.39:288][216]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:46:39 PM)
+[2023.05.12-19.46.39:288][216]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.46.39:673][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.385473s)
+[2023.05.12-19.46.39:673][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.385539s)
+[2023.05.12-19.46.39:674][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.46.39:674][216]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.46.39:872][216]LogPlayLevel: PIE: World Init took: (0.198382s)
+[2023.05.12-19.46.39:964][216]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2023.05.12-19.46.39:968][216]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.05.12-19.46.39:968][216]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.46.39:968][216]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.46.39:968][216]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.46.39:968][216]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.46.39:968][216]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.46.39:968][216]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.46.39:968][216]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.46.39:968][216]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.46.39:968][216]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.46.39:968][216]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.46.39:968][216]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.46.39:971][216]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.46.39:997][216]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.46.39:997][216]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.46.39:997][216]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.46.39:997][216]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.46.39:998][216]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.05.12-19.46.39:999][216]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.05.12-19.46.40:000][216]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.05.12-19.46.40:000][216]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.05.12-19.46.40:000][216]LogInit: FAudioDevice initialized.
+[2023.05.12-19.46.40:000][216]LogAudio: Display: Audio Device (ID: 38) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.46.40:400][216]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.46.40:504][216]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.46.40
+[2023.05.12-19.46.40:510][216]LogWorld: Bringing up level for play took: 0.109574
+[2023.05.12-19.46.40:514][216]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2023.05.12-19.46.40:522][216]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.46.40:523][216]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.46.40:523][216]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.46.40:524][216]PIE: Server logged in
+[2023.05.12-19.46.40:524][216]PIE: Play in editor total start time 1.237 seconds.
+[2023.05.12-19.46.40:919][218]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.46.40:919][218]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.48.07:296][216]LogBlueprintUserMessages: [ChicaBP_C_2] ChicaTryAgain
+[2023.05.12-19.48.56:726][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.48.56:726][269]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.48.56:728][269]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.48.56:739][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.48.56:759][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.48.56:774][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.48.56:849][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.48.56:859][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.05.12-19.48.56:861][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.05.12-19.48.56:907][269]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2023.05.12-19.48.57:010][270]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2023.05.12-19.49.54:838][573]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.49.54:850][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.49.54:851][573]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:49:54 PM)
+[2023.05.12-19.49.54:895][573]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.49.55:281][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.385759s)
+[2023.05.12-19.49.55:281][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.385809s)
+[2023.05.12-19.49.55:281][573]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.49.55:282][573]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.49.55:485][573]LogPlayLevel: PIE: World Init took: (0.204117s)
+[2023.05.12-19.49.55:580][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2023.05.12-19.49.55:582][573]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2023.05.12-19.49.55:582][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.49.55:582][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.49.55:582][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.49.55:582][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.49.55:582][573]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.49.55:582][573]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.49.55:582][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.49.55:582][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.49.55:584][573]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.49.55:584][573]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.49.55:584][573]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.49.55:586][573]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.49.55:607][573]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.49.55:607][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.49.55:607][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.49.55:607][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.49.55:609][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2023.05.12-19.49.55:609][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2023.05.12-19.49.55:610][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2023.05.12-19.49.55:610][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2023.05.12-19.49.55:610][573]LogInit: FAudioDevice initialized.
+[2023.05.12-19.49.55:610][573]LogAudio: Display: Audio Device (ID: 39) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.49.56:008][573]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.49.56:129][573]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.49.56
+[2023.05.12-19.49.56:135][573]LogWorld: Bringing up level for play took: 0.126374
+[2023.05.12-19.49.56:137][573]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2023.05.12-19.49.56:143][573]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.49.56:143][573]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.49.56:143][573]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.49.56:144][573]PIE: Server logged in
+[2023.05.12-19.49.56:146][573]PIE: Play in editor total start time 1.295 seconds.
+[2023.05.12-19.49.56:260][574]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.49.56:260][574]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.49.59:666][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.49.59:667][668]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.49.59:669][668]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.49.59:683][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.49.59:693][668]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.49.59:710][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.49.59:801][668]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-19.49.59:809][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.05.12-19.49.59:811][668]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2023.05.12-19.49.59:815][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.49.59:841][668]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2023.05.12-19.49.59:898][669]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.05.12-19.50.05:747][955]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.50.05:760][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.50.05:760][955]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:50:05 PM)
+[2023.05.12-19.50.05:761][955]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.50.06:133][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.371993s)
+[2023.05.12-19.50.06:133][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.372034s)
+[2023.05.12-19.50.06:133][955]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.50.06:134][955]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.50.06:325][955]LogPlayLevel: PIE: World Init took: (0.192382s)
+[2023.05.12-19.50.06:406][955]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.05.12-19.50.06:409][955]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2023.05.12-19.50.06:409][955]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.50.06:409][955]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.50.06:409][955]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.50.06:409][955]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.50.06:409][955]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.50.06:409][955]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.50.06:409][955]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.50.06:409][955]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.50.06:410][955]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.50.06:410][955]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.50.06:410][955]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.50.06:412][955]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.50.06:433][955]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.50.06:433][955]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.50.06:433][955]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.50.06:433][955]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.50.06:436][955]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2023.05.12-19.50.06:436][955]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2023.05.12-19.50.06:440][955]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2023.05.12-19.50.06:440][955]LogInit: FAudioDevice initialized.
+[2023.05.12-19.50.06:440][955]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2023.05.12-19.50.06:440][955]LogAudio: Display: Audio Device (ID: 40) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.50.06:732][955]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.50.06:855][955]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.50.06
+[2023.05.12-19.50.06:861][955]LogWorld: Bringing up level for play took: 0.128936
+[2023.05.12-19.50.06:863][955]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.05.12-19.50.06:871][955]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.50.06:872][955]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.50.06:872][955]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.50.06:872][955]PIE: Server logged in
+[2023.05.12-19.50.06:873][955]PIE: Play in editor total start time 1.112 seconds.
+[2023.05.12-19.50.06:992][956]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.50.06:992][956]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.51.27:655][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.51.27:655][104]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.51.27:658][104]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.51.27:669][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.51.27:703][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.51.27:725][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.51.27:805][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.51.27:822][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.05.12-19.51.27:824][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2023.05.12-19.51.27:863][104]LogUObjectHash: Compacting FUObjectHashTables data took   6.17ms
+[2023.05.12-19.51.27:930][105]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.05.12-19.51.30:387][196]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.51.45:700][441]Cmd: TRANSACTION UNDO
+[2023.05.12-19.51.45:700][441]LogEditorTransaction: Undo Edit Field Of View
+[2023.05.12-19.51.46:226][443]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.52.09:466][922]Cmd: TRANSACTION UNDO
+[2023.05.12-19.52.09:466][922]LogEditorTransaction: Undo Modify Component(s)
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: ================================================
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: Total job queries 792, among them cache hits 53 (6.69%)
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: Tracking 739 distinct input hashes that result in 272 distinct outputs (36.81%)
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: RAM used: 1.61 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.20%
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.12-19.52.11:803][960]LogShaderCompilers: Display: ================================================
+[2023.05.12-19.52.15:200][ 24]Cmd: TRANSACTION UNDO
+[2023.05.12-19.52.15:200][ 24]LogEditorTransaction: Undo Modify Component(s)
+[2023.05.12-19.53.05:045][242]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.53.05:057][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.53.05:057][242]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:53:05 PM)
+[2023.05.12-19.53.05:058][242]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.53.05:426][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.367681s)
+[2023.05.12-19.53.05:426][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.367722s)
+[2023.05.12-19.53.05:426][242]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.53.05:427][242]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.53.05:645][242]LogPlayLevel: PIE: World Init took: (0.219877s)
+[2023.05.12-19.53.06:160][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2023.05.12-19.53.06:164][242]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2023.05.12-19.53.06:164][242]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.53.06:164][242]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.53.06:164][242]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.53.06:164][242]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.53.06:164][242]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.53.06:164][242]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.53.06:164][242]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.53.06:164][242]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.53.06:165][242]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.53.06:165][242]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.53.06:165][242]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.53.06:168][242]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.53.06:189][242]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.53.06:189][242]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.53.06:189][242]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.53.06:189][242]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.53.06:190][242]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2023.05.12-19.53.06:190][242]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2023.05.12-19.53.06:192][242]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2023.05.12-19.53.06:192][242]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2023.05.12-19.53.06:192][242]LogInit: FAudioDevice initialized.
+[2023.05.12-19.53.06:192][242]LogAudio: Display: Audio Device (ID: 41) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.53.06:224][242]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.53.06:339][242]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.53.06
+[2023.05.12-19.53.06:344][242]LogWorld: Bringing up level for play took: 0.120458
+[2023.05.12-19.53.06:347][242]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.05.12-19.53.06:353][242]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.53.06:353][242]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.53.06:354][242]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.53.06:354][242]PIE: Server logged in
+[2023.05.12-19.53.06:355][242]PIE: Play in editor total start time 1.297 seconds.
+[2023.05.12-19.53.06:472][243]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.53.06:473][243]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.53.19:186][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.53.19:186][571]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.53.19:191][571]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.53.19:203][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.53.19:230][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.53.19:244][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.53.19:326][571]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-19.53.19:331][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.05.12-19.53.19:332][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.05.12-19.53.19:337][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.53.19:370][571]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2023.05.12-19.53.19:468][572]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.05.12-19.53.27:839][ 11]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.53.36:692][185]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.53.51:557][479]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.53.51:571][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.53.51:571][479]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:53:51 PM)
+[2023.05.12-19.53.51:571][479]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.53.51:954][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.382985s)
+[2023.05.12-19.53.51:954][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.383024s)
+[2023.05.12-19.53.51:954][479]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.53.51:955][479]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.53.52:163][479]LogPlayLevel: PIE: World Init took: (0.208570s)
+[2023.05.12-19.53.52:626][479]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2023.05.12-19.53.52:630][479]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.05.12-19.53.52:630][479]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.53.52:630][479]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.53.52:630][479]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.53.52:630][479]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.53.52:630][479]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.53.52:630][479]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.53.52:630][479]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.53.52:630][479]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.53.52:631][479]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.53.52:631][479]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.53.52:631][479]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.53.52:633][479]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.53.52:653][479]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.53.52:653][479]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.53.52:653][479]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.53.52:653][479]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.53.52:654][479]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2023.05.12-19.53.52:654][479]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2023.05.12-19.53.52:657][479]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2023.05.12-19.53.52:657][479]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2023.05.12-19.53.52:657][479]LogInit: FAudioDevice initialized.
+[2023.05.12-19.53.52:657][479]LogAudio: Display: Audio Device (ID: 42) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.53.52:686][479]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.53.52:812][479]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.53.52
+[2023.05.12-19.53.52:817][479]LogWorld: Bringing up level for play took: 0.131288
+[2023.05.12-19.53.52:820][479]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2023.05.12-19.53.52:828][479]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.53.52:828][479]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.53.52:828][479]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.53.52:828][479]PIE: Server logged in
+[2023.05.12-19.53.52:829][479]PIE: Play in editor total start time 1.258 seconds.
+[2023.05.12-19.53.52:950][480]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.53.52:950][480]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.54.08:616][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.54.08:616][867]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.54.08:618][867]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.54.08:628][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.54.08:670][867]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.54.08:689][867]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.54.08:769][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.54.08:781][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.05.12-19.54.08:782][867]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.05.12-19.54.08:821][867]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2023.05.12-19.54.08:896][868]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2023.05.12-19.54.11:757][959]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.54.17:323][ 44]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.54.20:932][ 93]Cmd: TRANSACTION UNDO
+[2023.05.12-19.54.20:932][ 93]LogEditorTransaction: Undo Rotate Elements
+[2023.05.12-19.54.49:961][538]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.54.49:974][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.54.49:974][538]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:54:49 PM)
+[2023.05.12-19.54.49:974][538]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.54.50:344][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.369661s)
+[2023.05.12-19.54.50:344][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.369699s)
+[2023.05.12-19.54.50:344][538]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.54.50:345][538]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.54.50:542][538]LogPlayLevel: PIE: World Init took: (0.198408s)
+[2023.05.12-19.54.51:000][538]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.05.12-19.54.51:005][538]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2023.05.12-19.54.51:005][538]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.54.51:005][538]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.54.51:005][538]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.54.51:005][538]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.54.51:005][538]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.54.51:005][538]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.54.51:005][538]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.54.51:005][538]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.54.51:006][538]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.54.51:006][538]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.54.51:006][538]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.54.51:008][538]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.54.51:028][538]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.54.51:029][538]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.54.51:029][538]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.54.51:029][538]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.54.51:030][538]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2023.05.12-19.54.51:030][538]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2023.05.12-19.54.51:031][538]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2023.05.12-19.54.51:031][538]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2023.05.12-19.54.51:031][538]LogInit: FAudioDevice initialized.
+[2023.05.12-19.54.51:031][538]LogAudio: Display: Audio Device (ID: 43) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.54.51:063][538]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.54.51:181][538]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.54.51
+[2023.05.12-19.54.51:188][538]LogWorld: Bringing up level for play took: 0.124721
+[2023.05.12-19.54.51:190][538]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2023.05.12-19.54.51:196][538]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.54.51:197][538]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.54.51:197][538]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.54.51:197][538]PIE: Server logged in
+[2023.05.12-19.54.51:198][538]PIE: Play in editor total start time 1.224 seconds.
+[2023.05.12-19.54.51:476][539]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.54.51:476][539]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.54.54:256][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.54.54:256][613]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.54.54:258][613]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.54.54:269][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.54.54:289][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.54.54:305][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.54.54:403][613]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-19.54.54:403][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.05.12-19.54.54:405][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2023.05.12-19.54.54:409][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.54.54:437][613]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2023.05.12-19.54.54:510][614]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.05.12-19.54.54:521][614]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.54.56:839][656]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.54.56:855][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.54.56:855][656]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:54:56 PM)
+[2023.05.12-19.54.56:855][656]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.54.57:280][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.424297s)
+[2023.05.12-19.54.57:280][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.424347s)
+[2023.05.12-19.54.57:280][656]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.54.57:281][656]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.54.57:503][656]LogPlayLevel: PIE: World Init took: (0.222446s)
+[2023.05.12-19.54.57:918][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.05.12-19.54.57:921][656]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2023.05.12-19.54.57:921][656]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.54.57:921][656]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.54.57:921][656]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.54.57:921][656]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.54.57:921][656]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.54.57:921][656]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.54.57:921][656]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.54.57:921][656]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.54.57:922][656]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.54.57:922][656]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.54.57:922][656]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.54.57:924][656]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.54.57:943][656]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.54.57:944][656]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.54.57:944][656]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.54.57:944][656]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.54.57:947][656]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2023.05.12-19.54.57:947][656]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2023.05.12-19.54.57:949][656]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2023.05.12-19.54.57:949][656]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2023.05.12-19.54.57:949][656]LogInit: FAudioDevice initialized.
+[2023.05.12-19.54.57:949][656]LogAudio: Display: Audio Device (ID: 44) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.54.57:975][656]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.54.58:091][656]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.54.58
+[2023.05.12-19.54.58:097][656]LogWorld: Bringing up level for play took: 0.121898
+[2023.05.12-19.54.58:099][656]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2023.05.12-19.54.58:105][656]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.54.58:106][656]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.54.58:106][656]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.54.58:106][656]PIE: Server logged in
+[2023.05.12-19.54.58:107][656]PIE: Play in editor total start time 1.251 seconds.
+[2023.05.12-19.54.58:358][657]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.54.58:358][657]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.55.27:606][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.55.27:606][414]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.55.27:608][414]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.55.27:621][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.55.27:643][414]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.55.27:661][414]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.55.27:751][414]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-19.55.27:761][414]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2023.05.12-19.55.27:763][414]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2023.05.12-19.55.27:767][414]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.55.27:804][414]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2023.05.12-19.55.27:868][415]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.05.12-19.55.27:962][415]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.55.34:970][529]Cmd: MODE ROTGRID=0
+[2023.05.12-19.55.35:645][547]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.55.49:991][771]Cmd: TRANSACTION UNDO
+[2023.05.12-19.55.49:991][771]LogEditorTransaction: Undo Select Brush Surface
+[2023.05.12-19.55.50:347][772]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.55.57:906][954]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.56.13:266][235]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.56.13:402][237]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.56.13:929][245]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.56.17:491][308]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.56.17:845][312]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.56.24:654][434]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.56.24:794][436]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.56.28:261][504]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.56.28:274][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.56.28:274][504]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:56:28 PM)
+[2023.05.12-19.56.28:274][504]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.56.28:655][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.381108s)
+[2023.05.12-19.56.28:655][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.381158s)
+[2023.05.12-19.56.28:656][504]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.56.28:656][504]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.56.28:879][504]LogPlayLevel: PIE: World Init took: (0.223780s)
+[2023.05.12-19.56.29:358][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2023.05.12-19.56.29:362][504]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2023.05.12-19.56.29:362][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.56.29:362][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.56.29:362][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.56.29:362][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.56.29:362][504]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.56.29:362][504]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.56.29:363][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.56.29:363][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.56.29:363][504]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.56.29:363][504]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.56.29:363][504]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.56.29:366][504]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.56.29:386][504]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.56.29:387][504]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.56.29:387][504]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.56.29:387][504]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.56.29:388][504]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2023.05.12-19.56.29:388][504]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2023.05.12-19.56.29:389][504]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2023.05.12-19.56.29:389][504]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2023.05.12-19.56.29:390][504]LogInit: FAudioDevice initialized.
+[2023.05.12-19.56.29:390][504]LogAudio: Display: Audio Device (ID: 45) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.56.29:415][504]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.56.29:535][504]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.56.29
+[2023.05.12-19.56.29:540][504]LogWorld: Bringing up level for play took: 0.125316
+[2023.05.12-19.56.29:544][504]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2023.05.12-19.56.29:551][504]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.56.29:552][504]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.56.29:552][504]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.56.29:552][504]PIE: Server logged in
+[2023.05.12-19.56.29:553][504]PIE: Play in editor total start time 1.28 seconds.
+[2023.05.12-19.56.29:677][505]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.56.29:677][505]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.57.13:406][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.57.13:406][649]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.57.13:408][649]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.57.13:421][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.57.13:444][649]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.57.13:461][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.57.13:551][649]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-19.57.13:555][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.05.12-19.57.13:557][649]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2023.05.12-19.57.13:560][649]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.57.13:600][649]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2023.05.12-19.57.13:687][650]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2023.05.12-19.57.19:726][897]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.57.23:059][951]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-19.57.23:072][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-19.57.23:072][951]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 7:57:23 PM)
+[2023.05.12-19.57.23:072][951]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.57.23:471][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.398798s)
+[2023.05.12-19.57.23:471][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.398836s)
+[2023.05.12-19.57.23:471][951]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-19.57.23:471][951]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-19.57.23:676][951]LogPlayLevel: PIE: World Init took: (0.205903s)
+[2023.05.12-19.57.24:167][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.05.12-19.57.24:171][951]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2023.05.12-19.57.24:171][951]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-19.57.24:171][951]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-19.57.24:171][951]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-19.57.24:171][951]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-19.57.24:171][951]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-19.57.24:171][951]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-19.57.24:171][951]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-19.57.24:171][951]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-19.57.24:172][951]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-19.57.24:172][951]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-19.57.24:172][951]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-19.57.24:174][951]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-19.57.24:195][951]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-19.57.24:195][951]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-19.57.24:196][951]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-19.57.24:196][951]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-19.57.24:196][951]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2023.05.12-19.57.24:196][951]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2023.05.12-19.57.24:198][951]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2023.05.12-19.57.24:198][951]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2023.05.12-19.57.24:198][951]LogInit: FAudioDevice initialized.
+[2023.05.12-19.57.24:198][951]LogAudio: Display: Audio Device (ID: 46) registered with world 'LVL_NightTemplate'.
+[2023.05.12-19.57.24:228][951]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-19.57.24:346][951]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-19.57.24
+[2023.05.12-19.57.24:352][951]LogWorld: Bringing up level for play took: 0.123267
+[2023.05.12-19.57.24:354][951]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.05.12-19.57.24:360][951]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-19.57.24:361][951]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-19.57.24:361][951]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-19.57.24:361][951]PIE: Server logged in
+[2023.05.12-19.57.24:362][951]PIE: Play in editor total start time 1.291 seconds.
+[2023.05.12-19.57.24:638][952]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-19.57.24:638][952]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-19.57.42:735][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.57.42:736][429]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-19.57.42:738][429]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-19.57.42:749][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.57.42:783][429]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-19.57.42:798][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-19.57.42:885][429]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-19.57.42:894][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.05.12-19.57.42:896][429]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2023.05.12-19.57.42:900][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-19.57.42:930][429]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2023.05.12-19.57.42:997][430]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.05.12-19.57.43:010][430]LogViewport: Scene viewport resized to 316x176, mode Windowed.
+[2023.05.12-19.57.46:924][534]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.57.47:024][536]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.57.47:326][542]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.57.47:431][544]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-19.57.56:621][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.05.12-19.57.56:767][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.12-19.57.56:906][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.12-19.57.58:110][ 11]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.12-19.57.58:110][ 11]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate54B5FF314B5D4C350989EB9278EB8B71.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.12-19.57.58:146][ 11]LogFileHelpers: No new changes to save!
+[2023.05.12-19.57.58:146][ 11]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.328
+[2023.05.12-19.57.58:151][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.38 sec (total: 25.1 sec)
+[2023.05.12-19.57.58:181][ 11]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2023.05.12-19.57.58:181][ 11]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
