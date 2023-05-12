@@ -5438,3 +5438,362 @@ Script Stack (0 frames) :
 [2023.05.12-20.01.00:179][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.37 sec (total: 26.5 sec)
 [2023.05.12-20.01.00:211][360]AssetCheck: New page: Asset Save: LVL_NightTemplate
 [2023.05.12-20.01.00:211][360]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.12-20.01.14:532][867]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-20.01.14:549][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-20.01.14:549][867]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 8:01:14 PM)
+[2023.05.12-20.01.14:550][867]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-20.01.15:015][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.465309s)
+[2023.05.12-20.01.15:015][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.465351s)
+[2023.05.12-20.01.15:015][867]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-20.01.15:016][867]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-20.01.15:242][867]LogPlayLevel: PIE: World Init took: (0.226990s)
+[2023.05.12-20.01.15:332][867]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2023.05.12-20.01.15:335][867]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2023.05.12-20.01.15:335][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-20.01.15:335][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-20.01.15:335][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-20.01.15:335][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-20.01.15:335][867]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-20.01.15:335][867]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-20.01.15:335][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-20.01.15:335][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-20.01.15:335][867]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-20.01.15:335][867]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-20.01.15:335][867]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-20.01.15:338][867]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-20.01.15:364][867]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-20.01.15:364][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-20.01.15:364][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-20.01.15:364][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-20.01.15:365][867]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2023.05.12-20.01.15:365][867]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2023.05.12-20.01.15:367][867]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2023.05.12-20.01.15:367][867]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2023.05.12-20.01.15:367][867]LogInit: FAudioDevice initialized.
+[2023.05.12-20.01.15:367][867]LogAudio: Display: Audio Device (ID: 51) registered with world 'LVL_NightTemplate'.
+[2023.05.12-20.01.15:719][867]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-20.01.15:836][867]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-20.01.15
+[2023.05.12-20.01.15:841][867]LogWorld: Bringing up level for play took: 0.122035
+[2023.05.12-20.01.15:843][867]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2023.05.12-20.01.15:850][867]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-20.01.15:851][867]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-20.01.15:851][867]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-20.01.15:851][867]PIE: Server logged in
+[2023.05.12-20.01.15:852][867]PIE: Play in editor total start time 1.302 seconds.
+[2023.05.12-20.01.15:965][868]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-20.01.15:965][868]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-20.01.16:207][869]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-20.01.16:207][869]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-20.01.17:361][897]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-20.01.17:361][897]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-20.01.21:117][ 14]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-20.01.21:117][ 14]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-20.01.21:860][ 32]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-20.01.21:860][ 32]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-20.01.23:488][ 80]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-20.01.23:488][ 80]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-20.01.24:346][101]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-20.01.24:346][101]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-20.01.24:784][113]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-20.01.24:784][113]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-20.01.25:481][130]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-20.01.25:481][130]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-20.01.25:922][142]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-20.01.25:923][142]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-20.01.27:341][177]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-20.01.27:341][177]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.12-20.01.27:813][190]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-20.01.27:813][190]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-20.02.33:916][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-20.02.33:916][697]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-20.02.33:919][697]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-20.02.33:928][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-20.02.33:977][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-20.02.33:992][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-20.02.34:085][697]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-20.02.34:087][697]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2023.05.12-20.02.34:089][697]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2023.05.12-20.02.34:093][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-20.02.34:128][697]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2023.05.12-20.02.34:172][698]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2023.05.12-20.02.39:285][922]Cmd: EDIT COPY
+[2023.05.12-20.02.39:540][931]Cmd: EDIT PASTE
+[2023.05.12-20.03.11:878][255]Cmd: EDIT COPY
+[2023.05.12-20.03.12:126][262]Cmd: EDIT PASTE
+[2023.05.12-20.03.14:839][383]Cmd: MODE ROTGRID=1
+[2023.05.12-20.03.35:062][351]Cmd: TRANSACTION UNDO
+[2023.05.12-20.03.35:062][351]LogEditorTransaction: Undo Scale Elements
+[2023.05.12-20.03.42:696][747]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-20.03.42:709][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-20.03.42:709][747]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 8:03:42 PM)
+[2023.05.12-20.03.42:709][747]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-20.03.43:105][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.395465s)
+[2023.05.12-20.03.43:105][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.395510s)
+[2023.05.12-20.03.43:105][747]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-20.03.43:106][747]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-20.03.43:315][747]LogPlayLevel: PIE: World Init took: (0.210742s)
+[2023.05.12-20.03.43:405][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2023.05.12-20.03.43:408][747]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2023.05.12-20.03.43:408][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-20.03.43:408][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-20.03.43:408][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-20.03.43:409][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-20.03.43:409][747]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-20.03.43:409][747]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-20.03.43:409][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-20.03.43:409][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-20.03.43:409][747]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-20.03.43:409][747]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-20.03.43:409][747]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-20.03.43:413][747]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-20.03.43:438][747]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-20.03.43:438][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-20.03.43:438][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-20.03.43:438][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-20.03.43:439][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2023.05.12-20.03.43:439][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2023.05.12-20.03.43:442][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2023.05.12-20.03.43:442][747]LogInit: FAudioDevice initialized.
+[2023.05.12-20.03.43:442][747]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2023.05.12-20.03.43:442][747]LogAudio: Display: Audio Device (ID: 52) registered with world 'LVL_NightTemplate'.
+[2023.05.12-20.03.43:869][747]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-20.03.44:000][747]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-20.03.44
+[2023.05.12-20.03.44:007][747]LogWorld: Bringing up level for play took: 0.137700
+[2023.05.12-20.03.44:010][747]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2023.05.12-20.03.44:018][747]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-20.03.44:018][747]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-20.03.44:018][747]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-20.03.44:019][747]PIE: Server logged in
+[2023.05.12-20.03.44:020][747]PIE: Play in editor total start time 1.31 seconds.
+[2023.05.12-20.03.47:966][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-20.03.47:966][832]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-20.03.47:968][832]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-20.03.47:979][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-20.03.48:004][832]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-20.03.48:020][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-20.03.48:123][832]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-20.03.48:123][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2023.05.12-20.03.48:125][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2023.05.12-20.03.48:132][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-20.03.48:166][832]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2023.05.12-20.03.48:261][833]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2023.05.12-20.03.55:528][180]Cmd: TRANSACTION UNDO
+[2023.05.12-20.03.55:528][180]LogEditorTransaction: Undo Move Elements
+[2023.05.12-20.03.57:034][243]Cmd: EDIT COPY
+[2023.05.12-20.03.57:281][256]Cmd: EDIT PASTE
+[2023.05.12-20.03.58:359][309]Cmd: TRANSACTION UNDO
+[2023.05.12-20.03.58:359][309]LogEditorTransaction: Undo Paste
+[2023.05.12-20.04.06:530][667]Cmd: EDIT COPY
+[2023.05.12-20.04.06:530][667]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2023.05.12-20.04.06:799][674]Cmd: EDIT PASTE
+[2023.05.12-20.04.31:960][894]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.32:128][902]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.32:276][906]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.34:871][ 51]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.36:323][114]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.36:394][118]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.36:549][126]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.36:724][135]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.36:981][145]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.38:738][238]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.42:194][406]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.42:435][411]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.42:769][419]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.43:265][442]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.45:648][566]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.54:240][997]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.54:289][  0]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.54:619][ 18]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.58:258][233]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.04.59:902][317]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-20.04.59:915][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-20.04.59:915][317]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 8:04:59 PM)
+[2023.05.12-20.04.59:915][317]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-20.05.00:313][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.397971s)
+[2023.05.12-20.05.00:313][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.398019s)
+[2023.05.12-20.05.00:313][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-20.05.00:314][317]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-20.05.00:524][317]LogPlayLevel: PIE: World Init took: (0.210981s)
+[2023.05.12-20.05.01:068][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2023.05.12-20.05.01:072][317]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2023.05.12-20.05.01:072][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-20.05.01:072][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-20.05.01:072][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-20.05.01:072][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-20.05.01:072][317]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-20.05.01:072][317]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-20.05.01:072][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-20.05.01:072][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-20.05.01:072][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-20.05.01:072][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-20.05.01:072][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-20.05.01:075][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-20.05.01:097][317]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-20.05.01:098][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-20.05.01:098][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-20.05.01:098][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-20.05.01:098][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2023.05.12-20.05.01:098][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2023.05.12-20.05.01:100][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2023.05.12-20.05.01:100][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2023.05.12-20.05.01:100][317]LogInit: FAudioDevice initialized.
+[2023.05.12-20.05.01:100][317]LogAudio: Display: Audio Device (ID: 53) registered with world 'LVL_NightTemplate'.
+[2023.05.12-20.05.01:134][317]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-20.05.01:269][317]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-20.05.01
+[2023.05.12-20.05.01:274][317]LogWorld: Bringing up level for play took: 0.139695
+[2023.05.12-20.05.01:276][317]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2023.05.12-20.05.01:284][317]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-20.05.01:285][317]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-20.05.01:285][317]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-20.05.01:285][317]PIE: Server logged in
+[2023.05.12-20.05.01:285][317]PIE: Play in editor total start time 1.371 seconds.
+[2023.05.12-20.05.01:402][318]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.12-20.05.01:402][318]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.12-20.05.02:651][343]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.12-20.05.02:651][343]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.12-20.05.13:155][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-20.05.13:155][596]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-20.05.13:157][596]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-20.05.13:167][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-20.05.13:215][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-20.05.13:231][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-20.05.13:319][596]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.12-20.05.13:320][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2023.05.12-20.05.13:322][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2023.05.12-20.05.13:326][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-20.05.13:370][596]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2023.05.12-20.05.13:469][597]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2023.05.12-20.05.30:955][485]Cmd: EDIT COPY
+[2023.05.12-20.05.31:243][498]Cmd: EDIT PASTE
+[2023.05.12-20.05.32:506][541]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.32:706][544]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.35:270][650]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.35:443][659]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.35:528][663]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.35:815][674]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.36:492][703]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.37:890][746]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.37:939][748]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.38:069][754]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.38:181][759]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.42:435][961]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.42:931][990]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.43:217][  7]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.43:881][ 46]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.44:102][ 55]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.45:112][111]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.45:431][129]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.45:782][146]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.46:392][180]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.46:770][201]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.46:804][203]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.47:749][253]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.48:266][284]Cmd: TRANSACTION UNDO
+[2023.05.12-20.05.48:266][284]LogEditorTransaction: Undo Scale Elements
+[2023.05.12-20.05.48:392][285]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.52:752][491]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.52:787][493]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.53:823][552]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.05.59:437][870]Cmd: TRANSACTION UNDO
+[2023.05.12-20.05.59:437][870]LogEditorTransaction: Undo Set Scale
+[2023.05.12-20.06.09:346][402]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.11:839][540]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.11:910][544]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.11:981][548]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.12:573][582]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.13:083][612]Cmd: TRANSACTION UNDO
+[2023.05.12-20.06.13:083][612]LogEditorTransaction: Undo Set Scale
+[2023.05.12-20.06.13:187][613]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.16:178][759]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.16:685][787]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.16:720][789]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.17:096][811]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.17:187][816]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.17:227][818]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.17:955][861]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.18:461][890]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.20:290][958]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.20:644][965]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.21:030][984]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.21:864][ 29]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.22:305][ 53]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.22:480][ 62]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.22:865][ 83]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.23:035][ 92]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.23:533][119]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.23:569][121]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.23:607][123]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.23:644][125]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.23:978][143]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.24:094][149]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.24:350][163]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.24:384][165]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.24:610][177]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.25:283][212]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.29:105][407]Cmd: EDIT COPY
+[2023.05.12-20.06.29:333][418]Cmd: EDIT PASTE
+[2023.05.12-20.06.29:497][419]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.30:053][448]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.12-20.06.43:271][153]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.12-20.06.43:283][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.12-20.06.43:283][153]PIE: New page: PIE session: LVL_NightTemplate (May 12, 2023, 8:06:43 PM)
+[2023.05.12-20.06.43:284][153]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-20.06.43:668][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.383665s)
+[2023.05.12-20.06.43:668][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.383708s)
+[2023.05.12-20.06.43:668][153]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.12-20.06.43:668][153]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.12-20.06.43:885][153]LogPlayLevel: PIE: World Init took: (0.217503s)
+[2023.05.12-20.06.44:442][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2023.05.12-20.06.44:446][153]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2023.05.12-20.06.44:446][153]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.12-20.06.44:446][153]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.12-20.06.44:446][153]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.12-20.06.44:446][153]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.12-20.06.44:446][153]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.12-20.06.44:446][153]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.12-20.06.44:446][153]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.12-20.06.44:446][153]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.12-20.06.44:446][153]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.12-20.06.44:446][153]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.12-20.06.44:446][153]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.12-20.06.44:449][153]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.12-20.06.44:475][153]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.12-20.06.44:475][153]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.12-20.06.44:475][153]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.12-20.06.44:475][153]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.12-20.06.44:476][153]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2023.05.12-20.06.44:476][153]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2023.05.12-20.06.44:479][153]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2023.05.12-20.06.44:479][153]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2023.05.12-20.06.44:479][153]LogInit: FAudioDevice initialized.
+[2023.05.12-20.06.44:479][153]LogAudio: Display: Audio Device (ID: 54) registered with world 'LVL_NightTemplate'.
+[2023.05.12-20.06.44:509][153]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.12-20.06.44:626][153]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.12-20.06.44
+[2023.05.12-20.06.44:632][153]LogWorld: Bringing up level for play took: 0.123062
+[2023.05.12-20.06.44:634][153]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2023.05.12-20.06.44:641][153]LogBlueprintUserMessages: [LVL_NightTemplate_C_2] Night2
+[2023.05.12-20.06.44:641][153]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.12-20.06.44:641][153]r.HDR.Display.OutputDevice = "1"
+[2023.05.12-20.06.44:642][153]PIE: Server logged in
+[2023.05.12-20.06.44:642][153]PIE: Play in editor total start time 1.359 seconds.
+[2023.05.12-20.07.17:266][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-20.07.17:266][918]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.12-20.07.17:269][918]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.12-20.07.17:281][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-20.07.17:310][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.12-20.07.17:326][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.12-20.07.17:421][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.12-20.07.17:434][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2023.05.12-20.07.17:436][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2023.05.12-20.07.17:474][918]LogUObjectHash: Compacting FUObjectHashTables data took   5.86ms
+[2023.05.12-20.07.17:586][919]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2023.05.12-20.07.19:322][988]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.05.12-20.07.19:471][988]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.12-20.07.19:613][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.12-20.07.20:867][988]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.12-20.07.20:867][988]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate8594DDF1466544C087882C87DA631F2E.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.12-20.07.20:917][988]LogFileHelpers: No new changes to save!
+[2023.05.12-20.07.20:917][988]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.393
+[2023.05.12-20.07.20:919][988]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.44 sec (total: 27.9 sec)
+[2023.05.12-20.07.20:956][988]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2023.05.12-20.07.20:956][988]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
