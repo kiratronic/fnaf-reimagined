@@ -4933,3 +4933,52 @@ Script Stack (0 frames) :
 [2023.05.12-15.44.02:293][100]LogFileHelpers: No new changes to save!
 [2023.05.12-15.44.02:293][100]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.003
 [2023.05.12-15.44.04:570][100]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.05.12-15.44.09:869][100]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.005041s (5.300496s overbudget)
+[2023.05.12-15.44.09:906][100]LogShaderCompilers: Display: ================================================
+[2023.05.12-15.44.09:906][100]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.12-15.44.09:906][100]LogShaderCompilers: Display: Total job queries 1251, among them cache hits 365 (29.18%)
+[2023.05.12-15.44.09:906][100]LogShaderCompilers: Display: Tracking 886 distinct input hashes that result in 313 distinct outputs (35.33%)
+[2023.05.12-15.44.09:906][100]LogShaderCompilers: Display: RAM used: 2.16 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.26%
+[2023.05.12-15.44.09:906][100]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.12-15.44.09:906][100]LogShaderCompilers: Display: Shaders Compiled: 164
+[2023.05.12-15.44.09:906][100]LogShaderCompilers: Display: Jobs assigned 164, completed 164 (100.00%)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Average time worker was idle: 354.23 s
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Time job spent in pending queue: average 0.66 s, longest 5.47 s
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Job execution time: average 1.42 s, max 4.06 s
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Job life time (pending + execution): average 2.08 s, max 7.31
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 48.95 s
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Jobs were issued in 164 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Average processing rate: 3.35 jobs/sec
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Total thread time: 195.84 s
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Total thread preprocess time: 10.96 s
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Percentage time preprocessing: 5.59%
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Effective parallelization: 4.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    1 times, average 3.07 sec, max 3.07 sec, min 3.07 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled    1 times, average 3.01 sec, max 3.01 sec, min 3.01 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled    1 times, average 2.99 sec, max 2.99 sec, min 2.99 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 2.78 sec, max 3.05 sec, min 2.55 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 2.76 sec, max 3.00 sec, min 2.53 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.03% of total time (compiled   22 times, average 1.07 sec, max 1.44 sec, min 0.96 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.43% of total time (compiled   22 times, average 1.02 sec, max 1.35 sec, min 0.89 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.93% of total time (compiled   22 times, average 0.80 sec, max 1.13 sec, min 0.71 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 5.68% of total time (compiled    4 times, average 2.78 sec, max 3.05 sec, min 2.55 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 5.63% of total time (compiled    4 times, average 2.76 sec, max 3.00 sec, min 2.53 sec)
+[2023.05.12-15.44.09:907][100]LogShaderCompilers: Display: ================================================
+[2023.05.12-15.44.10:186][100]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Posters/M_Poster
+[2023.05.12-15.44.10:186][100]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_Poster39D749774726A910FC8586A41C6CC8BD.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Posters/M_Poster.uasset'
+[2023.05.12-15.44.10:636][100]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Posters/LETSPARTY
+[2023.05.12-15.44.10:636][100]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LETSPARTY0CDECED94A67AC631CC9609C8D6970F5.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Posters/LETSPARTY.uasset'
+[2023.05.12-15.44.11:431][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 10.1 sec (total: 37.1 sec)
+[2023.05.12-15.44.11:518][100]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.12-15.44.11:518][100]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Core/Assets/Props/Posters/M_Poster.M_Poster
+[2023.05.12-15.44.11:518][100]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.12-15.44.11:518][100]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/Posters/LETSPARTY.LETSPARTY
+[2023.05.12-15.44.11:523][100]MaterialEditorStats: Base pass shader: 166 instructions
+[2023.05.12-15.44.11:523][100]MaterialEditorStats: Base pass shader with Surface Lightmap: 191 instructions
+[2023.05.12-15.44.11:523][100]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.12-15.44.11:523][100]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.12-15.44.11:523][100]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.12-15.44.11:523][100]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.12-15.44.11:523][100]MaterialEditorStats: Shader Count: 32
