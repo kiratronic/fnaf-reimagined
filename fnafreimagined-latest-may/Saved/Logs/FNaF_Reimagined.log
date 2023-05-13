@@ -8324,3 +8324,1550 @@ Make sure 'BP_TAPERECORDER_C' has been compiled for  Transition To
 [2023.05.13-01.11.07:476][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.19 sec (total: 13.7 sec)
 [2023.05.13-01.11.07:501][ 65]AssetCheck: New page: Asset Save: LVL_NightTemplate
 [2023.05.13-01.11.07:501][ 65]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.13-01.27.15:800][ 53]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.27.15:808][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.27.15:809][ 53]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:27:15 AM)
+[2023.05.13-01.27.15:809][ 53]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.27.16:053][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.245219s)
+[2023.05.13-01.27.16:053][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.245266s)
+[2023.05.13-01.27.16:054][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.27.16:054][ 53]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.27.16:056][ 53]LogPlayLevel: PIE: World Init took: (0.002262s)
+[2023.05.13-01.27.16:096][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.05.13-01.27.16:097][ 53]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2023.05.13-01.27.16:097][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.27.16:097][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.27.16:097][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.27.16:097][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.27.16:097][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.27.16:097][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.27.16:097][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.27.16:097][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.27.16:098][ 53]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.27.16:098][ 53]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.27.16:098][ 53]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.27.16:099][ 53]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.27.16:113][ 53]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.27.16:113][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.27.16:113][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.27.16:113][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.27.16:114][ 53]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2023.05.13-01.27.16:114][ 53]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2023.05.13-01.27.16:115][ 53]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2023.05.13-01.27.16:115][ 53]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2023.05.13-01.27.16:115][ 53]LogInit: FAudioDevice initialized.
+[2023.05.13-01.27.16:115][ 53]LogAudio: Display: Audio Device (ID: 69) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.27.16:127][ 53]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.27.16:213][ 53]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.27.16
+[2023.05.13-01.27.16:217][ 53]LogWorld: Bringing up level for play took: 0.089487
+[2023.05.13-01.27.16:219][ 53]LogOnline: OSS: Created online subsystem instance for: :Context_128
+[2023.05.13-01.27.16:224][ 53]LogBlueprintUserMessages: [LVL_NightTemplate_C_4] Night4
+[2023.05.13-01.27.16:225][ 53]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.27.16:225][ 53]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.27.16:225][ 53]Cmd: r.AllowHDR 1
+[2023.05.13-01.27.16:225][ 53]Error: r.AllowHDR is read only!
+[2023.05.13-01.27.16:225][ 53]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.27.16:225][ 53]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.27.16:225][ 53]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.27.16:225][ 53]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.27.16:225][ 53]PIE: Server logged in
+[2023.05.13-01.27.16:226][ 53]PIE: Play in editor total start time 0.418 seconds.
+[2023.05.13-01.27.24:823][374]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.27.24:824][374]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.13-01.27.26:399][445]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.27.26:400][445]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.27.31:519][641]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.27.31:519][641]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.27.32:789][699]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.27.32:789][699]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.27.33:742][735]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.27.33:742][735]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.28.05:850][ 87]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.28.05:850][ 87]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.28.06:826][123]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.28.06:826][123]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.28.07:861][170]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.28.07:861][170]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.28.08:822][206]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.28.08:822][206]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.28.12:749][387]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.28.12:749][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.28.13:868][429]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.28.13:868][429]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.28.30:673][196]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.28.30:673][196]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.28.31:823][239]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.28.31:823][239]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.28.43:264][786]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.28.43:264][786]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.28.44:302][825]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.28.44:302][825]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.28.52:816][299]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.28.52:816][299]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.28.53:990][343]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.28.53:990][343]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.28.55:698][435]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.28.55:698][435]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.28.55:698][435]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.28.55:698][435]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.28.56:491][479]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.28.56:491][479]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.28.57:851][530]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.28.57:851][530]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.28.59:670][630]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.28.59:670][630]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.29.01:027][681]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.29.01:027][681]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.29.23:347][526]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.29.23:347][526]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.29.24:699][576]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.29.24:699][576]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.29.36:687][ 89]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.29.36:687][ 89]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.29.43:998][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.29.43:998][442]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.29.43:999][442]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.29.44:010][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.29.44:015][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.29.44:024][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.29.44:062][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.29.44:071][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2023.05.13-01.29.44:072][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2023.05.13-01.29.44:094][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.05.13-01.29.44:160][443]LogPlayLevel: Display: Destroying online subsystem :Context_128
+[2023.05.13-01.30.23:164][690]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave ElevatorClose1...
+[2023.05.13-01.30.23:183][690]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/ElevatorClose1.ElevatorClose1: 262144
+[2023.05.13-01.30.29:507][ 49]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave flicker03...
+[2023.05.13-01.30.29:509][ 49]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/flicker03.flicker03: 262144
+[2023.05.13-01.30.47:507][953]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_1000_StreamCache_Ver5027_MEM_65536MaxChnkSize_00483224128 wave MiniDV_Tape_Eject_1...
+[2023.05.13-01.30.47:542][953]LogAudio: Display: Chunk size for SoundWave /Game/Core/Assets/Sounds/MiniDV_Tape_Eject_1.MiniDV_Tape_Eject_1: 262144
+[2023.05.13-01.31.52:325][616]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Core/Player/PlayerBP.PlayerBP
+[2023.05.13-01.31.52:325][616]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.32.29:223][658]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Core/Assets/Widgets/GameOverUI.GameOverUI
+[2023.05.13-01.32.29:224][658]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.32.29:225][658]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.32.29:696][658]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.13-01.32.29:696][658]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.13-01.32.33:843][892]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.13-01.32.33:843][892]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2023.05.13-01.33.17:176][343]BlueprintLog: New page: Compile PlayerBP
+[2023.05.13-01.33.17:408][343]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Player\PlayerBP.uasset: [Compiler] Start Camera Shake  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.05.13-01.33.17:521][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.05.13-01.34.54:286][978]BlueprintLog: New page: Compile PlayerBP
+[2023.05.13-01.34.54:312][978]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Player\PlayerBP.uasset: [Compiler] Start Camera Shake  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.05.13-01.34.54:428][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.05.13-01.35.45:786][399]LogDerivedDataCache: C:/Users/kira meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:01.115 and deleted 0 files with total size 0 MiB. Scanned 32777 files in 29770 folders with total size 1980 MiB.
+[2023.05.13-01.36.23:489][383]BlueprintLog: New page: Compile LVL_NightTemplate
+[2023.05.13-01.36.23:852][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.05.13-01.36.26:275][433]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.36.26:284][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.36.26:284][433]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:36:26 AM)
+[2023.05.13-01.36.26:297][433]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.36.26:552][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.255197s)
+[2023.05.13-01.36.26:552][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.255238s)
+[2023.05.13-01.36.26:552][433]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.36.26:553][433]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.36.26:554][433]LogPlayLevel: PIE: World Init took: (0.001787s)
+[2023.05.13-01.36.26:608][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.05.13-01.36.26:610][433]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2023.05.13-01.36.26:610][433]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.36.26:610][433]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.36.26:610][433]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.36.26:610][433]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.36.26:610][433]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.36.26:610][433]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.36.26:610][433]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.36.26:610][433]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.36.26:610][433]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.36.26:610][433]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.36.26:611][433]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.36.26:612][433]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.36.26:626][433]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.36.26:626][433]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.36.26:626][433]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.36.26:627][433]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.36.26:627][433]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2023.05.13-01.36.26:627][433]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2023.05.13-01.36.26:629][433]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2023.05.13-01.36.26:629][433]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2023.05.13-01.36.26:629][433]LogInit: FAudioDevice initialized.
+[2023.05.13-01.36.26:629][433]LogAudio: Display: Audio Device (ID: 70) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.36.26:632][433]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.36.26:715][433]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.36.26
+[2023.05.13-01.36.26:720][433]LogWorld: Bringing up level for play took: 0.087598
+[2023.05.13-01.36.26:721][433]LogOnline: OSS: Created online subsystem instance for: :Context_133
+[2023.05.13-01.36.26:727][433]LogBlueprintUserMessages: [LVL_NightTemplate_C_5] Night4
+[2023.05.13-01.36.26:727][433]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.36.26:727][433]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.36.26:727][433]Cmd: r.AllowHDR 1
+[2023.05.13-01.36.26:727][433]Error: r.AllowHDR is read only!
+[2023.05.13-01.36.26:727][433]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.36.26:727][433]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.36.26:727][433]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.36.26:728][433]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.36.26:728][433]PIE: Server logged in
+[2023.05.13-01.36.26:728][433]PIE: Play in editor total start time 0.444 seconds.
+[2023.05.13-01.36.29:333][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.36.29:333][515]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.36.29:335][515]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.36.29:344][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.36.29:351][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.36.29:360][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.36.29:415][515]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-01.36.29:416][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2023.05.13-01.36.29:417][515]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2023.05.13-01.36.29:420][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.36.29:444][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.05.13-01.36.29:519][516]LogPlayLevel: Display: Destroying online subsystem :Context_133
+[2023.05.13-01.36.38:839][974]BlueprintLog: New page: Compile LVL_NightTemplate
+[2023.05.13-01.36.39:205][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.05.13-01.36.42:317][101]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.36.42:324][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.36.42:324][101]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:36:42 AM)
+[2023.05.13-01.36.42:365][101]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.36.42:607][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.242510s)
+[2023.05.13-01.36.42:607][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.242547s)
+[2023.05.13-01.36.42:607][101]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.36.42:608][101]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.36.42:609][101]LogPlayLevel: PIE: World Init took: (0.001742s)
+[2023.05.13-01.36.42:659][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.05.13-01.36.42:660][101]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2023.05.13-01.36.42:661][101]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.36.42:661][101]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.36.42:661][101]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.36.42:661][101]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.36.42:661][101]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.36.42:661][101]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.36.42:661][101]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.36.42:661][101]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.36.42:661][101]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.36.42:661][101]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.36.42:661][101]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.36.42:663][101]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.36.42:675][101]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.36.42:675][101]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.36.42:675][101]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.36.42:675][101]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.36.42:675][101]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2023.05.13-01.36.42:675][101]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=71
+[2023.05.13-01.36.42:677][101]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2023.05.13-01.36.42:677][101]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2023.05.13-01.36.42:677][101]LogInit: FAudioDevice initialized.
+[2023.05.13-01.36.42:677][101]LogAudio: Display: Audio Device (ID: 71) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.36.42:681][101]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.36.42:763][101]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.36.42
+[2023.05.13-01.36.42:767][101]LogWorld: Bringing up level for play took: 0.085894
+[2023.05.13-01.36.42:769][101]LogOnline: OSS: Created online subsystem instance for: :Context_134
+[2023.05.13-01.36.42:773][101]LogBlueprintUserMessages: [LVL_NightTemplate_C_6] Night4
+[2023.05.13-01.36.42:773][101]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.36.42:773][101]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.36.42:773][101]Cmd: r.AllowHDR 1
+[2023.05.13-01.36.42:773][101]Error: r.AllowHDR is read only!
+[2023.05.13-01.36.42:773][101]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.36.42:774][101]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.36.42:774][101]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.36.42:774][101]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.36.42:774][101]PIE: Server logged in
+[2023.05.13-01.36.42:774][101]PIE: Play in editor total start time 0.45 seconds.
+[2023.05.13-01.36.55:121][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.36.55:121][550]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.36.55:122][550]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.36.55:132][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.36.55:137][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.36.55:146][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.36.55:196][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.36.55:202][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2023.05.13-01.36.55:203][550]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2023.05.13-01.36.55:230][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.05.13-01.36.55:300][551]LogPlayLevel: Display: Destroying online subsystem :Context_134
+[2023.05.13-01.37.06:414][176]BlueprintLog: New page: Compile LVL_NightTemplate
+[2023.05.13-01.37.06:798][176]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.05.13-01.37.09:824][294]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.37.09:832][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.37.09:832][294]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:37:09 AM)
+[2023.05.13-01.37.09:832][294]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.37.10:090][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.257582s)
+[2023.05.13-01.37.10:090][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.257612s)
+[2023.05.13-01.37.10:091][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.37.10:091][294]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.37.10:092][294]LogPlayLevel: PIE: World Init took: (0.001946s)
+[2023.05.13-01.37.10:142][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.05.13-01.37.10:143][294]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2023.05.13-01.37.10:143][294]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.37.10:143][294]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.37.10:144][294]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.37.10:144][294]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.37.10:144][294]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.37.10:144][294]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.37.10:144][294]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.37.10:144][294]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.37.10:144][294]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.37.10:144][294]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.37.10:144][294]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.37.10:146][294]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.37.10:158][294]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.37.10:158][294]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.37.10:158][294]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.37.10:158][294]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.37.10:159][294]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=72
+[2023.05.13-01.37.10:159][294]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=72
+[2023.05.13-01.37.10:160][294]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=72
+[2023.05.13-01.37.10:160][294]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=72
+[2023.05.13-01.37.10:160][294]LogInit: FAudioDevice initialized.
+[2023.05.13-01.37.10:160][294]LogAudio: Display: Audio Device (ID: 72) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.37.10:163][294]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.37.10:246][294]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.37.10
+[2023.05.13-01.37.10:250][294]LogWorld: Bringing up level for play took: 0.086225
+[2023.05.13-01.37.10:251][294]LogOnline: OSS: Created online subsystem instance for: :Context_135
+[2023.05.13-01.37.10:256][294]LogBlueprintUserMessages: [LVL_NightTemplate_C_7] Night4
+[2023.05.13-01.37.10:257][294]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.37.10:257][294]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.37.10:257][294]Cmd: r.AllowHDR 1
+[2023.05.13-01.37.10:257][294]Error: r.AllowHDR is read only!
+[2023.05.13-01.37.10:257][294]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.37.10:257][294]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.37.10:257][294]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.37.10:257][294]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.37.10:257][294]PIE: Server logged in
+[2023.05.13-01.37.10:258][294]PIE: Play in editor total start time 0.425 seconds.
+[2023.05.13-01.37.18:366][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.37.18:366][584]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.37.18:367][584]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.37.18:377][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.37.18:382][584]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.37.18:391][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.37.18:441][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.37.18:450][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72
+[2023.05.13-01.37.18:452][584]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72
+[2023.05.13-01.37.18:474][584]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2023.05.13-01.37.18:544][585]LogPlayLevel: Display: Destroying online subsystem :Context_135
+[2023.05.13-01.37.28:010][113]BlueprintLog: New page: Compile LVL_NightTemplate
+[2023.05.13-01.37.28:388][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.05.13-01.37.31:420][233]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.37.31:429][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.37.31:429][233]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:37:31 AM)
+[2023.05.13-01.37.31:429][233]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.37.31:687][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.258106s)
+[2023.05.13-01.37.31:687][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.258137s)
+[2023.05.13-01.37.31:687][233]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.37.31:687][233]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.37.31:688][233]LogPlayLevel: PIE: World Init took: (0.001658s)
+[2023.05.13-01.37.31:739][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.13-01.37.31:740][233]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2023.05.13-01.37.31:740][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.37.31:740][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.37.31:740][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.37.31:740][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.37.31:740][233]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.37.31:740][233]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.37.31:741][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.37.31:741][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.37.31:741][233]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.37.31:741][233]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.37.31:741][233]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.37.31:743][233]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.37.31:755][233]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.37.31:755][233]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.37.31:755][233]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.37.31:755][233]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.37.31:756][233]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=73
+[2023.05.13-01.37.31:756][233]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=73
+[2023.05.13-01.37.31:757][233]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2023.05.13-01.37.31:757][233]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=73
+[2023.05.13-01.37.31:757][233]LogInit: FAudioDevice initialized.
+[2023.05.13-01.37.31:757][233]LogAudio: Display: Audio Device (ID: 73) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.37.31:760][233]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.37.31:841][233]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.37.31
+[2023.05.13-01.37.31:844][233]LogWorld: Bringing up level for play took: 0.084146
+[2023.05.13-01.37.31:846][233]LogOnline: OSS: Created online subsystem instance for: :Context_136
+[2023.05.13-01.37.31:851][233]LogBlueprintUserMessages: [LVL_NightTemplate_C_8] Night4
+[2023.05.13-01.37.31:851][233]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.37.31:851][233]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.37.31:851][233]Cmd: r.AllowHDR 1
+[2023.05.13-01.37.31:851][233]Error: r.AllowHDR is read only!
+[2023.05.13-01.37.31:851][233]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.37.31:851][233]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.37.31:851][233]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.37.31:851][233]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.37.31:852][233]PIE: Server logged in
+[2023.05.13-01.37.31:852][233]PIE: Play in editor total start time 0.424 seconds.
+[2023.05.13-01.37.35:837][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.37.35:837][371]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.37.35:839][371]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.37.35:847][371]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.37.35:858][371]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.37.35:867][371]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.37.35:921][371]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-01.37.35:924][371]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73
+[2023.05.13-01.37.35:926][371]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73
+[2023.05.13-01.37.35:929][371]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.37.35:951][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.05.13-01.37.36:018][372]LogPlayLevel: Display: Destroying online subsystem :Context_136
+[2023.05.13-01.37.40:914][634]BlueprintLog: New page: Compile LVL_NightTemplate
+[2023.05.13-01.37.41:292][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.05.13-01.37.48:792][ 16]BlueprintLog: New page: Compile LVL_NightTemplate
+[2023.05.13-01.37.49:167][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.05.13-01.37.53:620][222]BlueprintLog: New page: Compile LVL_NightTemplate
+[2023.05.13-01.37.53:997][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.05.13-01.39.44:931][899]BlueprintLog: New page: Compile PlayerBP
+[2023.05.13-01.39.45:179][899]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Player\PlayerBP.uasset: [Compiler] Start Camera Shake  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.05.13-01.39.45:294][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.05.13-01.39.48:059][ 29]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.39.48:067][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.39.48:067][ 29]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:39:48 AM)
+[2023.05.13-01.39.48:067][ 29]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.39.48:325][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.257621s)
+[2023.05.13-01.39.48:325][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.257659s)
+[2023.05.13-01.39.48:325][ 29]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.39.48:326][ 29]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.39.48:327][ 29]LogPlayLevel: PIE: World Init took: (0.001871s)
+[2023.05.13-01.39.48:378][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.13-01.39.48:385][ 29]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2023.05.13-01.39.48:385][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.39.48:385][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.39.48:385][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.39.48:385][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.39.48:385][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.39.48:385][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.39.48:385][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.39.48:385][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.39.48:386][ 29]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.39.48:386][ 29]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.39.48:386][ 29]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.39.48:388][ 29]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.39.48:400][ 29]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.39.48:401][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.39.48:401][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.39.48:401][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.39.48:401][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=74
+[2023.05.13-01.39.48:401][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=74
+[2023.05.13-01.39.48:403][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=74
+[2023.05.13-01.39.48:403][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=74
+[2023.05.13-01.39.48:403][ 29]LogInit: FAudioDevice initialized.
+[2023.05.13-01.39.48:403][ 29]LogAudio: Display: Audio Device (ID: 74) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.39.48:406][ 29]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.39.48:487][ 29]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.39.48
+[2023.05.13-01.39.48:491][ 29]LogWorld: Bringing up level for play took: 0.084933
+[2023.05.13-01.39.48:493][ 29]LogOnline: OSS: Created online subsystem instance for: :Context_137
+[2023.05.13-01.39.48:498][ 29]LogBlueprintUserMessages: [LVL_NightTemplate_C_11] Night4
+[2023.05.13-01.39.48:499][ 29]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.39.48:499][ 29]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.39.48:499][ 29]Cmd: r.AllowHDR 1
+[2023.05.13-01.39.48:499][ 29]Error: r.AllowHDR is read only!
+[2023.05.13-01.39.48:499][ 29]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.39.48:499][ 29]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.39.48:499][ 29]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.39.48:499][ 29]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.39.48:499][ 29]PIE: Server logged in
+[2023.05.13-01.39.48:499][ 29]PIE: Play in editor total start time 0.432 seconds.
+[2023.05.13-01.39.55:001][262]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.39.55:001][262]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.13-01.39.56:343][319]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.39.56:343][319]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.39.57:587][364]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.39.57:587][364]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.39.59:494][448]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.39.59:494][448]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.01:935][538]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.01:935][538]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.03:405][603]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.03:405][603]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.04:251][635]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.04:252][635]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.05:679][699]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.05:680][699]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.06:609][734]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.06:609][734]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.07:270][763]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.07:270][763]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.08:423][805]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.08:423][805]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.08:956][828]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.08:956][828]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.09:850][860]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.09:850][860]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.10:592][892]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.10:592][892]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.11:316][918]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.11:316][918]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.11:960][946]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.11:960][946]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.12:786][976]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.12:786][976]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.13:427][  3]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.13:427][  3]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.14:329][ 36]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.14:329][ 36]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.14:995][ 64]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.14:995][ 64]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.15:848][ 95]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.15:848][ 95]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.16:656][130]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.16:656][130]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.17:543][162]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.17:544][162]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.18:396][199]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.18:396][199]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.19:611][244]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.19:611][244]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.20:682][291]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.20:682][291]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.22:064][343]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.22:064][343]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.23:190][393]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.23:190][393]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.24:459][441]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.24:459][441]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.26:138][515]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.26:138][515]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.27:029][548]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.27:029][548]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.28:357][606]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.28:357][606]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.29:401][644]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.29:401][644]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.30:742][702]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.30:742][702]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.31:817][741]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.31:817][741]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.33:527][814]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.33:527][814]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.34:441][847]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.34:441][847]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.36:409][933]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.36:409][933]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.37:404][969]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.37:404][969]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.38:726][ 27]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.38:726][ 27]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.39:641][ 60]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.39:641][ 60]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.41:845][156]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.41:845][156]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.42:849][192]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.42:849][192]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.44:409][260]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.44:409][260]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.45:436][296]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.45:436][296]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.49:335][456]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.49:335][456]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.49:933][477]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.49:934][477]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.50:301][491]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.50:301][491]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.50:957][514]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.50:958][514]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.51:284][526]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.51:284][526]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.51:923][548]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.51:923][548]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.52:249][560]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.52:249][560]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.52:877][582]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.52:877][582]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.53:232][595]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.53:232][595]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.53:847][617]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.53:847][617]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.54:135][628]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.54:135][628]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.54:721][649]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.54:721][649]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.55:101][663]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.55:101][663]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.40.56:111][700]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.40.56:111][700]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.40.59:038][811]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.40.59:038][811]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.00:443][861]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.00:443][861]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.00:770][873]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.00:770][873]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.01:377][894]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.01:377][894]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.01:785][909]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.01:785][909]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.02:457][932]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.02:457][932]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.02:892][948]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.02:892][948]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.03:581][972]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.03:581][972]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.03:910][984]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.03:910][984]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.04:565][  7]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.04:565][  7]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.05:180][ 30]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.05:180][ 30]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.06:994][ 94]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.06:994][ 94]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.15:839][436]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.15:839][436]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.16:842][471]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.16:842][471]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.18:053][520]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.18:054][520]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.18:840][548]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.18:840][548]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.19:904][591]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.19:904][591]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.22:299][678]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.22:299][678]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.41.23:440][724]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.41.23:440][724]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.41.24:291][754]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.41.24:291][754]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.42.00:778][170]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.42.00:778][170]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.42.04:254][294]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.42.04:254][294]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.42.06:259][369]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.42.06:259][369]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.42.08:340][443]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.42.08:340][443]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.42.09:673][492]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.42.09:673][492]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.42.18:041][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.42.18:041][868]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.42.18:043][868]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.42.18:052][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.42.18:064][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.42.18:073][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.42.18:132][868]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-01.42.18:134][868]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74
+[2023.05.13-01.42.18:136][868]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74
+[2023.05.13-01.42.18:139][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.42.18:158][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.05.13-01.42.18:225][869]LogPlayLevel: Display: Destroying online subsystem :Context_137
+[2023.05.13-01.42.32:986][609]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.42.32:995][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.42.32:995][609]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:42:32 AM)
+[2023.05.13-01.42.32:996][609]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.42.33:277][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.281373s)
+[2023.05.13-01.42.33:277][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.281438s)
+[2023.05.13-01.42.33:277][609]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.42.33:278][609]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.42.33:279][609]LogPlayLevel: PIE: World Init took: (0.002264s)
+[2023.05.13-01.42.33:330][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.05.13-01.42.33:333][609]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2023.05.13-01.42.33:333][609]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.42.33:333][609]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.42.33:333][609]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.42.33:333][609]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.42.33:333][609]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.42.33:333][609]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.42.33:333][609]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.42.33:333][609]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.42.33:334][609]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.42.33:334][609]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.42.33:334][609]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.42.33:336][609]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.42.33:349][609]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.42.33:349][609]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.42.33:349][609]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.42.33:349][609]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.42.33:349][609]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=75
+[2023.05.13-01.42.33:349][609]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=75
+[2023.05.13-01.42.33:351][609]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=75
+[2023.05.13-01.42.33:351][609]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=75
+[2023.05.13-01.42.33:351][609]LogInit: FAudioDevice initialized.
+[2023.05.13-01.42.33:351][609]LogAudio: Display: Audio Device (ID: 75) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.42.33:354][609]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.42.33:436][609]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.42.33
+[2023.05.13-01.42.33:440][609]LogWorld: Bringing up level for play took: 0.085717
+[2023.05.13-01.42.33:441][609]LogOnline: OSS: Created online subsystem instance for: :Context_138
+[2023.05.13-01.42.33:447][609]LogBlueprintUserMessages: [LVL_NightTemplate_C_11] Night4
+[2023.05.13-01.42.33:447][609]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.42.33:447][609]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.42.33:447][609]Cmd: r.AllowHDR 1
+[2023.05.13-01.42.33:447][609]Error: r.AllowHDR is read only!
+[2023.05.13-01.42.33:447][609]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.42.33:447][609]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.42.33:447][609]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.42.33:447][609]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.42.33:447][609]PIE: Server logged in
+[2023.05.13-01.42.33:448][609]PIE: Play in editor total start time 0.453 seconds.
+[2023.05.13-01.42.34:540][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.42.34:540][638]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.42.34:542][638]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.42.34:551][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.42.34:577][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.42.34:586][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.42.34:638][638]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-01.42.34:642][638]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75
+[2023.05.13-01.42.34:643][638]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75
+[2023.05.13-01.42.34:646][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.42.34:670][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2023.05.13-01.42.34:732][639]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2023.05.13-01.42.42:387][986]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.42.42:396][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.42.42:396][986]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:42:42 AM)
+[2023.05.13-01.42.42:396][986]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.42.42:672][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.274983s)
+[2023.05.13-01.42.42:672][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.275017s)
+[2023.05.13-01.42.42:672][986]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.42.42:672][986]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.42.42:673][986]LogPlayLevel: PIE: World Init took: (0.001915s)
+[2023.05.13-01.42.42:726][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.13-01.42.42:729][986]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2023.05.13-01.42.42:729][986]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.42.42:729][986]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.42.42:729][986]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.42.42:729][986]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.42.42:729][986]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.42.42:729][986]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.42.42:729][986]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.42.42:729][986]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.42.42:729][986]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.42.42:729][986]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.42.42:729][986]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.42.42:731][986]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.42.42:743][986]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.42.42:743][986]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.42.42:743][986]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.42.42:743][986]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.42.42:744][986]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=76
+[2023.05.13-01.42.42:744][986]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=76
+[2023.05.13-01.42.42:744][986]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=76
+[2023.05.13-01.42.42:744][986]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=76
+[2023.05.13-01.42.42:744][986]LogInit: FAudioDevice initialized.
+[2023.05.13-01.42.42:744][986]LogAudio: Display: Audio Device (ID: 76) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.42.42:749][986]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.42.42:834][986]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.42.42
+[2023.05.13-01.42.42:838][986]LogWorld: Bringing up level for play took: 0.090077
+[2023.05.13-01.42.42:840][986]LogOnline: OSS: Created online subsystem instance for: :Context_139
+[2023.05.13-01.42.42:846][986]LogBlueprintUserMessages: [LVL_NightTemplate_C_11] Night4
+[2023.05.13-01.42.42:846][986]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.42.42:846][986]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.42.42:847][986]Cmd: r.AllowHDR 1
+[2023.05.13-01.42.42:847][986]Error: r.AllowHDR is read only!
+[2023.05.13-01.42.42:847][986]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.42.42:847][986]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.42.42:847][986]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.42.42:847][986]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.42.42:847][986]PIE: Server logged in
+[2023.05.13-01.42.42:848][986]PIE: Play in editor total start time 0.451 seconds.
+[2023.05.13-01.42.54:719][397]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.42.54:719][397]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.13-01.42.56:426][469]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.42.56:426][469]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.43.17:993][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.43.17:993][235]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.43.17:995][235]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.43.18:003][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.43.18:023][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.43.18:034][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.43.18:097][235]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-01.43.18:098][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76
+[2023.05.13-01.43.18:099][235]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76
+[2023.05.13-01.43.18:102][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.43.18:123][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.05.13-01.43.18:189][236]LogPlayLevel: Display: Destroying online subsystem :Context_139
+[2023.05.13-01.43.22:540][386]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/CoolerairFan/M_CoolairFan.M_CoolairFan
+[2023.05.13-01.43.22:544][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.43.22:715][386]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.13-01.43.22:715][386]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.13-01.43.22:715][386]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.13-01.43.22:715][386]MaterialEditorStats: Shader Count: 0
+[2023.05.13-01.43.22:726][386]LogViewport: Scene viewport resized to 414x257, mode Windowed.
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: ================================================
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: Total job queries 1040, among them cache hits 211 (20.29%)
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: Tracking 829 distinct input hashes that result in 319 distinct outputs (38.48%)
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: RAM used: 1.87 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.23%
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.13-01.43.22:852][387]LogShaderCompilers: Display: ================================================
+[2023.05.13-01.43.23:011][388]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.05.13-01.43.23:011][388]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.13-01.43.23:011][388]MaterialEditorStats: Texture samplers: 6/16
+[2023.05.13-01.43.23:011][388]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.13-01.43.23:011][388]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.13-01.43.23:011][388]MaterialEditorStats: Shader Count: 4
+[2023.05.13-01.43.26:203][497]LogViewport: Scene viewport resized to 671x449, mode Windowed.
+[2023.05.13-01.43.36:474][856]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.13-01.43.36:474][856]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.13-01.43.36:474][856]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.13-01.43.36:474][856]MaterialEditorStats: Shader Count: 0
+[2023.05.13-01.43.36:527][857]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.05.13-01.43.36:527][857]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.13-01.43.36:527][857]MaterialEditorStats: Texture samplers: 6/16
+[2023.05.13-01.43.36:527][857]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(5)
+[2023.05.13-01.43.36:527][857]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.13-01.43.36:527][857]MaterialEditorStats: Shader Count: 4
+[2023.05.13-01.43.38:776][931]LogViewport: Scene viewport resized to 414x257, mode Windowed.
+[2023.05.13-01.43.47:466][170]LogViewport: Scene viewport resized to 671x449, mode Windowed.
+[2023.05.13-01.43.51:395][324]LogViewport: Scene viewport resized to 414x257, mode Windowed.
+[2023.05.13-01.43.58:140][532]LogViewport: Scene viewport resized to 671x449, mode Windowed.
+[2023.05.13-01.44.55:340][643]BlueprintLog: New page: Compile PlayerBP
+[2023.05.13-01.44.55:369][643]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Player\PlayerBP.uasset: [Compiler] Start Camera Shake  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.05.13-01.44.55:487][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.05.13-01.45.07:231][ 64]BlueprintLog: New page: Compile PlayerBP
+[2023.05.13-01.45.07:261][ 64]LogBlueprint: Warning: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Player\PlayerBP.uasset: [Compiler] Start Camera Shake  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.05.13-01.45.07:382][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.05.13-01.45.09:409][128]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.45.09:419][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.45.09:419][128]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:45:09 AM)
+[2023.05.13-01.45.09:419][128]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.45.09:697][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.277155s)
+[2023.05.13-01.45.09:697][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.277196s)
+[2023.05.13-01.45.09:697][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.45.09:697][128]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.45.09:698][128]LogPlayLevel: PIE: World Init took: (0.001812s)
+[2023.05.13-01.45.09:750][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.05.13-01.45.09:757][128]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2023.05.13-01.45.09:757][128]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.45.09:757][128]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.45.09:757][128]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.45.09:757][128]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.45.09:757][128]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.45.09:757][128]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.45.09:757][128]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.45.09:757][128]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.45.09:758][128]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.45.09:758][128]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.45.09:758][128]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.45.09:760][128]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.45.09:773][128]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.45.09:773][128]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.45.09:773][128]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.45.09:773][128]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.45.09:774][128]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=77
+[2023.05.13-01.45.09:774][128]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=77
+[2023.05.13-01.45.09:775][128]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=77
+[2023.05.13-01.45.09:775][128]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=77
+[2023.05.13-01.45.09:775][128]LogInit: FAudioDevice initialized.
+[2023.05.13-01.45.09:775][128]LogAudio: Display: Audio Device (ID: 77) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.45.09:779][128]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.45.09:864][128]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.45.09
+[2023.05.13-01.45.09:868][128]LogWorld: Bringing up level for play took: 0.089329
+[2023.05.13-01.45.09:870][128]LogOnline: OSS: Created online subsystem instance for: :Context_141
+[2023.05.13-01.45.09:876][128]LogBlueprintUserMessages: [LVL_NightTemplate_C_11] Night4
+[2023.05.13-01.45.09:876][128]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.45.09:876][128]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.45.09:876][128]Cmd: r.AllowHDR 1
+[2023.05.13-01.45.09:876][128]Error: r.AllowHDR is read only!
+[2023.05.13-01.45.09:876][128]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.45.09:876][128]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.45.09:876][128]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.45.09:876][128]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.45.09:876][128]PIE: Server logged in
+[2023.05.13-01.45.09:876][128]PIE: Play in editor total start time 0.458 seconds.
+[2023.05.13-01.45.12:115][200]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.45.12:115][200]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.13-01.45.14:042][282]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.45.14:042][282]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.45.24:376][666]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.45.24:376][666]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.45.25:294][704]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.45.25:294][704]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.45.31:598][938]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.45.31:598][938]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.45.32:512][976]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.45.32:512][976]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.45.40:305][264]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.45.40:306][264]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.45.43:779][414]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.45.43:779][414]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.45.45:582][480]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.45.45:582][480]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.45.50:144][676]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.45.50:144][676]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.04:829][195]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.04:829][195]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.06:138][250]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.06:138][250]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.10:016][387]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.10:016][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.13:155][516]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.13:155][516]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.15:593][602]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.15:593][602]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.19:095][746]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.19:095][746]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.21:449][831]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.21:449][831]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.24:563][947]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.24:563][947]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.26:617][ 21]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.26:617][ 21]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.28:787][104]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.28:787][104]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.31:362][197]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.31:362][197]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.33:096][262]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.33:096][262]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.34:327][306]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.46.34:327][306]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.46.34:327][306]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.46.34:327][306]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.46.34:327][306]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.46.34:327][306]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.46.36:872][398]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.36:872][398]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.41:143][558]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.41:143][558]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.42:633][611]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.42:633][611]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.43:549][645]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.43:549][645]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.44:817][690]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.44:817][690]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.45:970][733]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.45:970][733]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.47:224][778]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.47:224][778]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.48:246][816]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.48:246][816]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.50:155][884]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.50:155][884]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.51:234][924]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.51:234][924]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.52:643][976]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.52:643][976]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.53:920][ 25]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.53:920][ 25]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.55:199][ 72]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.55:199][ 72]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.46.56:151][108]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.46.56:151][108]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.46.57:260][148]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.46.57:260][148]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.01:052][292]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.01:052][292]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.02:296][337]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.02:296][337]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.03:616][387]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.03:616][387]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.04:687][426]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.04:687][426]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.05:958][474]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.05:958][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.07:055][514]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.07:055][514]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.10:869][661]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.10:869][661]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.11:994][702]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.11:994][702]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.13:054][742]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.13:054][742]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.14:181][783]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.14:181][783]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.15:085][817]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.15:085][817]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.16:371][864]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.16:371][864]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.26:555][260]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.26:555][260]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.28:865][345]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.28:865][345]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.30:082][391]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.30:082][391]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.31:395][439]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.31:395][439]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.32:640][486]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.32:640][486]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.33:737][526]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.33:737][526]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.35:034][575]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.35:034][575]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.36:208][618]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.36:208][618]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.37:240][657]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.37:240][657]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.38:392][699]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.38:392][699]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.39:535][742]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.39:535][742]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.40:814][789]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.40:814][789]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.43:517][892]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.43:517][892]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.44:779][938]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.44:779][938]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.46:076][987]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.46:076][987]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.47:281][ 31]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.47:281][ 31]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.48:495][ 77]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.48:495][ 77]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.47.49:645][119]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.47.49:645][119]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.47.51:569][192]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.47.51:569][192]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.00:415][520]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.00:415][520]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.01:528][562]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.01:528][562]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.03:108][617]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.03:108][617]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.05:235][699]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.05:235][699]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.05:458][706]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.48.07:080][764]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.07:080][764]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.09:956][882]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.09:956][882]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.10:936][917]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.10:936][917]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.12:814][993]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.12:814][993]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.16:463][123]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.16:463][123]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.20:479][282]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.20:479][282]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.21:738][328]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.21:738][328]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.29:244][632]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.29:244][632]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.30:607][681]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.30:607][681]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.32:167][744]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.32:168][744]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.33:428][789]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.33:428][789]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.34:707][841]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.34:707][841]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.35:989][887]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.35:989][887]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.37:625][950]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.37:625][950]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.40:358][ 49]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.40:358][ 49]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.41:693][ 99]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.41:693][ 99]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.44:754][208]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.44:754][208]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.47:600][315]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.47:600][315]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.49:942][398]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.49:942][398]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.53:327][526]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.53:327][526]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.48.54:557][569]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.48.54:557][569]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.48.58:966][737]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.48.58:966][737]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.01:469][826]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.01:469][826]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.49.04:634][952]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.49.04:634][952]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.06:423][ 16]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.06:423][ 16]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.49.10:970][190]LogScript: Warning: Attempted to access AudioComponent_1 via property CallFunc_SpawnSoundAtLocation_ReturnValue, but AudioComponent_1 is not valid (pending kill or garbage)
+	FreddyBP_C /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.FreddyBP_C_1
+	Function /Game/Core/Assets/Characters/Freddy/Blueprint/FreddyBP.FreddyBP_C:ExecuteUbergraph_FreddyBP:0FEE
+[2023.05.13-01.49.10:970][190]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_1 via property CallFunc_SpawnSoundAtLocation_ReturnValue, but AudioComponent_1 is not valid (pending kill or garbage)". Node:  Stop Graph:  EventGraph Function:  Execute Ubergraph Freddy BP Blueprint:  FreddyBP
+[2023.05.13-01.49.10:970][190]LogScript: Warning: Attempted to access AudioComponent_1 via property CallFunc_SpawnSoundAtLocation_ReturnValue, but AudioComponent_1 is not valid (pending kill or garbage)
+	FreddyBP_C /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.FreddyBP_C_1
+	Function /Game/Core/Assets/Characters/Freddy/Blueprint/FreddyBP.FreddyBP_C:ExecuteUbergraph_FreddyBP:1014
+[2023.05.13-01.49.10:970][190]PIE: Error: Blueprint Runtime Error: "Attempted to access AudioComponent_1 via property CallFunc_SpawnSoundAtLocation_ReturnValue, but AudioComponent_1 is not valid (pending kill or garbage)". Node:  Destroy Component Graph:  EventGraph Function:  Execute Ubergraph Freddy BP Blueprint:  FreddyBP
+[2023.05.13-01.49.16:587][413]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.49.16:587][413]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.18:150][469]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.18:150][469]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.49.26:142][774]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.49.26:142][774]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.30:200][920]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.30:200][920]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.49.31:586][972]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.49.31:586][972]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.35:542][114]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.35:542][114]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.49.38:407][225]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.49.38:407][225]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.45:902][496]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.45:902][496]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.49.47:769][566]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.49.47:769][566]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.53:366][765]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.53:366][765]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.49.55:229][835]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.49.55:229][835]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.56:278][872]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.56:278][872]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.49.58:187][945]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.49.58:187][945]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.49.59:187][981]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.49.59:187][981]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.00:421][ 27]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.00:421][ 27]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.04:647][177]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.04:647][177]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.05:559][211]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.05:559][211]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.10:718][395]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.10:718][395]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.11:714][432]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.11:714][432]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.12:688][466]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.12:688][466]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.13:258][487]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.13:258][487]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.16:051][585]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.16:051][585]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.16:642][607]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.16:642][607]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.17:984][655]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.17:984][655]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.18:665][680]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.18:665][680]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.22:405][813]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.22:406][813]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.24:118][877]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.24:118][877]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.25:194][915]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.25:194][915]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.26:018][945]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.26:018][945]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.27:172][985]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.27:173][985]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.28:021][ 16]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.28:021][ 16]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.31:462][135]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.31:462][135]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.35:407][284]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.35:407][284]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.40:711][470]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.40:711][470]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.41:515][500]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.41:515][500]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.42:581][537]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.42:581][537]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.43:110][556]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.43:110][556]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.44:279][596]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.44:279][596]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.45:014][623]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.45:014][623]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.48:598][749]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.48:598][749]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.49:435][781]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.49:435][781]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.50:407][816]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.50:407][816]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.52:138][881]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.52:138][881]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.53:114][916]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.53:114][916]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.54:511][970]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.54:511][970]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.55:580][  8]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.55:580][  8]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.50.56:881][ 56]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.50.56:881][ 56]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.50.58:471][113]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.50.58:471][113]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.01:735][236]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.01:735][236]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.02:597][266]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.02:597][266]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.04:236][328]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.04:236][328]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.05:349][368]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.05:349][368]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.06:696][419]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.06:696][419]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.11:486][590]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.11:486][590]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.12:651][634]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.12:651][634]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.13:537][666]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.13:537][666]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.14:019][684]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.14:019][684]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.17:268][797]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.17:268][797]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.18:074][827]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.18:074][827]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.22:596][987]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.22:596][987]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.26:746][150]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.26:746][150]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.29:705][254]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.29:705][254]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.33:192][382]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.33:192][382]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.35:821][474]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.35:821][474]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.37:708][544]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.37:708][544]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.44:777][796]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.44:777][796]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.45:431][820]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.45:431][820]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.47:975][910]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.47:975][910]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.48:443][927]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.48:443][927]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.51.57:726][258]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.51.57:726][258]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.51.58:982][305]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.51.58:982][305]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.52.07:963][625]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.52.07:963][625]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.52.08:682][652]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.52.08:682][652]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.52.20:100][ 75]LogNet: Browse: /Game/Core/Levels/Other/LVL_MainMenu
+[2023.05.13-01.52.20:100][ 75]LogLoad: LoadMap: /Game/Core/Levels/Other/LVL_MainMenu
+[2023.05.13-01.52.20:100][ 75]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.52.20:102][ 75]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.52.20:111][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.52.20:200][ 75]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-01.52.20:221][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.05.13-01.52.20:253][ 75]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Levels\Other\LVL_MainMenu.umap: [Compiler] In use pin  <Unnamed>  no longer exists on node  Transition To . Please refresh node or break links to remove pin.
+[2023.05.13-01.52.20:253][ 75]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Levels\Other\LVL_MainMenu.umap: [Compiler] In use pin  Target  no longer exists on node  Transition To . Please refresh node or break links to remove pin.
+[2023.05.13-01.52.20:253][ 75]LogBlueprint: Error: [AssetLog] C:\Users\kira meyer\Documents\GitHub\fnaf-reimagined\fnafreimagined-latest-may\Content\Core\Levels\Other\LVL_MainMenu.umap: [Compiler] Could not find a function named "TransitionTo" in 'BP_TAPERECORDER_C'.
+Make sure 'BP_TAPERECORDER_C' has been compiled for  Transition To
+[2023.05.13-01.52.20:278][ 75]LogAudio: Display: Audio Device (ID: 77) registered with world 'LVL_MainMenu'.
+[2023.05.13-01.52.20:278][ 75]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.52.20:278][ 75]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.13-01.52.20:278][ 75]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2023.05.13-01.52.20:279][ 75]LogLoad: Game class is 'MainMenuGM_C'
+[2023.05.13-01.52.20:288][ 75]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.13-01.52.20
+[2023.05.13-01.52.20:288][ 75]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.13-01.52.20:289][ 75]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.13-01.52.20:289][ 75]LogWorld: Bringing up level for play took: 0.009840
+[2023.05.13-01.52.20:289][ 75]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.13-01.52.20:289][ 75]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.13-01.52.20:289][ 75]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.13-01.52.20:290][ 75]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.13-01.52.20:290][ 75]LogLoad: Took 0.190769 seconds to LoadMap(/Game/Core/Levels/Other/LVL_MainMenu)
+[2023.05.13-01.52.23:200][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.52.23:200][242]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.13-01.52.23:200][242]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.52.23:201][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.52.23:204][242]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.52.23:211][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.52.23:257][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.52.23:258][242]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77
+[2023.05.13-01.52.23:259][242]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77
+[2023.05.13-01.52.23:265][242]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.13-01.52.23:265][242]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.13-01.52.23:267][242]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.05.13-01.52.23:421][243]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2023.05.13-01.52.25:014][298]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-01.52.25:041][298]LogSlate: Window 'Message Log' being destroyed
+[2023.05.13-01.52.27:124][407]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-01.52.27:133][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-01.52.27:133][407]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 1:52:27 AM)
+[2023.05.13-01.52.27:148][407]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.52.27:424][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.277030s)
+[2023.05.13-01.52.27:424][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.277074s)
+[2023.05.13-01.52.27:425][407]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-01.52.27:425][407]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-01.52.27:426][407]LogPlayLevel: PIE: World Init took: (0.001854s)
+[2023.05.13-01.52.27:478][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.05.13-01.52.27:480][407]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2023.05.13-01.52.27:480][407]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-01.52.27:480][407]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-01.52.27:480][407]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-01.52.27:480][407]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-01.52.27:480][407]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-01.52.27:480][407]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-01.52.27:480][407]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-01.52.27:480][407]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-01.52.27:480][407]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-01.52.27:480][407]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-01.52.27:480][407]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-01.52.27:482][407]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-01.52.27:495][407]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.13-01.52.27:495][407]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-01.52.27:495][407]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-01.52.27:495][407]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-01.52.27:496][407]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=78
+[2023.05.13-01.52.27:496][407]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=78
+[2023.05.13-01.52.27:497][407]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=78
+[2023.05.13-01.52.27:497][407]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=78
+[2023.05.13-01.52.27:497][407]LogInit: FAudioDevice initialized.
+[2023.05.13-01.52.27:497][407]LogAudio: Display: Audio Device (ID: 78) registered with world 'LVL_NightTemplate'.
+[2023.05.13-01.52.27:500][407]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-01.52.27:585][407]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-01.52.27
+[2023.05.13-01.52.27:589][407]LogWorld: Bringing up level for play took: 0.088646
+[2023.05.13-01.52.27:591][407]LogOnline: OSS: Created online subsystem instance for: :Context_142
+[2023.05.13-01.52.27:597][407]LogBlueprintUserMessages: [LVL_NightTemplate_C_11] Night5
+[2023.05.13-01.52.27:597][407]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.52.27:597][407]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.52.27:597][407]Cmd: r.AllowHDR 1
+[2023.05.13-01.52.27:597][407]Error: r.AllowHDR is read only!
+[2023.05.13-01.52.27:597][407]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-01.52.27:598][407]r.Streaming.PoolSize = "5000"
+[2023.05.13-01.52.27:598][407]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-01.52.27:598][407]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-01.52.27:598][407]PIE: Server logged in
+[2023.05.13-01.52.27:598][407]PIE: Play in editor total start time 0.465 seconds.
+[2023.05.13-01.53.08:285][893]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.53.08:285][893]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.13-01.53.10:858][999]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.53.10:858][999]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.53.12:984][ 77]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.53.12:984][ 77]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.53.16:176][199]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.53.16:176][199]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.53.19:230][310]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.53.19:230][310]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.53.25:238][536]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.53.25:238][536]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.53.26:195][571]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.53.26:195][571]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.53.38:086][ 64]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.53.38:086][ 64]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.53.40:079][137]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.53.40:079][137]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.53.50:204][559]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.53.50:204][559]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.53.52:314][636]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.53.52:315][636]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.05:057][152]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.05:057][152]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.08:042][260]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.08:042][260]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.15:820][556]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.15:820][556]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.16:003][562]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.54.16:003][562]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.54.20:649][729]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.20:649][729]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.21:860][775]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.21:861][775]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.24:685][879]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.24:685][879]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.25:770][921]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.25:770][921]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.26:913][962]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.26:913][962]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.27:204][973]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.27:204][973]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.27:800][994]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.27:800][994]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.28:094][  5]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.28:094][  5]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.28:634][ 24]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.28:634][ 24]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.28:901][ 34]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.28:901][ 34]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.29:492][ 55]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.29:492][ 55]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.29:787][ 66]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.29:787][ 66]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.30:382][ 87]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.30:382][ 87]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.30:702][ 99]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.30:702][ 99]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.31:956][144]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.31:956][144]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.32:302][157]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.32:302][157]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.32:891][178]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.32:891][178]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.33:182][189]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.33:182][189]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.33:743][209]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.33:743][209]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.34:029][220]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.34:029][220]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.34:609][241]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.34:609][241]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.34:888][251]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.34:888][251]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.35:477][272]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.35:477][272]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.35:769][283]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.35:769][283]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.36:351][304]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.36:351][304]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.36:638][315]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.36:638][315]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.37:216][336]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.37:216][336]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.37:483][346]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.37:483][346]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.38:060][367]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.38:060][367]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.38:351][378]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.38:351][378]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.38:909][398]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.38:909][398]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.39:192][408]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.39:192][408]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.39:781][429]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.39:782][429]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.40:076][440]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.40:076][440]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.40:665][461]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.40:665][461]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.40:933][471]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.40:933][471]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.41:524][492]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.41:524][492]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.41:789][502]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.41:789][502]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.42:339][522]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.42:339][522]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.42:599][532]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.42:599][532]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.43:160][552]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.43:160][552]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.43:455][563]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.43:455][563]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.44:008][583]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.44:008][583]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.44:272][593]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.44:272][593]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.44:849][614]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.44:849][614]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.45:109][623]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.45:109][623]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.45:621][641]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.45:621][641]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.45:916][652]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.45:916][652]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.46:481][672]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.46:481][672]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.46:698][680]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.46:698][680]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.47:312][702]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.47:312][702]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.47:603][713]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.47:603][713]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.48:194][734]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.48:195][734]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.48:461][744]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.48:461][744]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.49:211][771]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.49:211][771]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.49:478][781]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.49:478][781]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.50:068][802]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.50:068][802]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.50:361][813]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.50:361][813]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.50:949][834]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.50:949][834]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.51:292][847]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.51:292][847]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.51:911][869]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.51:911][869]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.52:204][880]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.52:204][880]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.53:037][910]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.53:038][910]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.53:358][922]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.53:358][922]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.53:947][943]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.53:947][943]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.54:215][953]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.54:215][953]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.54:805][974]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.54:805][974]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.55:125][986]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.55:125][986]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.55:742][  8]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.55:743][  8]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.56:063][ 20]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.56:063][ 20]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.56:651][ 41]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.56:651][ 41]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.57:178][ 61]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.57:178][ 61]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.57:740][ 81]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.57:740][ 81]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.58:032][ 92]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.58:032][ 92]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.58:677][115]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.58:677][115]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.58:996][127]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.58:996][127]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.54.59:610][149]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.54.59:610][149]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.54.59:929][161]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.54.59:929][161]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.00:544][183]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.00:545][183]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.00:840][194]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.00:840][194]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.01:404][214]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.01:404][214]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.01:748][227]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.01:748][227]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.02:367][249]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.02:367][249]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.02:661][260]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.02:661][260]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.02:720][262]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.55.02:720][262]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.55.02:720][262]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.13-01.55.03:278][282]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.03:278][282]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.03:620][295]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.03:620][295]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.04:263][318]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.04:263][318]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.04:608][331]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.04:608][331]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.05:256][354]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.05:256][354]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.05:602][367]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.05:602][367]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.06:220][389]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.06:220][389]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.06:567][402]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.06:567][402]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.07:212][425]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.07:212][425]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.07:533][437]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.07:533][437]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.08:148][459]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.08:149][459]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.08:467][471]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.08:467][471]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.09:056][492]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.09:056][492]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.09:740][518]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.09:740][518]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.10:708][553]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.10:708][553]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.11:414][580]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.11:414][580]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.12:730][628]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.12:730][628]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.13:515][658]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.13:515][658]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.15:376][726]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.15:376][726]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.16:262][760]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.16:262][760]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.18:225][832]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.18:225][832]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.18:960][860]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.18:960][860]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.19:549][881]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-01.55.19:549][881]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2023.05.13-01.55.19:874][893]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-01.55.19:874][893]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-01.55.30:831][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.55.30:832][378]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-01.55.30:834][378]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-01.55.30:843][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.55.30:849][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-01.55.30:862][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-01.55.30:913][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-01.55.30:925][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78
+[2023.05.13-01.55.30:926][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78
+[2023.05.13-01.55.30:951][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.05.13-01.55.31:012][379]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2023.05.13-01.55.32:419][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.05.13-01.55.32:563][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-01.55.32:659][435]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.13-01.55.33:503][435]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.13-01.55.33:503][435]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate1449E1BC45FC8C80575593A2D3566756.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.13-01.55.33:530][435]LogFileHelpers: Saving map 'LVL_NightTemplate' took 0.923
+[2023.05.13-01.55.33:610][435]LogSavePackage: Moving output files for package: /Game/Core/Player/PlayerBP
+[2023.05.13-01.55.33:611][435]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/PlayerBP7CF047F94DC4092EF71BB48CE1566A66.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Player/PlayerBP.uasset'
+[2023.05.13-01.55.33:615][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.05 sec (total: 14.7 sec)
+[2023.05.13-01.55.33:636][435]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.13-01.55.33:636][435]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Core/Player/PlayerBP.PlayerBP
+[2023.05.13-01.55.33:636][435]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
