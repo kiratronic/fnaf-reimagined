@@ -5799,3 +5799,1356 @@ Make sure 'BP_TAPERECORDER_C' has been compiled for  Transition To
 [2023.05.13-00.40.47:448][444]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Core/Assets/Props/HallLight/HallLightBP.HallLightBP
 [2023.05.13-00.40.47:448][444]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Balloons/Baloons.Baloons
 [2023.05.13-00.40.47:448][444]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.13-00.41.12:181][851]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cylinder.SM_TapeRecorder-output02_Cylinder
+[2023.05.13-00.41.12:207][851]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.41.12:574][851]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.41.15:210][981]LogStaticMesh: Display: Building static mesh SM_TapeRecorder-output02_Cylinder...
+[2023.05.13-00.41.15:238][981]LogStaticMesh: Adjacency [0.00s], tris: 2384, UVs 2
+[2023.05.13-00.41.15:244][981]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2023.05.13-00.41.15:244][981]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.41.15:275][981]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cylinder) ...
+[2023.05.13-00.41.15:432][981]LogStaticMesh: Reduce [0.19s]
+[2023.05.13-00.41.15:566][981]LogStaticMesh: Fallback 0/1 [0.13s], num tris: 653
+[2023.05.13-00.41.15:568][981]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.41.15:568][981]LogStaticMesh:   Input: 40 Clusters, 5027 Triangles and 6130 Vertices
+[2023.05.13-00.41.15:568][981]LogStaticMesh:   Output without splits: 40 Clusters, 5027 Triangles and 6130 Vertices
+[2023.05.13-00.41.15:568][981]LogStaticMesh:   Output with splits: 40 Clusters, 5027 Triangles and 6130 Vertices
+[2023.05.13-00.41.15:569][981]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 40, Slow Path Clusters: 0, 1 Material: 40, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.41.15:572][981]LogStaticMesh: WritePages:
+[2023.05.13-00.41.15:572][981]LogStaticMesh:   Root: GPU size: 31664 bytes. 1 Pages. 31664.000 bytes per page (96.631% utilization).
+[2023.05.13-00.41.15:572][981]LogStaticMesh:   Streaming: GPU size: 68488 bytes. 1 Pages (1 with relative encoding). 68488.000 bytes per page (52.252% utilization).
+[2023.05.13-00.41.15:572][981]LogStaticMesh:   Page data disk size: 71280 bytes. Fixup data size: 152 bytes.
+[2023.05.13-00.41.15:572][981]LogStaticMesh:   Total GPU size: 100152 bytes, Total disk size: 71432 bytes.
+[2023.05.13-00.41.15:572][981]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.41.15:572][981]LogStaticMesh: Nanite build [0.33s]
+
+[2023.05.13-00.41.15:575][981]LogStaticMesh: Built static mesh [0.37s] /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cylinder.SM_TapeRecorder-output02_Cylinder
+[2023.05.13-00.41.24:635][462]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cube_003.SM_TapeRecorder-output02_Cube_003
+[2023.05.13-00.41.24:663][462]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.41.25:109][462]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.41.28:396][625]LogStaticMesh: Display: Building static mesh SM_TapeRecorder-output02_Cube_003...
+[2023.05.13-00.41.28:412][625]LogStaticMesh: Adjacency [0.00s], tris: 1398, UVs 2
+[2023.05.13-00.41.28:416][625]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.05.13-00.41.28:416][625]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.41.28:438][625]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cube_003) ...
+[2023.05.13-00.41.28:502][625]LogStaticMesh: Reduce [0.09s]
+[2023.05.13-00.41.28:565][625]LogStaticMesh: Fallback 0/1 [0.06s], num tris: 533
+[2023.05.13-00.41.28:567][625]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.41.28:567][625]LogStaticMesh:   Input: 23 Clusters, 2910 Triangles and 3776 Vertices
+[2023.05.13-00.41.28:567][625]LogStaticMesh:   Output without splits: 23 Clusters, 2910 Triangles and 3776 Vertices
+[2023.05.13-00.41.28:567][625]LogStaticMesh:   Output with splits: 23 Clusters, 2910 Triangles and 3776 Vertices
+[2023.05.13-00.41.28:567][625]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 23, Slow Path Clusters: 0, 1 Material: 23, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.41.28:569][625]LogStaticMesh: WritePages:
+[2023.05.13-00.41.28:569][625]LogStaticMesh:   Root: GPU size: 32444 bytes. 1 Pages. 32444.000 bytes per page (99.011% utilization).
+[2023.05.13-00.41.28:569][625]LogStaticMesh:   Streaming: GPU size: 27692 bytes. 1 Pages (1 with relative encoding). 27692.000 bytes per page (21.127% utilization).
+[2023.05.13-00.41.28:569][625]LogStaticMesh:   Page data disk size: 45684 bytes. Fixup data size: 232 bytes.
+[2023.05.13-00.41.28:569][625]LogStaticMesh:   Total GPU size: 60136 bytes, Total disk size: 45916 bytes.
+[2023.05.13-00.41.28:569][625]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.41.28:569][625]LogStaticMesh: Nanite build [0.15s]
+
+[2023.05.13-00.41.28:573][625]LogStaticMesh: Built static mesh [0.18s] /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cube_003.SM_TapeRecorder-output02_Cube_003
+[2023.05.13-00.41.30:282][708]LogSlate: Window 'SM_TapeRecorder-output02_Cube_003' being destroyed
+[2023.05.13-00.41.30:288][708]LogSlate: Window 'SM_TapeRecorder-output02_Cube_003' being destroyed
+[2023.05.13-00.41.30:296][708]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.41.30:296][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.41.30:390][708]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.41.30:390][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.41.30:448][708]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.41.30:448][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.41.30:501][708]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.41.30:502][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.41.30:551][708]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.41.30:551][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.41.34:258][917]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/MAINMENU/takerecorder/tape/M_TapeRecorder-TAPE.M_TapeRecorder-TAPE
+[2023.05.13-00.41.34:262][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.41.34:421][917]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.13-00.41.34:421][917]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.13-00.41.34:421][917]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.13-00.41.34:421][917]MaterialEditorStats: Shader Count: 0
+[2023.05.13-00.41.34:433][917]LogViewport: Scene viewport resized to 414x257, mode Windowed.
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: ================================================
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: Total job queries 996, among them cache hits 195 (19.58%)
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: Tracking 801 distinct input hashes that result in 310 distinct outputs (38.70%)
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: RAM used: 1.81 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.22%
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.13-00.41.34:592][918]LogShaderCompilers: Display: ================================================
+[2023.05.13-00.41.34:632][919]MaterialEditorStats: Base pass shader: 173 instructions
+[2023.05.13-00.41.34:632][919]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.13-00.41.34:632][919]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.13-00.41.34:632][919]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.13-00.41.34:632][919]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.13-00.41.34:632][919]MaterialEditorStats: Shader Count: 4
+[2023.05.13-00.41.38:462][133]LogSlate: Window 'M_TapeRecorder-TAPE' being destroyed
+[2023.05.13-00.41.38:466][133]LogSlate: Window 'M_TapeRecorder-TAPE' being destroyed
+[2023.05.13-00.41.38:482][133]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.41.38:482][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.41.39:581][192]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/tape/SM_Tape.SM_Tape
+[2023.05.13-00.41.39:634][192]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.41.39:994][192]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.41.43:415][360]LogStaticMesh: Display: Building static mesh SM_Tape...
+[2023.05.13-00.41.43:430][360]LogStaticMesh: Adjacency [0.00s], tris: 992, UVs 2
+[2023.05.13-00.41.43:434][360]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.05.13-00.41.43:434][360]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.41.43:455][360]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/MAINMENU/takerecorder/tape/SM_Tape) ...
+[2023.05.13-00.41.43:498][360]LogStaticMesh: Reduce [0.06s]
+[2023.05.13-00.41.43:536][360]LogStaticMesh: Fallback 0/1 [0.04s], num tris: 425
+[2023.05.13-00.41.43:538][360]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.41.43:538][360]LogStaticMesh:   Input: 15 Clusters, 1874 Triangles and 2469 Vertices
+[2023.05.13-00.41.43:538][360]LogStaticMesh:   Output without splits: 15 Clusters, 1874 Triangles and 2469 Vertices
+[2023.05.13-00.41.43:538][360]LogStaticMesh:   Output with splits: 15 Clusters, 1874 Triangles and 2469 Vertices
+[2023.05.13-00.41.43:538][360]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 15, Slow Path Clusters: 0, 1 Material: 15, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.41.43:539][360]LogStaticMesh: WritePages:
+[2023.05.13-00.41.43:539][360]LogStaticMesh:   Root: GPU size: 31252 bytes. 1 Pages. 31252.000 bytes per page (95.374% utilization).
+[2023.05.13-00.41.43:539][360]LogStaticMesh:   Streaming: GPU size: 7244 bytes. 1 Pages (1 with relative encoding). 7244.000 bytes per page (5.527% utilization).
+[2023.05.13-00.41.43:539][360]LogStaticMesh:   Page data disk size: 29408 bytes. Fixup data size: 192 bytes.
+[2023.05.13-00.41.43:539][360]LogStaticMesh:   Total GPU size: 38496 bytes, Total disk size: 29600 bytes.
+[2023.05.13-00.41.43:539][360]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.41.43:539][360]LogStaticMesh: Nanite build [0.10s]
+
+[2023.05.13-00.41.43:541][360]LogStaticMesh: Built static mesh [0.13s] /Game/Core/Assets/Props/MAINMENU/takerecorder/tape/SM_Tape.SM_Tape
+[2023.05.13-00.41.51:239][774]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/FloorWires/SM_FloorCable.SM_FloorCable
+[2023.05.13-00.41.51:272][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.41.51:615][774]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.41.54:290][904]LogStaticMesh: Display: Building static mesh SM_FloorCable...
+[2023.05.13-00.41.54:301][904]LogStaticMesh: Adjacency [0.00s], tris: 2176, UVs 2
+[2023.05.13-00.41.54:333][904]LogStaticMesh: Clustering [0.03s]. Ratio: 1.235294
+[2023.05.13-00.41.54:333][904]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.41.54:364][904]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/FloorWires/SM_FloorCable) ...
+[2023.05.13-00.41.54:458][904]LogStaticMesh: Reduce [0.12s]
+[2023.05.13-00.41.54:515][904]LogStaticMesh: Fallback 0/1 [0.06s], num tris: 1378
+[2023.05.13-00.41.54:516][904]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.41.54:516][904]LogStaticMesh:   Input: 41 Clusters, 4696 Triangles and 3146 Vertices
+[2023.05.13-00.41.54:516][904]LogStaticMesh:   Output without splits: 41 Clusters, 4696 Triangles and 3236 Vertices
+[2023.05.13-00.41.54:516][904]LogStaticMesh:   Output with splits: 41 Clusters, 4696 Triangles and 3236 Vertices
+[2023.05.13-00.41.54:517][904]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 41, Slow Path Clusters: 0, 1 Material: 41, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.41.54:518][904]LogStaticMesh: WritePages:
+[2023.05.13-00.41.54:518][904]LogStaticMesh:   Root: GPU size: 32396 bytes. 1 Pages. 32396.000 bytes per page (98.865% utilization).
+[2023.05.13-00.41.54:518][904]LogStaticMesh:   Streaming: GPU size: 23652 bytes. 1 Pages (1 with relative encoding). 23652.000 bytes per page (18.045% utilization).
+[2023.05.13-00.41.54:518][904]LogStaticMesh:   Page data disk size: 43552 bytes. Fixup data size: 304 bytes.
+[2023.05.13-00.41.54:518][904]LogStaticMesh:   Total GPU size: 56048 bytes, Total disk size: 43856 bytes.
+[2023.05.13-00.41.54:518][904]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.41.54:518][904]LogStaticMesh: Nanite build [0.18s]
+
+[2023.05.13-00.41.54:522][904]LogStaticMesh: Built static mesh [0.23s] /Game/Core/Assets/Props/FloorWires/SM_FloorCable.SM_FloorCable
+[2023.05.13-00.42.01:228][219]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/CrumbledPaper/SM_CrumbeldPaper01.SM_CrumbeldPaper01
+[2023.05.13-00.42.01:261][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.42.01:633][219]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.42.05:229][397]LogStaticMesh: Display: Building static mesh SM_CrumbeldPaper01...
+[2023.05.13-00.42.05:282][397]LogStaticMesh: Adjacency [0.00s], tris: 8192, UVs 2
+[2023.05.13-00.42.05:288][397]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/CrumbledPaper/SM_CrumbeldPaper01) ...
+[2023.05.13-00.42.05:290][397]LogStaticMesh: Clustering [0.01s]. Ratio: 1.015625
+[2023.05.13-00.42.05:292][397]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.42.05:576][397]LogStaticMesh: Reduce [0.28s]
+[2023.05.13-00.42.05:818][397]LogStaticMesh: Fallback 0/1 [0.24s], num tris: 4178
+[2023.05.13-00.42.05:821][397]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.42.05:821][397]LogStaticMesh:   Input: 135 Clusters, 17008 Triangles and 10874 Vertices
+[2023.05.13-00.42.05:821][397]LogStaticMesh:   Output without splits: 135 Clusters, 17008 Triangles and 11351 Vertices
+[2023.05.13-00.42.05:821][397]LogStaticMesh:   Output with splits: 135 Clusters, 17008 Triangles and 11351 Vertices
+[2023.05.13-00.42.05:822][397]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 135, Slow Path Clusters: 0, 1 Material: 135, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.42.05:826][397]LogStaticMesh: WritePages:
+[2023.05.13-00.42.05:827][397]LogStaticMesh:   Root: GPU size: 31492 bytes. 1 Pages. 31492.000 bytes per page (96.106% utilization).
+[2023.05.13-00.42.05:827][397]LogStaticMesh:   Streaming: GPU size: 170200 bytes. 2 Pages (2 with relative encoding). 85100.000 bytes per page (64.926% utilization).
+[2023.05.13-00.42.05:827][397]LogStaticMesh:   Page data disk size: 150272 bytes. Fixup data size: 568 bytes.
+[2023.05.13-00.42.05:827][397]LogStaticMesh:   Total GPU size: 201692 bytes, Total disk size: 150840 bytes.
+[2023.05.13-00.42.05:827][397]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.42.05:827][397]LogStaticMesh: Nanite build [0.53s]
+
+[2023.05.13-00.42.05:835][397]LogStaticMesh: Built static mesh [0.61s] /Game/Core/Assets/Props/CrumbledPaper/SM_CrumbeldPaper01.SM_CrumbeldPaper01
+[2023.05.13-00.42.12:576][747]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/bundlewires/01/SM_Boardthang.SM_Boardthang
+[2023.05.13-00.42.12:601][747]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.42.12:982][747]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.42.15:151][858]LogStaticMesh: Display: Building static mesh SM_Boardthang...
+[2023.05.13-00.42.15:171][858]LogStaticMesh: Adjacency [0.00s], tris: 1856, UVs 2
+[2023.05.13-00.42.15:172][858]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/bundlewires/01/SM_Boardthang) ...
+[2023.05.13-00.42.15:179][858]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2023.05.13-00.42.15:180][858]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.42.15:320][858]LogStaticMesh: Reduce [0.14s]
+[2023.05.13-00.42.15:357][858]LogStaticMesh: Fallback 0/1 [0.04s], num tris: 1568
+[2023.05.13-00.42.15:358][858]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.42.15:358][858]LogStaticMesh:   Input: 30 Clusters, 3744 Triangles and 3402 Vertices
+[2023.05.13-00.42.15:358][858]LogStaticMesh:   Output without splits: 30 Clusters, 3744 Triangles and 3407 Vertices
+[2023.05.13-00.42.15:358][858]LogStaticMesh:   Output with splits: 30 Clusters, 3744 Triangles and 3407 Vertices
+[2023.05.13-00.42.15:358][858]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 30, Slow Path Clusters: 0, 1 Material: 30, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.42.15:359][858]LogStaticMesh: WritePages:
+[2023.05.13-00.42.15:359][858]LogStaticMesh:   Root: GPU size: 32740 bytes. 1 Pages. 32740.000 bytes per page (99.915% utilization).
+[2023.05.13-00.42.15:360][858]LogStaticMesh:   Streaming: GPU size: 25276 bytes. 1 Pages (1 with relative encoding). 25276.000 bytes per page (19.284% utilization).
+[2023.05.13-00.42.15:360][858]LogStaticMesh:   Page data disk size: 42428 bytes. Fixup data size: 272 bytes.
+[2023.05.13-00.42.15:360][858]LogStaticMesh:   Total GPU size: 58016 bytes, Total disk size: 42700 bytes.
+[2023.05.13-00.42.15:360][858]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.42.15:360][858]LogStaticMesh: Nanite build [0.18s]
+
+[2023.05.13-00.42.15:364][858]LogStaticMesh: Built static mesh [0.21s] /Game/Core/Assets/Props/bundlewires/01/SM_Boardthang.SM_Boardthang
+[2023.05.13-00.42.15:448][859]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.42.19:950][103]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/CeilingWires/SM_CeilingWire01.SM_CeilingWire01
+[2023.05.13-00.42.19:977][103]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.42.20:369][103]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.42.23:196][250]LogStaticMesh: Display: Building static mesh SM_CeilingWire01...
+[2023.05.13-00.42.23:198][250]LogStaticMesh: Adjacency [0.00s], tris: 240, UVs 2
+[2023.05.13-00.42.23:198][250]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.05.13-00.42.23:198][250]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.42.23:203][250]LogStaticMesh: Reduce [0.00s]
+[2023.05.13-00.42.23:203][250]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 240
+[2023.05.13-00.42.23:204][250]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.42.23:204][250]LogStaticMesh:   Input: 3 Clusters, 365 Triangles and 230 Vertices
+[2023.05.13-00.42.23:204][250]LogStaticMesh:   Output without splits: 3 Clusters, 365 Triangles and 248 Vertices
+[2023.05.13-00.42.23:204][250]LogStaticMesh:   Output with splits: 3 Clusters, 365 Triangles and 248 Vertices
+[2023.05.13-00.42.23:204][250]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 3, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.42.23:204][250]LogStaticMesh: WritePages:
+[2023.05.13-00.42.23:204][250]LogStaticMesh:   Root: GPU size: 4448 bytes. 1 Pages. 4448.000 bytes per page (13.574% utilization).
+[2023.05.13-00.42.23:204][250]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.42.23:204][250]LogStaticMesh:   Page data disk size: 3684 bytes. Fixup data size: 40 bytes.
+[2023.05.13-00.42.23:204][250]LogStaticMesh:   Total GPU size: 4448 bytes, Total disk size: 3724 bytes.
+[2023.05.13-00.42.23:204][250]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.42.23:204][250]LogStaticMesh: Nanite build [0.01s]
+
+[2023.05.13-00.42.23:205][250]LogStaticMesh: Built static mesh [0.01s] /Game/Core/Assets/Props/CeilingWires/SM_CeilingWire01.SM_CeilingWire01
+[2023.05.13-00.42.23:299][251]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.42.24:843][329]LogSlate: Window 'SM_CeilingWire01' being destroyed
+[2023.05.13-00.42.24:849][329]LogSlate: Window 'SM_CeilingWire01' being destroyed
+[2023.05.13-00.42.24:892][329]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.42.24:892][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.42.24:949][329]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.42.24:949][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.42.25:012][329]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.42.25:012][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.42.25:068][329]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.42.25:068][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.42.25:120][329]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.42.25:120][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.42.31:031][657]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/bullet/SM_Boardthang.SM_Boardthang
+[2023.05.13-00.42.31:087][657]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.42.31:431][657]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.42.34:483][800]LogStaticMesh: Display: Building static mesh SM_Boardthang...
+[2023.05.13-00.42.34:504][800]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/bullet/SM_Boardthang) ...
+[2023.05.13-00.42.34:512][800]LogStaticMesh: Adjacency [0.00s], tris: 2856, UVs 2
+[2023.05.13-00.42.34:525][800]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2023.05.13-00.42.34:526][800]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.42.34:683][800]LogStaticMesh: Reduce [0.16s]
+[2023.05.13-00.42.34:690][800]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 256
+[2023.05.13-00.42.34:692][800]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.42.34:692][800]LogStaticMesh:   Input: 47 Clusters, 5878 Triangles and 6162 Vertices
+[2023.05.13-00.42.34:692][800]LogStaticMesh:   Output without splits: 47 Clusters, 5878 Triangles and 6179 Vertices
+[2023.05.13-00.42.34:692][800]LogStaticMesh:   Output with splits: 47 Clusters, 5878 Triangles and 6179 Vertices
+[2023.05.13-00.42.34:692][800]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 47, Slow Path Clusters: 0, 1 Material: 41, 2 Materials: 6, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.42.34:695][800]LogStaticMesh: WritePages:
+[2023.05.13-00.42.34:695][800]LogStaticMesh:   Root: GPU size: 32620 bytes. 1 Pages. 32620.000 bytes per page (99.548% utilization).
+[2023.05.13-00.42.34:695][800]LogStaticMesh:   Streaming: GPU size: 66060 bytes. 1 Pages (1 with relative encoding). 66060.000 bytes per page (50.400% utilization).
+[2023.05.13-00.42.34:695][800]LogStaticMesh:   Page data disk size: 71216 bytes. Fixup data size: 160 bytes.
+[2023.05.13-00.42.34:695][800]LogStaticMesh:   Total GPU size: 98680 bytes, Total disk size: 71376 bytes.
+[2023.05.13-00.42.34:695][800]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.42.34:695][800]LogStaticMesh: Nanite build [0.17s]
+
+[2023.05.13-00.42.34:697][800]LogStaticMesh: Built static mesh [0.21s] /Game/Core/Assets/Props/bullet/SM_Boardthang.SM_Boardthang
+[2023.05.13-00.42.34:802][801]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.42.41:822][174]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/newgift/SM_GiftBox_Cube_001.SM_GiftBox_Cube_001
+[2023.05.13-00.42.41:856][174]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.42.42:202][174]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.42.44:609][292]LogStaticMesh: Display: Building static mesh SM_GiftBox_Cube_001...
+[2023.05.13-00.42.44:616][292]LogStaticMesh: Adjacency [0.00s], tris: 1054, UVs 2
+[2023.05.13-00.42.44:618][292]LogStaticMesh: Clustering [0.00s]. Ratio: 1.777778
+[2023.05.13-00.42.44:618][292]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.42.44:674][292]LogStaticMesh: Reduce [0.06s]
+[2023.05.13-00.42.44:692][292]LogStaticMesh: Fallback 0/1 [0.02s], num tris: 370
+[2023.05.13-00.42.44:693][292]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.42.44:693][292]LogStaticMesh:   Input: 27 Clusters, 2440 Triangles and 1671 Vertices
+[2023.05.13-00.42.44:693][292]LogStaticMesh:   Output without splits: 27 Clusters, 2440 Triangles and 1721 Vertices
+[2023.05.13-00.42.44:693][292]LogStaticMesh:   Output with splits: 27 Clusters, 2440 Triangles and 1721 Vertices
+[2023.05.13-00.42.44:693][292]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 27, Slow Path Clusters: 0, 1 Material: 27, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.42.44:694][292]LogStaticMesh: WritePages:
+[2023.05.13-00.42.44:694][292]LogStaticMesh:   Root: GPU size: 30792 bytes. 1 Pages. 30792.000 bytes per page (93.970% utilization).
+[2023.05.13-00.42.44:694][292]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.42.44:694][292]LogStaticMesh:   Page data disk size: 23696 bytes. Fixup data size: 88 bytes.
+[2023.05.13-00.42.44:694][292]LogStaticMesh:   Total GPU size: 30792 bytes, Total disk size: 23784 bytes.
+[2023.05.13-00.42.44:694][292]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.42.44:694][292]LogStaticMesh: Nanite build [0.08s]
+
+[2023.05.13-00.42.44:696][292]LogStaticMesh: Built static mesh [0.09s] /Game/Core/Assets/Props/newgift/SM_GiftBox_Cube_001.SM_GiftBox_Cube_001
+[2023.05.13-00.42.44:788][293]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.42.45:768][341]LogSlate: Window 'SM_GiftBox_Cube_001' being destroyed
+[2023.05.13-00.42.45:787][341]LogSlate: Window 'SM_GiftBox_Cube_001' being destroyed
+[2023.05.13-00.42.45:826][341]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.42.45:826][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.42.45:874][341]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.42.45:874][341]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.42.48:542][484]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/newgift/SM_GiftBox_Cube_002.SM_GiftBox_Cube_002
+[2023.05.13-00.42.48:570][484]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.42.48:939][484]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.42.51:933][630]LogStaticMesh: Display: Building static mesh SM_GiftBox_Cube_002...
+[2023.05.13-00.42.51:939][630]LogStaticMesh: Adjacency [0.00s], tris: 559, UVs 2
+[2023.05.13-00.42.51:940][630]LogStaticMesh: Clustering [0.00s]. Ratio: 1.600000
+[2023.05.13-00.42.51:940][630]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.42.51:965][630]LogStaticMesh: Reduce [0.03s]
+[2023.05.13-00.42.51:974][630]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 256
+[2023.05.13-00.42.51:975][630]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.42.51:975][630]LogStaticMesh:   Input: 14 Clusters, 1315 Triangles and 1240 Vertices
+[2023.05.13-00.42.51:975][630]LogStaticMesh:   Output without splits: 14 Clusters, 1315 Triangles and 1243 Vertices
+[2023.05.13-00.42.51:975][630]LogStaticMesh:   Output with splits: 14 Clusters, 1315 Triangles and 1243 Vertices
+[2023.05.13-00.42.51:975][630]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 14, Slow Path Clusters: 0, 1 Material: 14, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.42.51:976][630]LogStaticMesh: WritePages:
+[2023.05.13-00.42.51:976][630]LogStaticMesh:   Root: GPU size: 21984 bytes. 1 Pages. 21984.000 bytes per page (67.090% utilization).
+[2023.05.13-00.42.51:976][630]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.42.51:976][630]LogStaticMesh:   Page data disk size: 15932 bytes. Fixup data size: 72 bytes.
+[2023.05.13-00.42.51:976][630]LogStaticMesh:   Total GPU size: 21984 bytes, Total disk size: 16004 bytes.
+[2023.05.13-00.42.51:976][630]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.42.51:976][630]LogStaticMesh: Nanite build [0.04s]
+
+[2023.05.13-00.42.51:977][630]LogStaticMesh: Built static mesh [0.04s] /Game/Core/Assets/Props/newgift/SM_GiftBox_Cube_002.SM_GiftBox_Cube_002
+[2023.05.13-00.42.52:106][631]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.42.52:962][671]LogSlate: Window 'SM_GiftBox_Cube_002' being destroyed
+[2023.05.13-00.42.52:980][671]LogSlate: Window 'SM_GiftBox_Cube_002' being destroyed
+[2023.05.13-00.42.53:017][671]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.42.53:018][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.42.55:582][810]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/newgift/SM_GiftBox_Plane_005.SM_GiftBox_Plane_005
+[2023.05.13-00.42.55:630][810]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.42.55:970][810]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.42.59:710][993]LogStaticMesh: Display: Building static mesh SM_GiftBox_Plane_005...
+[2023.05.13-00.42.59:721][993]LogStaticMesh: Adjacency [0.00s], tris: 1058, UVs 2
+[2023.05.13-00.42.59:730][993]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/newgift/SM_GiftBox_Plane_005) ...
+[2023.05.13-00.42.59:819][993]LogStaticMesh: Clustering [0.10s]. Ratio: 1.777778
+[2023.05.13-00.42.59:820][993]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.42.59:852][993]LogStaticMesh: Reduce [0.03s]
+[2023.05.13-00.42.59:868][993]LogStaticMesh: Fallback 0/1 [0.02s], num tris: 621
+[2023.05.13-00.42.59:869][993]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.42.59:869][993]LogStaticMesh:   Input: 27 Clusters, 2444 Triangles and 2859 Vertices
+[2023.05.13-00.42.59:869][993]LogStaticMesh:   Output without splits: 27 Clusters, 2444 Triangles and 2859 Vertices
+[2023.05.13-00.42.59:869][993]LogStaticMesh:   Output with splits: 27 Clusters, 2444 Triangles and 2859 Vertices
+[2023.05.13-00.42.59:869][993]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 27, Slow Path Clusters: 0, 1 Material: 27, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.42.59:871][993]LogStaticMesh: WritePages:
+[2023.05.13-00.42.59:871][993]LogStaticMesh:   Root: GPU size: 32264 bytes. 1 Pages. 32264.000 bytes per page (98.462% utilization).
+[2023.05.13-00.42.59:871][993]LogStaticMesh:   Streaming: GPU size: 15816 bytes. 1 Pages (1 with relative encoding). 15816.000 bytes per page (12.067% utilization).
+[2023.05.13-00.42.59:871][993]LogStaticMesh:   Page data disk size: 35912 bytes. Fixup data size: 224 bytes.
+[2023.05.13-00.42.59:871][993]LogStaticMesh:   Total GPU size: 48080 bytes, Total disk size: 36136 bytes.
+[2023.05.13-00.42.59:871][993]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.42.59:871][993]LogStaticMesh: Nanite build [0.05s]
+
+[2023.05.13-00.42.59:873][993]LogStaticMesh: Built static mesh [0.16s] /Game/Core/Assets/Props/newgift/SM_GiftBox_Plane_005.SM_GiftBox_Plane_005
+[2023.05.13-00.42.59:957][994]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.43.02:311][103]LogSlate: Window 'SM_GiftBox_Plane_005' being destroyed
+[2023.05.13-00.43.02:330][103]LogSlate: Window 'SM_GiftBox_Plane_005' being destroyed
+[2023.05.13-00.43.02:368][103]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.43.02:368][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.43.05:480][272]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Monitors/FNaF_-_Monitors.FNaF_-_Monitors
+[2023.05.13-00.43.05:537][272]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.43.05:890][272]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.43.09:901][473]LogStaticMesh: Display: Building static mesh FNaF_-_Monitors...
+[2023.05.13-00.43.09:923][473]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Monitors/FNaF_-_Monitors) ...
+[2023.05.13-00.43.10:298][473]LogStaticMesh: Adjacency [0.00s], tris: 19420, UVs 2
+[2023.05.13-00.43.10:377][473]LogStaticMesh: Clustering [0.08s]. Ratio: 1.019737
+[2023.05.13-00.43.10:381][473]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.43.10:951][473]LogStaticMesh: Reduce [0.57s]
+[2023.05.13-00.43.11:030][473]LogStaticMesh: Fallback 0/1 [0.08s], num tris: 889
+[2023.05.13-00.43.11:048][473]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.43.11:048][473]LogStaticMesh:   Input: 320 Clusters, 40197 Triangles and 56485 Vertices
+[2023.05.13-00.43.11:048][473]LogStaticMesh:   Output without splits: 320 Clusters, 40197 Triangles and 56485 Vertices
+[2023.05.13-00.43.11:048][473]LogStaticMesh:   Output with splits: 324 Clusters, 40197 Triangles and 56488 Vertices
+[2023.05.13-00.43.11:050][473]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 324, Slow Path Clusters: 0, 1 Material: 324, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.43.11:066][473]LogStaticMesh: WritePages:
+[2023.05.13-00.43.11:067][473]LogStaticMesh:   Root: GPU size: 29536 bytes. 1 Pages. 29536.000 bytes per page (90.137% utilization).
+[2023.05.13-00.43.11:067][473]LogStaticMesh:   Streaming: GPU size: 826672 bytes. 7 Pages (7 with relative encoding). 118096.000 bytes per page (90.100% utilization).
+[2023.05.13-00.43.11:067][473]LogStaticMesh:   Page data disk size: 641516 bytes. Fixup data size: 2448 bytes.
+[2023.05.13-00.43.11:067][473]LogStaticMesh:   Total GPU size: 856208 bytes, Total disk size: 643964 bytes.
+[2023.05.13-00.43.11:067][473]LogStaticMesh: Encode [0.04s]
+[2023.05.13-00.43.11:067][473]LogStaticMesh: Nanite build [0.69s]
+
+[2023.05.13-00.43.11:074][473]LogStaticMesh: Built static mesh [1.17s] /Game/Core/Assets/Props/Monitors/FNaF_-_Monitors.FNaF_-_Monitors
+[2023.05.13-00.43.11:164][474]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.43.11:754][493]LogSlate: Window 'FNaF_-_Monitors' being destroyed
+[2023.05.13-00.43.11:782][493]LogSlate: Window 'FNaF_-_Monitors' being destroyed
+[2023.05.13-00.43.11:843][493]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.43.11:843][493]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.43.17:550][816]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Closet/Assets/Can/Can_-_New.Can_-_New
+[2023.05.13-00.43.17:609][816]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.43.17:967][816]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.43.21:689][  7]LogStaticMesh: Display: Building static mesh Can_-_New...
+[2023.05.13-00.43.21:691][  7]LogStaticMesh: Adjacency [0.00s], tris: 60, UVs 2
+[2023.05.13-00.43.21:691][  7]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.05.13-00.43.21:691][  7]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.43.21:691][  7]LogStaticMesh: Reduce [0.00s]
+[2023.05.13-00.43.21:691][  7]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 60
+[2023.05.13-00.43.21:691][  7]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.43.21:691][  7]LogStaticMesh:   Input: 1 Clusters, 60 Triangles and 66 Vertices
+[2023.05.13-00.43.21:691][  7]LogStaticMesh:   Output without splits: 1 Clusters, 60 Triangles and 66 Vertices
+[2023.05.13-00.43.21:691][  7]LogStaticMesh:   Output with splits: 1 Clusters, 60 Triangles and 66 Vertices
+[2023.05.13-00.43.21:691][  7]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 1, Slow Path Clusters: 0, 1 Material: 1, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.43.21:691][  7]LogStaticMesh: WritePages:
+[2023.05.13-00.43.21:692][  7]LogStaticMesh:   Root: GPU size: 1232 bytes. 1 Pages. 1232.000 bytes per page (3.760% utilization).
+[2023.05.13-00.43.21:692][  7]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.43.21:692][  7]LogStaticMesh:   Page data disk size: 1340 bytes. Fixup data size: 24 bytes.
+[2023.05.13-00.43.21:692][  7]LogStaticMesh:   Total GPU size: 1232 bytes, Total disk size: 1364 bytes.
+[2023.05.13-00.43.21:692][  7]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.43.21:692][  7]LogStaticMesh: Nanite build [0.00s]
+
+[2023.05.13-00.43.21:693][  7]LogStaticMesh: Built static mesh [0.00s] /Game/Core/Assets/Props/Closet/Assets/Can/Can_-_New.Can_-_New
+[2023.05.13-00.43.25:410][196]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Closet/Assets/Meat/SM_kindameat.SM_kindameat
+[2023.05.13-00.43.25:448][196]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.43.25:804][196]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.43.28:533][336]LogStaticMesh: Display: Building static mesh SM_kindameat...
+[2023.05.13-00.43.28:538][336]LogStaticMesh: Adjacency [0.00s], tris: 268, UVs 2
+[2023.05.13-00.43.28:538][336]LogStaticMesh: Clustering [0.00s]. Ratio: 1.333333
+[2023.05.13-00.43.28:538][336]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.43.28:547][336]LogStaticMesh: Reduce [0.01s]
+[2023.05.13-00.43.28:550][336]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 256
+[2023.05.13-00.43.28:550][336]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.43.28:550][336]LogStaticMesh:   Input: 7 Clusters, 646 Triangles and 688 Vertices
+[2023.05.13-00.43.28:550][336]LogStaticMesh:   Output without splits: 7 Clusters, 646 Triangles and 692 Vertices
+[2023.05.13-00.43.28:550][336]LogStaticMesh:   Output with splits: 7 Clusters, 646 Triangles and 692 Vertices
+[2023.05.13-00.43.28:550][336]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.43.28:550][336]LogStaticMesh: WritePages:
+[2023.05.13-00.43.28:550][336]LogStaticMesh:   Root: GPU size: 11940 bytes. 1 Pages. 11940.000 bytes per page (36.438% utilization).
+[2023.05.13-00.43.28:550][336]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.43.28:550][336]LogStaticMesh:   Page data disk size: 7664 bytes. Fixup data size: 56 bytes.
+[2023.05.13-00.43.28:550][336]LogStaticMesh:   Total GPU size: 11940 bytes, Total disk size: 7720 bytes.
+[2023.05.13-00.43.28:550][336]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.43.28:550][336]LogStaticMesh: Nanite build [0.01s]
+
+[2023.05.13-00.43.28:552][336]LogStaticMesh: Built static mesh [0.02s] /Game/Core/Assets/Props/Closet/Assets/Meat/SM_kindameat.SM_kindameat
+[2023.05.13-00.43.28:553][336]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Closet/Assets/Meat/SM_kindameat) ...
+[2023.05.13-00.43.29:383][374]LogSlate: Window 'SM_kindameat' being destroyed
+[2023.05.13-00.43.29:399][374]LogSlate: Window 'SM_kindameat' being destroyed
+[2023.05.13-00.43.29:438][374]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.43.29:438][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.43.29:485][374]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.43.29:485][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.43.32:032][494]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Closet/Assets/Tuna/SM_tunacan.SM_tunacan
+[2023.05.13-00.43.32:080][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.43.32:427][494]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.43.35:127][635]LogStaticMesh: Display: Building static mesh SM_tunacan...
+[2023.05.13-00.43.35:132][635]LogStaticMesh: Adjacency [0.00s], tris: 412, UVs 2
+[2023.05.13-00.43.35:133][635]LogStaticMesh: Clustering [0.00s]. Ratio: 1.500000
+[2023.05.13-00.43.35:133][635]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.43.35:147][635]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Closet/Assets/Tuna/SM_tunacan) ...
+[2023.05.13-00.43.35:147][635]LogStaticMesh: Reduce [0.02s]
+[2023.05.13-00.43.35:150][635]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 410
+[2023.05.13-00.43.35:151][635]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.43.35:151][635]LogStaticMesh:   Input: 9 Clusters, 790 Triangles and 696 Vertices
+[2023.05.13-00.43.35:151][635]LogStaticMesh:   Output without splits: 9 Clusters, 790 Triangles and 699 Vertices
+[2023.05.13-00.43.35:151][635]LogStaticMesh:   Output with splits: 9 Clusters, 790 Triangles and 699 Vertices
+[2023.05.13-00.43.35:151][635]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 9, Slow Path Clusters: 0, 1 Material: 9, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.43.35:151][635]LogStaticMesh: WritePages:
+[2023.05.13-00.43.35:151][635]LogStaticMesh:   Root: GPU size: 12548 bytes. 1 Pages. 12548.000 bytes per page (38.293% utilization).
+[2023.05.13-00.43.35:151][635]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.43.35:151][635]LogStaticMesh:   Page data disk size: 10104 bytes. Fixup data size: 56 bytes.
+[2023.05.13-00.43.35:151][635]LogStaticMesh:   Total GPU size: 12548 bytes, Total disk size: 10160 bytes.
+[2023.05.13-00.43.35:151][635]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.43.35:151][635]LogStaticMesh: Nanite build [0.02s]
+
+[2023.05.13-00.43.35:153][635]LogStaticMesh: Built static mesh [0.03s] /Game/Core/Assets/Props/Closet/Assets/Tuna/SM_tunacan.SM_tunacan
+[2023.05.13-00.43.36:471][702]LogSlate: Window 'SM_tunacan' being destroyed
+[2023.05.13-00.43.36:489][702]LogSlate: Window 'SM_tunacan' being destroyed
+[2023.05.13-00.43.36:527][702]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.43.36:527][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.43.38:366][800]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Closet/Assets/CrushedTomatoes/SM_CrushedTomatoes.SM_CrushedTomatoes
+[2023.05.13-00.43.38:424][800]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.43.38:767][800]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.43.41:155][921]LogStaticMesh: Display: Building static mesh SM_CrushedTomatoes...
+[2023.05.13-00.43.41:160][921]LogStaticMesh: Adjacency [0.00s], tris: 366, UVs 2
+[2023.05.13-00.43.41:160][921]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.05.13-00.43.41:160][921]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.43.41:171][921]LogStaticMesh: Reduce [0.01s]
+[2023.05.13-00.43.41:174][921]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 364
+[2023.05.13-00.43.41:174][921]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.43.41:174][921]LogStaticMesh:   Input: 6 Clusters, 743 Triangles and 612 Vertices
+[2023.05.13-00.43.41:174][921]LogStaticMesh:   Output without splits: 6 Clusters, 743 Triangles and 617 Vertices
+[2023.05.13-00.43.41:174][921]LogStaticMesh:   Output with splits: 6 Clusters, 743 Triangles and 617 Vertices
+[2023.05.13-00.43.41:174][921]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 6, Slow Path Clusters: 0, 1 Material: 6, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.43.41:175][921]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Closet/Assets/CrushedTomatoes/SM_CrushedTomatoes) ...
+[2023.05.13-00.43.41:175][921]LogStaticMesh: WritePages:
+[2023.05.13-00.43.41:175][921]LogStaticMesh:   Root: GPU size: 11036 bytes. 1 Pages. 11036.000 bytes per page (33.679% utilization).
+[2023.05.13-00.43.41:175][921]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.43.41:175][921]LogStaticMesh:   Page data disk size: 7928 bytes. Fixup data size: 56 bytes.
+[2023.05.13-00.43.41:175][921]LogStaticMesh:   Total GPU size: 11036 bytes, Total disk size: 7984 bytes.
+[2023.05.13-00.43.41:175][921]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.43.41:175][921]LogStaticMesh: Nanite build [0.01s]
+
+[2023.05.13-00.43.41:177][921]LogStaticMesh: Built static mesh [0.02s] /Game/Core/Assets/Props/Closet/Assets/CrushedTomatoes/SM_CrushedTomatoes.SM_CrushedTomatoes
+[2023.05.13-00.43.42:253][966]LogSlate: Window 'SM_CrushedTomatoes' being destroyed
+[2023.05.13-00.43.42:271][966]LogSlate: Window 'SM_CrushedTomatoes' being destroyed
+[2023.05.13-00.43.42:309][966]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.43.42:309][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.43.44:626][ 95]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Closet/Assets/Pickles/Pickles.Pickles
+[2023.05.13-00.43.44:684][ 95]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.43.45:038][ 95]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.43.47:849][241]LogStaticMesh: Display: Building static mesh Pickles...
+[2023.05.13-00.43.47:854][241]LogStaticMesh: Adjacency [0.00s], tris: 220, UVs 2
+[2023.05.13-00.43.47:854][241]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.05.13-00.43.47:854][241]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.43.47:860][241]LogStaticMesh: Reduce [0.01s]
+[2023.05.13-00.43.47:861][241]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 220
+[2023.05.13-00.43.47:861][241]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.43.47:861][241]LogStaticMesh:   Input: 3 Clusters, 346 Triangles and 360 Vertices
+[2023.05.13-00.43.47:861][241]LogStaticMesh:   Output without splits: 3 Clusters, 346 Triangles and 360 Vertices
+[2023.05.13-00.43.47:861][241]LogStaticMesh:   Output with splits: 3 Clusters, 346 Triangles and 360 Vertices
+[2023.05.13-00.43.47:861][241]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 3, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.43.47:861][241]LogStaticMesh: WritePages:
+[2023.05.13-00.43.47:861][241]LogStaticMesh:   Root: GPU size: 6260 bytes. 1 Pages. 6260.000 bytes per page (19.104% utilization).
+[2023.05.13-00.43.47:861][241]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.43.47:861][241]LogStaticMesh:   Page data disk size: 4980 bytes. Fixup data size: 40 bytes.
+[2023.05.13-00.43.47:861][241]LogStaticMesh:   Total GPU size: 6260 bytes, Total disk size: 5020 bytes.
+[2023.05.13-00.43.47:862][241]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.43.47:862][241]LogStaticMesh: Nanite build [0.01s]
+
+[2023.05.13-00.43.47:864][241]LogStaticMesh: Built static mesh [0.01s] /Game/Core/Assets/Props/Closet/Assets/Pickles/Pickles.Pickles
+[2023.05.13-00.43.49:046][296]LogSlate: Window 'Pickles' being destroyed
+[2023.05.13-00.43.49:065][296]LogSlate: Window 'Pickles' being destroyed
+[2023.05.13-00.43.49:104][296]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.43.49:104][296]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.43.51:754][449]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Closet/Assets/Healing/NewBottle.NewBottle
+[2023.05.13-00.43.52:113][449]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.43.52:460][449]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.43.54:675][562]LogStaticMesh: Display: Building static mesh NewBottle...
+[2023.05.13-00.43.54:681][562]LogStaticMesh: Adjacency [0.00s], tris: 576, UVs 2
+[2023.05.13-00.43.54:682][562]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.05.13-00.43.54:682][562]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.43.54:695][562]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Closet/Assets/Healing/NewBottle) ...
+[2023.05.13-00.43.54:709][562]LogStaticMesh: Reduce [0.03s]
+[2023.05.13-00.43.54:725][562]LogStaticMesh: Fallback 0/1 [0.02s], num tris: 346
+[2023.05.13-00.43.54:726][562]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.43.54:726][562]LogStaticMesh:   Input: 11 Clusters, 1332 Triangles and 1101 Vertices
+[2023.05.13-00.43.54:726][562]LogStaticMesh:   Output without splits: 11 Clusters, 1332 Triangles and 1108 Vertices
+[2023.05.13-00.43.54:726][562]LogStaticMesh:   Output with splits: 11 Clusters, 1332 Triangles and 1108 Vertices
+[2023.05.13-00.43.54:726][562]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 11, Slow Path Clusters: 0, 1 Material: 11, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.43.54:727][562]LogStaticMesh: WritePages:
+[2023.05.13-00.43.54:727][562]LogStaticMesh:   Root: GPU size: 19620 bytes. 1 Pages. 19620.000 bytes per page (59.875% utilization).
+[2023.05.13-00.43.54:727][562]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.43.54:727][562]LogStaticMesh:   Page data disk size: 13024 bytes. Fixup data size: 72 bytes.
+[2023.05.13-00.43.54:727][562]LogStaticMesh:   Total GPU size: 19620 bytes, Total disk size: 13096 bytes.
+[2023.05.13-00.43.54:727][562]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.43.54:727][562]LogStaticMesh: Nanite build [0.05s]
+
+[2023.05.13-00.43.54:729][562]LogStaticMesh: Built static mesh [0.05s] /Game/Core/Assets/Props/Closet/Assets/Healing/NewBottle.NewBottle
+[2023.05.13-00.43.56:365][627]LogSlate: Window 'NewBottle' being destroyed
+[2023.05.13-00.43.56:383][627]LogSlate: Window 'NewBottle' being destroyed
+[2023.05.13-00.43.56:420][627]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.43.56:420][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.44.00:267][848]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Closet/Assets/Flour/SM_Flour.SM_Flour
+[2023.05.13-00.44.00:318][848]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.44.00:673][848]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.44.03:932][ 17]LogStaticMesh: Display: Building static mesh SM_Flour...
+[2023.05.13-00.44.03:938][ 17]LogStaticMesh: Adjacency [0.00s], tris: 496, UVs 2
+[2023.05.13-00.44.03:938][ 17]LogStaticMesh: Clustering [0.00s]. Ratio: 1.000000
+[2023.05.13-00.44.03:939][ 17]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.44.03:952][ 17]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Closet/Assets/Flour/SM_Flour) ...
+[2023.05.13-00.44.03:958][ 17]LogStaticMesh: Reduce [0.02s]
+[2023.05.13-00.44.03:966][ 17]LogStaticMesh: Fallback 0/1 [0.01s], num tris: 382
+[2023.05.13-00.44.03:967][ 17]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.44.03:967][ 17]LogStaticMesh:   Input: 7 Clusters, 874 Triangles and 734 Vertices
+[2023.05.13-00.44.03:967][ 17]LogStaticMesh:   Output without splits: 7 Clusters, 874 Triangles and 734 Vertices
+[2023.05.13-00.44.03:967][ 17]LogStaticMesh:   Output with splits: 7 Clusters, 874 Triangles and 734 Vertices
+[2023.05.13-00.44.03:967][ 17]LogStaticMesh: Material Stats - Unique Materials: 1, Fast Path Clusters: 7, Slow Path Clusters: 0, 1 Material: 7, 2 Materials: 0, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.44.03:968][ 17]LogStaticMesh: WritePages:
+[2023.05.13-00.44.03:968][ 17]LogStaticMesh:   Root: GPU size: 13148 bytes. 1 Pages. 13148.000 bytes per page (40.125% utilization).
+[2023.05.13-00.44.03:968][ 17]LogStaticMesh:   Streaming: 0 bytes.
+[2023.05.13-00.44.03:968][ 17]LogStaticMesh:   Page data disk size: 10240 bytes. Fixup data size: 56 bytes.
+[2023.05.13-00.44.03:968][ 17]LogStaticMesh:   Total GPU size: 13148 bytes, Total disk size: 10296 bytes.
+[2023.05.13-00.44.03:968][ 17]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.44.03:968][ 17]LogStaticMesh: Nanite build [0.03s]
+
+[2023.05.13-00.44.03:971][ 17]LogStaticMesh: Built static mesh [0.04s] /Game/Core/Assets/Props/Closet/Assets/Flour/SM_Flour.SM_Flour
+[2023.05.13-00.44.05:183][ 68]LogSlate: Window 'SM_Flour' being destroyed
+[2023.05.13-00.44.05:203][ 68]LogSlate: Window 'SM_Flour' being destroyed
+[2023.05.13-00.44.05:241][ 68]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.44.05:241][ 68]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.44.08:721][232]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/bucket/SM_Bucket.SM_Bucket
+[2023.05.13-00.44.08:761][232]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.44.09:125][232]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.44.12:508][397]LogStaticMesh: Display: Building static mesh SM_Bucket...
+[2023.05.13-00.44.12:530][397]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/bucket/SM_Bucket) ...
+[2023.05.13-00.44.12:543][397]LogStaticMesh: Adjacency [0.00s], tris: 3418, UVs 2
+[2023.05.13-00.44.12:552][397]LogStaticMesh: Clustering [0.01s]. Ratio: 1.000000
+[2023.05.13-00.44.12:552][397]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.44.12:814][397]LogStaticMesh: Reduce [0.26s]
+[2023.05.13-00.44.12:946][397]LogStaticMesh: Fallback 0/1 [0.13s], num tris: 1518
+[2023.05.13-00.44.12:947][397]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.44.12:947][397]LogStaticMesh:   Input: 55 Clusters, 6946 Triangles and 5213 Vertices
+[2023.05.13-00.44.12:947][397]LogStaticMesh:   Output without splits: 55 Clusters, 6946 Triangles and 5320 Vertices
+[2023.05.13-00.44.12:947][397]LogStaticMesh:   Output with splits: 55 Clusters, 6946 Triangles and 5320 Vertices
+[2023.05.13-00.44.12:947][397]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 55, Slow Path Clusters: 0, 1 Material: 44, 2 Materials: 11, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.44.12:950][397]LogStaticMesh: WritePages:
+[2023.05.13-00.44.12:950][397]LogStaticMesh:   Root: GPU size: 32180 bytes. 1 Pages. 32180.000 bytes per page (98.206% utilization).
+[2023.05.13-00.44.12:950][397]LogStaticMesh:   Streaming: GPU size: 61348 bytes. 1 Pages (1 with relative encoding). 61348.000 bytes per page (46.805% utilization).
+[2023.05.13-00.44.12:950][397]LogStaticMesh:   Page data disk size: 67284 bytes. Fixup data size: 296 bytes.
+[2023.05.13-00.44.12:950][397]LogStaticMesh:   Total GPU size: 93528 bytes, Total disk size: 67580 bytes.
+[2023.05.13-00.44.12:950][397]LogStaticMesh: Encode [0.00s]
+[2023.05.13-00.44.12:950][397]LogStaticMesh: Nanite build [0.40s]
+
+[2023.05.13-00.44.12:955][397]LogStaticMesh: Built static mesh [0.45s] /Game/Core/Assets/Props/bucket/SM_Bucket.SM_Bucket
+[2023.05.13-00.44.14:231][444]LogSlate: Window 'SM_Bucket' being destroyed
+[2023.05.13-00.44.14:250][444]LogSlate: Window 'SM_Bucket' being destroyed
+[2023.05.13-00.44.14:288][444]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.44.14:288][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.44.19:479][731]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.44.19:535][731]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.44.19:892][731]LogViewport: Scene viewport resized to 875x519, mode Windowed.
+[2023.05.13-00.44.22:732][873]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.44.22:752][873]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.44.22:804][873]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.44.22:822][873]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.44.22:824][873]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.44.23:180][873]LogStaticMesh: Reduce [0.36s]
+[2023.05.13-00.44.23:372][873]LogStaticMesh: Fallback 0/1 [0.19s], num tris: 3512
+[2023.05.13-00.44.23:377][873]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.44.23:377][873]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.44.23:377][873]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.44.23:377][873]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.44.23:378][873]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.44.23:386][873]LogStaticMesh: WritePages:
+[2023.05.13-00.44.23:386][873]LogStaticMesh:   Root: GPU size: 30500 bytes. 1 Pages. 30500.000 bytes per page (93.079% utilization).
+[2023.05.13-00.44.23:386][873]LogStaticMesh:   Streaming: GPU size: 348156 bytes. 3 Pages (3 with relative encoding). 116052.000 bytes per page (88.541% utilization).
+[2023.05.13-00.44.23:386][873]LogStaticMesh:   Page data disk size: 272024 bytes. Fixup data size: 952 bytes.
+[2023.05.13-00.44.23:386][873]LogStaticMesh:   Total GPU size: 378656 bytes, Total disk size: 272976 bytes.
+[2023.05.13-00.44.23:386][873]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.44.23:386][873]LogStaticMesh: Nanite build [0.56s]
+
+[2023.05.13-00.44.23:397][873]LogStaticMesh: Built static mesh [0.67s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.44.23:497][874]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.44.37:852][584]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.44.37:872][584]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.44.37:908][584]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.44.37:931][584]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.44.37:933][584]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.44.38:305][584]LogStaticMesh: Reduce [0.37s]
+[2023.05.13-00.44.38:500][584]LogStaticMesh: Fallback 0/1 [0.20s], num tris: 3512
+[2023.05.13-00.44.38:505][584]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.44.38:505][584]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.44.38:505][584]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.44.38:505][584]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.44.38:506][584]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.44.38:513][584]LogStaticMesh: WritePages:
+[2023.05.13-00.44.38:513][584]LogStaticMesh:   Root: GPU size: 30500 bytes. 1 Pages. 30500.000 bytes per page (93.079% utilization).
+[2023.05.13-00.44.38:513][584]LogStaticMesh:   Streaming: GPU size: 348156 bytes. 3 Pages (3 with relative encoding). 116052.000 bytes per page (88.541% utilization).
+[2023.05.13-00.44.38:513][584]LogStaticMesh:   Page data disk size: 272024 bytes. Fixup data size: 952 bytes.
+[2023.05.13-00.44.38:513][584]LogStaticMesh:   Total GPU size: 378656 bytes, Total disk size: 272976 bytes.
+[2023.05.13-00.44.38:513][584]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.44.38:513][584]LogStaticMesh: Nanite build [0.58s]
+
+[2023.05.13-00.44.38:522][584]LogStaticMesh: Built static mesh [0.67s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.44.38:616][585]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.44.41:797][736]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.44.47:975][ 37]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.44.47:995][ 37]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.44.48:033][ 37]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.44.48:054][ 37]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.44.48:056][ 37]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.44.48:420][ 37]LogStaticMesh: Reduce [0.36s]
+[2023.05.13-00.44.48:606][ 37]LogStaticMesh: Fallback 0/1 [0.19s], num tris: 3512
+[2023.05.13-00.44.48:610][ 37]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.44.48:610][ 37]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.44.48:610][ 37]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.44.48:610][ 37]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.44.48:611][ 37]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.44.48:618][ 37]LogStaticMesh: WritePages:
+[2023.05.13-00.44.48:618][ 37]LogStaticMesh:   Root: GPU size: 32316 bytes. 1 Pages. 32316.000 bytes per page (98.621% utilization).
+[2023.05.13-00.44.48:618][ 37]LogStaticMesh:   Streaming: GPU size: 316868 bytes. 3 Pages (3 with relative encoding). 105622.664 bytes per page (80.584% utilization).
+[2023.05.13-00.44.48:618][ 37]LogStaticMesh:   Page data disk size: 255532 bytes. Fixup data size: 848 bytes.
+[2023.05.13-00.44.48:618][ 37]LogStaticMesh:   Total GPU size: 349184 bytes, Total disk size: 256380 bytes.
+[2023.05.13-00.44.48:618][ 37]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.44.48:618][ 37]LogStaticMesh: Nanite build [0.56s]
+
+[2023.05.13-00.44.48:629][ 37]LogStaticMesh: Built static mesh [0.65s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.44.48:723][ 38]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.44.51:974][192]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.44.51:997][192]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.44.52:038][192]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.44.52:059][192]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.44.52:061][192]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.44.52:472][192]LogStaticMesh: Reduce [0.41s]
+[2023.05.13-00.44.52:655][192]LogStaticMesh: Fallback 0/1 [0.18s], num tris: 3512
+[2023.05.13-00.44.52:660][192]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.44.52:660][192]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.44.52:661][192]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.44.52:661][192]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.44.52:661][192]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.44.52:670][192]LogStaticMesh: WritePages:
+[2023.05.13-00.44.52:670][192]LogStaticMesh:   Root: GPU size: 29712 bytes. 1 Pages. 29712.000 bytes per page (90.674% utilization).
+[2023.05.13-00.44.52:670][192]LogStaticMesh:   Streaming: GPU size: 401068 bytes. 4 Pages (4 with relative encoding). 100267.000 bytes per page (76.498% utilization).
+[2023.05.13-00.44.52:670][192]LogStaticMesh:   Page data disk size: 309264 bytes. Fixup data size: 1088 bytes.
+[2023.05.13-00.44.52:670][192]LogStaticMesh:   Total GPU size: 430780 bytes, Total disk size: 310352 bytes.
+[2023.05.13-00.44.52:670][192]LogStaticMesh: Encode [0.02s]
+[2023.05.13-00.44.52:670][192]LogStaticMesh: Nanite build [0.61s]
+
+[2023.05.13-00.44.52:682][192]LogStaticMesh: Built static mesh [0.71s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.44.52:787][193]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.44.56:301][355]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.44.56:322][355]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.44.56:363][355]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.44.56:385][355]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.44.56:387][355]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.44.56:734][355]LogStaticMesh: Reduce [0.35s]
+[2023.05.13-00.44.56:923][355]LogStaticMesh: Fallback 0/1 [0.19s], num tris: 3512
+[2023.05.13-00.44.56:928][355]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.44.56:928][355]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.44.56:928][355]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.44.56:929][355]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.44.56:929][355]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.44.56:936][355]LogStaticMesh: WritePages:
+[2023.05.13-00.44.56:936][355]LogStaticMesh:   Root: GPU size: 31888 bytes. 1 Pages. 31888.000 bytes per page (97.314% utilization).
+[2023.05.13-00.44.56:936][355]LogStaticMesh:   Streaming: GPU size: 280816 bytes. 3 Pages (3 with relative encoding). 93605.336 bytes per page (71.415% utilization).
+[2023.05.13-00.44.56:936][355]LogStaticMesh:   Page data disk size: 215392 bytes. Fixup data size: 920 bytes.
+[2023.05.13-00.44.56:936][355]LogStaticMesh:   Total GPU size: 312704 bytes, Total disk size: 216312 bytes.
+[2023.05.13-00.44.56:936][355]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.44.56:936][355]LogStaticMesh: Nanite build [0.55s]
+
+[2023.05.13-00.44.56:947][355]LogStaticMesh: Built static mesh [0.65s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.44.57:052][356]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.44.59:680][484]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.44.59:701][484]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.44.59:734][484]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.44.59:752][484]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.44.59:755][484]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.45.00:134][484]LogStaticMesh: Reduce [0.38s]
+[2023.05.13-00.45.00:326][484]LogStaticMesh: Fallback 0/1 [0.19s], num tris: 3512
+[2023.05.13-00.45.00:331][484]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.45.00:331][484]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.45.00:332][484]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.45.00:332][484]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.45.00:332][484]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.45.00:340][484]LogStaticMesh: WritePages:
+[2023.05.13-00.45.00:340][484]LogStaticMesh:   Root: GPU size: 31888 bytes. 1 Pages. 31888.000 bytes per page (97.314% utilization).
+[2023.05.13-00.45.00:340][484]LogStaticMesh:   Streaming: GPU size: 280816 bytes. 3 Pages (3 with relative encoding). 93605.336 bytes per page (71.415% utilization).
+[2023.05.13-00.45.00:340][484]LogStaticMesh:   Page data disk size: 215392 bytes. Fixup data size: 920 bytes.
+[2023.05.13-00.45.00:340][484]LogStaticMesh:   Total GPU size: 312704 bytes, Total disk size: 216312 bytes.
+[2023.05.13-00.45.00:341][484]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.45.00:341][484]LogStaticMesh: Nanite build [0.59s]
+
+[2023.05.13-00.45.00:351][484]LogStaticMesh: Built static mesh [0.67s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.45.00:449][485]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.45.07:840][847]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.45.07:860][847]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.45.07:902][847]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.45.07:924][847]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.45.07:925][847]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.45.08:300][847]LogStaticMesh: Reduce [0.37s]
+[2023.05.13-00.45.08:335][847]LogStaticMesh: Fallback 0/1 [0.04s], num tris: 346
+[2023.05.13-00.45.08:340][847]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.45.08:340][847]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.45.08:340][847]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.45.08:340][847]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.45.08:340][847]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.45.08:348][847]LogStaticMesh: WritePages:
+[2023.05.13-00.45.08:348][847]LogStaticMesh:   Root: GPU size: 30500 bytes. 1 Pages. 30500.000 bytes per page (93.079% utilization).
+[2023.05.13-00.45.08:348][847]LogStaticMesh:   Streaming: GPU size: 348156 bytes. 3 Pages (3 with relative encoding). 116052.000 bytes per page (88.541% utilization).
+[2023.05.13-00.45.08:348][847]LogStaticMesh:   Page data disk size: 272024 bytes. Fixup data size: 952 bytes.
+[2023.05.13-00.45.08:348][847]LogStaticMesh:   Total GPU size: 378656 bytes, Total disk size: 272976 bytes.
+[2023.05.13-00.45.08:348][847]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.45.08:348][847]LogStaticMesh: Nanite build [0.42s]
+
+[2023.05.13-00.45.08:352][847]LogStaticMesh: Built static mesh [0.51s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.45.08:354][847]LogStaticMesh: Warning: The difference between RenderData Bounds (Origin=X=11.862 Y=-1.471 Z=0.783, BoxExtent=(X=280.167 Y=10.266 Z=76.191), SphereRadius=(281.643561)) and MeshDescription Bounds (Origin=X=12.475 Y=-0.577 Z=-0.403, BoxExtent=(X=278.904 Y=7.085 Z=75.005), SphereRadius=(280.037039)) is significative for StaticMesh /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.45.08:447][848]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.45.12:102][ 24]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.45.12:122][ 24]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.45.12:169][ 24]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.45.12:190][ 24]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.45.12:192][ 24]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.45.12:550][ 24]LogStaticMesh: Reduce [0.36s]
+[2023.05.13-00.45.12:550][ 24]LogStaticMesh: Fallback 0/1 [0.00s], num tris: 7040
+[2023.05.13-00.45.12:555][ 24]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.45.12:555][ 24]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.45.12:555][ 24]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.45.12:555][ 24]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.45.12:556][ 24]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.45.12:563][ 24]LogStaticMesh: WritePages:
+[2023.05.13-00.45.12:563][ 24]LogStaticMesh:   Root: GPU size: 30500 bytes. 1 Pages. 30500.000 bytes per page (93.079% utilization).
+[2023.05.13-00.45.12:563][ 24]LogStaticMesh:   Streaming: GPU size: 348156 bytes. 3 Pages (3 with relative encoding). 116052.000 bytes per page (88.541% utilization).
+[2023.05.13-00.45.12:563][ 24]LogStaticMesh:   Page data disk size: 272024 bytes. Fixup data size: 952 bytes.
+[2023.05.13-00.45.12:563][ 24]LogStaticMesh:   Total GPU size: 378656 bytes, Total disk size: 272976 bytes.
+[2023.05.13-00.45.12:563][ 24]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.45.12:563][ 24]LogStaticMesh: Nanite build [0.37s]
+
+[2023.05.13-00.45.12:579][ 24]LogStaticMesh: Built static mesh [0.48s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.45.12:683][ 25]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.45.18:863][321]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.45.18:884][321]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.45.18:953][321]LogStaticMesh: Built static mesh [0.09s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.45.19:072][322]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.45.25:091][612]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.45.28:320][768]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.45.28:340][768]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.45.28:382][768]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.45.28:406][768]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.45.28:408][768]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.45.28:809][768]LogStaticMesh: Reduce [0.40s]
+[2023.05.13-00.45.29:014][768]LogStaticMesh: Fallback 0/1 [0.20s], num tris: 3512
+[2023.05.13-00.45.29:019][768]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.45.29:019][768]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.45.29:019][768]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.45.29:019][768]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.45.29:020][768]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.45.29:027][768]LogStaticMesh: WritePages:
+[2023.05.13-00.45.29:027][768]LogStaticMesh:   Root: GPU size: 30500 bytes. 1 Pages. 30500.000 bytes per page (93.079% utilization).
+[2023.05.13-00.45.29:027][768]LogStaticMesh:   Streaming: GPU size: 348156 bytes. 3 Pages (3 with relative encoding). 116052.000 bytes per page (88.541% utilization).
+[2023.05.13-00.45.29:027][768]LogStaticMesh:   Page data disk size: 272024 bytes. Fixup data size: 952 bytes.
+[2023.05.13-00.45.29:027][768]LogStaticMesh:   Total GPU size: 378656 bytes, Total disk size: 272976 bytes.
+[2023.05.13-00.45.29:027][768]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.45.29:027][768]LogStaticMesh: Nanite build [0.62s]
+
+[2023.05.13-00.45.29:037][768]LogStaticMesh: Built static mesh [0.72s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.45.29:139][769]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.45.35:330][ 72]LogStaticMesh: Display: Building static mesh Clouds...
+[2023.05.13-00.45.35:351][ 72]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Core/Assets/Props/Clouds/Clouds) ...
+[2023.05.13-00.45.35:394][ 72]LogStaticMesh: Adjacency [0.00s], tris: 7040, UVs 3
+[2023.05.13-00.45.35:417][ 72]LogStaticMesh: Clustering [0.02s]. Ratio: 1.018182
+[2023.05.13-00.45.35:419][ 72]LogStaticMesh: Leaves [0.00s]
+[2023.05.13-00.45.35:794][ 72]LogStaticMesh: Reduce [0.38s]
+[2023.05.13-00.45.35:854][ 72]LogStaticMesh: Fallback 0/1 [0.06s], num tris: 7038
+[2023.05.13-00.45.35:860][ 72]LogStaticMesh: ConstrainClusters:
+[2023.05.13-00.45.35:860][ 72]LogStaticMesh:   Input: 115 Clusters, 14472 Triangles and 19359 Vertices
+[2023.05.13-00.45.35:860][ 72]LogStaticMesh:   Output without splits: 115 Clusters, 14472 Triangles and 19835 Vertices
+[2023.05.13-00.45.35:860][ 72]LogStaticMesh:   Output with splits: 118 Clusters, 14472 Triangles and 19837 Vertices
+[2023.05.13-00.45.35:860][ 72]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 118, Slow Path Clusters: 0, 1 Material: 3, 2 Materials: 115, 3 Materials: 0, At Least 4 Materials: 0
+[2023.05.13-00.45.35:869][ 72]LogStaticMesh: WritePages:
+[2023.05.13-00.45.35:869][ 72]LogStaticMesh:   Root: GPU size: 30500 bytes. 1 Pages. 30500.000 bytes per page (93.079% utilization).
+[2023.05.13-00.45.35:869][ 72]LogStaticMesh:   Streaming: GPU size: 348156 bytes. 3 Pages (3 with relative encoding). 116052.000 bytes per page (88.541% utilization).
+[2023.05.13-00.45.35:869][ 72]LogStaticMesh:   Page data disk size: 272024 bytes. Fixup data size: 952 bytes.
+[2023.05.13-00.45.35:869][ 72]LogStaticMesh:   Total GPU size: 378656 bytes, Total disk size: 272976 bytes.
+[2023.05.13-00.45.35:869][ 72]LogStaticMesh: Encode [0.01s]
+[2023.05.13-00.45.35:869][ 72]LogStaticMesh: Nanite build [0.45s]
+
+[2023.05.13-00.45.35:889][ 72]LogStaticMesh: Built static mesh [0.56s] /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.45.35:999][ 73]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.45.48:255][652]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.13-00.45.49:480][713]LogSlate: Window 'Clouds' being destroyed
+[2023.05.13-00.45.49:501][713]LogSlate: Window 'Clouds' being destroyed
+[2023.05.13-00.45.49:540][713]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.45.49:541][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.45.50:883][790]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-00.45.50:894][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-00.45.50:894][790]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 12:45:50 AM)
+[2023.05.13-00.45.50:894][790]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-00.45.51:265][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.370726s)
+[2023.05.13-00.45.51:265][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.370769s)
+[2023.05.13-00.45.51:265][790]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.45.51:266][790]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-00.45.51:267][790]LogPlayLevel: PIE: World Init took: (0.002239s)
+[2023.05.13-00.45.51:364][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.05.13-00.45.51:376][790]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2023.05.13-00.45.51:376][790]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-00.45.51:376][790]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-00.45.51:376][790]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-00.45.51:376][790]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-00.45.51:376][790]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-00.45.51:376][790]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-00.45.51:376][790]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-00.45.51:376][790]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-00.45.51:376][790]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-00.45.51:376][790]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-00.45.51:376][790]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-00.45.51:378][790]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-00.45.51:393][790]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.05.13-00.45.51:393][790]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-00.45.51:393][790]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-00.45.51:393][790]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-00.45.51:394][790]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2023.05.13-00.45.51:394][790]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2023.05.13-00.45.51:395][790]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2023.05.13-00.45.51:395][790]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2023.05.13-00.45.51:395][790]LogInit: FAudioDevice initialized.
+[2023.05.13-00.45.51:395][790]LogAudio: Display: Audio Device (ID: 54) registered with world 'LVL_NightTemplate'.
+[2023.05.13-00.45.51:400][790]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-00.45.51:503][790]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-00.45.51
+[2023.05.13-00.45.51:507][790]LogWorld: Bringing up level for play took: 0.108281
+[2023.05.13-00.45.51:580][790]LogOnline: OSS: Created online subsystem instance for: :Context_112
+[2023.05.13-00.45.51:585][790]LogBlueprintUserMessages: [LVL_NightTemplate_C_1] Night3
+[2023.05.13-00.45.51:586][790]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-00.45.51:586][790]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-00.45.51:586][790]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-00.45.51:586][790]r.Streaming.PoolSize = "5000"
+[2023.05.13-00.45.51:586][790]PIE: Server logged in
+[2023.05.13-00.45.51:587][790]PIE: Play in editor total start time 0.693 seconds.
+[2023.05.13-00.45.57:831][968]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.13-00.45.57:831][968]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.13-00.46.02:563][121]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2023.05.13-00.46.02:563][121]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.05.13-00.46.03:045][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-00.46.03:045][133]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-00.46.03:047][133]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.46.03:056][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.46.03:077][133]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-00.46.03:086][133]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.46.03:123][133]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-00.46.03:133][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2023.05.13-00.46.03:135][133]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2023.05.13-00.46.03:139][133]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-00.46.03:160][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.05.13-00.46.03:245][134]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2023.05.13-00.46.06:372][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.05.13-00.46.07:438][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-00.46.07:533][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.13-00.46.08:628][174]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.13-00.46.08:629][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplateDFDE4E86455473155E744BA1EF1B739B.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.13-00.46.08:661][174]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.169
+[2023.05.13-00.46.08:691][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/newgift/NewBlueprint
+[2023.05.13-00.46.08:691][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/NewBlueprintF19AD26649ACE57FFB3994BE93B6E1EE.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/newgift/NewBlueprint.uasset'
+[2023.05.13-00.46.08:710][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/newgift/SM_GiftBox_Cube_001
+[2023.05.13-00.46.08:710][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_GiftBox_Cube_0016284AB244661656CCC717BBD3AFB78A4.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/newgift/SM_GiftBox_Cube_001.uasset'
+[2023.05.13-00.46.08:728][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/newgift/SM_GiftBox_Cube_002
+[2023.05.13-00.46.08:728][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_GiftBox_Cube_002C0F4C7F647F06B1797A8F8B9CF4D0258.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/newgift/SM_GiftBox_Cube_002.uasset'
+[2023.05.13-00.46.08:747][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/newgift/SM_GiftBox_Plane_005
+[2023.05.13-00.46.08:747][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_GiftBox_Plane_005955178884198829626511C98F934EA97.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/newgift/SM_GiftBox_Plane_005.uasset'
+[2023.05.13-00.46.08:766][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/newgift/NewBlueprint1
+[2023.05.13-00.46.08:766][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/NewBlueprint164EEF9BD46F94277A15E67A4FCC9B2BC.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/newgift/NewBlueprint1.uasset'
+[2023.05.13-00.46.08:789][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/bucket/SM_Bucket
+[2023.05.13-00.46.08:789][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_Bucket9288CAFB49E9673EB34D50A1747AAEF6.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/bucket/SM_Bucket.uasset'
+[2023.05.13-00.46.08:811][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/bullet/SM_Boardthang
+[2023.05.13-00.46.08:811][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_BoardthangEC7EBBAD47913D5A8007CAB6C97AD794.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/bullet/SM_Boardthang.uasset'
+[2023.05.13-00.46.08:831][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/bundlewires/01/SM_Boardthang
+[2023.05.13-00.46.08:831][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_Boardthang735F1F35421B3910468D2E9FEBAAECCA.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/bundlewires/01/SM_Boardthang.uasset'
+[2023.05.13-00.46.08:849][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/CeilingWires/SM_CeilingWire01
+[2023.05.13-00.46.08:849][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_CeilingWire01BE176C4F4FD60FB9BB670FBB94040CAD.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/CeilingWires/SM_CeilingWire01.uasset'
+[2023.05.13-00.46.08:866][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Closet/Assets/Can/Can_-_New
+[2023.05.13-00.46.08:866][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Can_-_NewC1C287284FBC82806EFE169A74986B03.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Closet/Assets/Can/Can_-_New.uasset'
+[2023.05.13-00.46.08:884][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Closet/Assets/CrushedTomatoes/SM_CrushedTomatoes
+[2023.05.13-00.46.08:885][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_CrushedTomatoes57242EDA447AF1CF911EBDA0D2FE2AEE.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Closet/Assets/CrushedTomatoes/SM_CrushedTomatoes.uasset'
+[2023.05.13-00.46.08:902][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Closet/Assets/Flour/SM_Flour
+[2023.05.13-00.46.08:902][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_Flour3F2B00F448B56B5B7C04BE80C011A6E1.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Closet/Assets/Flour/SM_Flour.uasset'
+[2023.05.13-00.46.08:920][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Closet/Assets/Healing/NewBottle
+[2023.05.13-00.46.08:920][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/NewBottle885E390940429C6D5389E18E59EC5164.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Closet/Assets/Healing/NewBottle.uasset'
+[2023.05.13-00.46.08:937][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Closet/Assets/Meat/SM_kindameat
+[2023.05.13-00.46.08:937][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_kindameatEF94E8A948BC5EF15467E4A11DA8C550.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Closet/Assets/Meat/SM_kindameat.uasset'
+[2023.05.13-00.46.08:954][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Closet/Assets/Pickles/Pickles
+[2023.05.13-00.46.08:954][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/PicklesCE035EC14E28A2697D9B92A751903334.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Closet/Assets/Pickles/Pickles.uasset'
+[2023.05.13-00.46.08:973][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Closet/Assets/Tuna/SM_tunacan
+[2023.05.13-00.46.08:973][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_tunacan08D4512B4C6670949B39EF8EB6554040.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Closet/Assets/Tuna/SM_tunacan.uasset'
+[2023.05.13-00.46.09:001][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Clouds/Clouds
+[2023.05.13-00.46.09:001][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Clouds4C84909842D83FC87CC49C97366EC468.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Clouds/Clouds.uasset'
+[2023.05.13-00.46.09:032][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/CrumbledPaper/SM_CrumbeldPaper01
+[2023.05.13-00.46.09:033][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_CrumbeldPaper01244CB3894DB3EE99273ABE9FFB66B8AC.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/CrumbledPaper/SM_CrumbeldPaper01.uasset'
+[2023.05.13-00.46.09:054][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/FloorWires/SM_FloorCable
+[2023.05.13-00.46.09:055][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_FloorCableDA9240824A2C625416E32C9E276D6F36.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/FloorWires/SM_FloorCable.uasset'
+[2023.05.13-00.46.09:076][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cube_003
+[2023.05.13-00.46.09:076][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_TapeRecorder-output02_Cube_00747C932A4B6CB60E32786F815F0E0EA5.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cube_003.uasset'
+[2023.05.13-00.46.09:097][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cylinder
+[2023.05.13-00.46.09:098][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_TapeRecorder-output02_CylindeE141D9224AA4799123C9EEADE87BA97A.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cylinder.uasset'
+[2023.05.13-00.46.09:118][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/MAINMENU/takerecorder/tape/SM_Tape
+[2023.05.13-00.46.09:119][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/SM_TapeA9AC7BE1412214E987AAB49DB793AC2A.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/MAINMENU/takerecorder/tape/SM_Tape.uasset'
+[2023.05.13-00.46.09:172][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Monitors/FNaF_-_Monitors
+[2023.05.13-00.46.09:173][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/FNaF_-_Monitors63A8039043824990DAA35BADA1555CBB.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Monitors/FNaF_-_Monitors.uasset'
+[2023.05.13-00.46.09:193][174]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/MAINMENU/takerecorder/BP_TAPERECORDER
+[2023.05.13-00.46.09:194][174]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/BP_TAPERECORDER29D499344E7042A0D489D88DE83F763A.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/MAINMENU/takerecorder/BP_TAPERECORDER.uasset'
+[2023.05.13-00.46.09:199][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.76 sec (total: 10.0 sec)
+[2023.05.13-00.46.09:227][174]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/newgift/SM_GiftBox_Cube_001.SM_GiftBox_Cube_001
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/newgift/SM_GiftBox_Cube_002.SM_GiftBox_Cube_002
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/newgift/SM_GiftBox_Plane_005.SM_GiftBox_Plane_005
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Core/Assets/Props/newgift/NewBlueprint.NewBlueprint
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Core/Assets/Props/newgift/NewBlueprint1.NewBlueprint1
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/bucket/SM_Bucket.SM_Bucket
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/bullet/SM_Boardthang.SM_Boardthang
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/bundlewires/01/SM_Boardthang.SM_Boardthang
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/CeilingWires/SM_CeilingWire01.SM_CeilingWire01
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Closet/Assets/Can/Can_-_New.Can_-_New
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Closet/Assets/CrushedTomatoes/SM_CrushedTomatoes.SM_CrushedTomatoes
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Closet/Assets/Flour/SM_Flour.SM_Flour
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Closet/Assets/Healing/NewBottle.NewBottle
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Closet/Assets/Meat/SM_kindameat.SM_kindameat
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Closet/Assets/Pickles/Pickles.Pickles
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Closet/Assets/Tuna/SM_tunacan.SM_tunacan
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Clouds/Clouds.Clouds
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/CrumbledPaper/SM_CrumbeldPaper01.SM_CrumbeldPaper01
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/FloorWires/SM_FloorCable.SM_FloorCable
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cube_003.SM_TapeRecorder-output02_Cube_003
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/SM_TapeRecorder-output02_Cylinder.SM_TapeRecorder-output02_Cylinder
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/MAINMENU/takerecorder/tape/SM_Tape.SM_Tape
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Core/Assets/Props/Monitors/FNaF_-_Monitors.FNaF_-_Monitors
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.13-00.46.09:227][174]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Core/Assets/Props/MAINMENU/takerecorder/BP_TAPERECORDER.BP_TAPERECORDER
+[2023.05.13-00.46.28:064][ 91]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-00.46.28:073][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-00.46.28:073][ 91]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 12:46:28 AM)
+[2023.05.13-00.46.28:073][ 91]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-00.46.28:422][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.348643s)
+[2023.05.13-00.46.28:422][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.348681s)
+[2023.05.13-00.46.28:422][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.46.28:423][ 91]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-00.46.28:424][ 91]LogPlayLevel: PIE: World Init took: (0.002251s)
+[2023.05.13-00.46.28:462][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.05.13-00.46.28:464][ 91]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2023.05.13-00.46.28:464][ 91]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-00.46.28:464][ 91]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-00.46.28:464][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-00.46.28:464][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-00.46.28:464][ 91]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-00.46.28:464][ 91]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-00.46.28:464][ 91]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-00.46.28:464][ 91]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-00.46.28:464][ 91]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-00.46.28:464][ 91]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-00.46.28:464][ 91]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-00.46.28:466][ 91]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-00.46.28:481][ 91]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.05.13-00.46.28:481][ 91]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-00.46.28:481][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-00.46.28:481][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-00.46.28:482][ 91]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2023.05.13-00.46.28:482][ 91]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2023.05.13-00.46.28:484][ 91]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2023.05.13-00.46.28:484][ 91]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2023.05.13-00.46.28:484][ 91]LogInit: FAudioDevice initialized.
+[2023.05.13-00.46.28:484][ 91]LogAudio: Display: Audio Device (ID: 55) registered with world 'LVL_NightTemplate'.
+[2023.05.13-00.46.28:487][ 91]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-00.46.28:586][ 91]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-00.46.28
+[2023.05.13-00.46.28:592][ 91]LogWorld: Bringing up level for play took: 0.105607
+[2023.05.13-00.46.28:594][ 91]LogOnline: OSS: Created online subsystem instance for: :Context_113
+[2023.05.13-00.46.28:600][ 91]LogBlueprintUserMessages: [LVL_NightTemplate_C_1] Night3
+[2023.05.13-00.46.28:601][ 91]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-00.46.28:601][ 91]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-00.46.28:601][ 91]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-00.46.28:601][ 91]r.Streaming.PoolSize = "5000"
+[2023.05.13-00.46.28:601][ 91]PIE: Server logged in
+[2023.05.13-00.46.28:602][ 91]PIE: Play in editor total start time 0.529 seconds.
+[2023.05.13-00.46.34:135][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-00.46.34:135][260]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-00.46.34:137][260]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.46.34:148][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.46.34:154][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-00.46.34:163][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.46.34:205][260]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-00.46.34:209][260]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2023.05.13-00.46.34:211][260]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2023.05.13-00.46.34:214][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-00.46.34:237][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.05.13-00.46.34:314][261]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.ViewDistanceScale:0.8]]
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.FXAA.Quality:3]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.TemporalAA.Quality:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:2]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.TSR.History.GrandReprojection:0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.TSR.Velocity.Extrapolation:0]]
+[2023.05.13-00.46.49:008][702]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Shadow.MaxResolution:1024]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.85]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.AOQuality:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:2048]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-0.5]]
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:8]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:3]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:16]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:32]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:64]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [ReflectionQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:2]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.MotionBlurQuality:3]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.FastBlurThreshold:3]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Upscale.Quality:2]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Filter.SizeScale:0.8]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.MaxAnisotropy:4]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2023.05.13-00.46.49:008][702]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '5000'
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SSR.Quality:2]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SceneColorFormat:3]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.DetailMode:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SSS.SampleSet:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SSS.Quality:-1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SSS.HalfRes:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SSGI.Quality:2]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.5]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.ParticleLightQuality:1]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:2]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:64.0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:64.0]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[fx.Niagara.QualityLevel:2]]
+[2023.05.13-00.46.49:008][702]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[foliage.DensityScale:0.8]]
+[2023.05.13-00.46.49:008][702]LogConfig: Set CVar [[grass.DensityScale:0.8]]
+[2023.05.13-00.46.49:009][702]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [Scalability]
+[2023.05.13-00.46.49:009][702]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:1]] deferred - dummy variable created
+[2023.05.13-00.46.54:708][828]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.TSR.History.GrandReprojection:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.TSR.Velocity.Extrapolation:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2023.05.13-00.46.54:709][828]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.AOQuality:2]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2023.05.13-00.46.54:709][828]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0.125]]
+[2023.05.13-00.46.54:709][828]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:70.711]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.05.13-00.46.54:709][828]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.05.13-00.46.54:709][828]LogConsoleManager: Warning: Setting the console variable 'r.Streaming.PoolSize' with 'SetByScalability' was ignored as it is lower priority than the previous 'SetByConsole'. Value remains '5000'
+[2023.05.13-00.46.54:709][828]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.DetailMode:2]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2023.05.13-00.46.54:709][828]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.05.13-00.46.54:710][828]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.05.13-00.46.54:710][828]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.05.13-00.46.54:710][828]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2023.05.13-00.46.54:710][828]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.05.13-00.46.54:710][828]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2023.05.13-00.46.54:710][828]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2023.05.13-00.46.54:710][828]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.05.13-00.46.54:710][828]LogConfig: CVar [[r.HairStrands.Interpolation.UseSingleGuide:0]] deferred - dummy variable created
+[2023.05.13-00.46.57:230][870]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [Scalability]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.Shadow.MaxResolution:4096]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:8192]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:16]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:8]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:16]]
+[2023.05.13-00.46.57:230][870]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:8]]
+[2023.05.13-00.46.58:402][892]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2023.05.13-00.46.58:403][892]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2023.05.13-00.46.59:031][905]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [Scalability]
+[2023.05.13-00.46.59:031][905]LogConfig: Set CVar [[r.GTAO.Numangles:4]]
+[2023.05.13-00.46.59:031][905]LogConfig: Set CVar [[r.DepthOfFieldQuality:4]]
+[2023.05.13-00.46.59:032][905]LogConfig: Set CVar [[r.RenderTargetPoolMin:1000]]
+[2023.05.13-00.46.59:032][905]LogConfig: Set CVar [[r.LensFlareQuality:3]]
+[2023.05.13-00.46.59:032][905]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:100]]
+[2023.05.13-00.46.59:032][905]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2023.05.13-00.46.59:032][905]LogConfig: Set CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2023.05.13-00.46.59:032][905]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2023.05.13-00.46.59:032][905]LogConfig: Set CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2023.05.13-00.46.59:032][905]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2023.05.13-00.47.00:018][926]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:70.711]]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.05.13-00.47.00:019][926]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.05.13-00.47.00:732][941]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [Scalability]
+[2023.05.13-00.47.00:732][941]LogConfig: Set CVar [[r.FXAA.Quality:5]]
+[2023.05.13-00.47.00:732][941]LogConfig: Set CVar [[r.TSR.History.R11G11B10:0]]
+[2023.05.13-00.47.00:732][941]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2023.05.13-00.47.00:732][941]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
+[2023.05.13-00.47.02:931][986]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.05.13-00.47.02:932][986]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2023.05.13-00.47.02:932][986]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2023.05.13-00.47.02:932][986]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:100]]
+[2023.05.13-00.47.02:932][986]LogConfig: CVar [[r.TSR.Velocity.HoleFill:1]] deferred - dummy variable created
+[2023.05.13-00.47.04:518][ 19]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [Scalability]
+[2023.05.13-00.47.04:518][ 19]LogConfig: Set CVar [[r.ViewDistanceScale:10.0]]
+[2023.05.13-00.47.06:358][ 58]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.05.13-00.47.06:358][ 58]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2023.05.13-00.47.09:905][135]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [Scalability]
+[2023.05.13-00.47.09:905][135]LogConfig: Set CVar [[foliage.DensityScale:0.8]]
+[2023.05.13-00.47.09:905][135]LogConfig: Set CVar [[grass.DensityScale:0.8]]
+[2023.05.13-00.47.12:433][186]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.05.13-00.47.12:434][186]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2023.05.13-00.47.12:434][186]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2023.05.13-00.47.14:710][236]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:8]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:3]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:0]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:16]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:0]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:32]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:1]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:1]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:64]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:0]]
+[2023.05.13-00.47.14:710][236]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0]]
+[2023.05.13-00.47.17:383][285]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:1]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2023.05.13-00.47.17:383][285]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0.125]]
+[2023.05.13-00.47.20:712][356]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@2] File [Scalability]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:8]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:3]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:0]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:16]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:0]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:32]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:1]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:1]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:0]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:64]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:0]]
+[2023.05.13-00.47.20:713][356]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0]]
+[2023.05.13-00.47.22:521][400]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenSpaceBentNormal:1]]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2023.05.13-00.47.22:521][400]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2023.05.13-00.47.22:522][400]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2023.05.13-00.47.22:522][400]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2023.05.13-00.47.22:522][400]LogConfig: Set CVar [[r.LumenScene.SurfaceCache.CardCaptureRefreshFraction:0.125]]
+[2023.05.13-00.47.27:472][520]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.13-00.47.27:483][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.13-00.47.27:483][520]PIE: New page: PIE session: LVL_NightTemplate (May 13, 2023, 12:47:27 AM)
+[2023.05.13-00.47.27:483][520]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-00.47.27:818][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.334608s)
+[2023.05.13-00.47.27:818][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.334666s)
+[2023.05.13-00.47.27:818][520]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.13-00.47.27:818][520]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.13-00.47.27:820][520]LogPlayLevel: PIE: World Init took: (0.002256s)
+[2023.05.13-00.47.27:858][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.05.13-00.47.27:863][520]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2023.05.13-00.47.27:863][520]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.13-00.47.27:863][520]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.13-00.47.27:863][520]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.13-00.47.27:863][520]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.13-00.47.27:863][520]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.13-00.47.27:863][520]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.13-00.47.27:863][520]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.13-00.47.27:863][520]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.13-00.47.27:864][520]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.13-00.47.27:864][520]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.13-00.47.27:864][520]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.13-00.47.27:867][520]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.13-00.47.27:881][520]LogAudioMixer: Display: Using Audio Hardware Device Speaker (Realtek(R) Audio)
+[2023.05.13-00.47.27:881][520]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.13-00.47.27:881][520]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.13-00.47.27:881][520]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.13-00.47.27:882][520]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2023.05.13-00.47.27:882][520]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2023.05.13-00.47.27:883][520]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2023.05.13-00.47.27:883][520]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2023.05.13-00.47.27:883][520]LogInit: FAudioDevice initialized.
+[2023.05.13-00.47.27:883][520]LogAudio: Display: Audio Device (ID: 56) registered with world 'LVL_NightTemplate'.
+[2023.05.13-00.47.27:887][520]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.13-00.47.27:983][520]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.13-00.47.27
+[2023.05.13-00.47.27:988][520]LogWorld: Bringing up level for play took: 0.101826
+[2023.05.13-00.47.27:991][520]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2023.05.13-00.47.27:997][520]LogBlueprintUserMessages: [LVL_NightTemplate_C_1] Night3
+[2023.05.13-00.47.27:997][520]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.13-00.47.27:997][520]r.HDR.Display.OutputDevice = "1"
+[2023.05.13-00.47.27:997][520]Cmd: r.Streaming.PoolSize 5000
+[2023.05.13-00.47.27:997][520]r.Streaming.PoolSize = "5000"
+[2023.05.13-00.47.27:998][520]PIE: Server logged in
+[2023.05.13-00.47.27:998][520]PIE: Play in editor total start time 0.516 seconds.
+[2023.05.13-00.47.41:515][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-00.47.41:515][884]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.13-00.47.41:517][884]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.13-00.47.41:526][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.47.41:560][884]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.13-00.47.41:569][884]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.13-00.47.41:609][884]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.13-00.47.41:613][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2023.05.13-00.47.41:614][884]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2023.05.13-00.47.41:618][884]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.13-00.47.41:645][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.05.13-00.47.41:724][885]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2023.05.13-00.48.40:600][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.05.13-00.48.40:701][524]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.13-00.48.40:777][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.05.13-00.48.41:848][524]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.13-00.48.41:849][524]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplateE0DC8F1E40B7EE4576825CA6F6751433.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.13-00.48.41:880][524]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.142
+[2023.05.13-00.48.41:885][524]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.18 sec (total: 11.2 sec)
+[2023.05.13-00.48.41:908][524]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2023.05.13-00.48.41:908][524]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
