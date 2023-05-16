@@ -2318,3 +2318,327 @@ Script Stack (0 frames) :
 [2023.05.16-19.37.03:488][474]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
 [2023.05.16-19.37.03:488][474]MaterialEditorStats: Shader Count: 20
 [2023.05.16-19.37.03:494][475]LogAutomationController: Ignoring very large delta of 6.45 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.16-19.38.48:776][438]LogInterchangeEngine: [Pending] Importing
+[2023.05.16-19.38.48:785][439]LogAutomationController: Ignoring very large delta of 19.01 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.16-19.38.48:786][439]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.16-19.38.48:797][439]LogInterchangeEngine: [Pending] Importing
+[2023.05.16-19.38.48:800][439]LogInterchangeEngine: [Success] Import Done
+[2023.05.16-19.38.48:800][439]LogTexture: Display: Building textures: /Game/Core/Assets/Building/T_ao_rect_decal.T_ao_rect_decal (BGRA8, 826x1002 x1x1x1) (Required Memory Estimate: 24.268021 MB), EncodeSpeed: Fast
+[2023.05.16-19.38.48:847][440]LogInterchangeEngine: [Success] Import Done
+[2023.05.16-19.38.57:534][722]LogContentBrowser: Deferred new asset file creation: MM_Decal_Inst4
+[2023.05.16-19.38.57:605][722]LogContentBrowser: Creating deferred item: MM_Decal_Inst4
+[2023.05.16-19.38.57:616][723]LogContentBrowser: Renaming the item being created (Deferred Item: MM_Decal_Inst4).
+[2023.05.16-19.38.58:243][750]LogContentBrowser: Attempting asset rename: MM_Decal_Inst4 -> MM_Decal_Inst4
+[2023.05.16-19.38.58:356][750]LogContentBrowser: End creating deferred item MM_Decal_Inst4
+[2023.05.16-19.38.58:384][752]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Building/decals/MM_Decal_Inst4.MM_Decal_Inst4
+[2023.05.16-19.38.58:387][752]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-19.38.58:584][752]LogViewport: Scene viewport resized to 314x439, mode Windowed.
+[2023.05.16-19.38.58:623][752]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.16-19.39.17:319][345]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-19.39.17:400][345]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.16-19.39.17:415][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.16-19.39.17:417][345]LogSavePackage: Moving output files for package: /Game/Core/Assets/Building/decals/MM_Decal_Inst4
+[2023.05.16-19.39.17:417][345]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/MM_Decal_Inst4F88FFB2945D717E4B6C6A9AFAFE663BB.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Building/decals/MM_Decal_Inst4.uasset'
+[2023.05.16-19.39.17:587][345]LogFileHelpers: InternalPromptForCheckoutAndSave took 268 ms (total: 6.49 sec)
+[2023.05.16-19.39.17:592][345]AssetCheck: New page: Asset Save: MM_Decal_Inst4
+[2023.05.16-19.39.17:592][345]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Core/Assets/Building/decals/MM_Decal_Inst4.MM_Decal_Inst4
+[2023.05.16-19.39.22:516][526]Cmd: EDIT COPY
+[2023.05.16-19.39.22:814][536]Cmd: EDIT PASTE
+[2023.05.16-19.40.34:982][366]Cmd: EDIT COPY
+[2023.05.16-19.40.35:216][376]Cmd: EDIT PASTE
+[2023.05.16-19.40.40:174][578]Cmd: EDIT COPY
+[2023.05.16-19.40.40:413][588]Cmd: EDIT PASTE
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: ================================================
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Total job queries 937, among them cache hits 135 (14.41%)
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Tracking 802 distinct input hashes that result in 293 distinct outputs (36.53%)
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: RAM used: 1.78 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.22%
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Shaders Compiled: 78
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Jobs assigned 78, completed 78 (100.00%)
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Average time worker was idle: 96.89 s
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Time job spent in pending queue: average 0.28 s, longest 3.40 s
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Job execution time: average 1.14 s, max 3.35 s
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Job life time (pending + execution): average 1.42 s, max 4.82
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.12 s
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Jobs were issued in 78 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Average processing rate: 3.88 jobs/sec
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Total thread time: 71.67 s
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Total thread preprocess time: 4.75 s
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Percentage time preprocessing: 6.63%
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Effective parallelization: 3.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 2.67 sec, max 2.67 sec, min 2.67 sec)
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 2.65 sec, max 2.65 sec, min 2.65 sec)
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 1.98 sec, max 1.98 sec, min 1.98 sec)
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 1.93 sec, max 1.93 sec, min 1.93 sec)
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 1.84 sec, max 1.84 sec, min 1.84 sec)
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.16-19.40.56:234][229]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.99% of total time (compiled   17 times, average 0.97 sec, max 1.15 sec, min 0.87 sec)
+[2023.05.16-19.40.56:235][229]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.27% of total time (compiled   17 times, average 0.94 sec, max 1.09 sec, min 0.80 sec)
+[2023.05.16-19.40.56:235][229]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.17% of total time (compiled   12 times, average 0.73 sec, max 0.88 sec, min 0.64 sec)
+[2023.05.16-19.40.56:235][229]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.92% of total time (compiled   12 times, average 0.41 sec, max 0.56 sec, min 0.36 sec)
+[2023.05.16-19.40.56:235][229]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 3.72% of total time (compiled    1 times, average 2.67 sec, max 2.67 sec, min 2.67 sec)
+[2023.05.16-19.40.56:235][229]LogShaderCompilers: Display: ================================================
+[2023.05.16-19.41.02:159][478]Cmd: EDIT COPY
+[2023.05.16-19.41.02:410][485]Cmd: EDIT PASTE
+[2023.05.16-19.41.05:024][586]Cmd: TRANSACTION UNDO
+[2023.05.16-19.41.05:024][586]LogEditorTransaction: Undo Move Elements
+[2023.05.16-19.41.25:795][380]Cmd: TRANSACTION UNDO
+[2023.05.16-19.41.25:795][380]LogEditorTransaction: Undo Scale Elements
+[2023.05.16-19.41.26:188][385]Cmd: TRANSACTION UNDO
+[2023.05.16-19.41.26:188][385]LogEditorTransaction: Undo Move Elements
+[2023.05.16-19.41.36:105][796]Cmd: EDIT COPY
+[2023.05.16-19.41.36:338][801]Cmd: EDIT PASTE
+[2023.05.16-19.41.47:861][248]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.16-19.41.47:872][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.16-19.41.47:872][248]PIE: New page: PIE session: LVL_NightTemplate (May 16, 2023, 7:41:47 PM)
+[2023.05.16-19.41.47:872][248]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.16-19.41.48:196][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.324526s)
+[2023.05.16-19.41.48:196][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.324583s)
+[2023.05.16-19.41.48:197][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-19.41.48:197][248]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.16-19.41.48:198][248]LogPlayLevel: PIE: World Init took: (0.001954s)
+[2023.05.16-19.41.48:219][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.16-19.41.48:220][248]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.05.16-19.41.48:220][248]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.16-19.41.48:220][248]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.16-19.41.48:220][248]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.16-19.41.48:220][248]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.16-19.41.48:220][248]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.16-19.41.48:220][248]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.16-19.41.48:220][248]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.16-19.41.48:220][248]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.16-19.41.48:221][248]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.16-19.41.48:221][248]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.16-19.41.48:221][248]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.16-19.41.48:223][248]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.16-19.41.48:242][248]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.16-19.41.48:242][248]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.16-19.41.48:242][248]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.16-19.41.48:242][248]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.16-19.41.48:243][248]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.05.16-19.41.48:243][248]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.05.16-19.41.48:245][248]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.05.16-19.41.48:245][248]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.05.16-19.41.48:245][248]LogInit: FAudioDevice initialized.
+[2023.05.16-19.41.48:245][248]LogAudio: Display: Audio Device (ID: 6) registered with world 'LVL_NightTemplate'.
+[2023.05.16-19.41.48:248][248]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.16-19.41.48:355][248]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.16-19.41.48
+[2023.05.16-19.41.48:361][248]LogWorld: Bringing up level for play took: 0.112854
+[2023.05.16-19.41.48:363][248]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.05.16-19.41.48:369][248]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] CustomNight
+[2023.05.16-19.41.48:370][248]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.16-19.41.48:370][248]r.HDR.Display.OutputDevice = "1"
+[2023.05.16-19.41.48:370][248]Cmd: r.AllowHDR 1
+[2023.05.16-19.41.48:370][248]Error: r.AllowHDR is read only!
+[2023.05.16-19.41.48:370][248]Cmd: r.Streaming.PoolSize 5000
+[2023.05.16-19.41.48:370][248]r.Streaming.PoolSize = "5000"
+[2023.05.16-19.41.48:370][248]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.16-19.41.48:370][248]r.HDR.Display.OutputDevice = "1"
+[2023.05.16-19.41.48:370][248]PIE: Server logged in
+[2023.05.16-19.41.48:371][248]PIE: Play in editor total start time 0.5 seconds.
+[2023.05.16-19.41.58:065][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-19.41.58:065][604]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.16-19.41.58:067][604]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-19.41.58:077][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-19.41.58:087][604]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.16-19.41.58:096][604]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-19.41.58:130][604]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.16-19.41.58:130][604]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.05.16-19.41.58:132][604]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.05.16-19.41.58:137][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.16-19.41.58:158][604]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.05.16-19.41.58:219][605]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.05.16-19.42.01:022][692]Cmd: EDIT COPY
+[2023.05.16-19.42.01:270][697]Cmd: EDIT PASTE
+[2023.05.16-19.42.15:256][196]Cmd: EDIT COPY
+[2023.05.16-19.42.15:504][205]Cmd: EDIT PASTE
+[2023.05.16-19.42.21:793][439]Cmd: DELETE
+[2023.05.16-19.42.21:793][439]Cmd: ACTOR DELETE
+[2023.05.16-19.42.21:854][439]LogEditorActor: Deleted Actor: DecalActor
+[2023.05.16-19.42.21:857][439]LogEditorActor: Deleted Actor: DecalActor
+[2023.05.16-19.42.21:880][439]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.05.16-19.42.21:882][439]LogEditorActor: Deleted 2 Actors (0.088 secs)
+[2023.05.16-19.42.27:004][629]Cmd: DELETE
+[2023.05.16-19.42.27:004][629]Cmd: ACTOR DELETE
+[2023.05.16-19.42.27:067][629]LogEditorActor: Deleted Actor: DecalActor
+[2023.05.16-19.42.27:090][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.16-19.42.27:091][629]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2023.05.16-19.42.34:856][925]Cmd: MODE ROTGRID=0
+[2023.05.16-19.43.17:175][467]Cmd: EDIT COPY
+[2023.05.16-19.43.17:422][475]Cmd: EDIT PASTE
+[2023.05.16-19.43.30:924][990]Cmd: EDIT COPY
+[2023.05.16-19.43.31:159][998]Cmd: EDIT PASTE
+[2023.05.16-19.44.16:360][739]Cmd: EDIT COPY
+[2023.05.16-19.44.16:360][739]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2023.05.16-19.44.16:590][747]Cmd: EDIT PASTE
+[2023.05.16-19.44.37:954][539]Cmd: EDIT COPY
+[2023.05.16-19.44.38:155][544]Cmd: EDIT PASTE
+[2023.05.16-19.45.08:716][806]Cmd: DELETE
+[2023.05.16-19.45.08:716][806]Cmd: ACTOR DELETE
+[2023.05.16-19.45.08:787][806]LogEditorActor: Deleted Actor: DecalActor
+[2023.05.16-19.45.08:814][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.05.16-19.45.08:817][806]LogEditorActor: Deleted 1 Actors (0.101 secs)
+[2023.05.16-19.45.09:916][855]Cmd: TRANSACTION UNDO
+[2023.05.16-19.45.09:916][855]LogEditorTransaction: Undo Delete Elements
+[2023.05.16-19.45.17:380][111]Cmd: DELETE
+[2023.05.16-19.45.17:380][111]Cmd: ACTOR DELETE
+[2023.05.16-19.45.17:438][111]LogEditorActor: Deleted Actor: DecalActor
+[2023.05.16-19.45.17:460][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.05.16-19.45.17:462][111]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2023.05.16-19.45.18:788][169]Cmd: TRANSACTION UNDO
+[2023.05.16-19.45.18:788][169]LogEditorTransaction: Undo Delete Elements
+[2023.05.16-19.45.28:351][564]Cmd: DELETE
+[2023.05.16-19.45.28:351][564]Cmd: ACTOR DELETE
+[2023.05.16-19.45.28:416][564]LogEditorActor: Deleted Actor: DecalActor
+[2023.05.16-19.45.28:440][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.05.16-19.45.28:442][564]LogEditorActor: Deleted 1 Actors (0.092 secs)
+[2023.05.16-19.45.29:340][606]Cmd: TRANSACTION UNDO
+[2023.05.16-19.45.29:340][606]LogEditorTransaction: Undo Delete Elements
+[2023.05.16-19.45.34:249][793]Cmd: DELETE
+[2023.05.16-19.45.34:249][793]Cmd: ACTOR DELETE
+[2023.05.16-19.45.34:311][793]LogEditorActor: Deleted Actor: DecalActor
+[2023.05.16-19.45.34:334][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.05.16-19.45.34:337][793]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2023.05.16-19.46.03:635][ 10]Cmd: EDIT COPY
+[2023.05.16-19.46.03:876][ 18]Cmd: EDIT PASTE
+[2023.05.16-19.46.32:379][239]Cmd: EDIT COPY
+[2023.05.16-19.46.32:625][248]Cmd: EDIT PASTE
+[2023.05.16-19.46.42:859][674]Cmd: EDIT COPY
+[2023.05.16-19.46.43:085][683]Cmd: EDIT PASTE
+[2023.05.16-19.46.45:571][784]Cmd: EDIT COPY
+[2023.05.16-19.46.45:822][795]Cmd: EDIT PASTE
+[2023.05.16-19.46.51:609][ 32]Cmd: TRANSACTION UNDO
+[2023.05.16-19.46.51:609][ 32]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.16-19.46.57:275][253]Cmd: EDIT COPY
+[2023.05.16-19.46.57:501][262]Cmd: EDIT PASTE
+[2023.05.16-19.47.09:799][788]Cmd: EDIT COPY
+[2023.05.16-19.47.10:032][797]Cmd: EDIT PASTE
+[2023.05.16-19.47.14:425][966]Cmd: TRANSACTION UNDO
+[2023.05.16-19.47.14:425][966]LogEditorTransaction: Undo Move Elements
+[2023.05.16-19.47.26:940][471]Cmd: EDIT COPY
+[2023.05.16-19.47.27:180][481]Cmd: EDIT PASTE
+[2023.05.16-19.48.01:705][ 98]LogInterchangeEngine: [Pending] Importing
+[2023.05.16-19.48.01:710][ 98]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.16-19.48.01:719][ 99]LogTexture: Display: Building textures: /Game/Core/Assets/Building/decals/T_radial-ao_decal.T_radial-ao_decal (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2023.05.16-19.48.01:733][ 99]LogInterchangeEngine: [Success] Import Done
+[2023.05.16-19.48.01:749][ 99]LogInterchangeEngine: [Success] Import Done
+[2023.05.16-19.48.04:062][131]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Building/decals/MM_Decal.MM_Decal
+[2023.05.16-19.48.04:065][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-19.48.04:268][131]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.16-19.48.04:268][131]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.16-19.48.04:268][131]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.16-19.48.04:268][131]MaterialEditorStats: Shader Count: 0
+[2023.05.16-19.48.04:279][131]LogViewport: Scene viewport resized to 385x217, mode Windowed.
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: ================================================
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Total job queries 939, among them cache hits 137 (14.59%)
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Tracking 802 distinct input hashes that result in 293 distinct outputs (36.53%)
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: RAM used: 1.78 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.22%
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Shaders Compiled: 78
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Jobs assigned 78, completed 78 (100.00%)
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Average time worker was idle: 96.89 s
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Time job spent in pending queue: average 0.28 s, longest 3.40 s
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Job execution time: average 1.14 s, max 3.35 s
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Job life time (pending + execution): average 1.42 s, max 4.82
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.12 s
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Jobs were issued in 78 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Average processing rate: 3.88 jobs/sec
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Total thread time: 71.67 s
+[2023.05.16-19.48.04:385][132]LogShaderCompilers: Display: Total thread preprocess time: 4.75 s
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display: Percentage time preprocessing: 6.63%
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display: Effective parallelization: 3.56 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 2.67 sec, max 2.67 sec, min 2.67 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 2.65 sec, max 2.65 sec, min 2.65 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 1.98 sec, max 1.98 sec, min 1.98 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 1.93 sec, max 1.93 sec, min 1.93 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 1.84 sec, max 1.84 sec, min 1.84 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.99% of total time (compiled   17 times, average 0.97 sec, max 1.15 sec, min 0.87 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 22.27% of total time (compiled   17 times, average 0.94 sec, max 1.09 sec, min 0.80 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:                                                 FLumenCardVS - 12.17% of total time (compiled   12 times, average 0.73 sec, max 0.88 sec, min 0.64 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.92% of total time (compiled   12 times, average 0.41 sec, max 0.56 sec, min 0.36 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 3.72% of total time (compiled    1 times, average 2.67 sec, max 2.67 sec, min 2.67 sec)
+[2023.05.16-19.48.04:386][132]LogShaderCompilers: Display: ================================================
+[2023.05.16-19.48.04:418][133]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.16-19.48.04:418][133]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.05.16-19.48.04:418][133]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.16-19.48.04:418][133]MaterialEditorStats: Shader Count: 2
+[2023.05.16-19.48.04:824][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.05.16-19.48.05:854][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto3
+[2023.05.16-19.48.05:854][138]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate_Auto35C89B5A04F4B88ABF8B0F8A8C0B0B507.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto3.umap'
+[2023.05.16-19.48.05:871][138]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 1.067
+[2023.05.16-19.48.05:871][138]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.067
+[2023.05.16-19.48.05:871][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Building/T_ao_rect_decal] ([1] browsable assets)...
+[2023.05.16-19.48.05:873][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Building/T_ao_rect_decal.T_ao_rect_decal]
+[2023.05.16-19.48.05:873][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Building/T_ao_rect_decal]
+[2023.05.16-19.48.05:876][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Building/T_ao_rect_decal_Auto3
+[2023.05.16-19.48.05:876][138]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/T_ao_rect_decal_Auto3718D56024BC56E2F3E2F6694B6821103.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Building/T_ao_rect_decal_Auto3.uasset'
+[2023.05.16-19.48.05:877][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Building/decals/MM_Decal_Inst4] ([1] browsable assets)...
+[2023.05.16-19.48.05:886][138]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Core/Assets/Building/decals/MM_Decal_Inst4.MM_Decal_Inst4]
+[2023.05.16-19.48.05:886][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Building/decals/MM_Decal_Inst4]
+[2023.05.16-19.48.05:905][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.05.16-19.48.05:926][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.16-19.48.05:929][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Building/decals/MM_Decal_Inst4_Auto3
+[2023.05.16-19.48.05:929][138]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/MM_Decal_Inst4_Auto31223E2874CA44350D91CBCA421D7A8C0.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Building/decals/MM_Decal_Inst4_Auto3.uasset'
+[2023.05.16-19.48.05:929][138]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Building/decals/T_radial-ao_decal] ([1] browsable assets)...
+[2023.05.16-19.48.05:930][138]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Building/decals/T_radial-ao_decal.T_radial-ao_decal]
+[2023.05.16-19.48.05:930][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Building/decals/T_radial-ao_decal]
+[2023.05.16-19.48.05:932][138]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Building/decals/T_radial-ao_decal_Auto3
+[2023.05.16-19.48.05:932][138]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/T_radial-ao_decal_Auto319FD0E3E4B1F41BA27B0D28A5B52256B.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Building/decals/T_radial-ao_decal_Auto3.uasset'
+[2023.05.16-19.48.05:932][138]LogFileHelpers: Auto-saving content packages took 0.061
+[2023.05.16-19.48.06:806][171]LogSlate: Window 'MM_Decal' being destroyed
+[2023.05.16-19.48.06:816][171]LogSlate: Window 'MM_Decal' being destroyed
+[2023.05.16-19.48.06:854][171]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-19.48.06:854][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-19.48.06:883][171]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.05.16-19.48.06:965][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.05.16-19.48.06:986][171]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-19.48.06:986][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-19.48.07:009][171]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-19.48.07:009][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-19.48.08:876][234]LogContentBrowser: Deferred new asset file creation: MM_Decal_Inst5
+[2023.05.16-19.48.08:919][234]LogContentBrowser: Creating deferred item: MM_Decal_Inst5
+[2023.05.16-19.48.08:931][235]LogContentBrowser: Renaming the item being created (Deferred Item: MM_Decal_Inst5).
+[2023.05.16-19.48.10:327][300]LogContentBrowser: Attempting asset rename: MM_Decal_Inst5 -> MM_Decal_Inst5
+[2023.05.16-19.48.10:437][300]LogContentBrowser: End creating deferred item MM_Decal_Inst5
+[2023.05.16-19.48.10:494][303]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Building/decals/MM_Decal_Inst5.MM_Decal_Inst5
+[2023.05.16-19.48.10:495][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-19.48.10:728][303]LogViewport: Scene viewport resized to 314x439, mode Windowed.
+[2023.05.16-19.50.38:540][254]Cmd: EDIT COPY
+[2023.05.16-19.50.38:817][265]Cmd: EDIT PASTE
+[2023.05.16-19.51.39:771][895]Cmd: EDIT COPY
+[2023.05.16-19.51.40:035][908]Cmd: EDIT PASTE
+[2023.05.16-19.52.05:320][362]Cmd: EDIT COPY
+[2023.05.16-19.52.05:570][376]Cmd: EDIT PASTE
+[2023.05.16-19.52.09:617][612]Cmd: TRANSACTION UNDO
+[2023.05.16-19.52.09:617][612]LogEditorTransaction: Undo Rotate Elements
+[2023.05.16-19.52.10:066][620]Cmd: MODE ROTGRID=1
+[2023.05.16-19.52.55:349][208]Cmd: EDIT COPY
+[2023.05.16-19.52.55:579][216]Cmd: EDIT PASTE
+[2023.05.16-19.53.02:409][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.05.16-19.53.02:593][473]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-19.53.02:661][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.05.16-19.53.03:659][473]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.16-19.53.03:659][473]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplateC948EA9A48F2A16C6F504F908E68B28A.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.16-19.53.03:690][473]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.057
+[2023.05.16-19.53.03:706][473]LogSavePackage: Moving output files for package: /Game/Core/Assets/Building/T_ao_rect_decal
+[2023.05.16-19.53.03:706][473]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/T_ao_rect_decalE8EF456B48320E7C5AE9739BBCA8875A.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Building/T_ao_rect_decal.uasset'
+[2023.05.16-19.53.03:708][473]LogSavePackage: Moving output files for package: /Game/Core/Assets/Building/decals/MM_Decal_Inst4
+[2023.05.16-19.53.03:708][473]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/MM_Decal_Inst4C874AEA7433978D1AB810AB79D184740.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Building/decals/MM_Decal_Inst4.uasset'
+[2023.05.16-19.53.03:720][473]LogSavePackage: Moving output files for package: /Game/Core/Assets/Building/decals/T_radial-ao_decal
+[2023.05.16-19.53.03:720][473]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/T_radial-ao_decalEA2AF2D843435D2A6FC6C5A920F43844.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Building/decals/T_radial-ao_decal.uasset'
+[2023.05.16-19.53.03:754][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.05.16-19.53.03:771][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.05.16-19.53.03:773][473]LogSavePackage: Moving output files for package: /Game/Core/Assets/Building/decals/MM_Decal_Inst5
+[2023.05.16-19.53.03:773][473]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/MM_Decal_Inst54B58F68745E168124D1CE2B3B7AD199C.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Building/decals/MM_Decal_Inst5.uasset'
+[2023.05.16-19.53.04:010][473]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.41 sec (total: 7.91 sec)
+[2023.05.16-19.53.04:031][473]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.16-19.53.04:031][473]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
+[2023.05.16-19.53.04:031][473]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Core/Assets/Building/decals/MM_Decal_Inst5.MM_Decal_Inst5
+[2023.05.16-19.53.04:031][473]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Building/decals/T_radial-ao_decal.T_radial-ao_decal
+[2023.05.16-19.53.04:031][473]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Core/Assets/Building/decals/MM_Decal_Inst4.MM_Decal_Inst4
+[2023.05.16-19.53.04:031][473]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Building/T_ao_rect_decal.T_ao_rect_decal
