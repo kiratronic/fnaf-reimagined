@@ -2972,3 +2972,160 @@ Script Stack (0 frames) :
 [2023.05.18-19.04.17:475][370]AssetCheck: New page: Asset Save: LVL_NightTemplate
 [2023.05.18-19.04.17:475][370]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
 [2023.05.18-19.04.20:236][499]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.05.18-19.04.45:566][ 26]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.18-19.04.45:574][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-19.04.45:574][ 26]PIE: New page: PIE session: LVL_NightTemplate (May 18, 2023, 7:04:45 PM)
+[2023.05.18-19.04.45:574][ 26]LogPlayLevel: Creating play world package: /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.18-19.04.45:843][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.269087s)
+[2023.05.18-19.04.45:843][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate to /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate (0.269124s)
+[2023.05.18-19.04.45:843][ 26]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-19.04.45:844][ 26]LogAIModule: Creating AISystem for world LVL_NightTemplate
+[2023.05.18-19.04.45:845][ 26]LogPlayLevel: PIE: World Init took: (0.002152s)
+[2023.05.18-19.04.45:863][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.05.18-19.04.45:864][ 26]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.05.18-19.04.45:865][ 26]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-19.04.45:865][ 26]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-19.04.45:865][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-19.04.45:865][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-19.04.45:865][ 26]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-19.04.45:865][ 26]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-19.04.45:865][ 26]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-19.04.45:865][ 26]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-19.04.45:865][ 26]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.18-19.04.45:865][ 26]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.18-19.04.45:865][ 26]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-19.04.45:868][ 26]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-19.04.45:885][ 26]LogAudioMixer: Display: Using Audio Hardware Device Headphones (POWERBANK TWS Stereo)
+[2023.05.18-19.04.45:885][ 26]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-19.04.45:885][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-19.04.45:885][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-19.04.45:885][ 26]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.05.18-19.04.45:885][ 26]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.05.18-19.04.45:887][ 26]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.05.18-19.04.45:887][ 26]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.05.18-19.04.45:887][ 26]LogInit: FAudioDevice initialized.
+[2023.05.18-19.04.45:887][ 26]LogAudio: Display: Audio Device (ID: 16) registered with world 'LVL_NightTemplate'.
+[2023.05.18-19.04.45:890][ 26]LogLoad: Game class is 'FNaFGM_C'
+[2023.05.18-19.04.45:974][ 26]LogWorld: Bringing World /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate.LVL_NightTemplate up for play (max tick rate 60) at 2023.05.18-19.04.45
+[2023.05.18-19.04.45:979][ 26]LogWorld: Bringing up level for play took: 0.088152
+[2023.05.18-19.04.45:981][ 26]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.05.18-19.04.45:986][ 26]LogBlueprintUserMessages: [LVL_NightTemplate_C_0] CustomNight
+[2023.05.18-19.04.45:986][ 26]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.18-19.04.45:987][ 26]r.HDR.Display.OutputDevice = "1"
+[2023.05.18-19.04.45:987][ 26]Cmd: r.AllowHDR 1
+[2023.05.18-19.04.45:987][ 26]Error: r.AllowHDR is read only!
+[2023.05.18-19.04.45:987][ 26]Cmd: r.Streaming.PoolSize 5000
+[2023.05.18-19.04.45:987][ 26]r.Streaming.PoolSize = "5000"
+[2023.05.18-19.04.45:987][ 26]Cmd: r.HDR.Display.OutputDevice 1
+[2023.05.18-19.04.45:987][ 26]r.HDR.Display.OutputDevice = "1"
+[2023.05.18-19.04.45:987][ 26]PIE: Server logged in
+[2023.05.18-19.04.45:988][ 26]PIE: Play in editor total start time 0.414 seconds.
+[2023.05.18-19.04.46:872][ 45]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2023.05.18-19.04.46:872][ 45]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.05.18-19.04.55:872][555]LogBlueprintUserMessages: [BonnieBP_C_1] BonnieTryAgain
+[2023.05.18-19.05.02:597][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-19.05.02:598][614]LogWorld: BeginTearingDown for /Game/Core/Levels/NightTemplate/UEDPIE_0_LVL_NightTemplate
+[2023.05.18-19.05.02:599][614]LogWorld: UWorld::CleanupWorld for LVL_NightTemplate, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-19.05.02:608][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-19.05.02:613][614]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-19.05.02:623][614]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-19.05.02:653][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-19.05.02:653][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.05.18-19.05.02:655][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.05.18-19.05.02:772][614]LogUObjectHash: Compacting FUObjectHashTables data took  91.68ms
+[2023.05.18-19.05.02:824][615]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.05.18-19.09.05:269][754]Cmd: EDIT COPY
+[2023.05.18-19.09.05:480][762]Cmd: EDIT PASTE
+[2023.05.18-19.10.20:046][704]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_032.SM_PapesrNEW_Cube_032
+[2023.05.18-19.10.20:046][704]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_032.SM_PapesrNEW_Cube_032
+[2023.05.18-19.10.20:048][704]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_032.SM_PapesrNEW_Cube_032 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_625
+[2023.05.18-19.10.20:752][738]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_032.SM_PapesrNEW_Cube_032
+[2023.05.18-19.10.20:752][738]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_032.SM_PapesrNEW_Cube_032
+[2023.05.18-19.10.20:761][738]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_032.SM_PapesrNEW_Cube_032 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_628
+[2023.05.18-19.10.36:490][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033
+[2023.05.18-19.10.36:490][603]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033
+[2023.05.18-19.10.36:491][603]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_629
+[2023.05.18-19.10.37:648][663]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033
+[2023.05.18-19.10.37:648][663]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033
+[2023.05.18-19.10.37:656][663]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_630
+[2023.05.18-19.11.05:729][238]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033
+[2023.05.18-19.11.05:729][238]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033
+[2023.05.18-19.11.05:730][238]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_662
+[2023.05.18-19.11.06:432][274]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033
+[2023.05.18-19.11.06:432][274]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033
+[2023.05.18-19.11.06:442][274]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_033.SM_PapesrNEW_Cube_033 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_664
+[2023.05.18-19.11.07:600][329]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.07:632][331]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.07:665][333]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.07:698][335]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.07:805][341]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.08:182][358]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.10:568][470]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.10:706][473]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.10:907][477]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.11:158][481]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.12:367][546]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.12:443][550]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.13:952][625]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.14:405][635]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.14:499][638]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.15:595][698]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.15:775][708]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.16:180][730]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.16:675][753]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.18:377][835]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.18-19.11.31:901][569]Cmd: EDIT COPY
+[2023.05.18-19.11.32:155][583]Cmd: EDIT PASTE
+[2023.05.18-19.12.25:561][164]Cmd: TRANSACTION UNDO
+[2023.05.18-19.12.25:561][164]LogEditorTransaction: Undo Move Elements
+[2023.05.18-19.12.26:003][169]Cmd: TRANSACTION UNDO
+[2023.05.18-19.12.26:003][169]LogEditorTransaction: Undo Scale Elements
+[2023.05.18-19.12.51:517][469]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_035.SM_PapesrNEW_Cube_035
+[2023.05.18-19.12.51:517][469]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_035.SM_PapesrNEW_Cube_035
+[2023.05.18-19.12.51:519][469]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_035.SM_PapesrNEW_Cube_035 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_679
+[2023.05.18-19.12.52:177][499]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_035.SM_PapesrNEW_Cube_035
+[2023.05.18-19.12.52:177][499]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_035.SM_PapesrNEW_Cube_035
+[2023.05.18-19.12.52:187][499]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_035.SM_PapesrNEW_Cube_035 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_680
+[2023.05.18-19.13.12:345][460]Cmd: EDIT COPY
+[2023.05.18-19.13.12:551][469]Cmd: EDIT PASTE
+[2023.05.18-19.13.20:978][863]Cmd: EDIT COPY
+[2023.05.18-19.13.21:555][894]Cmd: EDIT PASTE
+[2023.05.18-19.13.56:890][528]Cmd: TRANSACTION UNDO
+[2023.05.18-19.13.56:890][528]LogEditorTransaction: Undo Move Elements
+[2023.05.18-19.14.14:976][401]Cmd: EDIT COPY
+[2023.05.18-19.14.15:173][409]Cmd: EDIT PASTE
+[2023.05.18-19.14.21:021][700]Cmd: EDIT COPY
+[2023.05.18-19.14.21:021][700]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2023.05.18-19.14.21:202][708]Cmd: EDIT PASTE
+[2023.05.18-19.14.26:231][945]Cmd: EDIT COPY
+[2023.05.18-19.14.26:416][953]Cmd: EDIT PASTE
+[2023.05.18-19.14.30:418][132]Cmd: EDIT COPY
+[2023.05.18-19.14.30:639][144]Cmd: EDIT PASTE
+[2023.05.18-19.14.51:176][ 88]Cmd: EDIT COPY
+[2023.05.18-19.14.51:401][ 98]Cmd: EDIT PASTE
+[2023.05.18-19.15.03:176][606]Cmd: EDIT COPY
+[2023.05.18-19.15.03:421][616]Cmd: EDIT PASTE
+[2023.05.18-19.15.08:752][844]Cmd: DELETE
+[2023.05.18-19.15.08:752][844]Cmd: ACTOR DELETE
+[2023.05.18-19.15.09:693][844]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.18-19.15.09:757][844]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.05.18-19.15.09:759][844]LogEditorActor: Deleted 1 Actors (1.006 secs)
+[2023.05.18-19.15.15:431][ 81]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_036.SM_PapesrNEW_Cube_036
+[2023.05.18-19.15.15:431][ 81]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_036.SM_PapesrNEW_Cube_036
+[2023.05.18-19.15.15:433][ 81]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_036.SM_PapesrNEW_Cube_036 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_697
+[2023.05.18-19.15.19:996][258]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_030.SM_PapesrNEW_Cube_030
+[2023.05.18-19.15.19:996][258]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_030.SM_PapesrNEW_Cube_030
+[2023.05.18-19.15.19:997][258]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_030.SM_PapesrNEW_Cube_030 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_698
+[2023.05.18-19.15.20:825][290]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_030.SM_PapesrNEW_Cube_030
+[2023.05.18-19.15.20:825][290]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_030.SM_PapesrNEW_Cube_030
+[2023.05.18-19.15.20:835][290]LogActorFactory: Actor Factory spawned StaticMesh /Game/Core/Assets/Props/newpapers/SM_PapesrNEW_Cube_030.SM_PapesrNEW_Cube_030 as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_699
+[2023.05.18-19.15.41:152][111]Cmd: EDIT COPY
+[2023.05.18-19.15.41:375][117]Cmd: EDIT PASTE
+[2023.05.18-19.16.55:112][107]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-19.16.55:199][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.18-19.16.56:211][107]LogSavePackage: Moving output files for package: /Game/Core/Levels/NightTemplate/LVL_NightTemplate
+[2023.05.18-19.16.56:211][107]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplateD5C52C654888E7139E5C7E90F7D4AECB.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/NightTemplate/LVL_NightTemplate.umap'
+[2023.05.18-19.16.56:244][107]LogFileHelpers: Saving map 'LVL_NightTemplate' took 1.078
+[2023.05.18-19.16.56:249][107]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.13 sec (total: 12.0 sec)
+[2023.05.18-19.16.56:272][107]AssetCheck: New page: Asset Save: LVL_NightTemplate
+[2023.05.18-19.16.56:272][107]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate
