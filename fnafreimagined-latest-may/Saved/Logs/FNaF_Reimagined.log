@@ -2954,3 +2954,233 @@ Script Stack (0 frames) :
 [2023.05.27-00.54.38:382][333]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.78% of total time (compiled   30 times, average 0.45 sec, max 0.63 sec, min 0.33 sec)
 [2023.05.27-00.54.38:382][333]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.12% of total time (compiled   11 times, average 1.06 sec, max 1.12 sec, min 0.95 sec)
 [2023.05.27-00.54.38:382][333]LogShaderCompilers: Display: ================================================
+[2023.05.27-01.00.50:772][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.27-01.00.51:536][337]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto3
+[2023.05.27-01.00.51:537][337]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate_Auto3515684CA46E75A94AC289F92889CF0ED.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto3.umap'
+[2023.05.27-01.00.51:550][337]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.804
+[2023.05.27-01.00.51:550][337]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.804
+[2023.05.27-01.05.12:807][528]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Building/Textures/Wall/Textures/New/M_Wall.M_Wall
+[2023.05.27-01.05.12:812][528]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-01.05.12:980][528]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.27-01.05.12:981][528]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-01.05.12:981][528]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-01.05.12:981][528]MaterialEditorStats: Shader Count: 0
+[2023.05.27-01.05.12:992][528]LogViewport: Scene viewport resized to 233x253, mode Windowed.
+[2023.05.27-01.05.13:975][556]LogShaderCompilers: Display: ================================================
+[2023.05.27-01.05.13:975][556]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.27-01.05.13:975][556]LogShaderCompilers: Display: Total job queries 1867, among them cache hits 644 (34.49%)
+[2023.05.27-01.05.13:975][556]LogShaderCompilers: Display: Tracking 1211 distinct input hashes that result in 539 distinct outputs (44.51%)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: RAM used: 3.17 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.39%
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Shaders Compiled: 269
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Jobs assigned 277, completed 269 (97.11%)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Average time worker was idle: 63.47 s
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Time job spent in pending queue: average 0.86 s, longest 5.42 s
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Job execution time: average 1.18 s, max 3.13 s
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Job life time (pending + execution): average 2.07 s, max 6.69
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 75.73 s
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Jobs were issued in 277 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Average processing rate: 3.55 jobs/sec
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Total thread time: 283.23 s
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Total thread preprocess time: 14.18 s
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Percentage time preprocessing: 5.01%
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Effective parallelization: 3.74 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    4 times, average 2.50 sec, max 2.82 sec, min 2.29 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled    4 times, average 2.44 sec, max 2.74 sec, min 2.17 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled    4 times, average 2.43 sec, max 2.79 sec, min 2.15 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 2.41 sec, max 2.70 sec, min 2.17 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 2.34 sec, max 2.64 sec, min 2.07 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.11% of total time (compiled   41 times, average 0.91 sec, max 1.25 sec, min 0.55 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.01% of total time (compiled   41 times, average 0.83 sec, max 1.09 sec, min 0.56 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.90% of total time (compiled   30 times, average 0.65 sec, max 0.83 sec, min 0.59 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.99% of total time (compiled   31 times, average 0.46 sec, max 0.63 sec, min 0.33 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.11% of total time (compiled   11 times, average 1.06 sec, max 1.12 sec, min 0.95 sec)
+[2023.05.27-01.05.13:976][556]LogShaderCompilers: Display: ================================================
+[2023.05.27-01.05.14:013][557]MaterialEditorStats: Texture samplers: 2/16
+[2023.05.27-01.05.14:013][557]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-01.05.14:013][557]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-01.05.14:013][557]MaterialEditorStats: Shader Count: 1
+[2023.05.27-01.05.14:963][579]MaterialEditorStats: Base pass shader: 174 instructions
+[2023.05.27-01.05.14:963][579]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.27-01.05.14:963][579]MaterialEditorStats: Texture samplers: 5/16
+[2023.05.27-01.05.14:963][579]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.05.27-01.05.14:963][579]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.27-01.05.14:963][579]MaterialEditorStats: Shader Count: 4
+[2023.05.27-01.05.40:657][ 58]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Core/Assets/Building/Textures/Wall/Textures/New/M_Newwall.M_Newwall
+[2023.05.27-01.05.40:659][ 58]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.27-01.05.40:887][ 58]LogViewport: Scene viewport resized to 834x511, mode Windowed.
+[2023.05.27-01.05.48:028][237]LogSlate: Window 'Message' being destroyed
+[2023.05.27-01.05.48:032][237]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Megascans/Surfaces/Painted_Brick_Wall_vhqncjb/M_paintedbrick.M_paintedbrick
+(Selecting 'No' will cause all changes to be lost!)
+[2023.05.27-01.05.50:035][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.05.27-01.05.50:253][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.27-01.05.50:282][237]LogSlate: Window 'M_Newwall' being destroyed
+[2023.05.27-01.05.50:284][237]LogSlate: Window 'M_Newwall' being destroyed
+[2023.05.27-01.05.50:300][237]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-01.05.50:300][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-01.05.50:330][237]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-01.05.50:330][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-01.05.50:366][237]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-01.05.50:366][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-01.05.50:389][237]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-01.05.50:389][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-01.05.50:411][237]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-01.05.50:411][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-01.05.50:430][237]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.05.27-01.05.50:430][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.27-01.07.02:851][ 99]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.05.27-01.07.02:851][ 99]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.05.27-01.07.02:852][ 99]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_90
+[2023.05.27-01.07.02:854][ 99]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_90
+[2023.05.27-01.07.03:990][161]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.05.27-01.07.03:990][161]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Sphere.Sphere
+[2023.05.27-01.07.03:998][161]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_92
+[2023.05.27-01.07.03:999][161]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Sphere.Sphere as actor: StaticMeshActor /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.StaticMeshActor_92
+[2023.05.27-01.07.08:226][405]Cmd: TRANSACTION UNDO
+[2023.05.27-01.07.08:227][405]LogEditorTransaction: Undo Scale Elements
+[2023.05.27-01.07.33:283][870]Cmd: DELETE
+[2023.05.27-01.07.33:283][870]Cmd: ACTOR DELETE
+[2023.05.27-01.07.34:663][870]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.27-01.07.34:765][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.05.27-01.07.34:768][870]LogEditorActor: Deleted 1 Actors (1.485 secs)
+[2023.05.27-01.08.04:442][610]LogViewport: Scene viewport resized to 325x179, mode Windowed.
+[2023.05.27-01.10.55:959][395]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.05.27-01.10.56:768][395]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto4
+[2023.05.27-01.10.56:768][395]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate_Auto48EBD1E4F495C80E616863EB46FAB1C85.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto4.umap'
+[2023.05.27-01.10.56:782][395]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.850
+[2023.05.27-01.10.56:782][395]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.850
+[2023.05.27-01.10.56:782][395]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Megascans/Surfaces/Painted_Brick_Wall_vhqncjb/M_paintedbrick] ([1] browsable assets)...
+[2023.05.27-01.10.58:845][395]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2023.05.27-01.11.00:867][395]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003090s (2.022913s overbudget)
+[2023.05.27-01.11.00:886][395]LogShaderCompilers: Display: ================================================
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Total job queries 1935, among them cache hits 680 (35.14%)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Tracking 1252 distinct input hashes that result in 560 distinct outputs (44.73%)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: RAM used: 3.31 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.40%
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Shaders Compiled: 297
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Jobs assigned 297, completed 297 (100.00%)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Average time worker was idle: 68.54 s
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Time job spent in pending queue: average 0.88 s, longest 5.42 s
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Job execution time: average 1.21 s, max 3.13 s
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Job life time (pending + execution): average 2.09 s, max 6.69
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 81.08 s
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Jobs were issued in 297 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Average processing rate: 3.66 jobs/sec
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Total thread time: 318.03 s
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Total thread preprocess time: 16.03 s
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Percentage time preprocessing: 5.04%
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Effective parallelization: 3.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    4 times, average 2.50 sec, max 2.82 sec, min 2.29 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled    4 times, average 2.44 sec, max 2.74 sec, min 2.17 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 2.44 sec, max 2.70 sec, min 2.17 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled    4 times, average 2.43 sec, max 2.79 sec, min 2.15 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 2.38 sec, max 2.64 sec, min 2.07 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.21% of total time (compiled   45 times, average 0.93 sec, max 1.63 sec, min 0.55 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.37% of total time (compiled   45 times, average 0.87 sec, max 1.59 sec, min 0.56 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.48% of total time (compiled   31 times, average 0.66 sec, max 1.07 sec, min 0.59 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.44% of total time (compiled   31 times, average 0.46 sec, max 0.63 sec, min 0.33 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 3.83% of total time (compiled    5 times, average 2.44 sec, max 2.70 sec, min 2.17 sec)
+[2023.05.27-01.11.00:887][395]LogShaderCompilers: Display: ================================================
+[2023.05.27-01.11.00:956][395]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Megascans/Surfaces/Painted_Brick_Wall_vhqncjb/M_paintedbrick.M_paintedbrick]
+[2023.05.27-01.11.00:956][395]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/Surfaces/Painted_Brick_Wall_vhqncjb/M_paintedbrick]
+[2023.05.27-01.11.00:959][395]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Megascans/Surfaces/Painted_Brick_Wall_vhqncjb/M_paintedbrick_Auto4
+[2023.05.27-01.11.00:959][395]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/M_paintedbrick_Auto4F05757654DAFC5FCEC90AF9A4AD38108.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Megascans/Surfaces/Painted_Brick_Wall_vhqncjb/M_paintedbrick_Auto4.uasset'
+[2023.05.27-01.11.00:960][395]LogFileHelpers: Auto-saving content packages took 4.178
+[2023.05.27-01.13.08:922][743]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.27-01.13.09:856][795]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.27-01.13.10:256][819]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.27-01.13.12:948][970]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.27-01.13.26:624][780]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.27-01.24.21:191][770]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.27-01.26.09:908][166]LogDerivedDataCache: C:/Users/kira meyer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:36.004 and deleted 0 files with total size 0 MiB. Scanned 51733 files in 44725 folders with total size 3117 MiB.
+[2023.05.27-01.27.28:066][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.05.27-01.27.28:850][455]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto5
+[2023.05.27-01.27.28:850][455]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate_Auto576C6C4C8429E1893DEDD4A945496E303.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto5.umap'
+[2023.05.27-01.27.28:864][455]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.838
+[2023.05.27-01.27.28:864][455]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.838
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: ================================================
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Total job queries 1937, among them cache hits 681 (35.16%)
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Tracking 1253 distinct input hashes that result in 561 distinct outputs (44.77%)
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: RAM used: 3.31 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.40%
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Shaders Compiled: 297
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Jobs assigned 297, completed 297 (100.00%)
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Average time worker was idle: 68.54 s
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Time job spent in pending queue: average 0.88 s, longest 5.42 s
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Job execution time: average 1.21 s, max 3.13 s
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Job life time (pending + execution): average 2.09 s, max 6.69
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 81.08 s
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Jobs were issued in 297 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Average processing rate: 3.66 jobs/sec
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Total thread time: 318.03 s
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Total thread preprocess time: 16.03 s
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Percentage time preprocessing: 5.04%
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Effective parallelization: 3.92 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display:         TMaterialCHSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    4 times, average 2.50 sec, max 2.82 sec, min 2.29 sec)
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyHQ (compiled    4 times, average 2.44 sec, max 2.74 sec, min 2.17 sec)
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 2.44 sec, max 2.70 sec, min 2.17 sec)
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display:                                TMaterialCHSTLightMapPolicyLQ (compiled    4 times, average 2.43 sec, max 2.79 sec, min 2.15 sec)
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 2.38 sec, max 2.64 sec, min 2.07 sec)
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.27-01.29.26:127][610]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.21% of total time (compiled   45 times, average 0.93 sec, max 1.63 sec, min 0.55 sec)
+[2023.05.27-01.29.26:128][610]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.37% of total time (compiled   45 times, average 0.87 sec, max 1.59 sec, min 0.56 sec)
+[2023.05.27-01.29.26:128][610]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.48% of total time (compiled   31 times, average 0.66 sec, max 1.07 sec, min 0.59 sec)
+[2023.05.27-01.29.26:128][610]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.44% of total time (compiled   31 times, average 0.46 sec, max 0.63 sec, min 0.33 sec)
+[2023.05.27-01.29.26:128][610]LogShaderCompilers: Display:     TMaterialCHSFPrecomputedVolumetricLightmapLightingPolicy - 3.83% of total time (compiled    5 times, average 2.44 sec, max 2.70 sec, min 2.17 sec)
+[2023.05.27-01.29.26:128][610]LogShaderCompilers: Display: ================================================
+[2023.05.27-01.29.59:839][469]Cmd: TRANSACTION UNDO
+[2023.05.27-01.29.59:839][469]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.27-01.30.00:274][474]Cmd: TRANSACTION UNDO
+[2023.05.27-01.30.00:274][474]LogEditorTransaction: Undo Rotate Elements
+[2023.05.27-01.30.14:264][263]Cmd: EDIT COPY
+[2023.05.27-01.30.14:552][278]Cmd: EDIT PASTE
+[2023.05.27-01.30.53:970][551]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.05.27-01.30.53:970][551]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.05.27-01.31.00:351][899]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.05.27-01.31.00:351][899]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.05.27-01.31.15:787][737]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.27-01.31.16:187][751]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.27-01.31.16:537][760]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.27-01.31.16:636][766]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.27-01.31.16:720][771]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.27-01.31.16:953][785]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.27-01.31.17:135][795]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/Core/Levels/NightTemplate/LVL_NightTemplate.LVL_NightTemplate:PersistentLevel.RecastNavMesh-Default).
+[2023.05.27-01.31.42:466][242]Cmd: DELETE
+[2023.05.27-01.31.42:466][242]Cmd: ACTOR DELETE
+[2023.05.27-01.31.43:861][242]LogEditorActor: Deleted Actor: PointLight
+[2023.05.27-01.31.43:945][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.05.27-01.31.43:948][242]LogEditorActor: Deleted 1 Actors (1.482 secs)
+[2023.05.27-01.37.29:093][898]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.05.27-01.37.29:977][898]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto6
+[2023.05.27-01.37.29:978][898]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate_Auto678753180444E7F3637121EAB5F803DB6.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto6.umap'
+[2023.05.27-01.37.30:000][898]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.938
+[2023.05.27-01.37.30:000][898]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.938
+[2023.05.27-01.40.13:514][573]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.05.27-01.40.13:514][573]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.05.27-01.40.17:015][743]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.05.27-01.40.17:015][743]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2023.05.27-01.40.55:440][  2]Cmd: EDIT COPY
+[2023.05.27-01.40.55:708][ 18]Cmd: EDIT PASTE
+[2023.05.27-01.41.34:496][298]Cmd: DELETE
+[2023.05.27-01.41.34:496][298]Cmd: ACTOR DELETE
+[2023.05.27-01.41.35:184][298]LogEditorActor: Deleted Actor: PointLight
+[2023.05.27-01.41.35:241][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.05.27-01.41.35:244][298]LogEditorActor: Deleted 1 Actors (0.748 secs)
+[2023.05.27-01.41.41:599][663]Cmd: DELETE
+[2023.05.27-01.41.41:599][663]Cmd: ACTOR DELETE
+[2023.05.27-01.41.41:657][663]LogEditorActor: Deleted Actor: PointLight
+[2023.05.27-01.41.41:686][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.27-01.41.41:689][663]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2023.05.27-01.47.30:232][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.05.27-01.47.30:970][953]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto7
+[2023.05.27-01.47.30:970][953]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_NightTemplate_Auto72E2001344C958FB29693368CA53320A9.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/NightTemplate/LVL_NightTemplate_Auto7.umap'
+[2023.05.27-01.47.30:985][953]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/NightTemplate/LVL_NightTemplate' took 0.784
+[2023.05.27-01.47.30:985][953]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.784
