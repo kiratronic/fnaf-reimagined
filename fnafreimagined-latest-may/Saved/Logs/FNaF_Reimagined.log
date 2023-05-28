@@ -1705,3 +1705,470 @@ Script Stack (0 frames) :
 [2023.05.28-18.18.49:824][917]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu
 [2023.05.28-18.18.49:860][918]LogAutomationController: Ignoring very large delta of 3.23 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
 [2023.05.28-18.18.58:724][948]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.05.28-18.20.52:880][221]Cmd: TRANSACTION UNDO
+[2023.05.28-18.20.52:880][221]LogEditorTransaction: Undo Edit Detail Strength
+[2023.05.28-18.20.53:693][234]Cmd: TRANSACTION UNDO
+[2023.05.28-18.20.53:693][234]LogEditorTransaction: Undo Edit Detail Strength
+[2023.05.28-18.20.54:222][248]Cmd: TRANSACTION UNDO
+[2023.05.28-18.20.54:222][248]LogEditorTransaction: Undo Edit Detail Strength
+[2023.05.28-18.21.02:101][460]Cmd: TRANSACTION UNDO
+[2023.05.28-18.21.02:101][460]LogEditorTransaction: Undo Edit Shadow Contrast Scale
+[2023.05.28-18.24.19:934][733]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.24.19:965][734]LogAutomationController: Ignoring very large delta of 3.28 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.28-18.24.19:966][734]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.28-18.24.19:986][734]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.24.20:034][734]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Neonsign/t_LOGO.t_LOGO (BGRA8, 1921x349 x1x1x1) (Required Memory Estimate: 19.669868 MB), EncodeSpeed: Fast
+[2023.05.28-18.24.20:061][734]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.24.20:169][735]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.24.23:306][796]LogContentBrowser: Deferred new asset file creation: t_LOGO_Mat
+[2023.05.28-18.24.23:348][796]LogContentBrowser: Creating deferred item: t_LOGO_Mat
+[2023.05.28-18.24.23:388][797]LogContentBrowser: Renaming the item being created (Deferred Item: t_LOGO_Mat).
+[2023.05.28-18.24.23:826][811]LogContentBrowser: Attempting asset rename: t_LOGO_Mat -> t_LOGO_Mat
+[2023.05.28-18.24.24:148][811]LogContentBrowser: End creating deferred item t_LOGO_Mat
+[2023.05.28-18.24.25:049][822]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Core/Assets/Props/Neonsign/t_LOGO_Mat.t_LOGO_Mat
+[2023.05.28-18.24.25:087][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-18.24.25:713][822]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.25:713][822]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.25:713][822]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.25:713][822]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.25:733][822]LogShaderCompilers: Display: ================================================
+[2023.05.28-18.24.25:733][822]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.28-18.24.25:733][822]LogShaderCompilers: Display: Total job queries 1073, among them cache hits 84 (7.83%)
+[2023.05.28-18.24.25:733][822]LogShaderCompilers: Display: Tracking 987 distinct input hashes that result in 430 distinct outputs (43.57%)
+[2023.05.28-18.24.25:733][822]LogShaderCompilers: Display: RAM used: 2.32 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.28%
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Shaders Compiled: 2
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Jobs assigned 4, completed 2 (50.00%)
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.10 s
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Job execution time: average 0.92 s, max 1.03 s
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Job life time (pending + execution): average 1.01 s, max 1.12
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.12 s
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Average processing rate: 1.79 jobs/sec
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Total thread time: 0.93 s
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Total thread preprocess time: 0.11 s
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Percentage time preprocessing: 11.70%
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Effective parallelization: 0.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.57 sec, max 0.57 sec, min 0.57 sec)
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display:                                                 FLumenCardVS - 61.32% of total time (compiled    1 times, average 0.57 sec, max 0.57 sec, min 0.57 sec)
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 38.68% of total time (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2023.05.28-18.24.25:734][822]LogShaderCompilers: Display: ================================================
+[2023.05.28-18.24.25:743][822]LogSlate: Took 0.000917 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.28-18.24.25:752][822]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2023.05.28-18.24.26:028][824]MaterialEditorStats: Base pass shader: 164 instructions
+[2023.05.28-18.24.26:028][824]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.28-18.24.26:028][824]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.26:029][824]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.26:029][824]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.26:029][824]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.28:975][895]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.28:975][895]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.28:975][895]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.28:975][895]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.29:580][904]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.24.29:580][904]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.29:580][904]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.29:580][904]MaterialEditorStats: Shader Count: 1
+[2023.05.28-18.24.29:674][905]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.29:674][905]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.29:675][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.29:675][905]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.30:601][920]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.24.30:601][920]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.30:601][920]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.30:601][920]MaterialEditorStats: Shader Count: 1
+[2023.05.28-18.24.30:923][926]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.28-18.24.30:923][926]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.24.30:923][926]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.30:923][926]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.30:923][926]MaterialEditorStats: Shader Count: 3
+[2023.05.28-18.24.31:020][928]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.05.28-18.24.31:020][928]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.28-18.24.31:020][928]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.31:020][928]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.31:020][928]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.31:020][928]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.32:419][962]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.32:419][962]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.32:419][962]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.32:419][962]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.32:515][963]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.05.28-18.24.32:515][963]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.28-18.24.32:515][963]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.32:515][963]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.32:515][963]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.32:515][963]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.33:662][992]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.33:662][992]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.33:662][992]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.33:662][992]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.33:751][993]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.05.28-18.24.33:751][993]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.28-18.24.33:751][993]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.33:751][993]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.33:751][993]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.33:751][993]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.35:487][ 35]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.35:487][ 35]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.35:487][ 35]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.35:487][ 35]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.35:556][ 36]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.05.28-18.24.35:556][ 36]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.28-18.24.35:556][ 36]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.35:556][ 36]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.35:556][ 36]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.35:556][ 36]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.37:027][ 73]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.37:027][ 73]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.37:027][ 73]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.37:027][ 73]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.37:100][ 74]MaterialEditorStats: Base pass shader: 163 instructions
+[2023.05.28-18.24.37:100][ 74]MaterialEditorStats: Base pass vertex shader: 266 instructions
+[2023.05.28-18.24.37:101][ 74]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.37:101][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.37:101][ 74]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.37:101][ 74]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.38:106][ 99]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.38:106][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.38:106][ 99]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.38:106][ 99]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.39:200][123]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.24.39:200][123]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.39:200][123]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.39:200][123]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.39:200][123]MaterialEditorStats: Shader Count: 2
+[2023.05.28-18.24.42:625][216]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.42:625][216]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.42:625][216]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.42:625][216]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.43:860][240]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.24.43:860][240]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.43:860][240]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.43:860][240]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.43:861][240]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.47:209][334]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.47:209][334]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.47:209][334]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.47:209][334]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.47:275][335]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.24.47:275][335]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.47:276][335]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.47:276][335]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.47:276][335]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.48:413][362]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.24.48:413][362]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.48:413][362]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.48:413][362]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.24.48:500][363]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.24.48:500][363]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.48:500][363]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.48:500][363]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.48:500][363]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.24.49:196][381]LogMaterialEditor: Applying material t_LOGO_Mat
+[2023.05.28-18.24.50:376][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.28-18.24.51:255][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.05.28-18.24.51:288][381]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.24.51:288][381]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.51:288][381]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.51:288][381]MaterialEditorStats: Shader Count: 2
+[2023.05.28-18.24.51:300][382]LogAutomationController: Ignoring very large delta of 2.10 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.28-18.24.51:338][382]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.24.51:339][382]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.24.51:339][382]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.24.51:339][382]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.24.51:339][382]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.25.06:922][672]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.05.28-18.25.10:270][759]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.05.28-18.25.10:271][759]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.05.28-18.25.10:275][759]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu:PersistentLevel.StaticMeshActor_14
+[2023.05.28-18.25.10:277][759]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu:PersistentLevel.StaticMeshActor_14
+[2023.05.28-18.25.10:909][769]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.05.28-18.25.10:909][769]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.05.28-18.25.10:919][769]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu:PersistentLevel.StaticMeshActor_144
+[2023.05.28-18.25.10:920][769]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu:PersistentLevel.StaticMeshActor_144
+[2023.05.28-18.26.09:322][427]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.26.09:329][427]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.28-18.26.09:336][427]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Neonsign/t_LOGO.t_LOGO (BGRA8, 1921x349 x1x1x1) (Required Memory Estimate: 19.669868 MB), EncodeSpeed: Fast
+[2023.05.28-18.26.09:354][428]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.26.09:367][428]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.26.15:612][592]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.26.15:612][592]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.15:612][592]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.15:612][592]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.26.15:689][593]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.26.15:689][593]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.26.15:689][593]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.15:689][593]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.15:689][593]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.26.17:166][631]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.26.17:166][631]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.17:166][631]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.17:166][631]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.26.17:234][632]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.26.17:234][632]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.26.17:234][632]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.17:234][632]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.17:234][632]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.26.18:301][660]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.26.18:301][660]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.18:301][660]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.18:301][660]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.26.18:398][661]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.26.18:398][661]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.26.18:398][661]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.18:398][661]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.18:398][661]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.26.18:929][674]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.26.18:929][674]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.18:929][674]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.18:929][674]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.26.19:733][688]LogMaterialEditor: Applying material t_LOGO_Mat
+[2023.05.28-18.26.20:486][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.05.28-18.26.21:404][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.28-18.26.21:443][688]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.26.21:443][688]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.21:443][688]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.21:443][688]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.26.21:521][689]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.26.21:521][689]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.26.21:521][689]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.26.21:521][689]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.26.21:521][689]MaterialEditorStats: Shader Count: 6
+[2023.05.28-18.26.57:424][700]Cmd: EDIT COPY
+[2023.05.28-18.26.57:631][703]Cmd: EDIT PASTE
+[2023.05.28-18.27.01:112][799]Cmd: EDIT COPY
+[2023.05.28-18.27.01:331][806]Cmd: EDIT PASTE
+[2023.05.28-18.27.03:864][878]Cmd: EDIT COPY
+[2023.05.28-18.27.04:053][884]Cmd: EDIT PASTE
+[2023.05.28-18.27.10:723][ 78]Cmd: TRANSACTION UNDO
+[2023.05.28-18.27.10:723][ 78]LogEditorTransaction: Undo Move Elements
+[2023.05.28-18.27.10:945][ 80]Cmd: TRANSACTION UNDO
+[2023.05.28-18.27.10:945][ 80]LogEditorTransaction: Undo Paste
+[2023.05.28-18.27.11:470][ 81]Cmd: TRANSACTION UNDO
+[2023.05.28-18.27.11:470][ 81]LogEditorTransaction: Undo Move Elements
+[2023.05.28-18.27.11:916][ 91]Cmd: TRANSACTION UNDO
+[2023.05.28-18.27.11:916][ 91]LogEditorTransaction: Undo Paste
+[2023.05.28-18.27.12:555][103]Cmd: TRANSACTION UNDO
+[2023.05.28-18.27.12:555][103]LogEditorTransaction: Undo Move Elements
+[2023.05.28-18.27.13:260][123]Cmd: TRANSACTION UNDO
+[2023.05.28-18.27.13:260][123]LogEditorTransaction: Undo Paste
+[2023.05.28-18.27.13:938][137]Cmd: TRANSACTION UNDO
+[2023.05.28-18.27.13:938][137]LogEditorTransaction: Undo Move Elements
+[2023.05.28-18.27.14:579][155]Cmd: TRANSACTION UNDO
+[2023.05.28-18.27.14:580][155]LogEditorTransaction: Undo Clicking on Actors
+[2023.05.28-18.27.21:792][357]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.27.21:792][357]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.27.21:792][357]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.27.21:792][357]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.27.23:287][384]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.27.23:287][384]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.27.23:287][384]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.27.23:287][384]MaterialEditorStats: Shader Count: 3
+[2023.05.28-18.27.23:388][386]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.27.23:389][386]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.27.23:389][386]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.27.23:389][386]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.27.23:389][386]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.27.23:782][396]LogMaterialEditor: Applying material t_LOGO_Mat
+[2023.05.28-18.27.24:434][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.28-18.27.25:342][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.28-18.27.25:373][396]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.27.25:373][396]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.27.25:373][396]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.27.25:373][396]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.27.25:422][397]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.27.25:423][397]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.27.25:423][397]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.27.25:423][397]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.27.25:423][397]MaterialEditorStats: Shader Count: 6
+[2023.05.28-18.27.44:414][598]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.27.44:428][598]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.28-18.27.44:444][599]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Neonsign/t_LOGO.t_LOGO (BGRA8, 1921x349 x1x1x1) (Required Memory Estimate: 19.669868 MB), EncodeSpeed: Fast
+[2023.05.28-18.27.44:461][599]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.27.44:462][599]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.27.44:578][600]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.28.47:152][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.05.28-18.28.48:223][237]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Levels/Other/LVL_MainMenu_Auto1
+[2023.05.28-18.28.48:223][237]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_MainMenu_Auto1335C380B4B7FF6325C8090B270D7C0F8.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Levels/Other/LVL_MainMenu_Auto1.umap'
+[2023.05.28-18.28.48:249][237]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Core/Levels/Other/LVL_MainMenu' took 1.112
+[2023.05.28-18.28.48:251][237]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.112
+[2023.05.28-18.28.48:252][237]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Core/Assets/Props/Neonsign/t_LOGO] ([1] browsable assets)...
+[2023.05.28-18.28.48:255][237]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Core/Assets/Props/Neonsign/t_LOGO.t_LOGO]
+[2023.05.28-18.28.48:255][237]OBJ SavePackage: Finished generating thumbnails for package [/Game/Core/Assets/Props/Neonsign/t_LOGO]
+[2023.05.28-18.28.48:262][237]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Core/Assets/Props/Neonsign/t_LOGO_Auto1
+[2023.05.28-18.28.48:262][237]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/t_LOGO_Auto11C53E9E74B6ED782980CC680DCB085E0.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/Autosaves/Game/Core/Assets/Props/Neonsign/t_LOGO_Auto1.uasset'
+[2023.05.28-18.28.48:262][237]LogFileHelpers: Auto-saving content packages took 0.011
+[2023.05.28-18.31.32:422][731]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.31.32:430][731]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.28-18.31.32:450][732]LogAutomationController: Ignoring very large delta of 3.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.28-18.31.32:454][732]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Neonsign/t_LOGO.t_LOGO (BGRA8, 1976x375 x1x1x1) (Required Memory Estimate: 21.733795 MB), EncodeSpeed: Fast
+[2023.05.28-18.31.32:465][732]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.31.32:466][732]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.31.32:566][733]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.32.00:196][ 40]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.32.00:196][ 40]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.32.00:196][ 40]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.32.00:196][ 40]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.32.00:984][ 54]LogShaderCompilers: Display: ================================================
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Total job queries 1229, among them cache hits 174 (14.16%)
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Tracking 1050 distinct input hashes that result in 455 distinct outputs (43.33%)
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: RAM used: 2.46 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.30%
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Shaders Compiled: 33
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Jobs assigned 36, completed 33 (91.67%)
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Average time worker was idle: 61.94 s
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Job execution time: average 0.92 s, max 1.42 s
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Job life time (pending + execution): average 0.97 s, max 1.53
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.47 s
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Average processing rate: 2.88 jobs/sec
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Total thread time: 23.58 s
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Total thread preprocess time: 1.70 s
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Percentage time preprocessing: 7.21%
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Effective parallelization: 2.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.98 sec, max 1.14 sec, min 0.81 sec)
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.93 sec, max 1.04 sec, min 0.84 sec)
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 0.92 sec, max 1.04 sec, min 0.79 sec)
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    3 times, average 0.74 sec, max 0.76 sec, min 0.73 sec)
+[2023.05.28-18.32.00:985][ 54]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.66 sec, max 0.72 sec, min 0.57 sec)
+[2023.05.28-18.32.00:986][ 54]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.28-18.32.00:986][ 54]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 29.05% of total time (compiled    7 times, average 0.98 sec, max 1.14 sec, min 0.81 sec)
+[2023.05.28-18.32.00:986][ 54]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 15.69% of total time (compiled    4 times, average 0.92 sec, max 1.04 sec, min 0.79 sec)
+[2023.05.28-18.32.00:986][ 54]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.90% of total time (compiled    3 times, average 0.93 sec, max 1.04 sec, min 0.84 sec)
+[2023.05.28-18.32.00:986][ 54]LogShaderCompilers: Display:                                                  FHitProxyVS - 9.42% of total time (compiled    3 times, average 0.74 sec, max 0.76 sec, min 0.73 sec)
+[2023.05.28-18.32.00:986][ 54]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.36% of total time (compiled    3 times, average 0.66 sec, max 0.72 sec, min 0.57 sec)
+[2023.05.28-18.32.00:986][ 54]LogShaderCompilers: Display: ================================================
+[2023.05.28-18.32.01:282][ 60]LogMaterialEditor: Applying material t_LOGO_Mat
+[2023.05.28-18.32.01:820][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.05.28-18.32.02:814][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.28-18.32.02:849][ 60]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.32.02:849][ 60]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.32.02:849][ 60]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.32.02:849][ 60]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.32.02:904][ 61]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.32.02:904][ 61]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.32.02:905][ 61]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.32.02:905][ 61]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.32.02:905][ 61]MaterialEditorStats: Shader Count: 6
+[2023.05.28-18.32.33:570][314]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.32.33:578][314]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.28-18.32.33:600][315]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Neonsign/t_LOGO.t_LOGO (BGRA8, 2018x352 x1x1x1) (Required Memory Estimate: 20.836983 MB), EncodeSpeed: Fast
+[2023.05.28-18.32.33:609][315]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.32.33:609][315]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.32.33:725][316]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.32.39:545][465]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.32.39:545][465]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.32.39:545][465]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.32.39:545][465]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.32.39:608][466]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.32.39:608][466]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.32.39:608][466]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.32.39:608][466]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.32.39:608][466]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.32.40:569][492]LogMaterialEditor: Applying material t_LOGO_Mat
+[2023.05.28-18.32.41:093][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.05.28-18.32.41:346][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.28-18.32.41:377][492]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.32.41:377][492]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.32.41:377][492]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.32.41:377][492]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.32.41:425][493]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.32.41:425][493]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.32.41:425][493]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.32.41:425][493]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.32.41:425][493]MaterialEditorStats: Shader Count: 6
+[2023.05.28-18.33.17:480][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.28-18.33.18:728][969]LogSlate: Window 'Save Content' being destroyed
+[2023.05.28-18.33.22:551][  3]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.33.22:560][  3]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background
+[2023.05.28-18.33.22:581][  4]LogAutomationController: Ignoring very large delta of 2.77 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.28-18.33.22:586][  4]LogTexture: Display: Building textures: /Game/Core/Assets/Props/Neonsign/t_LOGO.t_LOGO (BGRA8, 2018x406 x1x1x1) (Required Memory Estimate: 24.023979 MB), EncodeSpeed: Fast
+[2023.05.28-18.33.22:596][  4]LogInterchangeEngine: [Pending] Importing
+[2023.05.28-18.33.22:597][  4]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.33.22:713][  5]LogInterchangeEngine: [Success] Import Done
+[2023.05.28-18.33.34:738][345]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.28-18.33.34:738][345]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.33.34:738][345]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.33.34:738][345]MaterialEditorStats: Shader Count: 0
+[2023.05.28-18.33.36:144][372]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.33.36:144][372]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.33.36:144][372]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.33.36:144][372]MaterialEditorStats: Shader Count: 3
+[2023.05.28-18.33.36:240][374]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.33.36:240][374]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.33.36:240][374]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.33.36:241][374]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.33.36:241][374]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.33.36:686][386]LogMaterialEditor: Applying material t_LOGO_Mat
+[2023.05.28-18.33.37:228][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.28-18.33.38:358][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.28-18.33.38:390][386]MaterialEditorStats: Texture samplers: 1/16
+[2023.05.28-18.33.38:390][386]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.33.38:390][386]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.33.38:390][386]MaterialEditorStats: Shader Count: 4
+[2023.05.28-18.33.38:466][387]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.33.38:466][387]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.33.38:466][387]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.33.38:466][387]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.33.38:466][387]MaterialEditorStats: Shader Count: 6
+[2023.05.28-18.34.32:801][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.28-18.34.32:982][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.28-18.34.33:052][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.05.28-18.34.34:084][633]LogSavePackage: Moving output files for package: /Game/Core/Levels/Other/LVL_MainMenu
+[2023.05.28-18.34.34:084][633]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_MainMenuDF834153469BA91CEB13C6A4D2AE51A9.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/Other/LVL_MainMenu.umap'
+[2023.05.28-18.34.34:110][633]LogFileHelpers: Saving map 'LVL_MainMenu' took 1.076
+[2023.05.28-18.34.34:128][633]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Neonsign/t_LOGO
+[2023.05.28-18.34.34:128][633]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/t_LOGO9D4A80A64ADBCCFB30CC07BCE50D8702.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Neonsign/t_LOGO.uasset'
+[2023.05.28-18.34.36:216][633]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.05.28-18.34.38:074][633]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.048890s
+[2023.05.28-18.34.39:598][633]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.005090s (1.572391s overbudget)
+[2023.05.28-18.34.39:638][633]LogSavePackage: Moving output files for package: /Game/Core/Assets/Props/Neonsign/t_LOGO_Mat
+[2023.05.28-18.34.39:638][633]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/t_LOGO_MatC9F09FD74C01B47A75A36EAC64897A2F.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Assets/Props/Neonsign/t_LOGO_Mat.uasset'
+[2023.05.28-18.34.39:817][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.83 sec (total: 9.55 sec)
+[2023.05.28-18.34.39:841][633]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.28-18.34.39:841][633]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Core/Assets/Props/Neonsign/t_LOGO_Mat.t_LOGO_Mat
+[2023.05.28-18.34.39:841][633]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Core/Assets/Props/Neonsign/t_LOGO.t_LOGO
+[2023.05.28-18.34.39:841][633]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu
+[2023.05.28-18.34.39:876][633]MaterialEditorStats: Base pass shader: 125 instructions
+[2023.05.28-18.34.39:876][633]MaterialEditorStats: Base pass vertex shader: 319 instructions
+[2023.05.28-18.34.39:876][633]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.28-18.34.39:876][633]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.05.28-18.34.39:876][633]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.28-18.34.39:876][633]MaterialEditorStats: Shader Count: 28
+[2023.05.28-18.34.39:920][634]LogAutomationController: Ignoring very large delta of 7.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.28-18.34.40:025][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.05.28-18.34.40:028][635]LogStall: Shutdown...
+[2023.05.28-18.34.40:041][635]LogStall: Shutdown complete.
+[2023.05.28-18.34.40:059][635]LogSlate: Window 't_LOGO_Mat' being destroyed
+[2023.05.28-18.34.40:085][635]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-18.34.40:089][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-18.34.40:280][635]LogSlate: Window 'FNaF_Reimagined - Unreal Editor' being destroyed
+[2023.05.28-18.34.40:464][636]Cmd: QUIT_EDITOR
+[2023.05.28-18.34.40:464][636]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.05.28-18.34.40:472][636]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.05.28-18.34.40:473][636]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.05.28-18.34.40:474][636]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.05.28-18.34.40:572][636]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-18.34.40:577][636]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-18.34.40:597][636]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.05.28-18.34.40:880][636]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.05.28-18.34.40:880][636]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.05.28-18.34.40:880][636]LogAudio: Display: Audio Device unregistered from world 'LVL_MainMenu'.
+[2023.05.28-18.34.40:886][636]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.05.28-18.34.40:892][636]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.05.28-18.34.40:909][636]LogAudio: Display: Audio Device Manager Shutdown
+[2023.05.28-18.34.40:910][636]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.05.28-18.34.40:920][636]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.05.28-18.34.40:921][636]LogExit: Preparing to exit.
+[2023.05.28-18.34.41:002][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.05.28-18.34.42:147][636]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-18.34.42:147][636]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-18.34.42:654][636]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.05.28-18.34.42:766][636]LogExit: Editor shut down
+[2023.05.28-18.34.42:783][636]LogExit: Transaction tracking system shut down
