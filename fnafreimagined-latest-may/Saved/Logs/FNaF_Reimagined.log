@@ -2103,3 +2103,90 @@ Script Stack (0 frames) :
 [2023.05.28-11.31.02:304][328]AssetCheck: New page: Asset Save: multiple assets
 [2023.05.28-11.31.02:304][328]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Megascans/Surfaces/Decorative_Brick_Wall_vhjmeaf/MI_Decorative_Brick_Wall_vhjmeaf_4K_Inst_Inst.MI_Decorative_Brick_Wall_vhjmeaf_4K_Inst_Inst
 [2023.05.28-11.31.02:304][328]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu
+[2023.05.28-11.31.21:450][423]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.28-11.31.21:460][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.28-11.31.21:460][423]PIE: New page: PIE session: LVL_MainMenu (May 28, 2023, 11:31:21 AM)
+[2023.05.28-11.31.21:461][423]LogPlayLevel: Creating play world package: /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.28-11.31.22:171][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.710427s)
+[2023.05.28-11.31.22:171][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu to /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu (0.710484s)
+[2023.05.28-11.31.22:171][423]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.28-11.31.22:171][423]LogAIModule: Creating AISystem for world LVL_MainMenu
+[2023.05.28-11.31.22:173][423]LogPlayLevel: PIE: World Init took: (0.001933s)
+[2023.05.28-11.31.22:186][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.05.28-11.31.22:186][423]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.05.28-11.31.22:186][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.28-11.31.22:186][423]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.28-11.31.22:186][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.28-11.31.22:186][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.28-11.31.22:186][423]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.28-11.31.22:186][423]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.28-11.31.22:186][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.28-11.31.22:186][423]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.28-11.31.22:187][423]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.28-11.31.22:187][423]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.28-11.31.22:187][423]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.28-11.31.22:189][423]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.28-11.31.22:202][423]LogAudioMixer: Display: Using Audio Hardware Device Headset (POWERBANK TWS Hands-Free AG Audio)
+[2023.05.28-11.31.22:203][423]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.28-11.31.22:203][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.28-11.31.22:203][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.28-11.31.22:205][423]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.05.28-11.31.22:205][423]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.05.28-11.31.22:206][423]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.05.28-11.31.22:206][423]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.05.28-11.31.22:206][423]LogInit: FAudioDevice initialized.
+[2023.05.28-11.31.22:206][423]LogAudio: Display: Audio Device (ID: 7) registered with world 'LVL_MainMenu'.
+[2023.05.28-11.31.22:209][423]LogLoad: Game class is 'MainMenuGM_C'
+[2023.05.28-11.31.22:302][423]LogWorld: Bringing World /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu up for play (max tick rate 60) at 2023.05.28-11.31.22
+[2023.05.28-11.31.22:304][423]LogWorld: Bringing up level for play took: 0.094476
+[2023.05.28-11.31.22:306][423]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.05.28-11.31.22:307][423]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.28-11.31.22:307][423]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.28-11.31.22:307][423]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.28-11.31.22:311][423]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.05.28-11.31.22:311][423]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2023.05.28-11.31.22:311][423]Cmd: r.Streaming.PoolSize 5000
+[2023.05.28-11.31.22:312][423]r.Streaming.PoolSize = "5000"
+[2023.05.28-11.31.22:312][423]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.28-11.31.22:312][423]PIE: Server logged in
+[2023.05.28-11.31.22:312][423]PIE: Play in editor total start time 0.852 seconds.
+[2023.05.28-11.31.22:362][423]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu.LVL_MainMenu:PersistentLevel.Landscape_1.LandscapeNaniteComponent.LandscapeNaniteMesh being ready before playing
+[2023.05.28-11.31.26:203][546]LogScript: Warning: Script Msg: The widget 'MainMenuUI_C_0' was already added to the screen.
+[2023.05.28-11.31.26:203][546]LogScript: Warning: Last function called:
+	/Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu_C.ExecuteUbergraph_LVL_MainMenu
+
+[2023.05.28-11.31.28:781][628]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.05.28-11.31.28:781][628]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.05.28-11.31.29:005][635]LogLevelSequence: Starting new camera cut: 'CineCameraActor_68'
+[2023.05.28-11.32.09:017][331]LogLevelSequence: Starting new camera cut: 'CineCameraActor_4'
+[2023.05.28-11.32.47:579][997]LogLevelSequence: Starting new camera cut: 'None'
+[2023.05.28-11.32.49:483][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-11.32.49:483][ 53]LogWorld: BeginTearingDown for /Game/Core/Levels/Other/UEDPIE_0_LVL_MainMenu
+[2023.05.28-11.32.49:485][ 53]LogWorld: UWorld::CleanupWorld for LVL_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2023.05.28-11.32.49:495][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-11.32.49:511][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.28-11.32.49:518][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.28-11.32.49:529][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.28-11.32.49:541][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.28-11.32.49:543][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.28-11.32.49:585][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.05.28-11.32.49:643][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.05.28-11.33.45:735][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.05.28-11.33.45:836][695]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.28-11.33.45:904][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.05.28-11.33.47:067][695]LogSavePackage: Moving output files for package: /Game/Core/Levels/Other/LVL_MainMenu
+[2023.05.28-11.33.47:067][695]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_MainMenuCA2BE1714D5F15C7356E60AC55F89F25.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/Other/LVL_MainMenu.umap'
+[2023.05.28-11.33.47:099][695]LogFileHelpers: Saving map 'LVL_MainMenu' took 1.210
+[2023.05.28-11.33.47:101][695]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.26 sec (total: 3.16 sec)
+[2023.05.28-11.33.47:120][695]AssetCheck: New page: Asset Save: LVL_MainMenu
+[2023.05.28-11.33.47:120][695]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu
+[2023.05.28-11.33.54:125][797]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.28-11.35.47:224][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.28-11.35.47:415][495]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.28-11.35.47:474][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.05.28-11.35.48:683][495]LogSavePackage: Moving output files for package: /Game/Core/Levels/Other/LVL_MainMenu
+[2023.05.28-11.35.48:683][495]LogSavePackage: Moving '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Saved/LVL_MainMenuE99E27974726B5A399AEEF97D81362E0.tmp' to '../../../../../../Users/kira meyer/Documents/GitHub/fnaf-reimagined/fnafreimagined-latest-may/Content/Core/Levels/Other/LVL_MainMenu.umap'
+[2023.05.28-11.35.48:714][495]LogFileHelpers: Saving map 'LVL_MainMenu' took 1.255
+[2023.05.28-11.35.48:716][495]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.30 sec (total: 4.46 sec)
+[2023.05.28-11.35.48:734][495]AssetCheck: New page: Asset Save: LVL_MainMenu
+[2023.05.28-11.35.48:734][495]LogContentValidation: Display: Validating /Script/Engine.World /Game/Core/Levels/Other/LVL_MainMenu.LVL_MainMenu
